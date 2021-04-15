@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/en',
+  remoteDataBaseUrl: 'https://beyersar.github.io/DataTK/en',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -117,13 +117,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/open-sdg-site-starter/assets/js/lib/classList.js"></script>
+        <script src="SDGTK/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/open-sdg-site-starter/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/open-sdg-site-starter/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="SDGTK/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="SDGTK/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20210415174654">
+        <link rel="stylesheet" href="SDGTK/assets/css/style.css?v=20210415182620">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -166,8 +166,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/open-sdg-site-starter/" id="home">
-    <img src="/open-sdg-site-starter/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/SDGTK/" id="home">
+    <img src="SDGTK/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -178,7 +178,7 @@ var translations = {
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
       <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/6/">
+            <a href="/SDGTK/es/6/">
               Español
             </a>
           </li></ul>
@@ -190,7 +190,7 @@ var translations = {
 
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
-  <form action="/open-sdg-site-starter/search">
+  <form action="/SDGTK/search">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -212,7 +212,7 @@ var translations = {
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
       <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/6/">
+            <a href="/SDGTK/es/6/">
               Español
             </a>
           </li></ul>
@@ -232,17 +232,17 @@ var translations = {
         aria-haspopup="true">
         <button data-target="menu-mobile" aria-expanded="false">Menu</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/open-sdg-site-starter/goals">Goals</a>
+    <a href="/SDGTK/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/reporting-status">Reporting Status</a>
+    <a href="/SDGTK/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/about">About</a>
+    <a href="/SDGTK/about">About</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/guidance">Guidance</a>
+    <a href="/SDGTK/guidance">Guidance</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/faq">FAQ</a>
+    <a href="/SDGTK/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/news">Updates</a>
+    <a href="/SDGTK/news">Updates</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -257,7 +257,7 @@ var translations = {
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
       <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/open-sdg-site-starter/es/6/">
+            <a href="/SDGTK/es/6/">
               Español
             </a>
           </li></ul>
@@ -275,7 +275,7 @@ var translations = {
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/open-sdg-site-starter/search">
+  <form action="/SDGTK/search">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -285,17 +285,17 @@ var translations = {
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/open-sdg-site-starter/goals">Goals</a>
+    <a href="/SDGTK/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/reporting-status">Reporting Status</a>
+    <a href="/SDGTK/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/about">About</a>
+    <a href="/SDGTK/about">About</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/guidance">Guidance</a>
+    <a href="/SDGTK/guidance">Guidance</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/faq">FAQ</a>
+    <a href="/SDGTK/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/open-sdg-site-starter/news">Updates</a>
+    <a href="/SDGTK/news">Updates</a>
 </li>
 </ul>
 
@@ -312,8 +312,8 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/open-sdg-site-starter/">Home</a></li>
-  <li><a href="/open-sdg-site-starter/goals">Goals</a></li>
+  <li><a href="/SDGTK/">Home</a></li>
+  <li><a href="/SDGTK/goals">Goals</a></li>
   
   
 </ol>
@@ -368,7 +368,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 6.1.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-1-1">Proportion of population using safely managed drinking water services</a></span>
+            <span class="indicator-name"><a href="/SDGTK/6-1-1">Proportion of population using safely managed drinking water services</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -400,7 +400,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 6.2.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-2-1">Proportion of population using safely managed sanitation services, including a handwashing facility with soap and water</a></span>
+            <span class="indicator-name"><a href="/SDGTK/6-2-1">Proportion of population using safely managed sanitation services, including a handwashing facility with soap and water</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -432,7 +432,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 6.3.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-3-1">Proportion of wastewater safely treated</a></span>
+            <span class="indicator-name"><a href="/SDGTK/6-3-1">Proportion of wastewater safely treated</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -455,7 +455,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 6.3.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-3-2">Proportion of bodies of water with good ambient water quality</a></span>
+            <span class="indicator-name"><a href="/SDGTK/6-3-2">Proportion of bodies of water with good ambient water quality</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -487,7 +487,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 6.4.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-4-1">Change in water-use efficiency over time</a></span>
+            <span class="indicator-name"><a href="/SDGTK/6-4-1">Change in water-use efficiency over time</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -510,7 +510,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 6.4.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-4-2">Level of water stress: freshwater withdrawal as a proportion of available freshwater resources</a></span>
+            <span class="indicator-name"><a href="/SDGTK/6-4-2">Level of water stress: freshwater withdrawal as a proportion of available freshwater resources</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -542,7 +542,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 6.5.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-5-1">Degree of integrated water resources management implementation (0 to 100)</a></span>
+            <span class="indicator-name"><a href="/SDGTK/6-5-1">Degree of integrated water resources management implementation (0 to 100)</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -565,7 +565,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 6.5.2</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-5-2">Proportion of transboundary basin area with an operational arrangement for water cooperation</a></span>
+            <span class="indicator-name"><a href="/SDGTK/6-5-2">Proportion of transboundary basin area with an operational arrangement for water cooperation</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -597,7 +597,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 6.6.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-6-1">Change in the extent of water-related ecosystems over time</a></span>
+            <span class="indicator-name"><a href="/SDGTK/6-6-1">Change in the extent of water-related ecosystems over time</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -629,7 +629,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 6.a.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-a-1">Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan</a></span>
+            <span class="indicator-name"><a href="/SDGTK/6-a-1">Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -661,7 +661,7 @@ var translations = {
             <h4>
               <span class="indicator-number"><span class="sr-only">Indicator</span> 6.b.1</span>
             </h4>
-            <span class="indicator-name"><a href="/open-sdg-site-starter/6-b-1">Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management</a></span>
+            <span class="indicator-name"><a href="/SDGTK/6-b-1">Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management</a></span>
             <span class="sr-only">Indicator status</span>
             <span class="status notstarted">
               Exploring data sources
@@ -699,7 +699,7 @@ var translations = {
                 
                 </li>
               <li>
-                <a href="/open-sdg-site-starter/about/cookies-and-privacy/">Cookies</a>
+                <a href="/SDGTK/about/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               
@@ -736,12 +736,12 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20210415174654'></script>
+<script src='SDGTK/assets/js/sdg.js?v=20210415182620'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20210415174654"></script><script>
+    <script src="SDGTK/assets/js/custom.js?v=20210415182620"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
