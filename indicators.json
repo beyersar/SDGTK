@@ -1606,6 +1606,14 @@
           "status": "notstarted"
         },
         {
+          "id": "15-3-1-a",
+          "title": "Proportion of wetland that is degraded over total wetland area",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/15-3-1-a",
+          "status": "complete"
+        },
+        {
           "id": "15-4-1",
           "title": "Coverage by protected areas of important sites for mountain biodiversity",
           "description": "",
