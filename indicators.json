@@ -1607,8 +1607,8 @@
         },
         {
           "id": "15-3-1-a",
-          "title": "Proportion of wetland that is degraded over total wetland area",
-          "description": "",
+          "title": "TK Indicator name - eg Proportion of wetland that is degraded over total wetland area",
+          "description": "TK This is the indicator description",
           "keywords": "",
           "href": "/SDGTK/15-3-1-a",
           "status": "complete"
