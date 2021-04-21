@@ -21,6 +21,7 @@ metadata_edit_url: http://prose.io/#beyersar/DataTK/edit/develop/meta/[id].md
 languages:
   - en
   - es
+  - de
 #
 # That's enough for the Quick Start! The remaining settings can be configured later.
 
