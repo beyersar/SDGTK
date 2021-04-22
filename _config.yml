@@ -77,8 +77,8 @@ frontpage_introduction_banner:
   description: frontpage.intro_body
 
 frontpage_goals_grid:
-  title: Treptow-Köpenick data for Sustainable Development Goal indicators
-  description: Click on each goal for our Sustainable Development Goal local indicator data.
+  title: my-custom-translations.my-goals-grid-title
+  description: my-custom-translations.my-goals-grid-description
 
 frontpage_cards:
   - title: frontpage.download_all
