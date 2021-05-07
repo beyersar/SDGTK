@@ -278,6 +278,22 @@
           "status": "notstarted"
         },
         {
+          "id": "3-3-1-a",
+          "title": "Relative noise pollution in Treptow-Köpenick",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/3-3-1-a",
+          "status": "complete"
+        },
+        {
+          "id": "3-3-1-b",
+          "title": "Relative air pollution in Treptow-Köpenick (low, medium and high)",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/3-3-1-b",
+          "status": "complete"
+        },
+        {
           "id": "3-3-2",
           "title": "Tuberculosis incidence per 100,000 population",
           "description": "",
