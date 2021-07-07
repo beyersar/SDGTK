@@ -196,30 +196,6 @@
           "keywords": "",
           "href": "/SDGTK/4-7-1",
           "status": "notstarted"
-        },
-        {
-          "id": "4-a-1",
-          "title": "Proportion of schools with access to (a) electricity; (b) the Internet for pedagogical purposes; (c) computers for pedagogical purposes; (d) adapted infrastructure and materials for students with disabilities; (e) basic drinking water; (f) single-sex basic sanitation facilities; and (g) basic handwashing facilities (as per the WASH indicator definitions)",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/4-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-b-1",
-          "title": "Volume of official development assistance flows for scholarships by sector and type of study",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/4-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-c-1",
-          "title": "Proportion of teachers in: (a) pre-primary; (b) primary; (c) lower secondary; and (d) upper secondary education who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/4-c-1",
-          "status": "notstarted"
         }]
     }
   },
@@ -284,62 +260,6 @@
           "keywords": "",
           "href": "/SDGTK/5-5-1",
           "status": "notstarted"
-        },
-        {
-          "id": "5-5-2",
-          "title": "Proportion of women in managerial positions",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/5-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-6-1",
-          "title": "Proportion of women aged 15–49 years who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/5-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-6-2",
-          "title": "Number of countries with laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/5-6-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-a-1",
-          "title": "(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/5-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-a-2",
-          "title": "Proportion of countries where the legal framework (including customary law) guarantees women’s equal rights to land ownership and/or control",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/5-a-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-b-1",
-          "title": "Proportion of individuals who own a mobile telephone, by sex",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/5-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-c-1",
-          "title": "Proportion of countries with systems to track and make public allocations for gender equality and women’s empowerment",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/5-c-1",
-          "status": "notstarted"
         }]
     }
   },
@@ -387,54 +307,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/6-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-4-2",
-          "title": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/6-4-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-5-1",
-          "title": "Degree of integrated water resources management implementation (0 to 100)",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/6-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-5-2",
-          "title": "Proportion of transboundary basin area with an operational arrangement for water cooperation",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/6-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-6-1",
-          "title": "Change in the extent of water-related ecosystems over time",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/6-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-a-1",
-          "title": "Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/6-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-b-1",
-          "title": "Proportion of local administrative units with established and operational policies and procedures for participation of local communities in water and sanitation management",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/6-b-1",
           "status": "notstarted"
         }]
     }
