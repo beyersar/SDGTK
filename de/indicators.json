@@ -182,27 +182,11 @@
           "status": "notstarted"
         },
         {
-          "id": "5-2-2",
-          "title": "Anteil der Frauen und Mädchen im Alter von 15 Jahren und älter, die sexueller Gewalt durch andere Personen als einem Intimpartner in den vergangenen 12 Monaten ausgesetzt waren, nach Alter und Ort des Geschehens",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/5-2-2",
-          "status": "notstarted"
-        },
-        {
           "id": "5-3-1",
           "title": "Anteil der 20- bis 24-jährigen Frauen, die vor einem Alter von 15 oder 18 Jahren verheiratet oder in einer vergleichbaren Verbindung waren",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/5-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-3-2",
-          "title": "Anteil der Mädchen und Frauen im Alter von 15-49 Jahren, die weiblicher Genitalverstümmelung unterzogen wurden, nach Alter",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/5-3-2",
           "status": "notstarted"
         },
         {
@@ -251,14 +235,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/6-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-3-2",
-          "title": "Anteil der Gewässer mit guter Wasserqualität",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/6-3-2",
           "status": "notstarted"
         },
         {
@@ -604,6 +580,22 @@
           "keywords": "",
           "href": "/SDGTK/de/13-3-2",
           "status": "notstarted"
+        },
+        {
+          "id": "13-3-3",
+          "title": "Anteil der Frauen und Mädchen im Alter von 15 Jahren und älter, die sexueller Gewalt durch andere Personen als einem Intimpartner in den vergangenen 12 Monaten ausgesetzt waren, nach Alter und Ort des Geschehens",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/de/13-3-3",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-3-4",
+          "title": "Anteil der Mädchen und Frauen im Alter von 15-49 Jahren, die weiblicher Genitalverstümmelung unterzogen wurden, nach Alter",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/de/13-3-4",
+          "status": "notstarted"
         }]
     }
   },
@@ -676,14 +668,6 @@
           "keywords": "",
           "href": "/SDGTK/de/15-3-1",
           "status": "notstarted"
-        },
-        {
-          "id": "15-3-1-a",
-          "title": "TK Indicator name - eg Proportion of wetland that is degraded over total wetland area",
-          "description": "TK This is the indicator description",
-          "keywords": "",
-          "href": "/SDGTK/de/15-3-1-a",
-          "status": "complete"
         },
         {
           "id": "15-4-1",
