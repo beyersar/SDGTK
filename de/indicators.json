@@ -22,14 +22,6 @@
           "status": "notstarted"
         },
         {
-          "id": "1-2-2",
-          "title": "Anteil der Männer, Frauen und Kinder jeden Alters, die in Armut in all ihren Dimensionen gemäß nationaler Definitionen leben",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/1-2-2",
-          "status": "notstarted"
-        },
-        {
           "id": "1-3-1",
           "title": "Anteil der Zolltarife auf Einfuhren aus den am wenigsten entwickelten Ländern sowie Entwicklungsländer mit Zollfreiheit",
           "description": "",
@@ -54,14 +46,6 @@
           "status": "notstarted"
         },
         {
-          "id": "2-1-2",
-          "title": "Prävalenz mittlerer oder schwerer Ernährungsunsicherheit in der Bevölkerung, basierend auf der Erfahrungsskala für Ernährungsunsicherheit (FIES)",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/2-1-2",
-          "status": "notstarted"
-        },
-        {
           "id": "2-2-1",
           "title": "Prävalenz von Kleinwuchs (Körpergröße zum Alter < -2 Standardabweichung vom Median des Wachstumsstandards für Kinder der Weltgesundheitsorganisation (WHO)) bei Kindern unter 5 Jahren",
           "description": "",
@@ -70,27 +54,11 @@
           "status": "notstarted"
         },
         {
-          "id": "2-2-2",
-          "title": "Prävalenz von Fehlernährung (Gewicht zur Körpergröße > +2 oder < -2 Standardabweichung vom Median des Wachstumsstandards für Kinder der WHO) bei Kindern unter 5 Jahren, nach der Art (Auszehrung und Übergewicht)",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/2-2-2",
-          "status": "notstarted"
-        },
-        {
           "id": "2-3-1",
           "title": "Produktionsvolumen je Arbeitskraft nach Unternehmensgrößenklassen der Betriebsgröße in Land-/Weide-/Forstwirtschaft",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/2-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-3-2",
-          "title": "Durchschnittliches Einkommen kleiner Nahrungsmittelproduzenten, nach Geschlecht und indigenem Status",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/2-3-2",
           "status": "notstarted"
         }]
     }
@@ -147,14 +115,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/4-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-2-2",
-          "title": "Teilnahmequote an frühkindlicher Bildung (ein Jahr vor dem offiziellen Einschulungsalter), nach Geschlecht",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/4-2-2",
           "status": "notstarted"
         },
         {
@@ -326,14 +286,6 @@
           "status": "notstarted"
         },
         {
-          "id": "7-1-2",
-          "title": "Anteil der Bevölkerung mit überwiegender Abhängigkeit von sauberen Energieträgern und Technologien",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/7-1-2",
-          "status": "notstarted"
-        },
-        {
           "id": "7-2-1",
           "title": "Anteil der erneuerbaren Energien am gesamten Endenergieverbrauch",
           "description": "",
@@ -350,19 +302,11 @@
           "status": "notstarted"
         },
         {
-          "id": "7-a-1",
-          "title": "Internationale Finanzströme an Entwicklungsländer zur Förderung von Forschung und Entwicklung im Bereich sauberer Energien sowie erneuerbarer Energieproduktion, einschließlich Hybridsystemen",
+          "id": "7-4-1",
+          "title": "Anteil der Bevölkerung mit überwiegender Abhängigkeit von sauberen Energieträgern und Technologien",
           "description": "",
           "keywords": "",
-          "href": "/SDGTK/de/7-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "7-b-1",
-          "title": "Investitionen in Energieeffizienz als Anteil am BIP und der Betrag der ausländischen Direktinvestitionen in Form von Finanzmitteln für Infrastruktur und Technologien der Dienstleistungen für nachhaltige Entwicklung",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/7-b-1",
+          "href": "/SDGTK/de/7-4-1",
           "status": "notstarted"
         }]
     }
@@ -406,27 +350,11 @@
           "status": "notstarted"
         },
         {
-          "id": "8-4-2",
-          "title": "Inländische Materialverwendung, inländische Materialverwendung pro Kopf und inländische Materialverwendung pro BIP",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/8-4-2",
-          "status": "notstarted"
-        },
-        {
           "id": "8-5-1",
           "title": "Durchschnittlicher Stundenlohn von weiblichen und männlichen Beschäftigten, nach Beruf, Alter und Personen mit Behinderungen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/8-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-5-2",
-          "title": "Arbeitslosenquote, nach Geschlecht, Alter und Personen mit Behinderungen",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/8-5-2",
           "status": "notstarted"
         },
         {
@@ -443,70 +371,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/8-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-8-1",
-          "title": "Häufigkeitsraten von tödlichen und nicht-tödlichen Arbeitsunfällen, nach Geschlecht und Migrationsstatus",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/8-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-8-2",
-          "title": "Grad der nationalen Einhaltung der Arbeitnehmerrechte (Vereinigungsfreiheit und Tarifverhandlungen) basierend auf Textquellen der Internationalen Arbeitsorganisation (ILO) und nationaler Gesetzesgrundlagen, nach Geschlecht und Migrationsstatus",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/8-8-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-9-1",
-          "title": "Direktes BIP des Tourismus als Anteil am gesamten BIP und als Wachstumsrate",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/8-9-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-9-2",
-          "title": "Anteil der Arbeitsplätze im nachhaltigen Tourismus an den gesamten Arbeitsplätzen im Tourismusbereich",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/8-9-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-10-1",
-          "title": "(a) Anzahl der Bankfilialen je 100.000 Erwachsener und (b) Anzahl der Geldautomaten je 100.000 Erwachsener",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/8-10-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-10-2",
-          "title": "Anteil der Erwachsenen (15 Jahre und älter) mit einem Konto bei einer Bank oder einem anderen Finanzinstitut oder einem mobilen Geldleistungsanbiete",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/8-10-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-a-1",
-          "title": "Aid for Trade-Zusagen und -Auszahlungen",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/8-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-b-1",
-          "title": "Existenz einer entwickelten und operationalisierten nationalen Strategie zu Jugendbeschäftigung , als eigenständige Strategie oder als Teil einer nationalen Beschäftigungsstrategie",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/8-b-1",
           "status": "notstarted"
         }]
     }
@@ -526,14 +390,6 @@
           "status": "notstarted"
         },
         {
-          "id": "9-1-2",
-          "title": "Passagiere und Frachtvolumen, nach der Art des Transports",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/9-1-2",
-          "status": "notstarted"
-        },
-        {
           "id": "9-2-1",
           "title": "Wertschöpfung des Verarbeitenden Gewerbes als Anteil am BIP und pro Kopf",
           "description": "",
@@ -542,75 +398,11 @@
           "status": "notstarted"
         },
         {
-          "id": "9-2-2",
-          "title": "Beschäftigung im Verarbeitenden Gewerbe als Anteil an der Beschäftigung insgesamt",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/9-2-2",
-          "status": "notstarted"
-        },
-        {
           "id": "9-3-1",
           "title": "Anteil der kleiner Unternehmen an der gesamten Wertschöpfung der Industrie",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/9-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-3-2",
-          "title": "Anteil kleiner Unternehmen mit einem Kredit oder einem Kreditrahmen",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/9-3-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-4-1",
-          "title": "CO2-Emissionen pro Wertschöpfungseinheit",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/9-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-5-1",
-          "title": "Ausgaben für Forschung und Entwicklung als Anteil am BIP",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/9-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-5-2",
-          "title": "Wissenschaftler (in Vollzeit-Äquivalenten) je eine Million Einwohner",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/9-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-a-1",
-          "title": "Gesamte öffentliche internationale Unterstützung (öffentliche Entwicklungszusammenarbeit und andere öffentliche Mittel) für Infrastruktu",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/9-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-b-1",
-          "title": "Anteil der Wertschöpfung der Medium- und High-Tech-Industrie an der Wertschöpfung insgesamt",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/9-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-c-1",
-          "title": "Anteil der Bevölkerung, die durch ein Mobilfunknetz abgedeckt ist, nach Technologie",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/9-c-1",
           "status": "notstarted"
         }]
     }

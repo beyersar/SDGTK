@@ -22,14 +22,6 @@
           "status": "notstarted"
         },
         {
-          "id": "1-2-2",
-          "title": "Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/1-2-2",
-          "status": "notstarted"
-        },
-        {
           "id": "1-3-1",
           "title": "Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff",
           "description": "",
@@ -54,14 +46,6 @@
           "status": "notstarted"
         },
         {
-          "id": "2-1-2",
-          "title": "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/2-1-2",
-          "status": "notstarted"
-        },
-        {
           "id": "2-2-1",
           "title": "Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age",
           "description": "",
@@ -70,27 +54,11 @@
           "status": "notstarted"
         },
         {
-          "id": "2-2-2",
-          "title": "Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/2-2-2",
-          "status": "notstarted"
-        },
-        {
           "id": "2-3-1",
           "title": "Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/2-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-3-2",
-          "title": "Average income of small-scale food producers, by sex and indigenous status",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/2-3-2",
           "status": "notstarted"
         }]
     }
@@ -147,14 +115,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/4-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-2-2",
-          "title": "Participation rate in organized learning (one year before the official primary entry age), by sex",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/4-2-2",
           "status": "notstarted"
         },
         {
@@ -326,14 +286,6 @@
           "status": "notstarted"
         },
         {
-          "id": "7-1-2",
-          "title": "Proportion of population with primary reliance on clean fuels and technology",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/7-1-2",
-          "status": "notstarted"
-        },
-        {
           "id": "7-2-1",
           "title": "Renewable energy share in the total final energy consumption",
           "description": "",
@@ -350,19 +302,11 @@
           "status": "notstarted"
         },
         {
-          "id": "7-a-1",
-          "title": "International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems",
+          "id": "7-4-1",
+          "title": "Proportion of population with primary reliance on clean fuels and technology",
           "description": "",
           "keywords": "",
-          "href": "/SDGTK/7-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "7-b-1",
-          "title": "Investments in energy efficiency as a proportion of GDP and the amount of foreign direct investment in financial transfer for infrastructure and technology to sustainable development services",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/7-b-1",
+          "href": "/SDGTK/7-4-1",
           "status": "notstarted"
         }]
     }
@@ -406,27 +350,11 @@
           "status": "notstarted"
         },
         {
-          "id": "8-4-2",
-          "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/8-4-2",
-          "status": "notstarted"
-        },
-        {
           "id": "8-5-1",
           "title": "Average hourly earnings of female and male employees, by occupation, age and persons with disabilities",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/8-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-5-2",
-          "title": "Unemployment rate, by sex, age and persons with disabilities",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/8-5-2",
           "status": "notstarted"
         },
         {
@@ -443,70 +371,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/8-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-8-1",
-          "title": "Frequency rates of fatal and non-fatal occupational injuries, by sex and migrant status",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/8-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-8-2",
-          "title": "Level of national compliance with labour rights (freedom of association and collective bargaining) based on International Labour Organization (ILO) textual sources and national legislation, by sex and migrant status",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/8-8-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-9-1",
-          "title": "Tourism direct GDP as a proportion of total GDP and in growth rate",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/8-9-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-9-2",
-          "title": "Proportion of jobs in sustainable tourism industries out of total tourism jobs",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/8-9-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-10-1",
-          "title": "(a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/8-10-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-10-2",
-          "title": "Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/8-10-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-a-1",
-          "title": "Aid for Trade commitments and disbursements",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/8-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-b-1",
-          "title": "Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/8-b-1",
           "status": "notstarted"
         }]
     }
@@ -526,14 +390,6 @@
           "status": "notstarted"
         },
         {
-          "id": "9-1-2",
-          "title": "Passenger and freight volumes, by mode of transport",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/9-1-2",
-          "status": "notstarted"
-        },
-        {
           "id": "9-2-1",
           "title": "Manufacturing value added as a proportion of GDP and per capita",
           "description": "",
@@ -542,75 +398,11 @@
           "status": "notstarted"
         },
         {
-          "id": "9-2-2",
-          "title": "Manufacturing employment as a proportion of total employment",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/9-2-2",
-          "status": "notstarted"
-        },
-        {
           "id": "9-3-1",
           "title": "Proportion of small-scale industries in total industry value added",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/9-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-3-2",
-          "title": "Proportion of small-scale industries with a loan or line of credit",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/9-3-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-4-1",
-          "title": "CO2 emission per unit of value added",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/9-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-5-1",
-          "title": "Research and development expenditure as a proportion of GDP",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/9-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-5-2",
-          "title": "Researchers (in full-time equivalent) per million inhabitants",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/9-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-a-1",
-          "title": "Total official international support (official development assistance plus other official flows) to infrastructure",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/9-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-b-1",
-          "title": "Proportion of medium and high-tech industry value added in total value added",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/9-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-c-1",
-          "title": "Proportion of population covered by a mobile network, by technology",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/9-c-1",
           "status": "notstarted"
         }]
     }
