@@ -28,6 +28,14 @@
           "keywords": "",
           "href": "/SDGTK/1-2-2",
           "status": "notstarted"
+        },
+        {
+          "id": "1-3-1",
+          "title": "Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/1-3-1",
+          "status": "notstarted"
         }]
     }
   },
@@ -1012,30 +1020,6 @@
           "keywords": "",
           "href": "/SDGTK/10-7-2",
           "status": "notstarted"
-        },
-        {
-          "id": "10-a-1",
-          "title": "Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/10-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-b-1",
-          "title": "Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/10-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-c-1",
-          "title": "Remittance costs as a proportion of the amount remitted",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/10-c-1",
-          "status": "notstarted"
         }]
     }
   },
@@ -1100,70 +1084,6 @@
           "keywords": "",
           "href": "/SDGTK/11-5-2",
           "status": "notstarted"
-        },
-        {
-          "id": "11-6-1",
-          "title": "Proportion of urban solid waste regularly collected and with adequate final discharge out of total urban solid waste generated, by cities",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/11-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-6-2",
-          "title": "Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/11-6-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-7-1",
-          "title": "Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/11-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-7-2",
-          "title": "Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/11-7-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-a-1",
-          "title": "Proportion of population living in cities that implement urban and regional development plans integrating population projections and resource needs, by size of city",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/11-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-b-1",
-          "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/11-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-b-2",
-          "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/11-b-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-c-1",
-          "title": "Proportion of financial support to the least developed countries that is allocated to the construction and retrofitting of sustainable, resilient and resource-efficient buildings utilizing local materials",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/11-c-1",
-          "status": "notstarted"
         }]
     }
   },
@@ -1227,54 +1147,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/12-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-6-1",
-          "title": "Number of companies publishing sustainability reports",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/12-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-7-1",
-          "title": "Number of countries implementing sustainable public procurement policies and action plans",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/12-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-8-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development (including climate change education) are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/12-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-a-1",
-          "title": "Amount of support to developing countries on research and development for sustainable consumption and production and environmentally sound technologies",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/12-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-b-1",
-          "title": "Number of sustainable tourism strategies or policies and implemented action plans with agreed monitoring and evaluation tools",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/12-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-c-1",
-          "title": "Amount of fossil-fuel subsidies per unit of GDP (production and consumption) and as a proportion of total national expenditure on fossil fuels",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/12-c-1",
           "status": "notstarted"
         }]
     }

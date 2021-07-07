@@ -28,6 +28,14 @@
           "keywords": "",
           "href": "/SDGTK/de/1-2-2",
           "status": "notstarted"
+        },
+        {
+          "id": "1-3-1",
+          "title": "Anteil der Zolltarife auf Einfuhren aus den am wenigsten entwickelten Ländern sowie Entwicklungsländer mit Zollfreiheit",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/de/1-3-1",
+          "status": "notstarted"
         }]
     }
   },
@@ -1012,30 +1020,6 @@
           "keywords": "",
           "href": "/SDGTK/de/10-7-2",
           "status": "notstarted"
-        },
-        {
-          "id": "10-a-1",
-          "title": "Anteil der Zolltarife auf Einfuhren aus den am wenigsten entwickelten Ländern sowie Entwicklungsländer mit Zollfreiheit",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/10-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-b-1",
-          "title": "Gesamte Kapitalströme für Entwicklung, nach Nehmer- und Geberländern und Art des Zahlungsstroms (z. B. öffentliche Entwicklungszusammenarbeit, ausländische Direktinvestitionen und sonstige Geldströme)",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/10-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-c-1",
-          "title": "Überweisungskosten  als Anteil am überwiesenen Betrag",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/10-c-1",
-          "status": "notstarted"
         }]
     }
   },
@@ -1100,70 +1084,6 @@
           "keywords": "",
           "href": "/SDGTK/de/11-5-2",
           "status": "notstarted"
-        },
-        {
-          "id": "11-6-1",
-          "title": "Anteil der Siedlungsabfälle, die regelmäßig gesammelt und ordnungsgemäß entsorgt werden, an den insgesamt erzeugten Siedlungsabfällen, nach Städten",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/11-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-6-2",
-          "title": "Jahresmittelwerte für Feinstaub (z. B. PM2,5 und PM10) in Städten (bevölkerungsgewichtet)",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/11-6-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-7-1",
-          "title": "Durchschnittlicher Anteil der bebauten Fläche in Städten, die als Freifläche öffentlich zugänglich ist, nach Geschlecht, Alter und Personen mit Behinderungen",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/11-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-7-2",
-          "title": "Anteil der Personen, die in den vergangenen 12 Monaten Opfer körperlicher oder sexueller Belästigung wurden, nach Geschlecht, Alter, Behinderungsstatus und Ort des Geschehens",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/11-7-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-a-1",
-          "title": "Anteil der Bevölkerung in Städten, die Stadt- und Regionalentwicklungspläne unter Berücksichtigung der Bevölkerungsprognosen und des Ressourcenbedarfs umsetzen, nach Größe der Stadt",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/11-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-b-1",
-          "title": "Anzahl der Staaten, die nationale Strategien zur Reduzierung des Katastrophenrisikos in Einklang mit dem Sendai-Rahmenwerk zur Katastrophenvorsorge 2015-2030 verabschiedet und umgesetzt haben",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/11-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-b-2",
-          "title": "Anteil der lokalen Regierungen, die lokale Strategien zur Reduzierung des Katastrophenrisikos in Einklang mit den nationalen Strategien zur Katastrophenvorsorge verabschiedet und umgesetzt haben",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/11-b-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-c-1",
-          "title": "Anteil der finanziellen Unterstützung, die den am wenigsten entwickelten Ländern für den Umbau zu und Neubau von nachhaltigen, widerstandsfähigen und ressourceneffizienten Gebäuden unter Verwendung lokaler Materialien bereitgestellt wird",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/11-c-1",
-          "status": "notstarted"
         }]
     }
   },
@@ -1227,54 +1147,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/12-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-6-1",
-          "title": "Anzahl der Unternehmen, die Nachhaltigkeitsberichte veröffentlichen",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/12-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-7-1",
-          "title": "Anzahl der Staaten, die nachhaltige öffentliche Beschaffungspolitik und Aktionspläne umsetzen",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/12-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-8-1",
-          "title": "Umfang, in dem (i) Bildung zu globaler Staatsbürgerschaft und (ii) Bildung für nachhaltige Entwicklung, einschließlich der Geschlechtergleichstellung und der Menschenrechte, auf allen Ebenen in: (a) nationale Bildungspolitik, (b) Lehrpläne, (c) Lehrerausbildung und (d) Schulleistungsuntersuchung berücksichtigt werden",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/12-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-a-1",
-          "title": "Umfang der Unterstützung für Entwicklungsländer bei Forschung und Entwicklung im Hinblick auf nachhaltigen Konsum und nachhaltige Produktion sowie umweltfreundliche Technologien",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/12-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-b-1",
-          "title": "Anzahl der Strategien oder Politiken für einen nachhaltigen Tourismus und umgesetzte Aktionspläne mit vereinbarten Kontroll- und Bewertungsinstrumenten",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/12-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-c-1",
-          "title": "Betrag der Subventionen für fossile Energieträger je Einheit BIP (Produktion und Konsum) und als Anteil an den gesamten nationalen Ausgaben für fossile Energieträger",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/12-c-1",
           "status": "notstarted"
         }]
     }

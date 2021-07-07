@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="de" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://beyersar.github.io/DataTK/en',
+  remoteDataBaseUrl: 'https://beyersar.github.io/DataTK/de',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'de',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -105,9 +105,9 @@ var translations = {
         
     <title>
         
-        Indicator 11.7.1 -
+        Indikator 1.3.1 -
         
-        Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities - Indicators For The Sustainable Development Goals
+        Anteil der Zolltarife auf Einfuhren aus den am wenigsten entwickelten Ländern sowie Entwicklungsländer mit Zollfreiheit - Indikatoren für die nachhaltigen Entwicklungsziele
     </title>
 
 
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20210707152410">
+        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20210707161956">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -149,19 +149,19 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-indicator">
+<body class="language-de layout-indicator">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alpha-Version","default_contrast":"Standard kontrast","disable_high_contrast":"Hoher Kontrast deaktivieren","disclaimer":"Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href=\"mailto:%email_address\">Kommentare</a>.","enable_high_contrast":"Aktivieren Sie hohen Kontrast","high_contrast":"Hoher kontrast","skip_link":"Zum Hauptinhalt springen","tag_line":"17 Ziele, um unsere Welt zu verändern","toggle_menu":"Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren.","toggle_search":"Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Zum Hauptinhalt springen</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Alpha-Version</strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href="mailto:test@example.com">Kommentare</a>.
   </div>
 </div>
 
@@ -171,8 +171,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/SDGTK/" id="home">
-    <img src="/SDGTK/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/SDGTK/de/" id="home">
+    <img src="/SDGTK/assets/img/SDG_logo.png" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -180,11 +180,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/SDGTK/de/11-7-1/">
-              Deutsch
+            <a href="/SDGTK/1-3-1/">
+              English
             </a>
           </li></ul>
   </div>
@@ -195,10 +195,10 @@ var translations = {
 
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
-  <form action="/SDGTK/search">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/SDGTK/de/search">
+    <label class="sr-only" for="indicator_search">Suche</label>
+    <input type="text" name="q" id="indicator_search" title="Suche" /><!--
+    --><button aria-label="Suche" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -214,11 +214,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/SDGTK/de/11-7-1/">
-              Deutsch
+            <a href="/SDGTK/1-3-1/">
+              English
             </a>
           </li></ul>
   </div>
@@ -233,21 +233,21 @@ var translations = {
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Menu toggle. Click to expand or collapse the menu."
+        aria-label="Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false">Menü</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/SDGTK/goals">Goals</a>
+    <a href="/SDGTK/de/goals">Ziele</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/reporting-status">Reporting Status</a>
+    <a href="/SDGTK/de/reporting-status">Berichtsstatus</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/about">About</a>
+    <a href="/SDGTK/de/about">Über uns</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/guidance">Guidance</a>
+    <a href="/SDGTK/de/guidance">Technische Hinweise</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/faq">FAQ</a>
+    <a href="/SDGTK/de/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/news">Updates</a>
+    <a href="/SDGTK/de/news">Aktualisierungen</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -259,11 +259,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/SDGTK/de/11-7-1/">
-              Deutsch
+            <a href="/SDGTK/1-3-1/">
+              English
             </a>
           </li></ul>
   </div>
@@ -276,31 +276,31 @@ var translations = {
 
     </li>
     <li id="searchToggle"
-        aria-label="Search toggle. Click to expand or collapse the search bar."
+        aria-label="Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <button data-target="search-mobile" aria-expanded="false">Suche</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/SDGTK/search">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/SDGTK/de/search">
+    <label class="sr-only" for="indicator_search-mobile">Suche</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Suche" /><!--
+    --><button aria-label="Suche" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/SDGTK/goals">Goals</a>
+    <a href="/SDGTK/de/goals">Ziele</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/reporting-status">Reporting Status</a>
+    <a href="/SDGTK/de/reporting-status">Berichtsstatus</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/about">About</a>
+    <a href="/SDGTK/de/about">Über uns</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/guidance">Guidance</a>
+    <a href="/SDGTK/de/guidance">Technische Hinweise</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/faq">FAQ</a>
+    <a href="/SDGTK/de/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/news">Updates</a>
+    <a href="/SDGTK/de/news">Aktualisierungen</a>
 </li>
 </ul>
 
@@ -324,7 +324,7 @@ var translations = {
       >
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %><h6><% } else { %><h5><% } %>
           <span aria-hidden="true"><%=translations.t(fieldItem.label)%><i class="fa fa-chevron-down"></i></span>
-          <span class="sr-only">Show sub-categories: <%=translations.t(fieldItem.label)%></span>
+          <span class="sr-only">Unterkategorien anzeigen: <%=translations.t(fieldItem.label)%></span>
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %></h6><% } else { %></h5><% } %>
       </button>
       <div class="bar">
@@ -332,10 +332,10 @@ var translations = {
       </div>
       <div class="variable-options">
         <fieldset>
-          <legend class="sr-only">Sub-categories - <%=translations.t(fieldItem.field)%></legend>
+          <legend class="sr-only">Disaggregationsdimensionen - <%=translations.t(fieldItem.field)%></legend>
           <div>
-            <button data-type="select">Select all</button>
-            <button data-type="clear">Clear all</button>
+            <button data-type="select">Alle auswählen</button>
+            <button data-type="clear">Auswahl aufheben</button>
           </div>
           <% _.each(fieldItem.values, function(item) { %>
             <label>
@@ -346,10 +346,10 @@ var translations = {
       </div>
 
       <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
-        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Available when '<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>' is selected
+        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Verfügbar
         </div>
         <div class="no-data-hint" id="no-data-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
-          No options available because of filters above
+          Aufgrund der bereits getroffenen Auswahl sind keine weiteren Auswahlmöglichkeiten verfügbar.
         </div>
       <% }%>
 
@@ -359,9 +359,9 @@ var translations = {
 
 <script type="text/template" id="units_template">
   <% if(units.length) { %>
-    <h4>Unit of Measurement</h4>
+    <h4>Einheit</h4>
     <fieldset>
-      <legend class="sr-only">Unit of Measurement</legend>
+      <legend class="sr-only">Einheit</legend>
       <% _.each(units, function(unitsItem, index) { %>
         <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
         <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
@@ -372,9 +372,9 @@ var translations = {
 
 <script type="text/template" id="series_template">
   <% if(serieses.length) { %>
-    <h4>Series</h4>
+    <h4>Reihe</h4>
     <fieldset>
-      <legend class="sr-only">Series</legend>
+      <legend class="sr-only">Reihe</legend>
       <% _.each(serieses, function(seriesItem, index) { %>
         <% var checked = (selectedSeries) ? (selectedSeries==seriesItem) : (index==0); %>
         <label><input type="radio" name="series" value="<%=seriesItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(seriesItem)%></label>
@@ -383,7 +383,7 @@ var translations = {
   <% } %>
 </script>
 
-<script>translations['indicator'] = {"annotation_2030_target":"2030 Target","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","chart":"Chart","chart_annotation":"Chart annotation","clear_all":"Clear all","clear_selections":"Clear selections","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"This data is not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_configuration":"Edit Configuration","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","map_search":"Search","map_search_hide":"Hide search","map_search_show":"Show search","map_year_slider":"Year slider","national_metadata":"National Metadata","national_metadata_blurb":"This table provides metadata for the actual indicator available from %country_name statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from %country_adjective statistics, this table should be consulted for information on national methodology and other %country_adjective-specific metadata information.","next":"Next indicator","no_data_hint":"No options available because of filters above","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","status":"Indicator status","sub_categories":"Sub-categories","sub_categories_show":"Show sub-categories:","table":"Table","table_column_sort":"Click to sort by this column","tags":"Tags","unit":"Unit","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
+<script>translations['indicator'] = {"annotation_2030_target":"2030 Ziel","announce_data_added":"Diagramm und Tabelle wurden aktualisiert, um die Daten einzubeziehen.","announce_data_not_available":"Diagramm und Tabelle zeigen keine Daten.","announce_data_removed":"Diagramm und Tabelle aktualisiert, um Daten auszuschließen.","chart":"Grafik","chart_annotation":"Diagramm-Anmerkung","clear_all":"Auswahl aufheben","clear_selections":"Auswahl aufheben","data_keyboard_navigation":"Drücken Sie die Eingabetaste, um mit den Pfeiltasten nach links und rechts durch die Datenpunkte zu blättern.","data_not_available":"Diese Daten sind nicht verfügbar. Bitte wählen Sie alternative Daten aus, die angezeigt werden sollen.","data_tabular_alternative":"Für tabellarische Daten alternativ siehe Registerkarte Tabelle.","dataset_size_warning":"Zu viele Zeitreihen ausgewählt um diese in einer Grafik darzustellen. Es können nicht alle Zeitreihen dargestellt werden.","download_chart":"Grafik im CSV-Format speichern","download_chart_image":"Grafik herunterladen","download_chart_image_title":"Grafik als Bild herunterladen","download_csv":"im CSV-Format speichern","download_csv_title":"im CSV-Format speichern","download_geojson":"im GeoJSON-Format speichern","download_geojson_title":"im GeoJSON-Format speichern","download_headline":"Speichern der Headline im CSV-Format","download_headline_title":"Speichern der Headline im CSV-Format","download_source":"Daten im CSV-Format speichern","download_source_sdmx":"Daten im SDMX-Format speichern","download_source_sdmx_title":"Daten im SDMX-Format speichern","download_source_title":"Daten im CSV-Format speichern","download_table":"Tabelle im CSV-Format speichern","edit":"Bearbeiten","edit_configuration":"Konfiguration bearbeiten","edit_data":"Daten bearbeiten","edit_metadata":"Metadaten bearbeiten","footnote":"Fußnote","geographical_area":"Geographische Abdeckung","global_metadata":"Globale Metadaten","global_metadata_blurb":"Diese Übersicht stellt Informationen zu den globalen Metadaten des jeweiligen SDG-Indikators bereit. Die <a href=\"https://unstats.un.org/sdgs/metadata/\">globalen Metadaten</a> werden durch die Statistische Division der Vereinten Nationen bereitgestellt.","legend_help":"Klicken Sie auf die Legende um Zeitreihen aus der Grafik zu entfernen.","loading":"Laden","loading_map":"Karte wird geladen","map":"Karte","map_search":"Suche","map_search_hide":"Suche ausblenden","map_search_show":"Suche anzeigen","map_year_slider":"Jahr-Schieberegler","national_metadata":"Nationale Metadaten","national_metadata_blurb":"Im Folgenden werden Metadaten zu den national verfügbaren Zeitreihen für %country_name zum jeweiligen globalen SDG-Indikator bereitgestellt. Die angegebene Datenreihe ist die vergleichbarste, national verfügbare Zeitreihe. Entspricht die angezeigte Datenreihe voll den globalen Metadaten, so ist dennoch auf diese nationalen Metadaten für methodische sowie weitere länderspezifische Informationen hinzuweisen.","next":"Nächster Indikator","no_data_hint":"Aufgrund der bereits getroffenen Auswahl sind keine weiteren Auswahlmöglichkeiten verfügbar.","plot_legend_description":"Plot-Legende: Liste der im Diagramm enthaltenen Linien","previous":"Vorheriger Indikator","select_all":"Alle auswählen","series":"Reihe","series_help":"Wählen Sie Disaggregationsdimensionen aus, damit die verfügbaren Disaggregationskategorien angezeigt werden. Manche werden erst angezeigt, sobald eine Überkategorie ausgewählt wird.","source":"Datenquelle","sources":"Datenquellen","status":"Status des Indikators","sub_categories":"Disaggregationsdimensionen","sub_categories_show":"Unterkategorien anzeigen:","table":"Tabelle","table_column_sort":"Klicken Sie auf , um nach dieser Spalte zu sortieren","tags":"Tags","unit":"Einheit","unit_of_measurement":"Einheit","units_type":"Einheit","variable_hint":"Verfügbar","view_indicator_list":"Zeigt die Indikatorenliste zum SDG-Ziel an"};</script>
 
 <script>translations['data'] = null;</script>
 
@@ -392,23 +392,23 @@ var translations = {
   
 <ol class="breadcrumb">
   
-  <li><a href="/SDGTK/">Home</a></li>
-  <li><a href="/SDGTK/goals">Goals</a></li>
+  <li><a href="/SDGTK/de/">Home</a></li>
+  <li><a href="/SDGTK/de/goals">Ziele</a></li>
   
-  <li><a href="/SDGTK/11" title="Make cities and human settlements inclusive, safe, resilient and sustainable">Goal 11</a></li>
+  <li><a href="/SDGTK/de/1" title="Armut in allen ihren Formen und überall beenden">Ziel 1</a></li>
   
 </ol>
 
 
   
 </div>
-<div class="heading goal-banner indicator goal-11">
+<div class="heading goal-banner indicator goal-1">
   <div class="container">
     <div class="row">
       
       <div class="col-xs-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-        <a href="/SDGTK/11" title="View this goal's indicator list">
-          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/11.png" alt="Sustainable cities &amp; communities - Goal 11" id="goal-11" class="goal-icon-image goal-icon-image-"/>
+        <a href="/SDGTK/de/1" title="Zeigt die Indikatorenliste zum SDG-Ziel an">
+          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/1.png" alt="Keine Armut - Ziel 1" id="goal-1" class="goal-icon-image goal-icon-image-"/>
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10 indicator-details">
@@ -416,9 +416,9 @@ var translations = {
         <div>
           <h1>
             
-            Indicator 11.7.1
+            Indikator 1.3.1
             
-            <span class="lead-copy">Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities</span>
+            <span class="lead-copy">Anteil der Zolltarife auf Einfuhren aus den am wenigsten entwickelten Ländern sowie Entwicklungsländer mit Zollfreiheit</span>
           </h1>
         </div>
       </div>
@@ -426,7 +426,7 @@ var translations = {
   </div>
 </div>
 
-<div id="main-content" class="container goal-11" role="main">
+<div id="main-content" class="container goal-1" role="main">
   
 
   
@@ -439,10 +439,10 @@ var translations = {
 
 <div class="row"
   id="indicatorData"
-  data-indicatorid='indicator_11-7-1'
-  data-id="11-7-1"
+  data-indicatorid='indicator_1-3-1'
+  data-id="1-3-1"
   data-country="Australia"
-  data-charttitle="Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities"
+  data-charttitle="Anteil der Zolltarife auf Einfuhren aus den am wenigsten entwickelten Ländern sowie Entwicklungsländer mit Zollfreiheit"
   data-charttitles="null"
   data-measurementunit=""
   data-showdata="false"
@@ -467,7 +467,7 @@ var translations = {
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to National Metadata tab"
->National Metadata</a>
+>Nationale Metadaten</a>
 </li>
 
 <li role="presentation" class="nav-item">
@@ -475,7 +475,7 @@ data-event-label="Change to National Metadata tab"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to Global Metadata tab"
->Global Metadata</a>
+>Globale Metadaten</a>
 </li>
 
 <li role="presentation" class="nav-item">
@@ -483,13 +483,13 @@ data-event-label="Change to Global Metadata tab"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to Sources tab"
->Sources</a>
+>Datenquellen</a>
 </li>
 
 
   
   <li role="presentation" class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#edit" aria-controls="edit" role="tab">Edit</a>
+    <a class="nav-link" data-toggle="tab" href="#edit" aria-controls="edit" role="tab">Bearbeiten</a>
   </li>
   
 </ul>
@@ -503,7 +503,7 @@ data-event-label="Change to Sources tab"
       <p>
         
         
-        This table provides metadata for the actual indicator available from Australia statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Australian statistics, this table should be consulted for information on national methodology and other Australian-specific metadata information.
+        Im Folgenden werden Metadaten zu den national verfügbaren Zeitreihen für Australia zum jeweiligen globalen SDG-Indikator bereitgestellt. Die angegebene Datenreihe ist die vergleichbarste, national verfügbare Zeitreihe. Entspricht die angezeigte Datenreihe voll den globalen Metadaten, so ist dennoch auf diese nationalen Metadaten für methodische sowie weitere länderspezifische Informationen hinzuweisen.
       </p>
       <table class="table">
   
@@ -523,7 +523,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Indicator available </th>
+        <th scope="row">Verfügbare Datenreihenbezeichnung </th>
         <td>
           
             
@@ -537,7 +537,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Indicator description </th>
+        <th scope="row">Indikatorenbeschreibung </th>
         <td>
           
             
@@ -551,7 +551,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Geographical coverage </th>
+        <th scope="row">Geographische Abdeckung </th>
         <td>
           
             
@@ -565,7 +565,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Unit of measurement </th>
+        <th scope="row">Einheit </th>
         <td>
           
             
@@ -579,7 +579,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Definitions </th>
+        <th scope="row">Definitionen </th>
         <td>
           
             
@@ -593,7 +593,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Calculations </th>
+        <th scope="row">Methodik </th>
         <td>
           
             
@@ -607,7 +607,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Other information </th>
+        <th scope="row">Weitere Informationen </th>
         <td>
           
             
@@ -621,7 +621,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Quality assurance </th>
+        <th scope="row">Qualitätssicherung </th>
         <td>
           
             
@@ -635,7 +635,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Comparability with international data/standards </th>
+        <th scope="row">Vergleichbarkeit mit internationalen Daten / Standards </th>
         <td>
           
             
@@ -649,7 +649,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Comments and limitations </th>
+        <th scope="row">Kommentare und Einschränkungen </th>
         <td>
           
             
@@ -663,7 +663,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Rational and interpretation </th>
+        <th scope="row">Vernunft und Interpretation </th>
         <td>
           
             
@@ -677,7 +677,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Data last updated </th>
+        <th scope="row">Daten zuletzt aktualisiert am </th>
         <td>
           
             
@@ -686,8 +686,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/9150987f06d4a0b87c910555ce90e7dc8f0f530b" target="_blank">
-                2021-04-15: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/beyersar/DataTK/commit/079423c9d9f9f94505e597638319f0c5d3196f46" target="_blank">
+                2021-07-07: see changes on GitHub <span class="visuallyhidden">in neuem Fenster öffnen</span>
               </a>
             
 
@@ -704,7 +704,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Metadata last updated </th>
+        <th scope="row">Metadaten zuletzt aktualisiert am </th>
         <td>
           
             
@@ -713,8 +713,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/9150987f06d4a0b87c910555ce90e7dc8f0f530b" target="_blank">
-                2021-04-15: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/beyersar/DataTK/commit/de87a798ff79d41f53c545393195c1722a580959" target="_blank">
+                2021-07-07: see changes on GitHub <span class="visuallyhidden">in neuem Fenster öffnen</span>
               </a>
             
 
@@ -819,7 +819,7 @@ data-event-label="Change to Sources tab"
   <!-- Global Metadata -->
   <div>
     <article>
-      <p>This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href="https://unstats.un.org/sdgs/metadata/">Complete global metadata</a> is provided by the UN Statistics Division.</p>
+      <p>Diese Übersicht stellt Informationen zu den globalen Metadaten des jeweiligen SDG-Indikators bereit. Die <a href="https://unstats.un.org/sdgs/metadata/">globalen Metadaten</a> werden durch die Statistische Division der Vereinten Nationen bereitgestellt.</p>
       <table class="table">
   
   
@@ -829,10 +829,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Indicator name </th>
+        <th scope="row">Indikatorenbezeichnung </th>
         <td>
           
-            <p>Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities</p>
+            <p>Anteil der Zolltarife auf Einfuhren aus den am wenigsten entwickelten Ländern sowie Entwicklungsländer mit Zollfreiheit</p>
 
           
         </td>
@@ -843,10 +843,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Indicator number </th>
+        <th scope="row">Indikatorennummerierung </th>
         <td>
           
-            <p>11.7.1</p>
+            <p>10.a.1</p>
 
           
         </td>
@@ -857,10 +857,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Target name </th>
+        <th scope="row">Unterziel </th>
         <td>
           
-            <p>global_targets.11-7-title with disabilities</p>
+            <p>Den Grundsatz der besonderen und differenzierten Behandlung der Entwicklungsländer, insbesondere der am wenigsten entwickelten Länder, im Einklang mit den Übereinkünften der Welthandelsorganisation anwenden</p>
 
           
         </td>
@@ -871,10 +871,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Target number </th>
+        <th scope="row">Unterzielnummerierung </th>
         <td>
           
-            <p>11.7</p>
+            <p>10.a</p>
 
           
         </td>
@@ -885,7 +885,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Global indicator description </th>
+        <th scope="row">Globale Indikatorenbeschreibung </th>
         <td>
           
             
@@ -899,10 +899,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">UN designated tier </th>
+        <th scope="row">VN Tier Klassifikation </th>
         <td>
           
-            <p>2</p>
+            <p>1</p>
 
           
         </td>
@@ -913,10 +913,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">UN custodian agency </th>
+        <th scope="row">VN Custodian Agency </th>
         <td>
           
-            <p>United Nations Human Settlements Programme (UN-Habitat)</p>
+            <p>ITC,UNCTAD,WTO</p>
 
           
         </td>
@@ -927,7 +927,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Link to UN metadata </th>
+        <th scope="row">Link zu den globalen Metadaten </th>
         <td>
           
             
@@ -936,8 +936,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="http://unstats.un.org/sdgs/files/metadata-compilation/Metadata-Goal-11.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (pdf 2066kB) <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-10-0A-01.pdf" target="_blank">
+                United Nations Sustainable Development Goals Metadata (pdf 564kB) <span class="visuallyhidden">in neuem Fenster öffnen</span>
               </a>
             
 
@@ -1073,11 +1073,11 @@ data-event-label="Change to Sources tab"
   
 
 
-  <a class="btn btn-primary" href="http://prose.io/#beyersar/DataTK/edit/develop/data/indicator_11-7-1.csv">Edit Data</a>
+  <a class="btn btn-primary" href="http://prose.io/#beyersar/DataTK/edit/develop/data/indicator_1-3-1.csv">Daten bearbeiten</a>
   
 
   
-  <a class="btn btn-primary" href="http://prose.io/#beyersar/DataTK/edit/develop/meta/11-7-1.md">Edit Metadata</a>
+  <a class="btn btn-primary" href="http://prose.io/#beyersar/DataTK/edit/develop/meta/1-3-1.md">Metadaten bearbeiten</a>
   
 
   
@@ -1099,11 +1099,11 @@ data-event-label="Change to Sources tab"
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Erstellt mit Open SDG</a></li>
             
               <li>
                 
-                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
+                  <a href="mailto:my-email-address@example.com" target="_blank">Kontakt</a>
                 
                 </li>
               <li>
@@ -1117,7 +1117,7 @@ data-event-label="Change to Sources tab"
                 
                 </li>
               <li>
-                <a href="/SDGTK/about/cookies-and-privacy/">Cookies</a>
+                <a href="/SDGTK/de/about/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               
@@ -1149,17 +1149,17 @@ data-event-label="Change to Sources tab"
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'ausblenden';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Suche';</script>
 
-<script src='/SDGTK/assets/js/sdg.js?v=20210707152410'></script>
+<script src='/SDGTK/assets/js/sdg.js?v=20210707161956'></script>
 
 
     
     
-    <script src="/SDGTK/assets/js/custom.js?v=20210707152410"></script><script>
+    <script src="/SDGTK/assets/js/custom.js?v=20210707161956"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
