@@ -676,14 +676,6 @@
           "keywords": "",
           "href": "/SDGTK/de/10-7-1",
           "status": "notstarted"
-        },
-        {
-          "id": "10-7-2",
-          "title": "Anzahl der Staaten mit gut umgesetzter Migrationspolitik",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/10-7-2",
-          "status": "notstarted"
         }]
     }
   },
@@ -718,14 +710,6 @@
           "status": "notstarted"
         },
         {
-          "id": "11-3-2",
-          "title": "Anteil der Städte mit einer direkten Beteiligungsstruktur der Zivilgesellschaft an der Stadtplanung und -verwaltung, die regelmäßig und demokratisch arbeiten",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/11-3-2",
-          "status": "notstarted"
-        },
-        {
           "id": "11-4-1",
           "title": "Gesamtausgaben (öffentlich und privat) pro Kopf für die Bewahrung, den Schutz und die Erhaltung des Kultur- und Naturerbes, nach Art des Erbes (Kultur, Natur, gemischt und durch das Welterbezentrum ernannt), Regierungsebene (national, regional und lokal/kommunal), Art der Ausgabe (Betriebsausgabe/Investition) und Art der privaten Finanzierung (Sachspenden, privater gemeinnütziger Sektor und Förderer)",
           "description": "",
@@ -739,14 +723,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/11-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-5-2",
-          "title": "Unmittelbarer wirtschaftlicher Schaden im Verhältnis zum globalen BIP, Schäden kritischer Infrastruktur und Anzahl der Ausfälle von Grundversorgungsleistungen infolge von Katastrophen",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/11-5-2",
           "status": "notstarted"
         }]
     }
@@ -774,14 +750,6 @@
           "status": "notstarted"
         },
         {
-          "id": "12-2-2",
-          "title": "Inländische Materialverwendung, inländische Materialverwendung pro Kopf und inländische Materialverwendung pro BIP",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/12-2-2",
-          "status": "notstarted"
-        },
-        {
           "id": "12-3-1",
           "title": "Index zu globalen Nahrungsmittelverlusten",
           "description": "",
@@ -795,14 +763,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/12-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-4-2",
-          "title": "Erzeugte gefährliche Abfälle pro Kopf und Anteil der behandelten gefährlichen Abfälle, nach Art der Behandlung",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/12-4-2",
           "status": "notstarted"
         },
         {
@@ -830,22 +790,6 @@
           "status": "notstarted"
         },
         {
-          "id": "13-1-2",
-          "title": "Anzahl der Staaten, die nationale Strategien zur Reduzierung des Katastrophenrisikos in Einklang mit dem Sendai-Rahmenwerk zur Katastrophenvorsorge 2015-2030 verabschiedet und umgesetzt haben",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/13-1-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-1-3",
-          "title": "Anteil der lokalen Regierungen, die lokale Strategien zur Reduzierung des Katastrophenrisikos in Einklang mit den nationalen Strategien zur Katastrophenvorsorge verabschiedet und umgesetzt haben",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/13-1-3",
-          "status": "notstarted"
-        },
-        {
           "id": "13-2-1",
           "title": "Anzahl der Staaten, die die Ausarbeitung oder Umsetzung einer/s integrierten Politik/Strategie/Plans verkündet haben, welche/r ihre Fähigkeit zur Anpassung an die negativen Auswirkungen des Klimawandels erhöht und die Widerstandsfähigkeit gegenüber Klimaänderungen als auch eine rückläufige Entwicklung der Treibhausgasemissionen fördert ohne die Nahrungsmittelproduktion zu gefährden (einschließlich eines nationalen Anpassungsplans, national festgelegten Beitrags, nationaler Kommunikation, zweijährlichen Aktualisierungsberichts oder anderer)",
           "description": "",
@@ -867,22 +811,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/13-3-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-a-1",
-          "title": "Mobilisierter Betrag an US-Dollar pro Jahr zwischen 2020 und 2025, anrechenbar auf die Zusage von 100 Milliarden US-Dollar",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/13-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-b-1",
-          "title": "Anzahl der am wenigsten entwickelten Länder und kleinen Inselentwicklungsstaaten, die besondere Unterstützung erhalten und der Betrag der Unterstützung (Finanzmittel, Technologie und capacity-building umfassend) für Mechanismen zum Aufbau von Kapazitäten für eine wirksame klimawandelbezogene Planung und Verwaltung, mit Fokus auf Frauen, Jugendliche und lokale und marginalisierte Gemeinschaften",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/13-b-1",
           "status": "notstarted"
         }]
     }
@@ -924,54 +852,6 @@
           "keywords": "",
           "href": "/SDGTK/de/14-4-1",
           "status": "notstarted"
-        },
-        {
-          "id": "14-5-1",
-          "title": "Abdeckung durch Schutzgebiete im Vergleich zu Meeresgebieten",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/14-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-6-1",
-          "title": "Fortschritt der Staaten hinsichtlich des Grades der Umsetzung internationaler Instrumente mit dem Ziel zur Bekämpfung illegaler, nicht gemeldeter und unregulierter Fischerei",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/14-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-7-1",
-          "title": "Nachhaltige Fischerei als Anteil am BIP in kleinen Inselentwicklungsstaaten, in den am wenigsten entwickelten Ländern und allen Ländern",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/14-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-a-1",
-          "title": "Anteil am gesamten Forschungsbudget für Forschung im Bereich der Meerestechnik",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/14-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-b-1",
-          "title": "Fortschritt der Staaten hinsichtlich der Umsetzung von gesetzlichen/ regulatorischen/ politischen/ institutionellen Rahmenwerken, die Zugangsrechte für kleine Fischereien anerkennen und schützen",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/14-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-c-1",
-          "title": "Anzahl der Staaten, die durch rechtliche, politische und institutionelle Rahmenbedingungen bei der Ratifizierung, Verabschiedung und Umsetzung meeresbezogener Instrumentarien, die internationales Recht zum Schutz und zur nachhaltigen Nutzung der Ozeane und ihrer Ressourcen (wie es dem Seerechtsübereinkommen der Vereinten Nationen entspricht) umsetzen, Fortschritte machen",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/14-c-1",
-          "status": "notstarted"
         }]
     }
   },
@@ -987,14 +867,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/15-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-1-2",
-          "title": "Anteil der bedeutenden Gebiete für Biodiversität an Land und im Süßwasser, die in Schutzgebieten liegen, nach Ökosystemtyp",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/15-1-2",
           "status": "notstarted"
         },
         {
@@ -1030,75 +902,11 @@
           "status": "notstarted"
         },
         {
-          "id": "15-4-2",
-          "title": "Index der Grünbedeckung in den Bergen",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/15-4-2",
-          "status": "notstarted"
-        },
-        {
           "id": "15-5-1",
           "title": "Rote Liste Index",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/15-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-6-1",
-          "title": "Anzahl der Staaten, die gesetzliche, administrative und politische Rahmenbedingungen geschaffen haben, um Vorteile gerecht und gleichmäßig zu verteilen",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/15-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-7-1",
-          "title": "Anteil der gehandelten Wildtiere, die gewildert oder geschmuggelt wurden",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/15-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-8-1",
-          "title": "Anteil der Staaten, die relevante nationale Rechtsvorschriften verabschiedet haben und Maßnahmen zur Vermeidung oder Bekämpfung von invasiven, gebietsfremden Arten angemessen finanzieren",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/15-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-9-1",
-          "title": "Fortschritte bei der Erreichung nationaler Ziele, die in Übereinstimmung mit dem Aichi-Biodiversitätsziel 2 des Strategischen Plans zur Biodiversität 2011-2020 beschlossen wurden",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/15-9-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-a-1",
-          "title": "Öffentliche Entwicklungszusammenarbeit und öffentliche Ausgaben für den Erhalt und die nachhaltige Nutzung biologischer Vielfalt und der Ökosysteme",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/15-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-b-1",
-          "title": "Öffentliche Entwicklungszusammenarbeit und öffentliche Ausgaben für den Erhalt und die nachhaltige Nutzung biologischer Vielfalt und der Ökosysteme",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/15-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-c-1",
-          "title": "Anteil der gehandelten Wildtiere, die gewildert oder geschmuggelt wurden",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/15-c-1",
           "status": "notstarted"
         }]
     }
@@ -1126,51 +934,11 @@
           "status": "complete"
         },
         {
-          "id": "16-1-2",
-          "title": "Konfliktbedingte  Todesfälle je 100.000 Einwohner, nach Geschlecht, Alter und Ursache",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/16-1-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-1-3",
-          "title": "Anteil der Bevölkerung, die in den vergangenen 12 Monaten (a) körperlicher Gewalt, (b) psychischer Gewalt und (c) sexueller Gewalt ausgesetzt war",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/16-1-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-1-4",
-          "title": "Anteil der Bevölkerung, die sich in ihrem Wohngebiet alleine sicher fühlt",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/16-1-4",
-          "status": "notstarted"
-        },
-        {
           "id": "16-2-1",
           "title": "Anteil der Kinder im Alter von 1-17 Jahren, die im vergangenen Monat eine körperliche Strafe und/oder psychische Aggression durch Betreuungspersonen erfahren haben",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/16-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-2-2",
-          "title": "Anzahl der Opfer von Menschenhandel je 100.000 Einwohner, nach Geschlecht, Alter und Art der Ausbeutung",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/16-2-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-2-3",
-          "title": "Anteil der jungen Frauen und Männer im Alter von 18-29 Jahren, die bis zum Alter von 18 Jahren sexuelle Gewalt erlebt haben",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/16-2-3",
           "status": "notstarted"
         },
         {
@@ -1182,14 +950,6 @@
           "status": "notstarted"
         },
         {
-          "id": "16-3-2",
-          "title": "Nicht-verurteilte Häftlinge als Anteil an der gesamten Gefangenenpopulation",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/16-3-2",
-          "status": "notstarted"
-        },
-        {
           "id": "16-4-1",
           "title": "Gesamtwert der ein- und ausgehenden illegalen Finanzströme (in aktuellen US-Dollar)",
           "description": "",
@@ -1198,107 +958,11 @@
           "status": "notstarted"
         },
         {
-          "id": "16-4-2",
-          "title": "Anteil der beschlagnahmten, aufgegriffenen oder abgegebenen Waffen, deren illegale Herkunft oder Verwendung von einer zuständigen Behörde in Übereinstimmung mit internationalen Methoden nachverfolgt oder festgestellt wurde",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/16-4-2",
-          "status": "notstarted"
-        },
-        {
           "id": "16-5-1",
           "title": "Anteil der Personen, die in den vergangenen 12 Monaten mindestens einen Kontakt zu einem öffentlichen Bediensteten hatten und diesem ein Bestechungsgeld gezahlt haben oder von diesen um eine Bestechung gebeten wurden",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/16-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-5-2",
-          "title": "Anteil der Unternehmen, die in den vergangenen 12 Monaten mindestens einen Kontakt mit einem öffentlichen Bediensteten hatten und diesem ein Bestechungsgeld gezahlt haben oder von diesen um eine Bestechung gebeten wurden",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/16-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-6-1",
-          "title": "Primärausgaben des Staates als Anteil am ursprünglich genehmigten Budget, nach Sektor (oder nach Haushaltscodes oder Ähnlichem)",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/16-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-6-2",
-          "title": "Anteil der Bevölkerung, die mit ihrer letzten Erfahrung mit öffentlichen Dienstleistungen zufrieden war",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/16-6-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-7-1",
-          "title": "Anteil der Stellen (nach Geschlecht, Alter, Personen mit Behinderungen und Bevölkerungsgruppen) in öffentlichen Institutionen (nationale und lokale Gesetzgebung, öffentlicher Dienst und Judikative) im Vergleich zur nationalen Verteilungen",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/16-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-7-2",
-          "title": "Anteil der Bevölkerung, die glaubt, dass die Entscheidungsfindung inklusiv und bedarfsgesteuert ist, nach Geschlecht, Alter, Behinderung und Bevölkerungsgruppe",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/16-7-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-8-1",
-          "title": "Anteil der Mitglieder und Stimmrechte von Entwicklungsländern in internationalen Organisationen",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/16-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-9-1",
-          "title": "Anteil der Kinder unter 5 Jahre, deren Geburt von einer Zivilbehörde registriert wurde, nach Alter",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/16-9-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-10-1",
-          "title": "Anzahl der bestätigten Fälle von Tötung, Entführung, erzwungenem Verschwinden, willkürlicher Inhaftierung und Folter von Journalisten, zugehörigem Medienpersonal, Gewerkschaftern und Menschenrechtsanwälten in den vergangenen 12 Monaten",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/16-10-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-10-2",
-          "title": "Anzahl der Staaten, die verfassungsrechtliche, gesetzliche und/oder politische Garantieren für den öffentlichen Zugang zu Informationen verabschiedet und umgesetzt haben",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/16-10-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-a-1",
-          "title": "Existenz von unabhängigen nationalen Menschenrechtsinstitutionen in Übereinstimmung mit den 'Pariser Grundsätzen",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/16-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-b-1",
-          "title": "Anteil der Bevölkerung, die angibt sich in den vergangenen 12 Monaten persönlich auf Basis einer Diskriminierung, die nach internationalem Menschenrecht verboten ist, diskriminiert oder belästigt gefühlt zu haben",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/16-b-1",
           "status": "notstarted"
         }]
     }
@@ -1318,14 +982,6 @@
           "status": "notstarted"
         },
         {
-          "id": "17-1-2",
-          "title": "Anteil des Haushaltsbudgets, das durch inländische Steuern finanziert wird",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/17-1-2",
-          "status": "notstarted"
-        },
-        {
           "id": "17-2-1",
           "title": "Öffentliche Nettoentwicklungsausgaben, insgesamt und an am wenigsten entwickelte Länder, als Anteil am Bruttonationaleinkommen (BNE) der Geberländer des Ausschusses für Entwicklungshilfe der Organisation für wirtschaftliche Zusammenarbeit und Entwicklung (OECD)",
           "description": "",
@@ -1339,14 +995,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/17-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-3-2",
-          "title": "Volumen der (Rück-)Überweisungen (in US-Dollar) als Anteil am gesamten BIP",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/17-3-2",
           "status": "notstarted"
         },
         {
@@ -1374,14 +1022,6 @@
           "status": "notstarted"
         },
         {
-          "id": "17-6-2",
-          "title": "Internet-Breitband-Verträge je 100 Einwohner, nach Geschwindigkeit",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/17-6-2",
-          "status": "notstarted"
-        },
-        {
           "id": "17-7-1",
           "title": "Gesamtbetrag der für Entwicklungsländer genehmigten Mittel zur Förderung der Entwicklung, des Transfers, der öffentlichen Bereitstellung und der Verbreitung umweltfreundlicher Technologien",
           "description": "",
@@ -1395,118 +1035,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/17-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-9-1",
-          "title": "Dollar-Wert der finanziellen und technischen Zusammenarbeit (einschließlich durch Nord-Süd-, Süd-Süd- und Dreieckskooperationen) mit Entwicklungsländern",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/17-9-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-10-1",
-          "title": "Weltweit gewichtete durchschnittliche Zollsätze",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/17-10-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-11-1",
-          "title": "Anteil der Entwicklungsländer und der am wenigsten entwickelten Länder an den weltweiten Exporten",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/17-11-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-12-1",
-          "title": "Durchschnittliche Zölle für Entwicklungsländer, am wenigsten entwickelte Länder und kleine Inselentwicklungsländer",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/17-12-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-13-1",
-          "title": "Makroökonomisches Dashboard",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/17-13-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-14-1",
-          "title": "Anzahl der Staaten mit Mechanismen zur Verbesserung der Politikkohärenz bezogen auf nachhaltige Entwicklung",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/17-14-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-15-1",
-          "title": "Umfang der Nutzung ländereigener Ergebnisrahmenwerke und Planungsinstrumente durch  Anbieter von Entwicklungszusammenarbeit",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/17-15-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-16-1",
-          "title": "Anzahl der Staaten, die Fortschritte bei der Kontrolle der Multi-Stakeholder-Entwicklungswirksamkeit, die das Erreichen der Ziele für nachhaltige Entwicklung unterstützen, berichten",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/17-16-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-17-1",
-          "title": "Betrag an US-Dollar, der für (a) öffentlich-private Partnerschaften und (b) zivilgesellschaftliche Partnerschaften zugesagt wurde",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/17-17-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-18-1",
-          "title": "Anteil der Nachhaltigkeitsindikatoren, die auf nationaler Ebene vollständig - sofern gemäß dem Unterziel relevant - disaggregiert sind, in Übereinstimmung mit den Grundprinzipien der amtlichen Statistik",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/17-18-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-18-2",
-          "title": "Anzahl der Staaten mit einer nationalen statistischen Gesetzgebung im Einklang mit den Grundprinzipien der amtlichen Statistik",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/17-18-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-18-3",
-          "title": "Anzahl der Staaten mit einem nationalen statistischen Plan, der vollständig finanziert ist und umgesetzt wird, nach Quelle der Finanzierung",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/17-18-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-19-1",
-          "title": "Dollar-Wert aller zur Verfügung gestellten Ressourcen zur Stärkung der statistischen Kapazität in Entwicklungsländern",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/17-19-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-19-2",
-          "title": "Anteil der Staaten, die (a) in den letzten 10 Jahren mindestens eine Bevölkerungs- und Wohnungszählung durchgeführt haben und (b) 100% bei der Geburtenregistrierung sowie 80% bei der Registrierung der Sterbefälle erreicht haben",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/17-19-2",
           "status": "notstarted"
         }]
     }
