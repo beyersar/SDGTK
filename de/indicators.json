@@ -15,7 +15,7 @@
         },
         {
           "id": "1-2-1",
-          "title": "Anteil der Bevölkerung, die unter der nationalen Armutsgrenze lebt, nach Geschlecht und Alter",
+          "title": "Anzahl der Gemeinschaftswerkstätten und Repair-Cafes",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/1-2-1",
@@ -39,7 +39,7 @@
         
         {
           "id": "2-1-1",
-          "title": "Prävalenz von Unterernährung",
+          "title": "Öffentlich zugängliche Obstbäume und Beete",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/2-1-1",
@@ -47,7 +47,7 @@
         },
         {
           "id": "2-2-1",
-          "title": "Prävalenz von Kleinwuchs (Körpergröße zum Alter < -2 Standardabweichung vom Median des Wachstumsstandards für Kinder der Weltgesundheitsorganisation (WHO)) bei Kindern unter 5 Jahren",
+          "title": "Anzahl der fair gehandelten Produktgruppen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/2-2-1",
@@ -71,7 +71,7 @@
         
         {
           "id": "3-1-1",
-          "title": "Müttersterblichkeitsrate",
+          "title": "Stadtradeln – Anzahl der Personen die teilnehmen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/3-1-1",
@@ -103,7 +103,7 @@
         
         {
           "id": "4-1-1",
-          "title": "Anteil der Kinder und Jugendlichen, die (a) in Klasse 2/3 (b) am Ende der Grundschule und (c) am Ende der Sekundarstufe I ein Mindestleistungsniveau in (i) Lesen und (ii) Mathematik erreichen, nach Geschlecht",
+          "title": "Anzahl der Schulen die pro Jahr an Lernkonferenz teilnehmen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/4-1-1",
@@ -111,7 +111,7 @@
         },
         {
           "id": "4-2-1",
-          "title": "Anteil der Kinder unter 5 Jahren mit einer altersgemäßen  Entwicklung hinsichtlich Gesundheit, Lernen und psycho-sozialem Wohlbefinden, nach Geschlecht",
+          "title": "Anzahl angebotener Fortbildungen zu 'Bildung für nachhaltige Entwicklung' (BNE) für Schulen in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/4-2-1",
@@ -119,7 +119,7 @@
         },
         {
           "id": "4-3-1",
-          "title": "Teilnahmequote von Jugendlichen und Erwachsenen an formaler und non-formaler Bildung und Ausbildung in den vergangenen 12 Monaten, nach Geschlecht",
+          "title": "Anzahl der Volkshochschul (VHS) Kurse zum Themenbereich Globales lernen, 'Bildung für nachhaltige Entwicklung' (BN), SDGs",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/4-3-1",
@@ -167,7 +167,7 @@
         
         {
           "id": "5-1-1",
-          "title": "Existenz gesetzlicher Rahmenbedingungen, die Gleichstellung und Nicht-Diskriminierung aufgrund des Geschlechts fördern, durchsetzen und überwachen",
+          "title": "Anzahl der Schulen die am Projekttag teilnehmen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/5-1-1",
@@ -175,7 +175,7 @@
         },
         {
           "id": "5-2-1",
-          "title": "Anteil der Frauen und Mädchen im Alter von 15 Jahren und älter, die sich in ihrer jetzigen oder früheren Partnerschaft physischer, sexueller oder psychischer Gewalt durch ihren aktuellen oder früheren Intimpartner in den vergangenen 12 Monaten ausgesetzt waren, nach Art der Gewalt und Alter",
+          "title": "Anzahl der angebotenen Schulungen des Bezirksamt",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/5-2-1",
@@ -183,7 +183,7 @@
         },
         {
           "id": "5-3-1",
-          "title": "Anteil der 20- bis 24-jährigen Frauen, die vor einem Alter von 15 oder 18 Jahren verheiratet oder in einer vergleichbaren Verbindung waren",
+          "title": "Anzahl der Projekte, Anlaufpunkte, Beratungsangebote für Mädchen in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/5-3-1",
@@ -215,7 +215,7 @@
         
         {
           "id": "6-1-1",
-          "title": "Anteil der Bevölkerung mit Zugang zu einer sicheren Trinkwasserversorgung",
+          "title": "Noch zu definieren",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/6-1-1",
@@ -223,7 +223,7 @@
         },
         {
           "id": "6-2-1",
-          "title": "Anteil der Bevölkerung mit (a) Zugang zu sicherer Sanitärversorgung und (b) einem Handwaschbecken mit Seife und Wasser",
+          "title": "Anzahl der Mitglieder des Netzwerks",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/6-2-1",
@@ -255,7 +255,7 @@
         
         {
           "id": "7-1-1",
-          "title": "Anteil der Bevölkerung mit Zugang zu Elektrizität",
+          "title": "Anzahl der Solaranlagen (solarthermisch, photovoltaisch) im Bezirk",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/7-1-1",
@@ -263,7 +263,7 @@
         },
         {
           "id": "7-2-1",
-          "title": "Anteil der erneuerbaren Energien am gesamten Endenergieverbrauch",
+          "title": "Anzahl der Solaranlagen (solarthermisch, photovoltaisch) auf bezirkseigenen Dächern",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/7-2-1",
