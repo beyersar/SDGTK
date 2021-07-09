@@ -7,11 +7,11 @@
         
         {
           "id": "1-1-1",
-          "title": "Anteil der Bevölkerung, der unter der internationalen Armutsgrenze lebt, nach Geschlecht, Alter, Erwerbsstatus und geografischem Standort (städtisch/ländlich)",
+          "title": "Anzahl der Personen die das Sozialhilfeportal nutzen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/1-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-2-1",
@@ -79,7 +79,7 @@
         },
         {
           "id": "3-2-1",
-          "title": "Relative noise pollution in Treptow-Köpenick",
+          "title": "test - indicator_name",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/3-2-1",
