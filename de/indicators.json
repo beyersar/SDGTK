@@ -7,7 +7,7 @@
         
         {
           "id": "1-1-1",
-          "title": "Anteil der Bevölkerung, die unter der internationalen Armutsgrenze lebt, nach Geschlecht, Alter, Erwerbsstatus  und geographischer Lage (urban/rural)",
+          "title": "Anzahl der Personen die das Sozialhilfeportal nutzen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/1-1-1",
@@ -15,7 +15,7 @@
         },
         {
           "id": "1-2-1",
-          "title": "Anteil der Bevölkerung, die unter der nationalen Armutsgrenze lebt, nach Geschlecht und Alter",
+          "title": "Noch zu definieren",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/1-2-1",
@@ -23,7 +23,7 @@
         },
         {
           "id": "1-3-1",
-          "title": "Anteil der Bevölkerung, die durch soziale Sicherungssysteme abgesichert sind, nach Geschlecht, untergliedert nach Kindern, Arbeitslosen, älteren Personen, Menschen mit Behinderungen, Schwangeren, Neugeborenen, Opfern von Arbeitsunfällen sowie Armen und Schwachen",
+          "title": "Anzahl der Planungsräume mit niedrigen Status, sehr niedrigem Status oder negativer Dynamik",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/1-3-1",
@@ -39,7 +39,7 @@
         
         {
           "id": "2-1-1",
-          "title": "Prävalenz von Unterernährung",
+          "title": "Öffentlich zugängliche Obstbäume und Beete",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/2-1-1",
@@ -47,7 +47,7 @@
         },
         {
           "id": "2-2-1",
-          "title": "Prävalenz von Kleinwuchs (Körpergröße zum Alter < -2 Standardabweichung vom Median des Wachstumsstandards für Kinder der Weltgesundheitsorganisation (WHO)) bei Kindern unter 5 Jahren",
+          "title": "Anzahl der fair gehandelten Produktgruppen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/2-2-1",
@@ -55,7 +55,7 @@
         },
         {
           "id": "2-3-1",
-          "title": "Produktionsvolumen je Arbeitskraft nach Unternehmensgrößenklassen der Betriebsgröße in Land-/Weide-/Forstwirtschaft",
+          "title": "Kilogramm gerettete Lebensmittel (Foodsharing)",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/2-3-1",
@@ -71,7 +71,7 @@
         
         {
           "id": "3-1-1",
-          "title": "Müttersterblichkeitsrate",
+          "title": "Stadtradeln - Anzahl der Personen die teilnehmen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/3-1-1",
@@ -103,7 +103,7 @@
         
         {
           "id": "4-1-1",
-          "title": "Anteil der Kinder und Jugendlichen, die (a) in Klasse 2/3 (b) am Ende der Grundschule und (c) am Ende der Sekundarstufe I ein Mindestleistungsniveau in (i) Lesen und (ii) Mathematik erreichen, nach Geschlecht",
+          "title": "Anzahl der Schulen die pro Jahr an Lernkonferenz teilnehmen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/4-1-1",
@@ -111,7 +111,7 @@
         },
         {
           "id": "4-2-1",
-          "title": "Anteil der Kinder unter 5 Jahren mit einer altersgemäßen  Entwicklung hinsichtlich Gesundheit, Lernen und psycho-sozialem Wohlbefinden, nach Geschlecht",
+          "title": "Anzahl angebotener Fortbildungen zu 'Bildung für nachhaltige Entwicklung' (BNE) für das pädagogische Personal an Schulen in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/4-2-1",
@@ -119,7 +119,7 @@
         },
         {
           "id": "4-3-1",
-          "title": "Teilnahmequote von Jugendlichen und Erwachsenen an formaler und non-formaler Bildung und Ausbildung in den vergangenen 12 Monaten, nach Geschlecht",
+          "title": "Anzahl der Volkshochschul (VHS) Kurse zum Themenbereich Globales lernen, 'Bildung für nachhaltige Entwicklung' (BNE) und SDGs",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/4-3-1",
@@ -127,7 +127,7 @@
         },
         {
           "id": "4-4-1",
-          "title": "Anteil der Jugendlichen und Erwachsenen mit Kompetenzen in Informations- und Kommunikationstechnologie (IKT), nach Art der Kompetenz",
+          "title": "Anzahl der Schulen in Treptow-Köpenick mit der Auszeichnung 'Faire Schule'",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/4-4-1",
@@ -135,7 +135,7 @@
         },
         {
           "id": "4-5-1",
-          "title": "Paritäts-Indizes (weiblich/männlich, rural/urban, unterstes/oberstes Vermögensquantil und sonstige, wie z. B. Grad der Behinderung, indigene Bevölkerung und konfliktbetroffen, sobald Daten verfügbar werden) für alle Bildungsindikatoren dieser Liste, die disaggregiert werden können",
+          "title": "Projektteilnehmer des Projektes 'Umweltschule in Europa - Internationale Nachhaltigkeitsschule'",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/4-5-1",
@@ -143,7 +143,7 @@
         },
         {
           "id": "4-6-1",
-          "title": "Anteil der Bevölkerung einer bestimmten Altersgruppe, die über ein festes Mindestniveau an funktionalen (a) Lese- und (b) Rechenfähigkeiten verfügt, nach Geschlecht",
+          "title": "Monitoring der formalen Verankerung von Bildung für nachhaltige Entwicklung (BNE) - Anzahl an Fundstellen zum Thema BNE in Lehr- und Bildungsplänen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/4-6-1",
@@ -167,7 +167,7 @@
         
         {
           "id": "5-1-1",
-          "title": "Existenz gesetzlicher Rahmenbedingungen, die Gleichstellung und Nicht-Diskriminierung aufgrund des Geschlechts fördern, durchsetzen und überwachen",
+          "title": "Anzahl der Schulen die am Projekttag teilnehmen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/5-1-1",
@@ -175,7 +175,7 @@
         },
         {
           "id": "5-2-1",
-          "title": "Anteil der Frauen und Mädchen im Alter von 15 Jahren und älter, die sich in ihrer jetzigen oder früheren Partnerschaft physischer, sexueller oder psychischer Gewalt durch ihren aktuellen oder früheren Intimpartner in den vergangenen 12 Monaten ausgesetzt waren, nach Art der Gewalt und Alter",
+          "title": "Anzahl der angebotenen Schulungen des Bezirksamts zum gendersensiblen Sprachgebrauch",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/5-2-1",
@@ -183,7 +183,7 @@
         },
         {
           "id": "5-3-1",
-          "title": "Anteil der 20- bis 24-jährigen Frauen, die vor einem Alter von 15 oder 18 Jahren verheiratet oder in einer vergleichbaren Verbindung waren",
+          "title": "Anzahl der Projekte, Anlaufpunkte, Beratungsangebote für Mädchen in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/5-3-1",
@@ -191,7 +191,7 @@
         },
         {
           "id": "5-4-1",
-          "title": "Anteil des Zeitaufwands für unbezahlte Haus- und Pflegearbeit, nach Geschlecht, Alter und Ort",
+          "title": "Frauenanteil in den Leitungspositionen des höheren Dienstes",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/5-4-1",
@@ -199,7 +199,7 @@
         },
         {
           "id": "5-5-1",
-          "title": "Frauenanteil in (a) nationalen Parlamenten und (b) lokalen Regierungen",
+          "title": "Frauenanteil in der Bezirksverordnetenversammlung (BVV) Treptow-Köpenicks",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/5-5-1",
@@ -215,7 +215,7 @@
         
         {
           "id": "6-1-1",
-          "title": "Anteil der Bevölkerung mit Zugang zu einer sicheren Trinkwasserversorgung",
+          "title": "Noch zu definieren",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/6-1-1",
@@ -223,7 +223,7 @@
         },
         {
           "id": "6-2-1",
-          "title": "Anteil der Bevölkerung mit (a) Zugang zu sicherer Sanitärversorgung und (b) einem Handwaschbecken mit Seife und Wasser",
+          "title": "Anzahl der Mitglieder des Netzwerks / der Koordinierungsstelle Umweltbildung und Bildung für nachhaltige Entwicklung (BNE)",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/6-2-1",
@@ -231,7 +231,7 @@
         },
         {
           "id": "6-3-1",
-          "title": "Anteil des sicher behandelten Abwassers",
+          "title": "Noch zu definieren",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/6-3-1",
@@ -239,7 +239,7 @@
         },
         {
           "id": "6-4-1",
-          "title": "Veränderung der Wassernutzungseffizienz im Zeitablauf",
+          "title": "Anzahl der zum Baden geeigneter Gewässer",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/6-4-1",
@@ -255,7 +255,7 @@
         
         {
           "id": "7-1-1",
-          "title": "Anteil der Bevölkerung mit Zugang zu Elektrizität",
+          "title": "Noch zu definieren",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/7-1-1",
@@ -263,7 +263,7 @@
         },
         {
           "id": "7-2-1",
-          "title": "Anteil der erneuerbaren Energien am gesamten Endenergieverbrauch",
+          "title": "Anzahl der Solaranlagen (solarthermisch, photovoltaisch) auf bezirkseigenen Dächern",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/7-2-1",
@@ -271,7 +271,7 @@
         },
         {
           "id": "7-3-1",
-          "title": "Energieintensität gemessen als Primärenergie zum BIP",
+          "title": "Photovoltaik - Summe der Anlagen im Bezirk",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/7-3-1",
@@ -295,7 +295,7 @@
         
         {
           "id": "8-1-1",
-          "title": "Jährliche Wachstumsrate des realen BIP pro Kopf",
+          "title": "Anzahl der Unternehmen die eine Gemeinwohl-Bilanz in Treptow-Köpenick durchführen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/8-1-1",
@@ -303,7 +303,7 @@
         },
         {
           "id": "8-2-1",
-          "title": "Jährliche Wachstumsrate des realen BIP je Beschäftigten",
+          "title": "Anzahl der Teilnehmenden am Mentoringprogramm",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/8-2-1",
@@ -311,7 +311,7 @@
         },
         {
           "id": "8-3-1",
-          "title": "Anteil der informellen Beschäftigung an allen Beschäftigungsverhältnissen außerhalb der Landwirtschaft, nach Geschlecht",
+          "title": "Anteil der Beschäftigten mit Einwanderungsgeschichte",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/8-3-1",
@@ -319,7 +319,7 @@
         },
         {
           "id": "8-4-1",
-          "title": "Rohstoff-Fußabdruck, Rohstoff-Fußabdruck pro Kopf und Rohstoff-Fußabdruck pro BIP",
+          "title": "Bruttostundenverdienste und Verdienstunterschiede zwischen Frauen und Männern",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/8-4-1",
@@ -327,7 +327,7 @@
         },
         {
           "id": "8-5-1",
-          "title": "Durchschnittlicher Stundenlohn von weiblichen und männlichen Beschäftigten, nach Beruf, Alter und Personen mit Behinderungen",
+          "title": "Kaitz-Index für Berlin (Relation  zwischen  Mindestlohn  und  durchschnittlichem Bruttomonatsverdienst  bei  Vollzeitbeschäftigung)",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/8-5-1",
@@ -359,7 +359,7 @@
         
         {
           "id": "9-1-1",
-          "title": "Anteil der ländlichen Bevölkerung, die im Umkreis von 2 km entfernt an einer ganzjährig befahrbaren Straße lebt",
+          "title": "Anzahl Ladestationen für E-Autos",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/9-1-1",
@@ -367,7 +367,7 @@
         },
         {
           "id": "9-2-1",
-          "title": "Wertschöpfung des Verarbeitenden Gewerbes als Anteil am BIP und pro Kopf",
+          "title": "Anteil/Anzahl der Ämter mit kostenlosen Wlan-Zugang",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/9-2-1",
@@ -375,7 +375,7 @@
         },
         {
           "id": "9-3-1",
-          "title": "Anteil der kleiner Unternehmen an der gesamten Wertschöpfung der Industrie",
+          "title": "Breitband Verfügbarkeit Mbit/s in %",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/9-3-1",
@@ -391,7 +391,7 @@
         
         {
           "id": "10-1-1",
-          "title": "Wachstumsraten der Haushaltsausgaben oder -einkommen pro Kopf der unteren 40 Prozent der Bevölkerung und der Gesamtbevölkerung",
+          "title": "Anteil mehrsprachiger Informationsmaterialien",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/10-1-1",
@@ -399,7 +399,7 @@
         },
         {
           "id": "10-2-1",
-          "title": "Anteil der Bevölkerung, die mit weniger als 50% des Medianeinkommens leben, nach Geschlecht, Alter und Menschen mit Behinderung",
+          "title": "Anzahl der angebotenen Fortbildungen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/10-2-1",
@@ -407,7 +407,7 @@
         },
         {
           "id": "10-3-1",
-          "title": "Anteil der Bevölkerung, die angibt sich in den vergangenen 12 Monaten persönlich diskriminiert oder belästigt gefühlt zu haben basierend auf einem Diskriminierungsgrund, der nach internationalem Menschenrechtsgesetzen verboten ist",
+          "title": "Anzahl der Unternehmen die eine Gemeinwohl-Bilanz durchführen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/10-3-1",
@@ -415,7 +415,7 @@
         },
         {
           "id": "10-4-1",
-          "title": "Anteil des Arbeitsnehmerentgelts am BIP, bestehend aus Löhnen, Gehältern und Sozialversicherungsbeiträgen",
+          "title": "Gini-Koeffizient der Äquivalenzeinkommen in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/10-4-1",
@@ -423,7 +423,7 @@
         },
         {
           "id": "10-5-1",
-          "title": "Financial Soundness Indicators",
+          "title": "Noch zu definieren",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/10-5-1",
@@ -431,7 +431,7 @@
         },
         {
           "id": "10-6-1",
-          "title": "Anteil der Mitglieder und Stimmrechte der Entwicklungsländer  in internationalen Organisationen",
+          "title": "Anteil der Personen mit Einwanderungsgeschichte in der Bezirksverordnetenversammlung (BVV) Treptow-Köpenicks",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/10-6-1",
@@ -455,7 +455,7 @@
         
         {
           "id": "11-1-1",
-          "title": "Anteil der urbanen Bevölkerung, die in Slums, informellen Siedlungen oder unzureichenden Behausungen lebt",
+          "title": "Anzahl der Lastenräder des Bezirks",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/11-1-1",
@@ -463,7 +463,7 @@
         },
         {
           "id": "11-2-1",
-          "title": "Anteil der Bevölkerung, der einen angemessenen Zugang zu öffentlichen Verkehrsmitteln hat, nach Geschlecht, Alter und Menschen mit Behinderung",
+          "title": "Anzahl der Abholstellen für Produkte Solidarischer Landwirtschaft (SoLaWi)",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/11-2-1",
@@ -471,7 +471,7 @@
         },
         {
           "id": "11-3-1",
-          "title": "Verhältnis der Flächennutzungs- zur Bevölkerungswachstumsrate",
+          "title": "Anzahl Baumscheibenpatinnen und -paten",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/11-3-1",
@@ -479,7 +479,7 @@
         },
         {
           "id": "11-4-1",
-          "title": "Gesamtausgaben (öffentlich und privat) pro Kopf für die Bewahrung, den Schutz und die Erhaltung des Kultur- und Naturerbes, nach Art des Erbes (Kultur, Natur, gemischt und durch das Welterbezentrum ernannt), Regierungsebene (national, regional und lokal/kommunal), Art der Ausgabe (Betriebsausgabe/Investition) und Art der privaten Finanzierung (Sachspenden, privater gemeinnütziger Sektor und Förderer)",
+          "title": "Häufigkeit der auf Wegen genutzten Verkehrsmittel in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/11-4-1",
@@ -487,7 +487,7 @@
         },
         {
           "id": "11-5-1",
-          "title": "Anzahl der infolge von Katastrophen getöteten, vermissten und direkt betroffenen Personen, je 100.000 Einwohner",
+          "title": "Sport-, Freizeit- und Erholungsfläche in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/11-5-1",
@@ -503,7 +503,7 @@
         
         {
           "id": "12-1-1",
-          "title": "Anzahl der Staaten mit nationalen Aktionsplänen zu nachhaltigem Konsum und Produktion (SCP) oder SCP, die als Priorität oder Ziel in nationale Politik aufgenommen wurden",
+          "title": "Anzahl der Fortbildungen zu fairer Beschaffung pro Jahr",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/12-1-1",
@@ -511,7 +511,7 @@
         },
         {
           "id": "12-2-1",
-          "title": "Rohstoff-Fußabdruck, Rohstoff-Fußabdruck pro Kopf und Rohstoff-Fußabdruck pro BIP",
+          "title": "Anzahl fairer Produktgruppen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/12-2-1",
@@ -519,7 +519,7 @@
         },
         {
           "id": "12-3-1",
-          "title": "Index zu globalen Nahrungsmittelverlusten",
+          "title": "Stand der Zertifizierung der Kommune als Fairtrade-Town",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/12-3-1",
@@ -527,7 +527,7 @@
         },
         {
           "id": "12-4-1",
-          "title": "Anzahl der Vertragsparteien internationaler multilateraler Umweltabkommen über gefährliche Abfälle und andere Chemikalien, die ihren Bekenntnissen und Verpflichtungen nachkommen, indem sie die gemäß dem jeweiligen Übereinkommen geforderten Informationen übermitteln",
+          "title": "Anzahl der Fair Trade Schulen in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/12-4-1",
@@ -551,7 +551,7 @@
         
         {
           "id": "13-1-1",
-          "title": "Anzahl der infolge von Katastrophen getöteten, vermissten und direkt betroffenen Personen, je 100.000 Einwohner",
+          "title": "Anzahl klimapolitischer Vernetzungstreffen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/13-1-1",
@@ -559,7 +559,7 @@
         },
         {
           "id": "13-2-1",
-          "title": "Anzahl der Staaten, die die Ausarbeitung oder Umsetzung einer/s integrierten Politik/Strategie/Plans verkündet haben, welche/r ihre Fähigkeit zur Anpassung an die negativen Auswirkungen des Klimawandels erhöht und die Widerstandsfähigkeit gegenüber Klimaänderungen als auch eine rückläufige Entwicklung der Treibhausgasemissionen fördert ohne die Nahrungsmittelproduktion zu gefährden (einschließlich eines nationalen Anpassungsplans, national festgelegten Beitrags, nationaler Kommunikation, zweijährlichen Aktualisierungsberichts oder anderer)",
+          "title": "Kilometer Radschnellwege im Bezirk",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/13-2-1",
@@ -583,7 +583,7 @@
         },
         {
           "id": "13-3-3",
-          "title": "global_indicators.13-3-3-title",
+          "title": "Verarbeitendes Gewerbe, Bergbau, Gewinnung von Steinen und Erden",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/13-3-3",
@@ -591,7 +591,7 @@
         },
         {
           "id": "13-3-4",
-          "title": "global_indicators.13-3-4-title",
+          "title": "Verkehr (gesamt)",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/13-3-4",
@@ -607,7 +607,7 @@
         
         {
           "id": "14-1-1",
-          "title": "Index der Eutrophierung der Küsten und Konzentration des schwimmenden Plastikmülls",
+          "title": "Rote Liste Einstufung der in Berliner Gewässern vorkommenden Fischarten",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/14-1-1",
@@ -615,7 +615,7 @@
         },
         {
           "id": "14-2-1",
-          "title": "Anteil der nationalen ausschließlichen Wirtschaftszonen, die mit ökosystembasierten Ansätzen verwaltet werden",
+          "title": "Anzahl der Anwohnerinnen die an der Sprechstunde der Ranger teilnehmen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/14-2-1",
@@ -623,7 +623,7 @@
         },
         {
           "id": "14-3-1",
-          "title": "Durchschnittliche Versauerung der Meere (pH) gemessen an einer vereinbarten Reihe von repräsentativen Probeentnahmestationen",
+          "title": "Noch zu definieren",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/14-3-1",
@@ -647,7 +647,7 @@
         
         {
           "id": "15-1-1",
-          "title": "Waldfläche als Anteil an der gesamten Landfläche",
+          "title": "Noch zu definieren",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/15-1-1",
@@ -655,7 +655,7 @@
         },
         {
           "id": "15-2-1",
-          "title": "Fortschritt bei der nachhaltigen Waldbewirtschaftung",
+          "title": "Noch zu definieren",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/15-2-1",
@@ -663,7 +663,7 @@
         },
         {
           "id": "15-3-1",
-          "title": "Anteil der Fläche, die von Bodendegradation betroffenen ist, an der gesamten Landfläche",
+          "title": "Anzahl der Teilnahmen des Bezirks an Veranstaltungen des „Netzwerk biologische Vielfalt“ pro Jahr",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/15-3-1",
@@ -671,7 +671,7 @@
         },
         {
           "id": "15-4-1",
-          "title": "Abdeckung der wichtigen Gebiete für Biodiversität in den Bergen durch Schutzgebiete",
+          "title": "Naturschutzgebiete und Landschaftsschutzgebiete (Fläche in ha)",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/15-4-1",
@@ -679,7 +679,7 @@
         },
         {
           "id": "15-5-1",
-          "title": "Rote Liste Index",
+          "title": "Noch zu definieren",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/15-5-1",
@@ -695,7 +695,7 @@
         
         {
           "id": "16-1-1",
-          "title": "Anzahl der Opfern vorsätzlicher Tötung je 100.000 Einwohner, nach Geschlecht und Alter",
+          "title": "Anzahl der Veranstaltungen zum Thema SDGs des Bezirksamts Treptow-Köpenick pro Jahr",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/16-1-1",
@@ -711,7 +711,7 @@
         },
         {
           "id": "16-2-1",
-          "title": "Anteil der Kinder im Alter von 1-17 Jahren, die im vergangenen Monat eine körperliche Strafe und/oder psychische Aggression durch Betreuungspersonen erfahren haben",
+          "title": "Anzahl der interreligiösen Veranstaltungen pro Jahr",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/16-2-1",
@@ -719,7 +719,7 @@
         },
         {
           "id": "16-3-1",
-          "title": "Anteil der Opfer von Gewalttaten in den vergangenen 12 Monaten, die ihre Viktimisierung den zuständigen Behörden oder anderen offiziell anerkannten Stellen der Konfliktaufarbeitung gemeldet haben",
+          "title": "Anzahl der rassistisch, antisemitisch, homophob und rechtsextrem geprägter Vorfälle pro Jahr in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/16-3-1",
@@ -727,7 +727,7 @@
         },
         {
           "id": "16-4-1",
-          "title": "Gesamtwert der ein- und ausgehenden illegalen Finanzströme (in aktuellen US-Dollar)",
+          "title": "Anzahl der Strukturen der Bürgerbeteiligung und Akteursvernetzung in den Bezirksregionenprofilen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/16-4-1",
@@ -751,7 +751,7 @@
         
         {
           "id": "17-1-1",
-          "title": "Gesamte Staatseinnahmen als Anteil am BIP, nach Quelle",
+          "title": "Anzahl der Veranstaltungen zum Thema Städtepartnerschaften des Bezirksamts Treptow-Köpenick pro Jahr",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/17-1-1",
@@ -759,7 +759,7 @@
         },
         {
           "id": "17-2-1",
-          "title": "Öffentliche Nettoentwicklungsausgaben, insgesamt und an am wenigsten entwickelte Länder, als Anteil am Bruttonationaleinkommen (BNE) der Geberländer des Ausschusses für Entwicklungshilfe der Organisation für wirtschaftliche Zusammenarbeit und Entwicklung (OECD)",
+          "title": "Menge verkaufter Packungen Fair Trade Kaffee 'Treptow-Köpenicker Bohne' pro Jahr",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/17-2-1",
@@ -767,7 +767,7 @@
         },
         {
           "id": "17-3-1",
-          "title": "Ausländische Direktinvestitionen, öffentliche Entwicklungszusammenarbeit und Süd-Süd-Kooperationen als Anteil am gesamten Haushaltsbudget",
+          "title": "Städtepartnerschaften",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/17-3-1",
@@ -775,7 +775,7 @@
         },
         {
           "id": "17-4-1",
-          "title": "Schuldendienst als Anteil an Güter- und Dienstleistungsexporten",
+          "title": "Eine-Welt-Projekte und Partnerschaften im Bezirk Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/17-4-1",
@@ -783,7 +783,7 @@
         },
         {
           "id": "17-5-1",
-          "title": "Anzahl der Staaten, die Investitionsförderprogramme für die am wenigsten entwickelten Länder einführen und umsetzen",
+          "title": "Jahresumsatz der Weltläden im Bezirk",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/17-5-1",
@@ -791,7 +791,7 @@
         },
         {
           "id": "17-6-1",
-          "title": "Anzahl der Vereinbarungen und Programme über Wissenschafts- und/oder Technologie-Kooperationen zwischen Staaten, nach Art der Kooperation",
+          "title": "Öffentliche Ausgaben für Entwicklungszusammenarbeit (Official Development Assistance, ODA)",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/17-6-1",
