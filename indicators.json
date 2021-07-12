@@ -263,10 +263,18 @@
         },
         {
           "id": "7-2-1",
-          "title": "Number of solar systems (solar thermal, photovoltaic) on district-owned roofs",
+          "title": "Number of photovoltaic systems on district-owned buildings",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/7-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-2-2",
+          "title": "Electricity generation on district-owned buildings (kWh/year)",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/7-2-2",
           "status": "notstarted"
         },
         {
@@ -292,14 +300,6 @@
           "keywords": "",
           "href": "/SDGTK/7-3-3",
           "status": "complete"
-        },
-        {
-          "id": "7-4-1",
-          "title": "Proportion of population with primary reliance on clean fuels and technology",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/7-4-1",
-          "status": "notstarted"
         }]
     }
   },

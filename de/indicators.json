@@ -263,10 +263,18 @@
         },
         {
           "id": "7-2-1",
-          "title": "Anzahl der Solaranlagen (solarthermisch, photovoltaisch) auf bezirkseigenen Dächern",
+          "title": "Anzahl der Photovoltaikanlagen auf bezirkseigenen Gebäuden",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/7-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-2-2",
+          "title": "Stromerzeugung auf bezirkseigenen Gebäuden (kWh/Jahr)",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/de/7-2-2",
           "status": "notstarted"
         },
         {
@@ -292,14 +300,6 @@
           "keywords": "",
           "href": "/SDGTK/de/7-3-3",
           "status": "complete"
-        },
-        {
-          "id": "7-4-1",
-          "title": "Anteil der Bevölkerung mit überwiegender Abhängigkeit von sauberen Energieträgern und Technologien",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/7-4-1",
-          "status": "notstarted"
         }]
     }
   },
