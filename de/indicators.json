@@ -311,11 +311,11 @@
         
         {
           "id": "8-1-1",
-          "title": "Anzahl der Unternehmen die eine Gemeinwohl-Bilanz in Treptow-Köpenick durchführen",
+          "title": "Anzahl der Unternehmen in Treptow-Köpenick die eine Gemeinwohl-Bilanz durchführen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/8-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-2-1",
@@ -326,11 +326,27 @@
           "status": "notstarted"
         },
         {
+          "id": "8-2-2",
+          "title": "Anteil der Bewerber*innen mit Einwanderungsgeschichte",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/de/8-2-2",
+          "status": "notstarted"
+        },
+        {
           "id": "8-3-1",
           "title": "Anteil der Beschäftigten mit Einwanderungsgeschichte",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/8-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-3-2",
+          "title": "Anteil der Beschäftigten mit Einwanderungsgeschichte",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/de/8-3-2",
           "status": "notstarted"
         },
         {
@@ -347,22 +363,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/8-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-6-1",
-          "title": "Anteil der Jugendlichen (im Alter von 15-24 Jahren), die nicht in schulischer Ausbildung, in Beschäftigung oder Berufsaus- oder -weiterbildung sind",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/8-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-7-1",
-          "title": "Anteil und Anzahl der Kinder im Alter von 5-17 Jahren, die Kinderarbeit verrichten, nach Geschlecht und Alter",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/8-7-1",
           "status": "notstarted"
         }]
     }
