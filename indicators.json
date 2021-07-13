@@ -423,11 +423,11 @@
         },
         {
           "id": "10-3-1",
-          "title": "Number of companies conducting a Common Good Balance",
+          "title": "Number of companies conducting a Common Good Balance in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/10-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-4-1",
@@ -435,7 +435,7 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/10-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-5-1",
@@ -451,14 +451,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/10-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-7-1",
-          "title": "Recruitment cost borne by employee as a proportion of yearly income earned in country of destination",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/10-7-1",
           "status": "notstarted"
         }]
     }

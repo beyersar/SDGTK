@@ -423,11 +423,11 @@
         },
         {
           "id": "10-3-1",
-          "title": "Anzahl der Unternehmen die eine Gemeinwohl-Bilanz durchführen",
+          "title": "Anzahl der Unternehmen in Treptow-Köpenick die eine Gemeinwohl-Bilanz durchführen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/10-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-4-1",
@@ -435,7 +435,7 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/10-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-5-1",
@@ -451,14 +451,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/10-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-7-1",
-          "title": "Von Beschäftigten getragene Einstellungskosten als Anteil des Jahreseinkommens des Bestimmungslandes",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/10-7-1",
           "status": "notstarted"
         }]
     }
