@@ -343,7 +343,7 @@
         },
         {
           "id": "8-3-2",
-          "title": "Proportion of employees with immigration history",
+          "title": "Proportion of employees with immigration history in management positions in the local administration",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/8-3-2",
@@ -351,11 +351,11 @@
         },
         {
           "id": "8-4-1",
-          "title": "Gross hourly earnings and earnings gaps between women and men",
+          "title": "Gross hourly earnings and earnings gaps between women and men (Gender Pay Gap)",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/8-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-5-1",

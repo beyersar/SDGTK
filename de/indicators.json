@@ -343,7 +343,7 @@
         },
         {
           "id": "8-3-2",
-          "title": "Anteil der Beschäftigten mit Einwanderungsgeschichte",
+          "title": "Anteil der Beschäftigten mit Einwanderungsgeschichte in Führungspositionen der Kommunalverwaltung",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/8-3-2",
@@ -351,11 +351,11 @@
         },
         {
           "id": "8-4-1",
-          "title": "Bruttostundenverdienste und Verdienstunterschiede zwischen Frauen und Männern",
+          "title": "Bruttostundenverdienste und Verdienstunterschiede zwischen Frauen und Männern (Gender Pay Gap)",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/8-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-5-1",
