@@ -710,14 +710,6 @@
           "status": "notstarted"
         },
         {
-          "id": "16-1-1-a",
-          "title": "Number of right-wing extremist and discriminatory incidents",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/16-1-1-a",
-          "status": "complete"
-        },
-        {
           "id": "16-2-1",
           "title": "Anzahl der interreligiösen Veranstaltungen pro Jahr",
           "description": "",
@@ -731,7 +723,7 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/16-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-4-1",
