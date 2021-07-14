@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20210714011801">
+        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20210714115557">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -435,10 +435,7 @@ var translations = {
 
 <div class="row" id="page-content">
   <div class="col-xs-12">
-    <p> The indicator shows the number of schools in Treptow-Köpenick that are certified as Fairtrade Schools. <br />
-No application submitted: 0 <br />
-In application: 0.5 <br />
-Title awarded for the first to xth time: 1 to x </p>
+    <p>The indicator shows the number of schools in Treptow-Köpenick that are certified as Fairtrade Schools.</p>
 
   </div>
 </div>
@@ -456,7 +453,7 @@ Title awarded for the first to xth time: 1 to x </p>
   data-charttitles="null"
   data-measurementunit="Status of certification"
   data-showdata="true"
-  data-graphtype="line"
+  data-graphtype="bar"
   data-geocoderegex=""
   data-showmap=""
   data-startvalues="null"
@@ -500,52 +497,8 @@ Title awarded for the first to xth time: 1 to x </p>
       <caption>Number of fair trade schools in Treptow-Köpenick</caption>
       <thead>
         
-        
-        <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col" class="table-value">Value</th>
-        
-        
       </thead>
       <tbody>
-        
-        <tr>
-          
-          
-          <td>2018</td>
-          
-          
-          
-          <td class="table-value">0.5</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2019</td>
-          
-          
-          
-          <td class="table-value">0.5</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2020</td>
-          
-          
-          
-          <td class="table-value">0.5</td>
-          
-          
-        </tr>
         
       </tbody>
     </table>
@@ -795,40 +748,32 @@ opensdg.chartConfigAlter(function(config, info) {
 </script>
 
 <script>
-// For line charts, add the vertical line hover functionality.
 opensdg.chartConfigAlter(function(config, info) {
+  if (info.stackedDisaggregation) {
     var overrides = {
-        options: {
-            tooltips: {
-                intersect: false,
-                axis: 'x'
-            },
-        },
-        plugins: [{
-            beforeDatasetsDraw: function(chart) {
-                if (chart.tooltip._active && chart.tooltip._active.length) {
-                    var activePoint = chart.tooltip._active[0],
-                        ctx = chart.ctx,
-                        x = activePoint.tooltipPosition().x,
-                        topY = chart.scales['y-axis-0'].top,
-                        bottomY = chart.scales['y-axis-0'].bottom;
-
-                    // draw line
-                    ctx.save();
-                    ctx.beginPath();
-                    ctx.moveTo(x, topY);
-                    ctx.lineTo(x, bottomY);
-                    ctx.lineWidth = 2;
-                    ctx.strokeStyle = '#757575';
-                    ctx.setLineDash([5, 2]);
-                    ctx.stroke();
-                    ctx.restore();
-                }
-            }
-        }],
+      options: {
+        scales: {
+          xAxes: [{ stacked: true }],
+          yAxes: [{ stacked: true }],
+        }
+      }
     };
+    // If we have stackedDisaggregation, we need to group datasets into stacks.
+    config.data.datasets.forEach(function(dataset) {
+      var disaggregation = $.extend({}, dataset.disaggregation);
+      // We're going to "stringify" each combination of disaggregations in order
+      // to place them in their own "stacks". To place "stacked" disaggregations
+      // into the same stack, we set them as "samestack" before stringifying.
+      // Note that the string "samestack" is completely arbitrary.
+      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
+        disaggregation[info.stackedDisaggregation] = 'samestack';
+      }
+      // Use the disaggregation as a unique id for each stack.
+      dataset.stack = JSON.stringify(disaggregation);
+    });
     // Add these overrides onto the normal config, and return it.
     $.extend(true, config, overrides);
+  }
 });
 </script>
 
@@ -1144,7 +1089,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/c1aeeacfa3baceddec4f5726153a029fcb325787" target="_blank">
+              <a href="https://github.com/beyersar/DataTK/commit/8df00c4d5b3b24eae4edcfec10af7efc3b9b7447" target="_blank">
                 2021-07-14: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1171,7 +1116,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/24b4cc8eb1d8df0bcf3f55652db4d7fb8f279402" target="_blank">
+              <a href="https://github.com/beyersar/DataTK/commit/114a87ec6331a16180dc112a7b255ae9b0f14938" target="_blank">
                 2021-07-14: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1874,12 +1819,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/SDGTK/assets/js/sdg.js?v=20210714011801'></script>
+<script src='/SDGTK/assets/js/sdg.js?v=20210714115557'></script>
 
 
     
     
-    <script src="/SDGTK/assets/js/custom.js?v=20210714011801"></script><script>
+    <script src="/SDGTK/assets/js/custom.js?v=20210714115557"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
