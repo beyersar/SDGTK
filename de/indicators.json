@@ -500,6 +500,14 @@
           "keywords": "",
           "href": "/SDGTK/de/11-5-1",
           "status": "notstarted"
+        },
+        {
+          "id": "11-5-2",
+          "title": "Versorgung mit öffentlichen Grünflächen insgesamt",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/de/11-5-2",
+          "status": "notstarted"
         }]
     }
   },
@@ -731,14 +739,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/16-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-5-1",
-          "title": "Anteil der Personen, die in den vergangenen 12 Monaten mindestens einen Kontakt zu einem öffentlichen Bediensteten hatten und diesem ein Bestechungsgeld gezahlt haben oder von diesen um eine Bestechung gebeten wurden",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/16-5-1",
           "status": "notstarted"
         }]
     }

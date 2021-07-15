@@ -500,6 +500,14 @@
           "keywords": "",
           "href": "/SDGTK/11-5-1",
           "status": "notstarted"
+        },
+        {
+          "id": "11-5-2",
+          "title": "Total supply of public green spaces",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/11-5-2",
+          "status": "notstarted"
         }]
     }
   },
@@ -731,14 +739,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/16-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-5-1",
-          "title": "Proportion of persons who had at least one contact with a public official and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/16-5-1",
           "status": "notstarted"
         }]
     }
