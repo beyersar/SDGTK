@@ -148,14 +148,6 @@
           "keywords": "",
           "href": "/SDGTK/de/4-6-1",
           "status": "notstarted"
-        },
-        {
-          "id": "4-7-1",
-          "title": "Umfang, in dem (i) Bildung zu globaler Staatsbürgerschaft und (ii) Bildung für nachhaltige Entwicklung, einschließlich der Geschlechtergleichstellung und der Menschenrechte, auf allen Ebenen in: (a) nationale Bildungspolitik, (b) Lehrpläne, (c) Lehrerausbildung und (d) Schulleistungsuntersuchung berücksichtigt werden",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/4-7-1",
-          "status": "notstarted"
         }]
     }
   },
@@ -763,7 +755,7 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/17-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-3-1",
@@ -795,22 +787,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/17-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-7-1",
-          "title": "Gesamtbetrag der für Entwicklungsländer genehmigten Mittel zur Förderung der Entwicklung, des Transfers, der öffentlichen Bereitstellung und der Verbreitung umweltfreundlicher Technologien",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/17-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-8-1",
-          "title": "Anteil der Einzelpersonen, die das Internet nutzen",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/17-8-1",
           "status": "notstarted"
         }]
     }

@@ -148,14 +148,6 @@
           "keywords": "",
           "href": "/SDGTK/4-6-1",
           "status": "notstarted"
-        },
-        {
-          "id": "4-7-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development, including gender equality and human rights, are mainstreamed at all levels in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/4-7-1",
-          "status": "notstarted"
         }]
     }
   },
@@ -763,7 +755,7 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/17-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-3-1",
@@ -795,22 +787,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/17-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-7-1",
-          "title": "Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/17-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-8-1",
-          "title": "Proportion of individuals using the Internet",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/17-8-1",
           "status": "notstarted"
         }]
     }
