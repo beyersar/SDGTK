@@ -463,11 +463,11 @@
         
         {
           "id": "11-1-1",
-          "title": "Anzahl der Lastenräder des Bezirks",
+          "title": "Anzahl der kostenlos ausleihbaren Lastenräder im Bezirks",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/11-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-2-1",
@@ -579,15 +579,15 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/13-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-2-2",
-          "title": "Anzahl der Lastenräder des Bezirks",
+          "title": "Anzahl der kostenlos ausleihbaren Lastenräder im Bezirks",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/13-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-2-3",
@@ -599,7 +599,7 @@
         },
         {
           "id": "13-3-1",
-          "title": "CO2 emissions of private households",
+          "title": "CO2-Emissionen Insgesamt",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/13-3-1",
@@ -607,7 +607,7 @@
         },
         {
           "id": "13-3-2",
-          "title": "CO2 emissions of industry, commerce, trade and services",
+          "title": "Umwandlungssektor",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/13-3-2",
@@ -627,6 +627,22 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/13-3-4",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-4-1",
+          "title": "CO2-Emissionen Insgesamt",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/de/13-4-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-4-2",
+          "title": "Verarbeitendes Gewerbe, Bergbau, Gewinnung von Steinen und Erden",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/de/13-4-2",
           "status": "notstarted"
         }]
     }
