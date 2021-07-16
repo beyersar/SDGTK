@@ -367,11 +367,19 @@
         
         {
           "id": "9-1-1",
-          "title": "Anzahl Ladestationen für E-Autos",
+          "title": "Anzahl der Ladestationen für E-Autos und E-Bikes",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/9-1-1",
           "status": "notstarted"
+        },
+        {
+          "id": "9-1-2",
+          "title": "Stromverbrauch an Elektro-Ladesäulen",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/de/9-1-2",
+          "status": "complete"
         },
         {
           "id": "9-2-1",
@@ -567,10 +575,26 @@
         },
         {
           "id": "13-2-1",
-          "title": "Kilometer Radschnellwege im Bezirk",
+          "title": "Mittlere werktägliche Fahrradverkehrsstärke an der Zählstelle Treptow-Köpenick Kaisersteg",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/13-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-2-2",
+          "title": "Anzahl der Lastenräder des Bezirks",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/de/13-2-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-2-3",
+          "title": "Kilometer Radschnellwege im Bezirk",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/de/13-2-3",
           "status": "notstarted"
         },
         {

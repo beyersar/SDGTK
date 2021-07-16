@@ -367,11 +367,19 @@
         
         {
           "id": "9-1-1",
-          "title": "Number of charging stations for e-mobility",
+          "title": "Number of charging stations for e-cars and e-bikes",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/9-1-1",
           "status": "notstarted"
+        },
+        {
+          "id": "9-1-2",
+          "title": "Electricity consumption at electric charging stations",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/9-1-2",
+          "status": "complete"
         },
         {
           "id": "9-2-1",
@@ -567,10 +575,26 @@
         },
         {
           "id": "13-2-1",
-          "title": "Number of kilometers of bike lanes in the district",
+          "title": "Average weekday bicycle traffic at the Treptow-Köpenick Kaisersteg counting station",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/13-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-2-2",
+          "title": "Number of cargo bikes in the district",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/13-2-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-2-3",
+          "title": "Kilometers of bike freeways in the district",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/13-2-3",
           "status": "notstarted"
         },
         {
