@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20210716194212">
+        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20210716195245">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -437,16 +437,14 @@ var translations = {
   <div class="col-xs-12">
     <p>Um einen Gesamtüberblick über die Umweltsituation in Berlin zu erhalten, hat das Land Berlin ein Umweltgerechtigkeitsmonitoring implementiert. 
 Das Umweltgerechtigkeitsmonitoring wertet vorhandene Daten verschiedener Kernindikatoren (e.g. Lärmbelastung und Luftverschmutzung) aus 
-und aggregiert diese Daten auf Quartiersebene, beziehungsweise auf insgesamt 447 Planungsräumen (PLR). 
-Diese Planungsräume sind Teil einer für alle Fachplanungen verbindliche Gliederung des Berliner Stadtgebiets: 
-das System der Lebensweltlich orientierten Räume. Treptow-Köpenick ist dabei in 34 Planungsräume unterteilt.
+und aggregiert diese Daten auf Quartiersebene, beziehungsweise auf insgesamt 447 Planungsräumen (PLR). Treptow-Köpenick ist dabei in 34 Planungsräume unterteilt. <br />
 Datenbasis für die Lärmbelastung der Planungsräume war die Strategische Lärmkarte 2012 mit den 
 LDEN-Pegeln (Lärmindex Tag-Abend-Nacht) für Straßen-, Schienen- und Flugverkehrslärm. 
 Da die Räume unterschiedlich dicht besiedelt sind, wurde die Verkehrslärmbelastung pro Kopf ermittelt und zu externen Lärmkosten pro Person monetarisiert.
-Die Lärmkosten bilden den Nutzenverlust finanziell ab, der Anwohnerinnen und Anwohnern entsteht. 
-Die Kostensätze dafür lieferte die Methodenkonvention 2.0 des Umweltbundesamts. 
+Die Lärmkosten bilden also den Nutzenverlust finanziell ab, der Anwohnerinnen und Anwohnern entsteht. 
+Die Kostensätze dafür lieferte die Methodenkonvention 2.0 des Umweltbundesamts. <br />
 Nach diesen Lärmkosten pro Kopf wurden die 447 PLR aufsteigend sortiert und in drei Kategorien unterteilt: 
-Die unteren 20 Prozent gelten als gering, die oberen 20 Prozent als hoch, alle anderen als mittel belastet.
+Die unteren 20 Prozent gelten als gering, die oberen 20 Prozent als hoch, alle anderen als mittel belastet.  <br />
 Das Ergebnis: Die externen Kosten durch Verkehrslärm divergieren stark von Raum zu Raum. 
 In gering belasteten PLR betragen sie bis zu 21 Euro pro Kopf und Jahr, in der hoch belasteten Kategorie reichen sie von 40 bis 103 Euro. 
 Berlinweit liegen sie bei knapp 45 Euro.</p>
@@ -465,7 +463,7 @@ Berlinweit liegen sie bei knapp 45 Euro.</p>
   data-country="Treptow-Köpenick"
   data-charttitle="Relative Lärmbelastung in Treptow-Köpenick"
   data-charttitles="null"
-  data-measurementunit="Anzahl der Planungsgebiete mit geringer, mittlerer und hoher Lärmbelastung (gemessen in Lärmkosten pro Kopf)"
+  data-measurementunit="Anzahl der Planungsräume"
   data-showdata="true"
   data-graphtype="bar"
   data-geocoderegex=""
@@ -526,7 +524,7 @@ Berlinweit liegen sie bei knapp 45 Euro.</p>
     <p>Geographische Abdeckung: Treptow-Köpenick</p>
     
     
-    <p>Einheit: Anzahl der Planungsgebiete mit geringer, mittlerer und hoher Lärmbelastung (gemessen in Lärmkosten pro Kopf)</p>
+    <p>Einheit: Anzahl der Planungsräume</p>
     
     
   </div>
@@ -812,7 +810,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Einheit:</dt>
-        <dd>Anzahl der Planungsgebiete mit geringer, mittlerer und hoher Lärmbelastung (gemessen in Lärmkosten pro Kopf)</dd>
+        <dd>Anzahl der Planungsräume</dd>
         
 
         
@@ -857,7 +855,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Einheit:</dt>
-        <dd>Anzahl der Planungsgebiete mit geringer, mittlerer und hoher Lärmbelastung (gemessen in Lärmkosten pro Kopf)</dd>
+        <dd>Anzahl der Planungsräume</dd>
         
 
         
@@ -985,7 +983,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Einheit </th>
         <td>
           
-            <p>Anzahl der Planungsgebiete mit geringer, mittlerer und hoher Lärmbelastung (gemessen in Lärmkosten pro Kopf)</p>
+            <p>Anzahl der Planungsräume</p>
 
           
         </td>
@@ -1130,7 +1128,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/be7cdb3aa6ae7e46103efbb3229d6153c52b74ec" target="_blank">
+              <a href="https://github.com/beyersar/DataTK/commit/728075c374a41a0447fad7aff28d26cf1878c60a" target="_blank">
                 2021-07-16: see changes on GitHub <span class="visuallyhidden">in neuem Fenster öffnen</span>
               </a>
             
@@ -1833,12 +1831,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/SDGTK/assets/js/sdg.js?v=20210716194212'></script>
+<script src='/SDGTK/assets/js/sdg.js?v=20210716195245'></script>
 
 
     
     
-    <script src="/SDGTK/assets/js/custom.js?v=20210716194212"></script><script>
+    <script src="/SDGTK/assets/js/custom.js?v=20210716195245"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
