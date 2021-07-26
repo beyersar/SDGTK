@@ -803,7 +803,23 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/17-3-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "17-3-2",
+          "title": "Community projects and partnerships",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/17-3-2",
+          "status": "complete"
+        },
+        {
+          "id": "17-3-3",
+          "title": "School partnerships",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/17-3-3",
+          "status": "complete"
         },
         {
           "id": "17-4-1",
