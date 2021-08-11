@@ -173,7 +173,7 @@ map_layers:
  - min_zoom: 0
    max_zoom: 20
    subfolder: districts
-   label: indicator.map
+   label: District
    
    # Control the choropleth color range. See https://gka.github.io/chroma.js/#chroma-brewer
    colorRange: chroma.brewer.BuGn
@@ -193,6 +193,7 @@ map_layers:
      opacity: 1
      color: #111111
      fillOpacity: 0.7
+
 
 # Recommend accessibility improvements.
 accessible_tabs: true
