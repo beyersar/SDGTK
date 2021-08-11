@@ -2686,7 +2686,7 @@ var mapView = function () {
     $('#map').sdgMap({
       indicatorId: indicatorId,
       mapOptions: {"minZoom":5,"maxZoom":10,"tileURL":"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png","tileOptions":{"attribution":"<a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap contributors</a>"}},
-      mapLayers: [{"min_zoom":0,"max_zoom":20,"subfolder":"districts","label":"indicator.map"}],
+      mapLayers: [{"min_zoom":0,"max_zoom":20,"subfolder":"districts","label":"District"}],
       precision: precision,
       decimalSeparator: decimalSeparator,
     });
