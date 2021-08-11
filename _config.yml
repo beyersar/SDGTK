@@ -174,6 +174,25 @@ map_layers:
    max_zoom: 20
    subfolder: districts
    label: indicator.map
+   
+   # Control the choropleth color range. See https://gka.github.io/chroma.js/#chroma-brewer
+   colorRange: chroma.brewer.BuGn
+   # Set the color for boundaries that have no data.
+   noValueColor: #f0f0f0
+   # For documentation on the style options below, see here:
+   # https://leafletjs.com/reference-1.4.0.html#path-option
+   # Set the default style for boundaries in the map:
+   styleNormal:
+     weight: 1
+     opacity: 1
+     color: #888888
+     fillOpacity: 0.7
+   # Set the style for boundaries that have been selected/highlighted:
+   styleHighlighted:
+     weight: 1
+     opacity: 1
+     color: #111111
+     fillOpacity: 0.7
 
 # Recommend accessibility improvements.
 accessible_tabs: true
