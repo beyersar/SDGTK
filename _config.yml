@@ -163,16 +163,16 @@ exclude:
 # Optionally uncomment and update the settings below to control the mapping functionality.
 # These are only a few of the possible settings. For more details, see:
 # https://open-sdg.readthedocs.io/en/latest/maps/
-#map_options:
-#  minZoom: 5
-#  tileURL: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
-#  tileOptions:
-#    attribution: 'My map attribution'
-#map_layers:
-#  - min_zoom: 5
-#    max_zoom: 10
-#    subfolder: my-geojson-subfolder
-#    label: My map layer label (can be a translation key)
+map_options:
+ minZoom: 11
+ tileURL: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+ tileOptions:
+   attribution: '<a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+map_layers:
+ - min_zoom: 11
+   max_zoom: 20
+   subfolder: regions
+   label: indicator
 
 # Recommend accessibility improvements.
 accessible_tabs: true
