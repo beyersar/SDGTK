@@ -164,15 +164,15 @@ exclude:
 # These are only a few of the possible settings. For more details, see:
 # https://open-sdg.readthedocs.io/en/latest/maps/
 map_options:
- minZoom: 11
+ minZoom: 0
  tileURL: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
  tileOptions:
    attribution: '<a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
 map_layers:
- - min_zoom: 11
+ - min_zoom: 0
    max_zoom: 20
-   subfolder: regions
-   label: indicator
+   subfolder: districts
+   label: indicator.map
 
 # Recommend accessibility improvements.
 accessible_tabs: true
