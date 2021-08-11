@@ -165,13 +165,13 @@ exclude:
 # https://open-sdg.readthedocs.io/en/latest/maps/
 map_options:
  minZoom: 5
- maxZoom: 10
+ maxZoom: 20
  tileURL: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
  tileOptions:
    attribution: '<a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
 map_layers:
  - min_zoom: 0
-   max_zoom: 20
+   max_zoom: 30
    subfolder: districts
    label: District
    
