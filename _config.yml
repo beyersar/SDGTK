@@ -173,7 +173,7 @@ map_layers:
  - min_zoom: 0
    max_zoom: 20
    subfolder: districts
-   label: indicator.map
+   label: District
 
 # Recommend accessibility improvements.
 accessible_tabs: true
