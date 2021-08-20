@@ -343,7 +343,7 @@
         },
         {
           "id": "8-4-1",
-          "title": "Bruttostundenverdienste und Verdienstunterschiede zwischen Frauen und Männern (Gender Pay Gap)",
+          "title": "Anzahl der kommunalen Einrichtungen die eine Gemeinwohl-Bilanz durchführen",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/8-4-1",
@@ -351,10 +351,18 @@
         },
         {
           "id": "8-5-1",
-          "title": "Kaitz-Index für Berlin - Monatlicher Mindestlohn in % des Durchschnittsverdienstes von Vollzeitbeschäftigten",
+          "title": "Bruttostundenverdienste und Verdienstunterschiede zwischen Frauen und Männern (Gender Pay Gap unbereinigt)",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/8-5-1",
+          "status": "complete"
+        },
+        {
+          "id": "8-6-1",
+          "title": "Kaitz-Index für Berlin - Monatlicher Mindestlohn in % des Durchschnittsverdienstes von Vollzeitbeschäftigten",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/de/8-6-1",
           "status": "complete"
         }]
     }
@@ -415,7 +423,7 @@
         },
         {
           "id": "10-2-1",
-          "title": "Anzahl der angebotenen Fortbildungen",
+          "title": "Anzahl der angebotenen Fortbildungen innerhalb der Verwaltung",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/10-2-1",

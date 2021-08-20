@@ -343,7 +343,7 @@
         },
         {
           "id": "8-4-1",
-          "title": "Gross hourly earnings and earnings gaps between women and men (Gender Pay Gap)",
+          "title": "Number of municipal institutions carrying out a Common Good Balance in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/8-4-1",
@@ -351,10 +351,18 @@
         },
         {
           "id": "8-5-1",
-          "title": "Kaitz index for Berlin - Monthly minimum wage as % of average earnings of full-time employees",
+          "title": "Gross hourly earnings and earnings gaps between women and men (Gender Pay Gap unadjusted)",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/8-5-1",
+          "status": "complete"
+        },
+        {
+          "id": "8-6-1",
+          "title": "Kaitz index for Berlin - Monthly minimum wage as % of average earnings of full-time employees",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/8-6-1",
           "status": "complete"
         }]
     }
@@ -415,7 +423,7 @@
         },
         {
           "id": "10-2-1",
-          "title": "Number of training courses offered",
+          "title": "Number of training courses offered within the district administration",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/10-2-1",

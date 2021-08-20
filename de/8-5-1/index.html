@@ -107,7 +107,7 @@ var translations = {
         
         Indikator 8.5.1 -
         
-        Kaitz-Index für Berlin - Monatlicher Mindestlohn in % des Durchschnittsverdienstes von Vollzeitbeschäftigten - Indikatoren für die nachhaltigen Entwicklungsziele
+        Bruttostundenverdienste und Verdienstunterschiede zwischen Frauen und Männern (Gender Pay Gap unbereinigt) - Indikatoren für die nachhaltigen Entwicklungsziele
     </title>
 
 
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20210820011647">
+        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20210820184052">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -418,7 +418,7 @@ var translations = {
             
             Indikator 8.5.1
             
-            <span class="lead-copy">Kaitz-Index für Berlin - Monatlicher Mindestlohn in % des Durchschnittsverdienstes von Vollzeitbeschäftigten</span>
+            <span class="lead-copy">Bruttostundenverdienste und Verdienstunterschiede zwischen Frauen und Männern (Gender Pay Gap unbereinigt)</span>
           </h1>
         </div>
       </div>
@@ -435,7 +435,7 @@ var translations = {
 
 <div class="row" id="page-content">
   <div class="col-xs-12">
-    <p>Der Indikator zeigt den Kaitz-Index für das Land Berlin. Genaue Daten für Treptow-Köpenick sind leider nicht verfügbar. Der Kaitz-Index gibt das Verhältnis zwischen Mindestlohn (z.b. 1532 Euro im Jahr 2018) und dem durchschnittlichem Bruttomonatsverdienst (z.b. 3700 Euro im Jahr 2018) bei Vollzeitbeschäftigten an. Läge er bei 100%, würde in dem betroffenen Gebiet durchschnittlich genau der Mindestlohn verdient werden. Der Kaitz-Index gilt als Maß der potenziellen Betroffenheit vom Mindestlohn: Je höher er in einer Region ist, desto stärker ist dort die Auswirkung des Mindestlohns.</p>
+    <p>Der Indikator zeigt die Bruttostundenverdienste von Frauen und Männern und den unbereinigten Gender Pay Gap in Berlin. Genaue Daten für Treptow-Köpenick sind leider nicht verfügbar. Der unbereinigte Gender Pay Gap bemisst sich aus der Differenz des durchschnittlichen Bruttostundenverdienstes (ohne Sonderzahlungen) der Frauen im Verhältnis zum durchschnittlichen Bruttostundenverdienst der Männer, ohne die ursächlichen Faktoren zu berücksichtigen. Bei der Verdienststrukturerhebung wurden alle Beschäftigten in Berlin berücksichtigt.</p>
 
   </div>
 </div>
@@ -449,14 +449,14 @@ var translations = {
   data-indicatorid='indicator_8-5-1'
   data-id="8-5-1"
   data-country="Berlin"
-  data-charttitle="Kaitz-Index - Relative Höhe des Mindestlohns"
+  data-charttitle="Bruttostundenverdienste und unbereinigter Gender Pay Gap in Berlin"
   data-charttitles="null"
-  data-measurementunit="Prozent"
+  data-measurementunit="Euro pro Stunde"
   data-showdata="true"
   data-graphtype="bar"
   data-geocoderegex=""
   data-showmap=""
-  data-startvalues="null"
+  data-startvalues="[{&quot;field&quot;:&quot;Geschlecht&quot;,&quot;value&quot;:&quot;Männer&quot;},{&quot;field&quot;:&quot;Geschlecht&quot;,&quot;value&quot;:&quot;Frauen&quot;},{&quot;field&quot;:&quot;Geschlecht&quot;,&quot;value&quot;:&quot;Gender Pay Gap&quot;}]"
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
@@ -494,31 +494,11 @@ var translations = {
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Kaitz-Index - Relative Höhe des Mindestlohns</caption>
+      <caption>Bruttostundenverdienste und unbereinigter Gender Pay Gap in Berlin</caption>
       <thead>
-        
-        
-        <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col" class="table-value">Value</th>
-        
         
       </thead>
       <tbody>
-        
-        <tr>
-          
-          
-          <td>2018</td>
-          
-          
-          
-          <td class="table-value">42</td>
-          
-          
-        </tr>
         
       </tbody>
     </table>
@@ -532,7 +512,7 @@ var translations = {
     <p>Geographische Abdeckung: Berlin</p>
     
     
-    <p>Einheit: Prozent</p>
+    <p>Einheit: Euro pro Stunde</p>
     
     
   </div>
@@ -579,7 +559,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Kaitz-Index - Relative Höhe des Mindestlohns</h4>
+          <h4 id="chart-heading" class="chart-title">Bruttostundenverdienste und unbereinigter Gender Pay Gap in Berlin</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -818,7 +798,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Einheit:</dt>
-        <dd>Prozent</dd>
+        <dd>Euro pro Stunde</dd>
         
 
         
@@ -866,7 +846,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Einheit:</dt>
-        <dd>Prozent</dd>
+        <dd>Euro pro Stunde</dd>
         
 
         
@@ -997,7 +977,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Einheit </th>
         <td>
           
-            <p>Prozent</p>
+            <p>Euro pro Stunde</p>
 
           
         </td>
@@ -1011,7 +991,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Definitionen </th>
         <td>
           
-            <p>Katz-Index - Monatlicher Mindestlohn in % des Durchschnittsverdienstes von Vollzeitbeschäftigten</p>
+            
 
           
         </td>
@@ -1115,8 +1095,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/bfe71f74a275221f7888f7f09f2c986e24834bd7" target="_blank">
-                2021-07-13: see changes on GitHub <span class="visuallyhidden">in neuem Fenster öffnen</span>
+              <a href="https://github.com/beyersar/DataTK/commit/686b8f6210ab896cac0722a610c1e839bdad7232" target="_blank">
+                2021-08-20: see changes on GitHub <span class="visuallyhidden">in neuem Fenster öffnen</span>
               </a>
             
 
@@ -1142,8 +1122,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/2a1bc878ea1db7b7018a7fd78486067991102424" target="_blank">
-                2021-07-13: see changes on GitHub <span class="visuallyhidden">in neuem Fenster öffnen</span>
+              <a href="https://github.com/beyersar/DataTK/commit/dd5fd06e9c6be757aa0b84e07a896386718bee54" target="_blank">
+                2021-08-20: see changes on GitHub <span class="visuallyhidden">in neuem Fenster öffnen</span>
               </a>
             
 
@@ -1261,7 +1241,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indikatorenbezeichnung </th>
         <td>
           
-            <p>Kaitz-Index für Berlin - Monatlicher Mindestlohn in % des Durchschnittsverdienstes von Vollzeitbeschäftigten</p>
+            <p>Bruttostundenverdienste und Verdienstunterschiede zwischen Frauen und Männern (Gender Pay Gap unbereinigt)</p>
 
           
         </td>
@@ -1289,7 +1269,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unterziel </th>
         <td>
           
-            <p>SDG-Indikator - Beschäftigte Mindestlohn</p>
+            <p>SDG-Indikator - Bruttostundenverdienste und Verdienstunterschied zwischen Männern und Frauen</p>
 
           
         </td>
@@ -1841,12 +1821,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/SDGTK/assets/js/sdg.js?v=20210820011647'></script>
+<script src='/SDGTK/assets/js/sdg.js?v=20210820184052'></script>
 
 
     
     
-    <script src="/SDGTK/assets/js/custom.js?v=20210820011647"></script><script>
+    <script src="/SDGTK/assets/js/custom.js?v=20210820184052"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

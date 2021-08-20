@@ -107,7 +107,7 @@ var translations = {
         
         Indikator 8.4.1 -
         
-        Bruttostundenverdienste und Verdienstunterschiede zwischen Frauen und Männern (Gender Pay Gap) - Indikatoren für die nachhaltigen Entwicklungsziele
+        Anzahl der kommunalen Einrichtungen die eine Gemeinwohl-Bilanz durchführen - Indikatoren für die nachhaltigen Entwicklungsziele
     </title>
 
 
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20210820011647">
+        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20210820184052">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -418,7 +418,7 @@ var translations = {
             
             Indikator 8.4.1
             
-            <span class="lead-copy">Bruttostundenverdienste und Verdienstunterschiede zwischen Frauen und Männern (Gender Pay Gap)</span>
+            <span class="lead-copy">Anzahl der kommunalen Einrichtungen die eine Gemeinwohl-Bilanz durchführen</span>
           </h1>
         </div>
       </div>
@@ -435,7 +435,7 @@ var translations = {
 
 <div class="row" id="page-content">
   <div class="col-xs-12">
-    <p>Der Indikator zeigt die Bruttostundenverdienste von Frauen und Männern und den unbereinigten Gender Pay Gap in Berlin. Genaue Daten für Treptow-Köpenick sind leider nicht verfügbar. Der unbereinigte Gender Pay Gap bemisst sich aus der Differenz des durchschnittlichen Bruttostundenverdienstes (ohne Sonderzahlungen) der Frauen im Verhältnis zum durchschnittlichen Bruttostundenverdienst der Männer, ohne die ursächlichen Faktoren zu berücksichtigen. Bei der Verdienststrukturerhebung wurden alle Beschäftigten in Berlin berücksichtigt.</p>
+    <p>The indicator shows how many companies in Treptow-Köpenick have a valid certificate of a common good balance sheet in each year.</p>
 
   </div>
 </div>
@@ -448,15 +448,15 @@ var translations = {
   id="indicatorData"
   data-indicatorid='indicator_8-4-1'
   data-id="8-4-1"
-  data-country="Berlin"
-  data-charttitle="Bruttostundenverdienste und unbereinigter Gender Pay Gap in Berlin"
+  data-country="Treptow-Köpenick"
+  data-charttitle="Anzahl der kommunalen Einrichtungen die eine Gemeinwohl-Bilanz durchführen"
   data-charttitles="null"
-  data-measurementunit="Euro pro Stunde"
+  data-measurementunit="Absolute numbers"
   data-showdata="true"
   data-graphtype="bar"
   data-geocoderegex=""
   data-showmap=""
-  data-startvalues="[{&quot;field&quot;:&quot;Geschlecht&quot;,&quot;value&quot;:&quot;Männer&quot;},{&quot;field&quot;:&quot;Geschlecht&quot;,&quot;value&quot;:&quot;Frauen&quot;},{&quot;field&quot;:&quot;Geschlecht&quot;,&quot;value&quot;:&quot;Gender Pay Gap&quot;}]"
+  data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
@@ -494,11 +494,67 @@ var translations = {
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Bruttostundenverdienste und unbereinigter Gender Pay Gap in Berlin</caption>
+      <caption>Anzahl der kommunalen Einrichtungen die eine Gemeinwohl-Bilanz durchführen</caption>
       <thead>
+        
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col" class="table-value">Value</th>
+        
         
       </thead>
       <tbody>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td class="table-value">0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td class="table-value">0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td class="table-value">0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2021</td>
+          
+          
+          
+          <td class="table-value">1</td>
+          
+          
+        </tr>
         
       </tbody>
     </table>
@@ -506,13 +562,13 @@ var translations = {
 
   <div id="datatableFooter">
     
-    <p>Datenquelle: Statistisches Bundesamt (Destatis)</p>
+    <p>Datenquelle: International Federation for the Economy for the Common Good e.V.</p>
     
     
-    <p>Geographische Abdeckung: Berlin</p>
+    <p>Geographische Abdeckung: Treptow-Köpenick</p>
     
     
-    <p>Einheit: Euro pro Stunde</p>
+    <p>Einheit: Absolute numbers</p>
     
     
   </div>
@@ -559,7 +615,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Bruttostundenverdienste und unbereinigter Gender Pay Gap in Berlin</h4>
+          <h4 id="chart-heading" class="chart-title">Anzahl der kommunalen Einrichtungen die eine Gemeinwohl-Bilanz durchführen</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -788,22 +844,19 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Datenquelle:</dt>
-        <dd>Statistisches Bundesamt (Destatis)</dd>
+        <dd>International Federation for the Economy for the Common Good e.V.</dd>
         
 
         
         <dt>Geographische Abdeckung:</dt>
-        <dd>Berlin</dd>
+        <dd>Treptow-Köpenick</dd>
         
 
         
         <dt>Einheit:</dt>
-        <dd>Euro pro Stunde</dd>
+        <dd>Absolute numbers</dd>
         
 
-        
-        <dt>Urheberrechte:</dt>
-        <dd>dl-de/by-2-0 https://www.govdata.de/dl-de/by-2-0</dd>
         
 
         
@@ -836,22 +889,19 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Datenquelle:</dt>
-        <dd>Statistisches Bundesamt (Destatis)</dd>
+        <dd>International Federation for the Economy for the Common Good e.V.</dd>
         
 
         
         <dt>Geographische Abdeckung:</dt>
-        <dd>Berlin</dd>
+        <dd>Treptow-Köpenick</dd>
         
 
         
         <dt>Einheit:</dt>
-        <dd>Euro pro Stunde</dd>
+        <dd>Absolute numbers</dd>
         
 
-        
-        <dt>Urheberrechte:</dt>
-        <dd>dl-de/by-2-0 https://www.govdata.de/dl-de/by-2-0</dd>
         
 
         
@@ -963,7 +1013,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographische Abdeckung </th>
         <td>
           
-            <p>Berlin</p>
+            <p>Treptow-Köpenick</p>
 
           
         </td>
@@ -977,7 +1027,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Einheit </th>
         <td>
           
-            <p>Euro pro Stunde</p>
+            <p>Absolute numbers</p>
 
           
         </td>
@@ -1095,8 +1145,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/0c644d9d439789f1095ebf4b04b0a8a9e3ae239b" target="_blank">
-                2021-07-15: see changes on GitHub <span class="visuallyhidden">in neuem Fenster öffnen</span>
+              <a href="https://github.com/beyersar/DataTK/commit/16f3677feb22deee341b4b117849c8d57bd1cb18" target="_blank">
+                2021-08-20: see changes on GitHub <span class="visuallyhidden">in neuem Fenster öffnen</span>
               </a>
             
 
@@ -1122,8 +1172,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/c59c1a4a54ca2791cbe50958738a1ff086792a7e" target="_blank">
-                2021-07-17: see changes on GitHub <span class="visuallyhidden">in neuem Fenster öffnen</span>
+              <a href="https://github.com/beyersar/DataTK/commit/39d05ac558735ba5026fba8f8b8732875be16841" target="_blank">
+                2021-08-20: see changes on GitHub <span class="visuallyhidden">in neuem Fenster öffnen</span>
               </a>
             
 
@@ -1241,7 +1291,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indikatorenbezeichnung </th>
         <td>
           
-            <p>Bruttostundenverdienste und Verdienstunterschiede zwischen Frauen und Männern (Gender Pay Gap)</p>
+            <p>Anzahl der kommunalen Einrichtungen die eine Gemeinwohl-Bilanz durchführen</p>
 
           
         </td>
@@ -1269,7 +1319,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unterziel </th>
         <td>
           
-            <p>SDG-Indikator - Bruttostundenverdienste und Verdienstunterschied zwischen Männern und Frauen</p>
+            <p>Maßnahme - Gemeinwohlzertifizierung für ein Amt des Bezirksamtes Treptow-Köpenick</p>
 
           
         </td>
@@ -1517,7 +1567,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Organisation </th>
         <td>
           
-            <p>Statistisches Bundesamt (Destatis)</p>
+            <p>International Federation for the Economy for the Common Good e.V.</p>
 
           
         </td>
@@ -1578,6 +1628,10 @@ data-event-label="Change to Sources tab"
             
             
 
+            
+              <a href="https://web.ecogood.org/de/berlin-brandenburg/unternehmen-und-organisationen/" target="_blank">
+                https://web.ecogood.org/de/berlin-brandenburg/unternehmen-und-organisationen/ <span class="visuallyhidden">in neuem Fenster öffnen</span>
+              </a>
             
 
           
@@ -1821,12 +1875,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/SDGTK/assets/js/sdg.js?v=20210820011647'></script>
+<script src='/SDGTK/assets/js/sdg.js?v=20210820184052'></script>
 
 
     
     
-    <script src="/SDGTK/assets/js/custom.js?v=20210820011647"></script><script>
+    <script src="/SDGTK/assets/js/custom.js?v=20210820184052"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

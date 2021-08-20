@@ -107,7 +107,7 @@ var translations = {
         
         Indicator 8.5.1 -
         
-        Kaitz index for Berlin - Monthly minimum wage as % of average earnings of full-time employees - Indicators For The Sustainable Development Goals
+        Gross hourly earnings and earnings gaps between women and men (Gender Pay Gap unadjusted) - Indicators For The Sustainable Development Goals
     </title>
 
 
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20210820011647">
+        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20210820184052">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -418,7 +418,7 @@ var translations = {
             
             Indicator 8.5.1
             
-            <span class="lead-copy">Kaitz index for Berlin - Monthly minimum wage as % of average earnings of full-time employees</span>
+            <span class="lead-copy">Gross hourly earnings and earnings gaps between women and men (Gender Pay Gap unadjusted)</span>
           </h1>
         </div>
       </div>
@@ -435,7 +435,7 @@ var translations = {
 
 <div class="row" id="page-content">
   <div class="col-xs-12">
-    <p>The indicator shows the Kaitz index for the state of Berlin. Exact data for Treptow-Köpenick are unfortunately not available. The Kaitz index indicates the ratio between the minimum wage (e.g. 1532 euros in 2018) and the average gross monthly earnings of full-time employees (e.g. 3700 euros in 2018). If it were 100%, exactly the minimum wage would be earned on average in the affected area. The Kaitz index is a measure of the potential impact of the minimum wage: the higher it is in a region, the greater the impact of the minimum wage there.</p>
+    <p>The indicator shows the gross hourly earnings of women and men and the unadjusted gender pay gap in Berlin. Exact data for Treptow-Köpenick is unfortunately not available. The unadjusted gender pay gap is measured as the difference in average gross hourly earnings (excluding special payments) of women relative to average gross hourly earnings of men, without taking causal factors into account. All employees in Berlin were taken into account in the earnings structure survey.</p>
 
   </div>
 </div>
@@ -449,14 +449,14 @@ var translations = {
   data-indicatorid='indicator_8-5-1'
   data-id="8-5-1"
   data-country="Berlin"
-  data-charttitle="Kaitz-Index - Relative amount of the minimum wage"
+  data-charttitle="Gross Hourly Earnings and Gender Pay Gap in Berlin"
   data-charttitles="null"
-  data-measurementunit="Percentage"
+  data-measurementunit="Euro per hour"
   data-showdata="true"
   data-graphtype="bar"
   data-geocoderegex=""
   data-showmap=""
-  data-startvalues="null"
+  data-startvalues="[{&quot;field&quot;:&quot;Sex&quot;,&quot;value&quot;:&quot;Men&quot;},{&quot;field&quot;:&quot;Sex&quot;,&quot;value&quot;:&quot;Women&quot;},{&quot;field&quot;:&quot;Sex&quot;,&quot;value&quot;:&quot;Gender Pay Gap&quot;}]"
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
@@ -494,31 +494,11 @@ var translations = {
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Kaitz-Index - Relative amount of the minimum wage</caption>
+      <caption>Gross Hourly Earnings and Gender Pay Gap in Berlin</caption>
       <thead>
-        
-        
-        <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col" class="table-value">Value</th>
-        
         
       </thead>
       <tbody>
-        
-        <tr>
-          
-          
-          <td>2018</td>
-          
-          
-          
-          <td class="table-value">42</td>
-          
-          
-        </tr>
         
       </tbody>
     </table>
@@ -532,7 +512,7 @@ var translations = {
     <p>Geographical Area: Berlin</p>
     
     
-    <p>Unit of Measurement: Percentage</p>
+    <p>Unit of Measurement: Euro per hour</p>
     
     
   </div>
@@ -579,7 +559,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Kaitz-Index - Relative amount of the minimum wage</h4>
+          <h4 id="chart-heading" class="chart-title">Gross Hourly Earnings and Gender Pay Gap in Berlin</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -818,7 +798,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percentage</dd>
+        <dd>Euro per hour</dd>
         
 
         
@@ -866,7 +846,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Percentage</dd>
+        <dd>Euro per hour</dd>
         
 
         
@@ -997,7 +977,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            <p>Percentage</p>
+            <p>Euro per hour</p>
 
           
         </td>
@@ -1011,7 +991,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Definitions </th>
         <td>
           
-            <p>Katz index - Monthly minimum wage as % of average earnings of full-time employees</p>
+            
 
           
         </td>
@@ -1115,8 +1095,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/bfe71f74a275221f7888f7f09f2c986e24834bd7" target="_blank">
-                2021-07-13: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/beyersar/DataTK/commit/686b8f6210ab896cac0722a610c1e839bdad7232" target="_blank">
+                2021-08-20: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1142,8 +1122,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/2a1bc878ea1db7b7018a7fd78486067991102424" target="_blank">
-                2021-07-13: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/beyersar/DataTK/commit/dd5fd06e9c6be757aa0b84e07a896386718bee54" target="_blank">
+                2021-08-20: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1261,7 +1241,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator name </th>
         <td>
           
-            <p>Kaitz index for Berlin - Monthly minimum wage as % of average earnings of full-time employees</p>
+            <p>Gross hourly earnings and earnings gaps between women and men (Gender Pay Gap unadjusted)</p>
 
           
         </td>
@@ -1289,7 +1269,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Target name </th>
         <td>
           
-            <p>SDG indicator - Workers on minimum wage</p>
+            <p>SDG indicator - Gross hourly earnings and gender pay gap</p>
 
           
         </td>
@@ -1841,12 +1821,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/SDGTK/assets/js/sdg.js?v=20210820011647'></script>
+<script src='/SDGTK/assets/js/sdg.js?v=20210820184052'></script>
 
 
     
     
-    <script src="/SDGTK/assets/js/custom.js?v=20210820011647"></script><script>
+    <script src="/SDGTK/assets/js/custom.js?v=20210820184052"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
