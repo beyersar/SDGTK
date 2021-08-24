@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20210824011614">
+        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20210824103941">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -433,6 +433,14 @@ var translations = {
 
   
 
+<div class="row" id="page-content">
+  <div class="col-xs-12">
+    <p>Der Indikator zeigt Anzahl der Veranstaltungen zum Thema Städtepartnerschaften des Bezirksamts Treptow-Köpenick pro Jahr. 
+Grundlage für die Daten sind die Pressemitteilungen des Bezirksamtes, welche Veranstaltungen zum Thema Städtepartnerschaften bewerben.</p>
+
+  </div>
+</div>
+
 
   
 
@@ -442,11 +450,11 @@ var translations = {
   data-indicatorid='indicator_17-1-1'
   data-id="17-1-1"
   data-country="Treptow-Köpenick"
-  data-charttitle="Anzahl der Veranstaltungen zum Thema Städtepartnerschaften des Bezirksamts Treptow-Köpenick pro Jahr"
+  data-charttitle="Anzahl der Veranstaltungen pro Jahr"
   data-charttitles="null"
-  data-measurementunit="Absolute Numbers"
+  data-measurementunit="Absolute Werte"
   data-showdata="true"
-  data-graphtype="bar"
+  data-graphtype="line"
   data-geocoderegex=""
   data-showmap=""
   data-startvalues="null"
@@ -487,7 +495,7 @@ var translations = {
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Anzahl der Veranstaltungen zum Thema Städtepartnerschaften des Bezirksamts Treptow-Köpenick pro Jahr</caption>
+      <caption>Anzahl der Veranstaltungen pro Jahr</caption>
       <thead>
         
         
@@ -549,7 +557,7 @@ var translations = {
     <p>Geographische Abdeckung: Treptow-Köpenick</p>
     
     
-    <p>Einheit: Absolute Numbers</p>
+    <p>Einheit: Absolute Werte</p>
     
     
   </div>
@@ -596,7 +604,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Anzahl der Veranstaltungen zum Thema Städtepartnerschaften des Bezirksamts Treptow-Köpenick pro Jahr</h4>
+          <h4 id="chart-heading" class="chart-title">Anzahl der Veranstaltungen pro Jahr</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -785,32 +793,40 @@ opensdg.chartConfigAlter(function(config, info) {
 </script>
 
 <script>
+// For line charts, add the vertical line hover functionality.
 opensdg.chartConfigAlter(function(config, info) {
-  if (info.stackedDisaggregation) {
     var overrides = {
-      options: {
-        scales: {
-          xAxes: [{ stacked: true }],
-          yAxes: [{ stacked: true }],
-        }
-      }
+        options: {
+            tooltips: {
+                intersect: false,
+                axis: 'x'
+            },
+        },
+        plugins: [{
+            beforeDatasetsDraw: function(chart) {
+                if (chart.tooltip._active && chart.tooltip._active.length) {
+                    var activePoint = chart.tooltip._active[0],
+                        ctx = chart.ctx,
+                        x = activePoint.tooltipPosition().x,
+                        topY = chart.scales['y-axis-0'].top,
+                        bottomY = chart.scales['y-axis-0'].bottom;
+
+                    // draw line
+                    ctx.save();
+                    ctx.beginPath();
+                    ctx.moveTo(x, topY);
+                    ctx.lineTo(x, bottomY);
+                    ctx.lineWidth = 2;
+                    ctx.strokeStyle = '#757575';
+                    ctx.setLineDash([5, 2]);
+                    ctx.stroke();
+                    ctx.restore();
+                }
+            }
+        }],
     };
-    // If we have stackedDisaggregation, we need to group datasets into stacks.
-    config.data.datasets.forEach(function(dataset) {
-      var disaggregation = $.extend({}, dataset.disaggregation);
-      // We're going to "stringify" each combination of disaggregations in order
-      // to place them in their own "stacks". To place "stacked" disaggregations
-      // into the same stack, we set them as "samestack" before stringifying.
-      // Note that the string "samestack" is completely arbitrary.
-      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
-        disaggregation[info.stackedDisaggregation] = 'samestack';
-      }
-      // Use the disaggregation as a unique id for each stack.
-      dataset.stack = JSON.stringify(disaggregation);
-    });
     // Add these overrides onto the normal config, and return it.
     $.extend(true, config, overrides);
-  }
 });
 </script>
 
@@ -835,7 +851,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Einheit:</dt>
-        <dd>Absolute Numbers</dd>
+        <dd>Absolute Werte</dd>
         
 
         
@@ -880,7 +896,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Einheit:</dt>
-        <dd>Absolute Numbers</dd>
+        <dd>Absolute Werte</dd>
         
 
         
@@ -1008,7 +1024,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Einheit </th>
         <td>
           
-            <p>Absolute Numbers</p>
+            <p>Absolute Werte</p>
 
           
         </td>
@@ -1153,7 +1169,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/5c83be480dfa040f5e91e8031c055b0ae9bf1ee2" target="_blank">
+              <a href="https://github.com/beyersar/DataTK/commit/4d78538e420351f5c3328593f1c47c6dad1e70df" target="_blank">
                 2021-08-24: see changes on GitHub <span class="visuallyhidden">in neuem Fenster öffnen</span>
               </a>
             
@@ -1856,12 +1872,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/SDGTK/assets/js/sdg.js?v=20210824011614'></script>
+<script src='/SDGTK/assets/js/sdg.js?v=20210824103941'></script>
 
 
     
     
-    <script src="/SDGTK/assets/js/custom.js?v=20210824011614"></script><script>
+    <script src="/SDGTK/assets/js/custom.js?v=20210824103941"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
