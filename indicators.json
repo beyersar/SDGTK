@@ -599,7 +599,7 @@
         },
         {
           "id": "13-3-1",
-          "title": "Total CO2 emissions",
+          "title": "CO2 emissions from primary energy consumption (source balance)",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/13-3-1",
@@ -607,43 +607,11 @@
         },
         {
           "id": "13-3-2",
-          "title": "Transformation sector",
+          "title": "CO2 emissions from final energy consumption (polluter balance)",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/13-3-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-3-3",
-          "title": "Manufacturing, mining, quarrying",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/13-3-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-3-4",
-          "title": "Transport (total)",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/13-3-4",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-4-1",
-          "title": "Total CO2 emissions",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/13-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-4-2",
-          "title": "Manufacturing industry, mining and quarrying",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/13-4-2",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
