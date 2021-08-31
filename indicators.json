@@ -574,6 +574,14 @@
           "status": "complete"
         },
         {
+          "id": "13-1-2",
+          "title": "Municipal Climate Protection Index",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/13-1-2",
+          "status": "notstarted"
+        },
+        {
           "id": "13-2-1",
           "title": "Average weekday bicycle traffic at the Treptow-Köpenick Kaisersteg counting station",
           "description": "",
@@ -655,7 +663,7 @@
         
         {
           "id": "15-1-1",
-          "title": "To be defined",
+          "title": "Municipal Climate Adaptation Index",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/15-1-1",

@@ -574,6 +574,14 @@
           "status": "complete"
         },
         {
+          "id": "13-1-2",
+          "title": "Index Kommunaler Klimaschutz",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/de/13-1-2",
+          "status": "notstarted"
+        },
+        {
           "id": "13-2-1",
           "title": "Mittlere werktägliche Fahrradverkehrsstärke an der Zählstelle Treptow-Köpenick Kaisersteg",
           "description": "",
@@ -655,7 +663,7 @@
         
         {
           "id": "15-1-1",
-          "title": "Noch zu definieren",
+          "title": "Index Kommunale Klimaanpassung",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/15-1-1",
