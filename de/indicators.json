@@ -470,6 +470,14 @@
           "status": "complete"
         },
         {
+          "id": "11-1-2",
+          "title": "Anzahl der Ausleihen von Lastenrädern",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/de/11-1-2",
+          "status": "complete"
+        },
+        {
           "id": "11-2-1",
           "title": "Anzahl der Abholstellen für Produkte Solidarischer Landwirtschaft (SoLaWi)",
           "description": "",

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" class="no-js">
+<html lang="en" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://beyersar.github.io/DataTK/de',
+  remoteDataBaseUrl: 'https://beyersar.github.io/DataTK/en',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'de',
+  language: 'en',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -105,9 +105,9 @@ var translations = {
         
     <title>
         
-        Indikator 11.2.1 -
+        Indicator 11.1.2 -
         
-        Anzahl der Abholstellen für Produkte Solidarischer Landwirtschaft (SoLaWi) - Indikatoren für die nachhaltigen Entwicklungsziele
+        Number of cargo bike rentals - Indicators For The Sustainable Development Goals
     </title>
 
 
@@ -149,19 +149,19 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-de layout-indicator">
+<body class="language-en layout-indicator">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha-Version","default_contrast":"Standard kontrast","disable_high_contrast":"Hoher Kontrast deaktivieren","disclaimer":"Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href=\"mailto:%email_address\">Kommentare</a>.","enable_high_contrast":"Aktivieren Sie hohen Kontrast","high_contrast":"Hoher kontrast","skip_link":"Zum Hauptinhalt springen","tag_line":"17 Ziele, um unsere Welt zu verändern","toggle_menu":"Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren.","toggle_search":"Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."};</script>
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Zum Hauptinhalt springen</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha-Version</strong>
+    <strong class="phase-tag">Alpha</strong>
     
-    Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href="mailto:test@example.com">Kommentare</a>.
+    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
   </div>
 </div>
 
@@ -171,8 +171,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/SDGTK/de/" id="home">
-    <img src="/SDGTK/assets/img/SDG_logo.png" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern" />
+      <a class="navbar-brand" href="/SDGTK/" id="home">
+    <img src="/SDGTK/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -180,11 +180,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
-      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/SDGTK/11-2-1/">
-              English
+            <a href="/SDGTK/de/11-1-2/">
+              Deutsch
             </a>
           </li></ul>
   </div>
@@ -195,10 +195,10 @@ var translations = {
 
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
-  <form action="/SDGTK/de/search">
-    <label class="sr-only" for="indicator_search">Suche</label>
-    <input type="text" name="q" id="indicator_search" title="Suche" /><!--
-    --><button aria-label="Suche" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/SDGTK/search">
+    <label class="sr-only" for="indicator_search">Search</label>
+    <input type="text" name="q" id="indicator_search" title="Search" /><!--
+    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -214,11 +214,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
-      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/SDGTK/11-2-1/">
-              English
+            <a href="/SDGTK/de/11-1-2/">
+              Deutsch
             </a>
           </li></ul>
   </div>
@@ -233,21 +233,21 @@ var translations = {
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren."
+        aria-label="Menu toggle. Click to expand or collapse the menu."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menü</button>
+        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/SDGTK/de/goals">Ziele</a>
+    <a href="/SDGTK/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/de/reporting-status">Berichtsstatus</a>
+    <a href="/SDGTK/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/de/about">Über uns</a>
+    <a href="/SDGTK/about">About</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/de/guidance">Technische Hinweise</a>
+    <a href="/SDGTK/guidance">Guidance</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/de/faq">FAQ</a>
+    <a href="/SDGTK/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/de/news">Aktualisierungen</a>
+    <a href="/SDGTK/news">Updates</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -259,11 +259,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
-      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/SDGTK/11-2-1/">
-              English
+            <a href="/SDGTK/de/11-1-2/">
+              Deutsch
             </a>
           </li></ul>
   </div>
@@ -276,31 +276,31 @@ var translations = {
 
     </li>
     <li id="searchToggle"
-        aria-label="Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."
+        aria-label="Search toggle. Click to expand or collapse the search bar."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Suche</button>
+        <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/SDGTK/de/search">
-    <label class="sr-only" for="indicator_search-mobile">Suche</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Suche" /><!--
-    --><button aria-label="Suche" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/SDGTK/search">
+    <label class="sr-only" for="indicator_search-mobile">Search</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
+    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/SDGTK/de/goals">Ziele</a>
+    <a href="/SDGTK/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/de/reporting-status">Berichtsstatus</a>
+    <a href="/SDGTK/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/de/about">Über uns</a>
+    <a href="/SDGTK/about">About</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/de/guidance">Technische Hinweise</a>
+    <a href="/SDGTK/guidance">Guidance</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/de/faq">FAQ</a>
+    <a href="/SDGTK/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/de/news">Aktualisierungen</a>
+    <a href="/SDGTK/news">Updates</a>
 </li>
 </ul>
 
@@ -324,7 +324,7 @@ var translations = {
       >
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %><h6><% } else { %><h5><% } %>
           <span aria-hidden="true"><%=translations.t(fieldItem.label)%><i class="fa fa-chevron-down"></i></span>
-          <span class="sr-only">Unterkategorien anzeigen: <%=translations.t(fieldItem.label)%></span>
+          <span class="sr-only">Show sub-categories: <%=translations.t(fieldItem.label)%></span>
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %></h6><% } else { %></h5><% } %>
       </button>
       <div class="bar">
@@ -332,10 +332,10 @@ var translations = {
       </div>
       <div class="variable-options">
         <fieldset>
-          <legend class="sr-only">Disaggregationsdimensionen - <%=translations.t(fieldItem.field)%></legend>
+          <legend class="sr-only">Sub-categories - <%=translations.t(fieldItem.field)%></legend>
           <div>
-            <button data-type="select">Alle auswählen</button>
-            <button data-type="clear">Auswahl aufheben</button>
+            <button data-type="select">Select all</button>
+            <button data-type="clear">Clear all</button>
           </div>
           <% _.each(fieldItem.values, function(item) { %>
             <label>
@@ -346,10 +346,10 @@ var translations = {
       </div>
 
       <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
-        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Verfügbar
+        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Available when '<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>' is selected
         </div>
         <div class="no-data-hint" id="no-data-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
-          Aufgrund der bereits getroffenen Auswahl sind keine weiteren Auswahlmöglichkeiten verfügbar.
+          No options available because of filters above
         </div>
       <% }%>
 
@@ -359,9 +359,9 @@ var translations = {
 
 <script type="text/template" id="units_template">
   <% if(units.length) { %>
-    <h4>Einheit</h4>
+    <h4>Unit of Measurement</h4>
     <fieldset>
-      <legend class="sr-only">Einheit</legend>
+      <legend class="sr-only">Unit of Measurement</legend>
       <% _.each(units, function(unitsItem, index) { %>
         <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
         <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
@@ -372,9 +372,9 @@ var translations = {
 
 <script type="text/template" id="series_template">
   <% if(serieses.length) { %>
-    <h4>Reihe</h4>
+    <h4>Series</h4>
     <fieldset>
-      <legend class="sr-only">Reihe</legend>
+      <legend class="sr-only">Series</legend>
       <% _.each(serieses, function(seriesItem, index) { %>
         <% var checked = (selectedSeries) ? (selectedSeries==seriesItem) : (index==0); %>
         <label><input type="radio" name="series" value="<%=seriesItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(seriesItem)%></label>
@@ -383,19 +383,19 @@ var translations = {
   <% } %>
 </script>
 
-<script>translations['indicator'] = {"annotation_2030_target":"2030 Ziel","announce_data_added":"Diagramm und Tabelle wurden aktualisiert, um die Daten einzubeziehen.","announce_data_not_available":"Diagramm und Tabelle zeigen keine Daten.","announce_data_removed":"Diagramm und Tabelle aktualisiert, um Daten auszuschließen.","chart":"Grafik","chart_annotation":"Diagramm-Anmerkung","clear_all":"Auswahl aufheben","clear_selections":"Auswahl aufheben","data_keyboard_navigation":"Drücken Sie die Eingabetaste, um mit den Pfeiltasten nach links und rechts durch die Datenpunkte zu blättern.","data_not_available":"Diese Daten sind nicht verfügbar. Bitte wählen Sie alternative Daten aus, die angezeigt werden sollen.","data_tabular_alternative":"Für tabellarische Daten alternativ siehe Registerkarte Tabelle.","dataset_size_warning":"Zu viele Zeitreihen ausgewählt um diese in einer Grafik darzustellen. Es können nicht alle Zeitreihen dargestellt werden.","download_chart":"Grafik im CSV-Format speichern","download_chart_image":"Grafik herunterladen","download_chart_image_title":"Grafik als Bild herunterladen","download_csv":"im CSV-Format speichern","download_csv_title":"im CSV-Format speichern","download_geojson":"im GeoJSON-Format speichern","download_geojson_title":"im GeoJSON-Format speichern","download_headline":"Speichern der Headline im CSV-Format","download_headline_title":"Speichern der Headline im CSV-Format","download_source":"Daten im CSV-Format speichern","download_source_sdmx":"Daten im SDMX-Format speichern","download_source_sdmx_title":"Daten im SDMX-Format speichern","download_source_title":"Daten im CSV-Format speichern","download_table":"Tabelle im CSV-Format speichern","edit":"Bearbeiten","edit_configuration":"Konfiguration bearbeiten","edit_data":"Daten bearbeiten","edit_metadata":"Metadaten bearbeiten","footnote":"Fußnote","geographical_area":"Geographische Abdeckung","global_metadata":"Globale Metadaten","global_metadata_blurb":"Diese Übersicht stellt weitere Informationen zu den Metadaten des jeweiligen Indikators bereit.","legend_help":"Klicken Sie auf die Legende um Zeitreihen aus der Grafik zu entfernen.","loading":"Laden","loading_map":"Karte wird geladen","map":"Karte","map_search":"Suche","map_search_hide":"Suche ausblenden","map_search_show":"Suche anzeigen","map_year_slider":"Jahr-Schieberegler","national_metadata":"Nationale Metadaten","national_metadata_blurb":"Im Folgenden werden die Metadaten zu den lokal verfügbaren Zeitreihen für Treptow-Köpenick zum jeweiligen Indikator bereitgestellt.","next":"Nächster Indikator","no_data_hint":"Aufgrund der bereits getroffenen Auswahl sind keine weiteren Auswahlmöglichkeiten verfügbar.","plot_legend_description":"Plot-Legende: Liste der im Diagramm enthaltenen Linien","previous":"Vorheriger Indikator","select_all":"Alle auswählen","series":"Reihe","series_help":"Wählen Sie aus den nachstehenden Dropdown-Listen Kategorien aus, um verschiedene Aufschlüsselungen der Daten anzuzeigen.","source":"Datenquelle","sources":"Datenquellen","status":"Status des Indikators","sub_categories":"Disaggregationsdimensionen","sub_categories_show":"Unterkategorien anzeigen:","table":"Tabelle","table_column_sort":"Klicken Sie auf , um nach dieser Spalte zu sortieren","tags":"Tags","unit":"Einheit","unit_of_measurement":"Einheit","units_type":"Einheit","variable_hint":"Verfügbar","view_indicator_list":"Zeigt die Indikatorenliste zum SDG-Ziel an"};</script>
+<script>translations['indicator'] = {"annotation_2030_target":"2030 Target","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","chart":"Chart","chart_annotation":"Chart annotation","clear_all":"Clear all","clear_selections":"Clear selections","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"This data is not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_configuration":"Edit Configuration","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This overview provides further information about the metadata of the respective indicator.","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","map_search":"Search","map_search_hide":"Hide search","map_search_show":"Show search","map_year_slider":"Year slider","national_metadata":"National Metadata","national_metadata_blurb":"In the following, the metadata for the locally available time series for Treptow-Köpenick are provided for the respective indicator.","next":"Next indicator","no_data_hint":"No options available because of filters above","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data.","source":"Source","sources":"Sources","status":"Indicator status","sub_categories":"Sub-categories","sub_categories_show":"Show sub-categories:","table":"Table","table_column_sort":"Click to sort by this column","tags":"Tags","unit":"Unit","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
 
-<script>translations['data'] = {"data.Ausgezeichnet":"Ausgezeichnet","data.Ausreichend":"Ausreichend","data.Gut":"Gut","data.Mangelhaft":"Mangelhaft","data.ableism":"Behindertenfeindlichkeit","data.air":"Relative Luftbelastung","data.allewege":"Alle Wege","data.antisem":"Antisemitismus","data.area":"Fläche","data.binnen":"Binnenverkehr","data.einewelt":"Eine-Welt-Projekte","data.erhol":"Grün- und Erholungsanlagen (inkl. Spielplätze)","data.esek":"Emittentensektoren","data.freiz":"Sport-, Freizeit- und Erholungsfläche","data.friedh":"Friedhöfe","data.fuss":"Zu Fuß","data.gemeindep":"Gemeindeprojekte","data.gewerbe":"Verarbeitendes Gewerbe","data.gruen":"Öffentliche Grünflächen","data.haushalte":"Haushalte, Gewerbe, Handel und Dienstleistungen, übrige Verbraucher","data.high":"Hoch","data.inB":"In Bewerbung","data.incident":"Art des Vorfalls","data.indu":"Industrie- und Gewerbefläche","data.kat":"Kategorie","data.keineB":"Keine Bewerbung","data.kleing":"Kleingärten","data.low":"Gering","data.m":"Männer","data.maintransport":"Hauptverkehrsmittel","data.medium":"Mittel","data.miv":"Motorisierter Individualverkehr","data.nat":"Naturschutzgebiete","data.no":"Keine Werte","data.noise":"Relative Lärmbelastung","data.offis":"Öffentlicher Verkehr","data.polgeg":"Politische Gegner*innen","data.pow":"Leistungsklasse","data.protect":"Landschaftsschutzgebiete","data.qhostility":"LGBTIQ*-Feindlichkeit","data.quell":"Quell- u. Zielverkehr","data.racism":"Rassismus","data.rad":"Fahrrad","data.rightwing":"Rechte und extrem Rechte Selbstdarstellung","data.schulp":"Schulpartnerschaften","data.sex":"Geschlecht","data.sied":"Siedlungsfläche","data.sozch":"Sozialchauvinismus","data.spatialtypes":"Verkehrsströme","data.stapa":"Städtepartnerschaften","data.strgr":"Straßengrün","data.sumgr":"Summe öffentliche Grünflächen","data.tot":"Gesamt","data.trivil":"NS-Verharmlosung und Verherrlichung","data.umwand":"Umwandlungssektor","data.verkehr":"Verkehr","data.w":"Frauen","data.wahlk":"Wahlkampf","data.weltl":"Weltläden","data.wohn":"Wohnbaufläche","data.zert":"Fairtrade-School zertifiziert","data.zertFG":"Siegel Faire Gemeinde","data.zertK":"Kein Siegel","data.zivip":"Zivilgesellschaftliche Projekte"};</script>
+<script>translations['data'] = {"data.Ausgezeichnet":"Excellent","data.Ausreichend":"Sufficient","data.Gut":"Good","data.Mangelhaft":"Poor","data.ableism":"Ableism","data.air":"Relative air pollution","data.allewege":"All routes","data.antisem":"Anti-Semitism","data.area":"Area","data.binnen":"Domestic traffic","data.einewelt":"One-World-Projects","data.erhol":"Green and recreational facilities (incl. playgrounds)","data.esek":"Emitting sectors","data.freiz":"Sports, leisure and recreation area","data.friedh":"Cemeteries","data.fuss":"Walking","data.gemeindep":"Parish projects","data.gewerbe":"Manufacturing sector","data.gruen":"Public green spaces","data.haushalte":"Households, business, trade and services, other consumers","data.high":"High","data.inB":"In application","data.incident":"Type of incident","data.indu":"Industrial and commercial area","data.kat":"Category","data.keineB":"No application","data.kleing":"Allotment gardens","data.low":"Low","data.m":"Men","data.maintransport":"Main means of transport","data.medium":"Medium","data.miv":"Motorized private transport","data.nat":"Nature reserves","data.no":"No values","data.noise":"Relative noise pollution","data.offis":"Public transport","data.polgeg":"Political opponents","data.pow":"Power class","data.protect":"Protected landscape areas","data.qhostility":"LGBTIQ* hostility","data.quell":"Source and destination traffic","data.racism":"Racism","data.rad":"Bicycle","data.rightwing":"Right-wing and extreme right-wing self-portrayal","data.schulp":"School partnerships","data.sex":"Sex","data.sied":"Settlement area","data.sozch":"Social-chauvinism","data.spatialtypes":"Traffic flow types","data.stapa":"City partnerships","data.strgr":"Street green","data.sumgr":"Total public green spaces","data.tot":"Total","data.trivil":"NS trivialization and glorification","data.umwand":"Transformation sector","data.verkehr":"Transportation","data.w":"Women","data.wahlk":"Campaign","data.weltl":"Fair Trade Shops","data.wohn":"Residential area","data.zert":"Fairtrade-School certified","data.zertFG":"Certificate","data.zertK":"No Certificate","data.zivip":"Civil society projects"};</script>
 
 
 <div class="container">
   
 <ol class="breadcrumb">
   
-  <li><a href="/SDGTK/de/">Home</a></li>
-  <li><a href="/SDGTK/de/goals">Ziele</a></li>
+  <li><a href="/SDGTK/">Home</a></li>
+  <li><a href="/SDGTK/goals">Goals</a></li>
   
-  <li><a href="/SDGTK/de/11" title="Städte und Siedlungen inklusiv, sicher, widerstandsfähig und nachhaltig gestalten">Ziel 11</a></li>
+  <li><a href="/SDGTK/11" title="Make cities and human settlements inclusive, safe, resilient and sustainable">Goal 11</a></li>
   
 </ol>
 
@@ -407,8 +407,8 @@ var translations = {
     <div class="row">
       
       <div class="col-xs-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-        <a href="/SDGTK/de/11" title="Zeigt die Indikatorenliste zum SDG-Ziel an">
-          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/11.png" alt="Nachhaltige Städte und Gemeinden - Ziel 11" id="goal-11" class="goal-icon-image goal-icon-image-"/>
+        <a href="/SDGTK/11" title="View this goal's indicator list">
+          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/11.png" alt="Sustainable cities &amp; communities - Goal 11" id="goal-11" class="goal-icon-image goal-icon-image-"/>
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10 indicator-details">
@@ -416,9 +416,9 @@ var translations = {
         <div>
           <h1>
             
-            Indikator 11.2.1
+            Indicator 11.1.2
             
-            <span class="lead-copy">Anzahl der Abholstellen für Produkte Solidarischer Landwirtschaft (SoLaWi)</span>
+            <span class="lead-copy">Number of cargo bike rentals</span>
           </h1>
         </div>
       </div>
@@ -433,22 +433,30 @@ var translations = {
 
   
 
+<div class="row" id="page-content">
+  <div class="col-xs-12">
+    <p>The indicator shows the number of free rentals of cargo bikes by the ADFC project “fLotte” in the district Treptow-Köpenick. 
+Some of the cargo bikes are provided by citizens, businesses and other committed individuals. Another part is financed by the program “fLotte kommunal” with funds from the Berlin Senate and the district offices. The Treptow-Köpenick district office has been participating in the “fLotte kommunal” program since March 2020.</p>
+
+  </div>
+</div>
+
 
   
 
 
 <div class="row"
   id="indicatorData"
-  data-indicatorid='indicator_11-2-1'
-  data-id="11-2-1"
+  data-indicatorid='indicator_11-1-2'
+  data-id="11-1-2"
   data-country="Treptow-Köpenick"
-  data-charttitle="Anzahl der Abholstellen für Produkte Solidarischer Landwirtschaft (SoLaWi)"
+  data-charttitle="Number of rentals"
   data-charttitles="null"
-  data-measurementunit="Anzahl der Abholstellen"
+  data-measurementunit="Number of rentals"
   data-showdata="true"
   data-graphtype="bar"
   data-geocoderegex=""
-  data-showmap="true"
+  data-showmap=""
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
@@ -464,8 +472,8 @@ var translations = {
 <div id="units"></div>
 <div id="toolbar">
   <span id="series-help">
-    <h4>Disaggregationsdimensionen</h4>
-    <p>Wählen Sie aus den nachstehenden Dropdown-Listen Kategorien aus, um verschiedene Aufschlüsselungen der Daten anzuzeigen.</p>
+    <h4>Sub-categories</h4>
+    <p>Choose categories from the dropdowns below to see different breakdowns of the data.</p>
   </span>
   <div id="fields">
     <p class="async-loading" data-img="/SDGTK/assets/img/loading-small.gif"></p>
@@ -481,17 +489,61 @@ var translations = {
 
   <div id="datatables">
 
-    <a href="https://beyersar.github.io/DataTK/de/headline/11-2-1.csv" class="btn btn-primary btn-download" download="indicator_11-2-1.csv" tabindex="0" role="button">Speichern der Headline im CSV-Format</a>
+    <a href="https://beyersar.github.io/DataTK/en/headline/11-1-2.csv" class="btn btn-primary btn-download" download="indicator_11-1-2.csv" tabindex="0" role="button">Download Headline CSV</a>
 
-    <a href="https://beyersar.github.io/DataTK/de/data/11-2-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_11-2-1.csv' tabindex='0' role='button'>Daten im CSV-Format speichern</a>
+    <a href="https://beyersar.github.io/DataTK/en/data/11-1-2.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_11-1-2.csv' tabindex='0' role='button'>Download Source CSV</a>
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Anzahl der Abholstellen für Produkte Solidarischer Landwirtschaft (SoLaWi)</caption>
+      <caption>Number of rentals</caption>
       <thead>
+        
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col" class="table-value">Value</th>
+        
         
       </thead>
       <tbody>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td class="table-value">65</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2019</td>
+          
+          
+          
+          <td class="table-value">374</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2020</td>
+          
+          
+          
+          <td class="table-value">645</td>
+          
+          
+        </tr>
         
       </tbody>
     </table>
@@ -499,13 +551,13 @@ var translations = {
 
   <div id="datatableFooter">
     
-    <p>Datenquelle: Solidarsche Landwirtschaft (SoLaWi)</p>
+    <p>Source: Allgemeiner Deutscher Fahrrad-Club Berlin e.V. - fLotte-Berlin</p>
     
     
-    <p>Geographische Abdeckung: Treptow-Köpenick</p>
+    <p>Geographical Area: Treptow-Köpenick</p>
     
     
-    <p>Einheit: Anzahl der Abholstellen</p>
+    <p>Unit of Measurement: Number of rentals</p>
     
     
   </div>
@@ -520,7 +572,7 @@ var translations = {
   <div class="async-loaded spacer medium" style="display:none;">
 
     <div style="display: none;">
-  <span id="table-alternative">Für tabellarische Daten alternativ siehe Registerkarte Tabelle.</span>
+  <span id="table-alternative">For tabular data alternative see Table tab.</span>
 </div>
 <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
   <li role="presentation" class="nav-item active">
@@ -528,20 +580,14 @@ var translations = {
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Chart tab"
- aria-describedby="table-alternative">Grafik</a>
+ aria-describedby="table-alternative">Chart</a>
   </li>
   <li role="presentation" class="nav-item">
     <a class="nav-link" data-toggle="tab" id="tab-tableview" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change data view"
 data-event-label="Change to Table tab"
->Tabelle</a>
-  </li><li role="presentation" class="nav-item map" style="display:none">
-    <a data-no-disagg="true" class="nav-link" data-toggle="tab" id="tab-mapview" href="#mapview" aria-controls="mapview" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change data view"
-data-event-label="Change to Map tab"
- aria-describedby="table-alternative">Karte</a>
+>Table</a>
   </li></ul>
 
     <div class="tab-content data-view">
@@ -549,8 +595,8 @@ data-event-label="Change to Map tab"
     
 
     <div id="dataset-size-warning" style="display:none" role="alert">
-      <i class="fa fa-bolt"><span class="sr-only">Warnung:</span></i>
-      Zu viele Zeitreihen ausgewählt um diese in einer Grafik darzustellen. Es können nicht alle Zeitreihen dargestellt werden.
+      <i class="fa fa-bolt"><span class="sr-only">Warning:</span></i>
+      There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
     </div>
 
     
@@ -558,7 +604,7 @@ data-event-label="Change to Map tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Anzahl der Abholstellen für Produkte Solidarischer Landwirtschaft (SoLaWi)</h4>
+          <h4 id="chart-heading" class="chart-title">Number of rentals</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -786,18 +832,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-        <dt>Datenquelle:</dt>
-        <dd>Solidarsche Landwirtschaft (SoLaWi)</dd>
+        <dt>Source:</dt>
+        <dd>Allgemeiner Deutscher Fahrrad-Club Berlin e.V. - fLotte-Berlin</dd>
         
 
         
-        <dt>Geographische Abdeckung:</dt>
+        <dt>Geographical Area:</dt>
         <dd>Treptow-Köpenick</dd>
         
 
         
-        <dt>Einheit:</dt>
-        <dd>Anzahl der Abholstellen</dd>
+        <dt>Unit of Measurement:</dt>
+        <dd>Number of rentals</dd>
         
 
         
@@ -809,8 +855,8 @@ opensdg.chartConfigAlter(function(config, info) {
         </div>
       </figure>
       <div id="chartSelectionDownload" class="clearfix">
-        <button id="btnSave" title="Grafik als Bild herunterladen" class='btn btn-primary btn-download'>
-          Grafik herunterladen
+        <button id="btnSave" title="Download chart as image" class='btn btn-primary btn-download'>
+          Download Chart Image
         </button>
       </div>
     </div>
@@ -820,7 +866,7 @@ opensdg.chartConfigAlter(function(config, info) {
   </div>
   <div role="tabpanel" class="tab-pane" id="tableview">
     <div style="display: none;">
-      <span id="column-sort-info">Klicken Sie auf , um nach dieser Spalte zu sortieren</span>
+      <span id="column-sort-info">Click to sort by this column</span>
     </div>
     <div id="selectionsTable"></div>
 
@@ -831,18 +877,18 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-        <dt>Datenquelle:</dt>
-        <dd>Solidarsche Landwirtschaft (SoLaWi)</dd>
+        <dt>Source:</dt>
+        <dd>Allgemeiner Deutscher Fahrrad-Club Berlin e.V. - fLotte-Berlin</dd>
         
 
         
-        <dt>Geographische Abdeckung:</dt>
+        <dt>Geographical Area:</dt>
         <dd>Treptow-Köpenick</dd>
         
 
         
-        <dt>Einheit:</dt>
-        <dd>Anzahl der Abholstellen</dd>
+        <dt>Unit of Measurement:</dt>
+        <dd>Number of rentals</dd>
         
 
         
@@ -852,41 +898,6 @@ opensdg.chartConfigAlter(function(config, info) {
 </div>
 
 <div id="tableSelectionDownload" class="clearfix"></div>
-
-  </div><div role="tabpanel" class="tab-pane" id="mapview" class="map">
-    
-<h4 id="map-heading" class="chart-title">Anzahl der Abholstellen für Produkte Solidarischer Landwirtschaft (SoLaWi)</h4>
-<div id="map" aria-describedby="table-alternative">
-  <img class="map-loading-image" src="/SDGTK/assets/img/loading.gif" alt="Karte wird geladen" />
-</div>
-
-
-
-
-<div id="mapFooter" class="table-footer-text">
-  <h5 class="sr-only">Chart details</h5>
-    <dl>
-        
-        <dt>Datenquelle:</dt>
-        <dd>Solidarsche Landwirtschaft (SoLaWi)</dd>
-        
-
-        
-        <dt>Geographische Abdeckung:</dt>
-        <dd>Treptow-Köpenick</dd>
-        
-
-        
-        <dt>Einheit:</dt>
-        <dd>Anzahl der Abholstellen</dd>
-        
-
-        
-
-        
-    <dl>
-</div>
-
 
   </div>
 </div>
@@ -904,7 +915,7 @@ opensdg.chartConfigAlter(function(config, info) {
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to National Metadata tab"
->Nationale Metadaten</a>
+>National Metadata</a>
 </li>
 
 <li role="presentation" class="nav-item">
@@ -912,7 +923,7 @@ data-event-label="Change to National Metadata tab"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to Global Metadata tab"
->Globale Metadaten</a>
+>Global Metadata</a>
 </li>
 
 <li role="presentation" class="nav-item">
@@ -920,13 +931,13 @@ data-event-label="Change to Global Metadata tab"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to Sources tab"
->Datenquellen</a>
+>Sources</a>
 </li>
 
 
   
   <li role="presentation" class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#edit" aria-controls="edit" role="tab">Bearbeiten</a>
+    <a class="nav-link" data-toggle="tab" href="#edit" aria-controls="edit" role="tab">Edit</a>
   </li>
   
 </ul>
@@ -940,7 +951,7 @@ data-event-label="Change to Sources tab"
       <p>
         
         
-        Im Folgenden werden die Metadaten zu den lokal verfügbaren Zeitreihen für Treptow-Köpenick zum jeweiligen Indikator bereitgestellt.
+        In the following, the metadata for the locally available time series for Treptow-Köpenick are provided for the respective indicator.
       </p>
       <table class="table">
   
@@ -960,7 +971,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Verfügbare Datenreihenbezeichnung </th>
+        <th scope="row">Indicator available </th>
         <td>
           
             
@@ -974,7 +985,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Indikatorenbeschreibung </th>
+        <th scope="row">Indicator description </th>
         <td>
           
             
@@ -988,7 +999,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Geographische Abdeckung </th>
+        <th scope="row">Geographical coverage </th>
         <td>
           
             <p>Treptow-Köpenick</p>
@@ -1002,10 +1013,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Einheit </th>
+        <th scope="row">Unit of measurement </th>
         <td>
           
-            <p>Anzahl der Abholstellen</p>
+            <p>Number of rentals</p>
 
           
         </td>
@@ -1016,21 +1027,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Definitionen </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Methodik </th>
+        <th scope="row">Definitions </th>
         <td>
           
             
@@ -1044,7 +1041,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Weitere Informationen </th>
+        <th scope="row">Calculations </th>
         <td>
           
             
@@ -1058,7 +1055,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Qualitätssicherung </th>
+        <th scope="row">Other information </th>
         <td>
           
             
@@ -1072,7 +1069,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Vergleichbarkeit mit internationalen Daten / Standards </th>
+        <th scope="row">Quality assurance </th>
         <td>
           
             
@@ -1086,7 +1083,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Kommentare und Einschränkungen </th>
+        <th scope="row">Comparability with international data/standards </th>
         <td>
           
             
@@ -1100,7 +1097,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Vernunft und Interpretation </th>
+        <th scope="row">Comments and limitations </th>
         <td>
           
             
@@ -1114,7 +1111,21 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Daten zuletzt aktualisiert am </th>
+        <th scope="row">Rational and interpretation </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data last updated </th>
         <td>
           
             
@@ -1123,8 +1134,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/9f205c480b85d173abf15e1ca110555a8351a6cf" target="_blank">
-                2021-08-12: see changes on GitHub <span class="visuallyhidden">in neuem Fenster öffnen</span>
+              <a href="https://github.com/beyersar/DataTK/commit/c6a314df1b9b160275aa2d7daac42e7ed6cbfe95" target="_blank">
+                2021-09-07: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1141,7 +1152,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Metadaten zuletzt aktualisiert am </th>
+        <th scope="row">Metadata last updated </th>
         <td>
           
             
@@ -1150,8 +1161,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/0d3129e4401d5998321957f3aa2d2f501761ef77" target="_blank">
-                2021-08-12: see changes on GitHub <span class="visuallyhidden">in neuem Fenster öffnen</span>
+              <a href="https://github.com/beyersar/DataTK/commit/168cf74397d3ad599b18c62886fe495ad3f98d43" target="_blank">
+                2021-09-07: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1256,7 +1267,7 @@ data-event-label="Change to Sources tab"
   <!-- Global Metadata -->
   <div>
     <article>
-      <p>Diese Übersicht stellt weitere Informationen zu den Metadaten des jeweiligen Indikators bereit.</p>
+      <p>This overview provides further information about the metadata of the respective indicator.</p>
       <table class="table">
   
   
@@ -1266,10 +1277,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Indikatorenbezeichnung </th>
+        <th scope="row">Indicator name </th>
         <td>
           
-            <p>Anzahl der Abholstellen für Produkte Solidarischer Landwirtschaft (SoLaWi)</p>
+            <p>Number of cargo bike rentals</p>
 
           
         </td>
@@ -1280,10 +1291,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Indikatorennummerierung </th>
+        <th scope="row">Indicator number </th>
         <td>
           
-            <p>11.2.1</p>
+            <p>11.1.2</p>
 
           
         </td>
@@ -1294,10 +1305,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Unterziel </th>
+        <th scope="row">Target name </th>
         <td>
           
-            <p>Maßnahme - Vorantreibung der Ernährungswende regional</p>
+            <p>Measure - Free rental of cargo bikes throughout Treptow- Köpenick</p>
 
           
         </td>
@@ -1308,10 +1319,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Unterzielnummerierung </th>
+        <th scope="row">Target number </th>
         <td>
           
-            <p>11.2</p>
+            <p>11.1</p>
 
           
         </td>
@@ -1322,21 +1333,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Globale Indikatorenbeschreibung </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">VN Tier Klassifikation </th>
+        <th scope="row">Global indicator description </th>
         <td>
           
             
@@ -1350,7 +1347,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">VN Custodian Agency </th>
+        <th scope="row">UN designated tier </th>
         <td>
           
             
@@ -1364,7 +1361,21 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Link zu den globalen Metadaten </th>
+        <th scope="row">UN custodian agency </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Link to UN metadata </th>
         <td>
           
             
@@ -1545,7 +1556,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Organisation </th>
         <td>
           
-            <p>Solidarsche Landwirtschaft (SoLaWi)</p>
+            <p>Allgemeiner Deutscher Fahrrad-Club Berlin e.V. - fLotte-Berlin</p>
 
           
         </td>
@@ -1556,7 +1567,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Periodizität </th>
+        <th scope="row">Periodicity </th>
         <td>
           
             
@@ -1570,7 +1581,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Daten verfügbar seit </th>
+        <th scope="row">Earliest available data </th>
         <td>
           
             
@@ -1584,10 +1595,10 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Geographische Abdeckung </th>
+        <th scope="row">Geographical coverage </th>
         <td>
           
-            <p>Treptow-Köpenick</p>
+            
 
           
         </td>
@@ -1598,7 +1609,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Link zur Datenquelle </th>
+        <th scope="row">Link to data source </th>
         <td>
           
             
@@ -1607,8 +1618,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://www.solidarische-landwirtschaft.org/solawis-finden/karte/#/" target="_blank">
-                https://www.solidarische-landwirtschaft.org/solawis-finden/karte/#/ <span class="visuallyhidden">in neuem Fenster öffnen</span>
+              <a href="https://flotte-berlin.de/" target="_blank">
+                https://flotte-berlin.de/ <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1625,7 +1636,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Veröffentlichungsdatum </th>
+        <th scope="row">Release date </th>
         <td>
           
             
@@ -1639,7 +1650,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Nächste Veröffentlichung am </th>
+        <th scope="row">Next release </th>
         <td>
           
             
@@ -1653,7 +1664,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Statistische Klassifizierung </th>
+        <th scope="row">Statistical classification </th>
         <td>
           
             
@@ -1667,7 +1678,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Kontaktinformationen </th>
+        <th scope="row">Contact details </th>
         <td>
           
             
@@ -1681,7 +1692,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Weitere Informationen </th>
+        <th scope="row">Other information </th>
         <td>
           
             
@@ -1772,11 +1783,11 @@ data-event-label="Change to Sources tab"
   
 
 
-  <a class="btn btn-primary" href="http://prose.io/#beyersar/DataTK/edit/develop/data/indicator_11-2-1.csv">Daten bearbeiten</a>
+  <a class="btn btn-primary" href="http://prose.io/#beyersar/DataTK/edit/develop/data/indicator_11-1-2.csv">Edit Data</a>
   
 
   
-  <a class="btn btn-primary" href="http://prose.io/#beyersar/DataTK/edit/develop/meta/11-2-1.md">Metadaten bearbeiten</a>
+  <a class="btn btn-primary" href="http://prose.io/#beyersar/DataTK/edit/develop/meta/11-1-2.md">Edit Metadata</a>
   
 
   
@@ -1798,11 +1809,11 @@ data-event-label="Change to Sources tab"
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Erstellt mit Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
             
               <li>
                 
-                  <a href="mailto:my-email-address@example.com" target="_blank">Kontakt</a>
+                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
                 
                 </li>
               <li>
@@ -1816,7 +1827,7 @@ data-event-label="Change to Sources tab"
                 
                 </li>
               <li>
-                <a href="/SDGTK/de/about/cookies-and-privacy/">Cookies</a>
+                <a href="/SDGTK/about/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               
@@ -1844,23 +1855,14 @@ data-event-label="Change to Sources tab"
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
 
-<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
-<script src="https://cdn.jsdelivr.net/npm/leaflet.zoomshowhide@0.1.0/dist/leaflet-zoom-show-hide.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/1.4.0/chroma.min.js"></script>
-<script src="https://cdn.rawgit.com/nezasa/iso8601-js-period/master/iso8601.min.js"></script>
-<script src="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.min.js"></script>
-<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
-<script src="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'ausblenden';</script>
+    translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Suche';</script>
+    translations['search']['search'] = 'Search';</script>
 
 <script src='/SDGTK/assets/js/sdg.js?v=20210907211657'></script>
 
