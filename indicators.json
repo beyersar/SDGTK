@@ -75,7 +75,23 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/3-1-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "3-1-2",
+          "title": "City cycling - Kilometers ridden by bicycle",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/3-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "3-1-3",
+          "title": "City cycling – Kilograms of CO2 saved",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/3-1-3",
+          "status": "complete"
         },
         {
           "id": "3-2-1",
