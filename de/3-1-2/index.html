@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20211012185348">
+        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20211012190912">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -433,6 +433,15 @@ var translations = {
 
   
 
+<div class="row" id="page-content">
+  <div class="col-xs-12">
+    <p>STADTRADELN ist ein Wettbewerb, bei dem es darum geht, 21 Tage lang möglichst viele Alltagswege klimafreundlich mit dem Fahrrad zurückzulegen. <br />
+Der Indikator zeigt die mit Fahrrad gefahrenen Kilometer des offenen Bezirksteam Treptow-Köpenick. <br />
+Mehr Infos zum STADTRADELN finden sich hier: <a href="https://www.stadtradeln.de/darum-geht-es">https://www.stadtradeln.de/darum-geht-es</a></p>
+
+  </div>
+</div>
+
 
   
 
@@ -444,7 +453,7 @@ var translations = {
   data-country="Treptow-Köpenick"
   data-charttitle="Stadtradeln - Mit Fahrrad gefahrene Kilometer"
   data-charttitles="null"
-  data-measurementunit="kilometer"
+  data-measurementunit="Gefahrene Kilometer"
   data-showdata="true"
   data-graphtype="bar"
   data-geocoderegex=""
@@ -525,7 +534,7 @@ var translations = {
     <p>Geographische Abdeckung: Treptow-Köpenick</p>
     
     
-    <p>Einheit: kilometer</p>
+    <p>Einheit: Gefahrene Kilometer</p>
     
     
   </div>
@@ -811,7 +820,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Einheit:</dt>
-        <dd>kilometer</dd>
+        <dd>Gefahrene Kilometer</dd>
         
 
         
@@ -856,7 +865,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Einheit:</dt>
-        <dd>kilometer</dd>
+        <dd>Gefahrene Kilometer</dd>
         
 
         
@@ -984,7 +993,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Einheit </th>
         <td>
           
-            <p>kilometer</p>
+            <p>Gefahrene Kilometer</p>
 
           
         </td>
@@ -1129,7 +1138,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/4c40c4d403f324c35e0cab2a82cd11ae384c7db0" target="_blank">
+              <a href="https://github.com/beyersar/DataTK/commit/b72f142c80b2963a715e38c3f6f11ce7d9d4ee0b" target="_blank">
                 2021-10-12: see changes on GitHub <span class="visuallyhidden">in neuem Fenster öffnen</span>
               </a>
             
@@ -1832,12 +1841,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/SDGTK/assets/js/sdg.js?v=20211012185348'></script>
+<script src='/SDGTK/assets/js/sdg.js?v=20211012190912'></script>
 
 
     
     
-    <script src="/SDGTK/assets/js/custom.js?v=20211012185348"></script><script>
+    <script src="/SDGTK/assets/js/custom.js?v=20211012190912"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
