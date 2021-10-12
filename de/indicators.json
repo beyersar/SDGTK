@@ -156,14 +156,6 @@
           "keywords": "",
           "href": "/SDGTK/de/4-5-1",
           "status": "complete"
-        },
-        {
-          "id": "4-6-1",
-          "title": "Monitoring der formalen Verankerung von Bildung für nachhaltige Entwicklung (BNE) - Anzahl an Fundstellen zum Thema BNE in Lehr- und Bildungsplänen",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/4-6-1",
-          "status": "notstarted"
         }]
     }
   },
@@ -223,7 +215,7 @@
         
         {
           "id": "6-1-1",
-          "title": "Noch zu definieren",
+          "title": "Saprobie (organische Belastung) und Trophie (Nährstoffbelastung) des Müggelsee",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/6-1-1",
@@ -239,18 +231,10 @@
         },
         {
           "id": "6-3-1",
-          "title": "Noch zu definieren",
+          "title": "Veränderung der Wassernutzungseffizienz im Zeitablauf",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/6-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-4-1",
-          "title": "Badegewässerqualität der Badestellen innerhalb des Bezirks Treptow-Köpenick",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/6-4-1",
           "status": "complete"
         }]
     }

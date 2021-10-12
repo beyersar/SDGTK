@@ -156,14 +156,6 @@
           "keywords": "",
           "href": "/SDGTK/4-5-1",
           "status": "complete"
-        },
-        {
-          "id": "4-6-1",
-          "title": "Monitoring of the formal anchoring of education for sustainable development (ESD) - number of references to the topic of ESD in curricula and educational plans",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/4-6-1",
-          "status": "notstarted"
         }]
     }
   },
@@ -223,7 +215,7 @@
         
         {
           "id": "6-1-1",
-          "title": "Still to be defined",
+          "title": "Saprobity (organic load) and trophicity (nutrient load) of the Müggelsee lake",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/6-1-1",
@@ -239,18 +231,10 @@
         },
         {
           "id": "6-3-1",
-          "title": "To be defined",
+          "title": "Change in water-use efficiency over time",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/6-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-4-1",
-          "title": "Bathing water quality of the bathing sites within the district Treptow-Köpenick",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/6-4-1",
           "status": "complete"
         }]
     }
