@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20211013124703">
+        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20211013125526">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -435,7 +435,16 @@ var translations = {
 
 <div class="row" id="page-content">
   <div class="col-xs-12">
-    <p>Info</p>
+    <p>The indicator shows the saprobity (organic load) and trophicity (nutrient load) of the Müggelsee on the basis of 5 different condition classes. <br /></p>
+
+<p>The condition classes are: <br />
+very good = 1 <br />
+good = 2 <br />
+moderate = 3 <br />
+unsatisfactory = 4 <br />
+bad = 5 <br /></p>
+
+<p>Saprobity represents a measure of the pollution of the lake with biodegradable organic matter; it is measured via indicator species of the invertebrate fauna. Trophism describes the nutrient load of the water and can be measured in lakes via phytoplankton. The data are taken from the data report of the “Core Indicators for Sustainable Development in Berlin”.</p>
 
   </div>
 </div>
@@ -451,7 +460,7 @@ var translations = {
   data-country="Treptow-Köpenick"
   data-charttitle="Saprobity (organic load) and trophicity (nutrient load) of the Müggelsee lake"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="Condition classes"
   data-showdata="true"
   data-graphtype="bar"
   data-geocoderegex=""
@@ -511,6 +520,8 @@ var translations = {
     
     <p>Geographical Area: Treptow-Köpenick</p>
     
+    
+    <p>Unit of Measurement: Condition classes</p>
     
     
   </div>
@@ -795,6 +806,9 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Unit of Measurement:</dt>
+        <dd>Condition classes</dd>
+        
 
         
 
@@ -836,6 +850,9 @@ opensdg.chartConfigAlter(function(config, info) {
         <dd>Treptow-Köpenick</dd>
         
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Condition classes</dd>
         
 
         
@@ -963,7 +980,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            
+            <p>Condition classes</p>
 
           
         </td>
@@ -1108,7 +1125,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/894dbc6dde4898cff568b4ee19414fbd18d48627" target="_blank">
+              <a href="https://github.com/beyersar/DataTK/commit/5ad18e4504d01861ce4b4d3f9c28f9b2a622d218" target="_blank">
                 2021-10-13: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1811,12 +1828,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/SDGTK/assets/js/sdg.js?v=20211013124703'></script>
+<script src='/SDGTK/assets/js/sdg.js?v=20211013125526'></script>
 
 
     
     
-    <script src="/SDGTK/assets/js/custom.js?v=20211013124703"></script><script>
+    <script src="/SDGTK/assets/js/custom.js?v=20211013125526"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

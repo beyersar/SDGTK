@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20211013124703">
+        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20211013125526">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -435,7 +435,18 @@ var translations = {
 
 <div class="row" id="page-content">
   <div class="col-xs-12">
-    <p>Info</p>
+    <p>Der Indikator zeigt die Saprobie (organische Belastung) und Trophie (Nährstoffbelastung) des Müggelsee anhand 5 verschiedener Zustandsklassen. <br />
+Die Zustandsklassen sind: <br />
+sehr gut = 1 <br />
+gut = 2 <br />
+mäßig = 3 <br />
+unbefriedigend = 4 <br />
+schlecht = 5 <br />
+<br />
+Die Saprobie stellt ein Maß der Verschmutzung des Sees mit biologisch abbaubaren organischen Stoffen dar; 
+sie wird  über Indikatorarten der wirbellosen Fauna abgebildet. 
+Trophie beschreibt die Nährstoffbelastung des Wassers und lässt sich in Seen über das Phytoplankton abbilden. 
+Die Daten stammen aus dem Datenbericht der “Kernindikatoren zur nachhaltigen Entwicklung Berlins”.</p>
 
   </div>
 </div>
@@ -451,7 +462,7 @@ var translations = {
   data-country="Treptow-Köpenick"
   data-charttitle="Saprobie (organische Belastung) und Trophie (Nährstoffbelastung) des Müggelsee"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="Zustandsklassen"
   data-showdata="true"
   data-graphtype="bar"
   data-geocoderegex=""
@@ -511,6 +522,8 @@ var translations = {
     
     <p>Geographische Abdeckung: Treptow-Köpenick</p>
     
+    
+    <p>Einheit: Zustandsklassen</p>
     
     
   </div>
@@ -795,6 +808,9 @@ opensdg.chartConfigAlter(function(config, info) {
         
 
         
+        <dt>Einheit:</dt>
+        <dd>Zustandsklassen</dd>
+        
 
         
 
@@ -836,6 +852,9 @@ opensdg.chartConfigAlter(function(config, info) {
         <dd>Treptow-Köpenick</dd>
         
 
+        
+        <dt>Einheit:</dt>
+        <dd>Zustandsklassen</dd>
         
 
         
@@ -963,7 +982,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Einheit </th>
         <td>
           
-            
+            <p>Zustandsklassen</p>
 
           
         </td>
@@ -1108,7 +1127,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/894dbc6dde4898cff568b4ee19414fbd18d48627" target="_blank">
+              <a href="https://github.com/beyersar/DataTK/commit/5ad18e4504d01861ce4b4d3f9c28f9b2a622d218" target="_blank">
                 2021-10-13: see changes on GitHub <span class="visuallyhidden">in neuem Fenster öffnen</span>
               </a>
             
@@ -1811,12 +1830,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/SDGTK/assets/js/sdg.js?v=20211013124703'></script>
+<script src='/SDGTK/assets/js/sdg.js?v=20211013125526'></script>
 
 
     
     
-    <script src="/SDGTK/assets/js/custom.js?v=20211013124703"></script><script>
+    <script src="/SDGTK/assets/js/custom.js?v=20211013125526"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
