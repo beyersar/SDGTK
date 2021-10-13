@@ -623,18 +623,10 @@
         },
         {
           "id": "13-3-1",
-          "title": "CO2-Emissionen aus dem Primärenergieverbrauch (Quellenbilanz)",
+          "title": "Anzahl der Staaten, die die Stärkung des institutionellen, systemischen und individuellen Kapazitätsaufbaus zur Umsetzung von Anpassung, Minderung und Technologietransfer und Entwicklungsmaßnahmen verkündet haben",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/de/13-3-1",
-          "status": "complete"
-        },
-        {
-          "id": "13-3-2",
-          "title": "CO2-Emissionen aus dem Endenergieverbrauch (Verursacherbilanz)",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/de/13-3-2",
           "status": "complete"
         }]
     }
