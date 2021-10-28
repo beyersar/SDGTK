@@ -4,5 +4,12 @@ This is a starter repository to help in implementing the [Open SDG](https://gith
 
 Hi! : ))
 
-#Test
-    Marlenes Branch
+
+    Sarah Beyer
+    Chih-Yu Chen
+    Lucia Feddersen
+    Christina Gottschalk
+    Mia Lohe
+    Marlene Bültemann
+
+
