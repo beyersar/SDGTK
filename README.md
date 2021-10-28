@@ -4,4 +4,10 @@ This is a starter repository to help in implementing the [Open SDG](https://gith
 
 Hi! : ))
 
-Hallo hier ist Christina!!!
+
+#contributor
+    Sarah Beyer
+    Chih-Yu Chen
+    Lucia Feddersen
+    Christina Gottschalk
+
