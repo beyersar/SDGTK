@@ -5,4 +5,6 @@ This is a starter repository to help in implementing the [Open SDG](https://gith
 Hi! : ))
 
 #contributor
+    Sarah Beyer
+    Chih-Yu Chen
     Lucia Feddersen
