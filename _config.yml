@@ -119,12 +119,9 @@ menu:
     translation_key: menu.reporting_status
   - path: /about
     translation_key: menu.about
-  - path: /guidance
-    translation_key: menu.guidance
   - path: /faq
     translation_key: menu.faq
-  - path: /news
-    translation_key: menu.updates
+    
 
 footer_menu:
   - path: mailto:my-email-address@example.com
