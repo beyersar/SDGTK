@@ -4,7 +4,7 @@
       {% include components/dev-disclaimer.html %}
     </div>
 
-    <header role="banner" class="header-menu-left-aligned">
+    <header role="banner" class="header-menu-left-aligned"  style="position: sticky; position: -webkit-sticky; top: 0; z-index: 1; background: white;">
       <div class="container">
         <div class="search-and-desktop-widgets" style="display: inline-flex; margin-left: auto;">
           {% include search.html id="search" %}
@@ -27,37 +27,33 @@
     </header>
    
 
-    <div style="font-weight: auto; position: sticky; position: -webkit-sticky; top: 0; z-index: 1; background: white;">
-    <header role="banner" class="header-menu-left-aligned" style="background: #19486A; color: white;">
-      <div    class="logo-and-mobile-widgets"
-              style=" height: 80px;
-                      display: -webkit-flex;
-                      display: -webkit-box;
-                      display: -ms-flexbox;
-                      display: flex;
-                      -webkit-align-items: center;
-                      -webkit-box-align: center;
-                      -ms-flex-align: center;
-                       align-items: center;"
-                       >
-             <!-- {% include components/header/logo.html %} -->
-             <div>
-                  <h1 style=" text-align: center;
-                              padding-left: 150px;
-                              padding-top: 80px;">Kommunale Nachhaltigkeitsstrategie</h1>
-                  <h3 style=" padding-left: 150px;">Treptow-Köpenick</h3>
-             </div>
-          </div>
-      <div class="container">
+    <div class="search-and-desktop-widgets">
+        <header role="banner" class="header-menu-left-aligned" style="background: #19486A; color: white;">
+            <div class="container">
+                <div    class="logo-and-mobile-widgets"
+                          style=" height: 80px;
 
-        
+                                  display: -webkit-flex;
+                                  display: -webkit-box;
+                                  display: -ms-flexbox;
+                                  display: flex;
+                                  -webkit-align-items: center;
+                                  -webkit-box-align: center;
+                                  -ms-flex-align: center;
+                                   align-items: center;"
+                                   >
 
+                      <div style=" height: auto; width:12%;">
+                            {% include components/header/logo.html %}
+                      </div>
 
-
-      </div>
-
-    </header>
-
-</div>
+                      <h1 style=" text-align: center;
+                                  padding-top: 0%;">
+                                    Kommunale Nachhaltigkeitsstrategie
+                      </h1>
+                </div>
+            </div>
+        </header>
+    </div>
 
  {% include components/page-top.html %}
