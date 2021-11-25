@@ -138,14 +138,6 @@ footer_menu:
   - path: #
     translation_key: Technische Hinweise
 
-  - path: https://twitter.com/MyTwitterAccount
-    translation_key: general.twitter
-  - path: https://facebook.com/MyFacebookAccount
-    translation_key: general.facebook
-  - path: #
-    translation_key: Instragram
-
-
 
 
 
