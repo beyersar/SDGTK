@@ -1,4 +1,68 @@
-// Enter any custom Sass in this file.
+/* header */
+
+#search, #search-mobile {
+    @include searchBar;
+    @include searchBarHighContrast;
+    margin-top: 0;
+    margin-bottom: 0;
+
+  }
+  header {
+    .container {
+      padding-top: 20px;
+      min-height: 113px;
+      .navbar-default {
+        border: none;
+      }
+    }
+  }
+  .header-menu-left-aligned {
+    .search-and-desktop-widgets {
+      float: right;
+      display: none;
+      @media screen and (min-width: 769px) {
+        display: block;
+        position: relative;
+        top: 60px;
+        
+      }
+      #search {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .navbar .navbar-nav {
+        margin-top: 0;
+        position: relative;
+        top: -15px;
+      }
+    }
+}
+
+  #banner {
+    background: $backgroundColor url('../img/sdgbg.png') top left repeat-x;
+    padding-top: 15px;
+  }
+  body{
+    background: $backgroundColor top left repeat-x;
+    padding-top: 15px;
+  }
+
+  #skiplink {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    width: 250px;
+    left: 50%;
+    margin-left: -125px;
+    padding: 10px;
+    background: $backgroundColor;
+    text-align: center;
+    border: 1px solid $color-dark;
+    color: $color-dark;
+    display: block;
+  }
+  
 /*#2.1 Navigation Buttons */
  @for $i from 1 through length($goal-banner-backgroundColors) {
    $background-c: nth($goal-banner-backgroundColors, $i);
@@ -18,4 +82,3 @@
      }
    }
  }
-/*#2.1*/
