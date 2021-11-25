@@ -73,11 +73,10 @@
                             {% endif %}
 
                         </li>
-                        {% endif %}
                         {% endfor %}
                         {% endif %}
                         {% if site.environment == 'staging' and site.site_config_form.enabled %}
-                        < style="color:white;margin: 15px;font-weight: bold;"><a style="color:white;margin: 10px 10px;font-size: 30px;" href="{{ page.baseurl }}config">Configuration</a></li>
+                        <li style="color:white;margin: 15px;font-weight: bold;"><a style="color:white;margin: 10px 10px;font-size: 30px;" href="{{ page.baseurl }}config">Configuration</a></li>
                         {% endif %}
                         {%- if site.languages.size > 1 and site.footer_language_toggle and site.footer_language_toggle != 'none' -%}
                         <li class="language-toggle-menu-footer" style="color:white;margin: 15px;font-weight: bold;">
