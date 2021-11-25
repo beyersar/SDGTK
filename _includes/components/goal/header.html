@@ -1,8 +1,16 @@
-<div class="heading goal-banner goal-{{ page.goal.number }}">
+{% include head.html %}
+{% include header.html %}
+{% if site.environment == 'staging' %}
+{% assign baseurl = 'https://g205sdgs.github.io/sdg-indicators' %}
+{% else %}
+{% assign baseurl = 'https://sdg-indikatoren.de' %}
+{% endif %}
+
+<div class="heading goal-banner goal-{{ page.goal.number }} background-color: #4C9F38">
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="{{ page.goal.icon }}" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" />
+        <img src="{{ page.goal.icon }}" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
@@ -12,3 +20,4 @@
     </div>
   </div>
 </div>
+
