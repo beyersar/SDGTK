@@ -1,7 +1,6 @@
-<!-- # représente l\'id et le point (.) représente la classe -->
 <style>
     #kooperation {
-    background-color: #19486a;
+        background-color: #19486a;
         color: white;
         padding-top: 30px;
         padding-bottom: 15px;
@@ -13,24 +12,21 @@
 </style>
 
 
-
-
-
-<footer role="contentinfo" style="padding-top: 85px;">
+<footer role="contentinfo" style="padding-top: 65px;">
     <div class="container">
         <div class="row" style="padding: 0px;">
             <div class="col-xs-12">
                 <div id="kooperation" >
-                    <p>Unsere Kooperationen</p>
+                    <p>Unsere Projektpartner</p>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
-        <div class="row" style="padding: 90px;">
+        <div class="row" style="padding: 70px;">
             <div class="col-xs-3" style="width: 20%;">
                 <div id="bilder" style="background-color:white;">
-                    <a href="http://www.berlin.de/ba-treptow-koepenick/" target="_blank" ><img src="/SDGTK/assets/img/treptowk.logo.png" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    <a href="http://www.berlin.de/ba-treptow-koepenick/" target="_blank" ><img src="/SDGTK/assets/img/treptowk.logo.png" width="400" height="400" class="img-responsive" style=" max-width: 100%;"></a>
                 </div>
             </div>
             <div class="col-xs-3" style="width: 20%;">
@@ -44,32 +40,50 @@
                 </div>
             </div>
             <div class="col-xs-3" style="width: 20%;">
-                <div id="bilder4" style="background-color:white;">
-                    <a href="https://www.htw-berlin.de" target="_blank" ><img src="/SDGTK/assets/img/logo htw 3.jpg"  class="img-responsive"></a>
-                </div>
-            </div>
-            <div class="col-xs-3" style="width: 20%;">
                 <div id="bilder5" style="background-color:white;">
                     <a href="https://skew.engagement-global.de/" target="_blank" ><img src="/SDGTK/assets/img/service stelle.logo.png" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
                 </div>
             </div>
+            <div class="col-xs-3" style="width: 20%;">
+                <div id="bilder4" style="background-color:white;position: absolute;margin-top: -20px; ">
+                    <a href="https://www.htw-berlin.de" target="_blank" ><img src="/SDGTK/assets/img/logo htw 3.jpg" width="400" height="400" class="img-responsive" ></a>
+                </div>
+            </div>
+
         </div>
     </div>
     <div class="container">
-        <div class="row" style="padding: 0px;">
+        <div class="row" style="padding: 0px;text-align: center;">
             <div class="col-xs-12">
-                <div id="footerLinks" style="background-color:#19486a;color:white;padding: 30px;margin-bottom: 1px;">
+                <div id="footerLinks" style="background-color:#19486a;color:white;padding: 10px;margin-bottom: 1px;">
                     <ul style="text-align: center;">
-                        <li><a href="https://beyersar.github.io/DataTK/en/zip/all_indicators.zip" target="_blank" style="color:white;margin: 10px 15px;font-weight: bold;">Download</a></li>
-                        <li><a href="mailto:test@example.com" target="_blank" style="color:white;margin: 10px 15px;font-weight: bold;">Kontakt</a></li>
-                        <li><a href="#" style="color:white;margin: 10px 15px;font-weight: bold;">Impressum</a></li>
-                        <li><a href="/SDGTK/about/cookies-and-privacy/" target="_blank" style="color:white;margin: 10px 15px;font-weight: bold;">Cookies</a></li>
-                        <li><a href="#" style="color:white;margin: 10px 15px;font-weight: bold;">Technische Hinweise</a></li>
-                    </ul>
-                    <ul style="margin-bottom: 1px;text-align: right;position: absolute;margin-left: 960px;margin-top: -55px;">
-                        <a href="https://twitter.com/MyTwitterAccount" class="fa fa-twitter" target="_blank" style="color:white;margin: 10px 10px;font-size: 30px;"></a>
-                        <a href="https://www.instagram.com/MyInstagramAccount/" class="fa fa-instagram" target="_blank" style="color:white;margin: 10px 10px;font-size: 30px;"></a>
-                        <a href="https://facebook.com/MyFacebookAccount" class="fa fa-facebook" target="_blank" style="color:white;margin: 10px 10px;font-size: 30px;"></a>
+                        {% if site.footer_menu %}
+                        {% for item in site.footer_menu %}
+                        {%- assign item_path = item.path | t -%}
+
+                        <li style="color:white;margin: 15px;font-weight: bold;">
+                            {% if item_path contains ":" %}
+                            <a href="{{ item_path }}" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">{{ item.translation_key | t }}</a>
+                            {% else %}
+                            {%- assign item_path_first = item_path | slice: 0 %}
+                            {%- if item_path_first == '/' -%}
+                            {%- assign item_path = item_path | slice: 1, item_path.size -%}
+                            {%- endif -%}
+                            <a href="{{ page.baseurl }}{{ item_path }}" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">{{ item.translation_key | t }}</a>
+                            {% endif %}
+
+                        </li>
+                        {% endif %}
+                        {% endfor %}
+                        {% endif %}
+                        {% if site.environment == 'staging' and site.site_config_form.enabled %}
+                        < style="color:white;margin: 15px;font-weight: bold;"><a style="color:white;margin: 10px 10px;font-size: 30px;" href="{{ page.baseurl }}config">Configuration</a></li>
+                        {% endif %}
+                        {%- if site.languages.size > 1 and site.footer_language_toggle and site.footer_language_toggle != 'none' -%}
+                        <li class="language-toggle-menu-footer" style="color:white;margin: 15px;font-weight: bold;">
+                            {% include components/language-toggle.html location="footer" %}
+                        </li>
+                        {%- endif -%}
                     </ul>
                 </div>
             </div>
