@@ -6,6 +6,11 @@
     </div>
 </div>
 {% endif %}
+<ol class="breadcrumb">
+    <li><a href="{{ page.baseurl }}{{ item_path }}">{{ item.label | t }}</a></li>
+    <li><a href="{{ page.baseurl }}">{{ page.t.general.home }}</a></li>
+    <li class="active">{{ page.t.general.goal }} {{ page.goal.number }}</li>
+</ol>
 {% if page.previous and page.next %}
 <div class="previous-next-links row">
     <div class="col-xs-3 col-md-3 col-lg-4 pull-left">
