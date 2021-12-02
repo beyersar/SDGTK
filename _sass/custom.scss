@@ -1,4 +1,4 @@
-// Enter any custom Sass in this file.
+/* header */
 
 #search, #search-mobile {
     @include searchBar;
@@ -63,3 +63,22 @@
     display: block;
   }
   
+/*#2.1 Navigation Buttons */
+ @for $i from 1 through length($goal-banner-backgroundColors) {
+   $background-c: nth($goal-banner-backgroundColors, $i);
+   .goal-#{$i} {
+     &.navigation-btn {
+       background-color: $background-c;
+       color: white;
+       height: 36px;
+       border-color: transparent;
+       margin-bottom: 10px;
+       margin-top: 10px;
+       padding-top: 6px;
+       padding-bottom: 6px;
+     }
+     &.navigation-btn:hover {
+       background-color: darken($background-c,10%);
+     }
+   }
+ }
