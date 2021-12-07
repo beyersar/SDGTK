@@ -4,8 +4,7 @@
 #
 # Replace the baseurl with the name of this repository. For example, if the repository is named
 # "my-site-repository", then update the baseurl like so:
-# baseurl: "/my-site-repository"
-baseurl: "/SDGTK"
+baseurl: "/sdg-treptow-koepenick"
 # The next line should be the URL of your data repository published site. To find this,
 # go to your data repository in Github, and click "Settings", then scroll down to the
 # "Github Pages" section. Copy/paste the link in the green section.
