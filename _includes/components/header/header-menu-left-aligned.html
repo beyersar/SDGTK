@@ -2,7 +2,7 @@
   <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">{{ page.t.header.skip_link }}</a>
   
 
-<div style="position: sticky; position: -webkit-sticky; top: 15px; z-index: 1; background: white;">
+<div style="position: sticky; position: -webkit-sticky; top: 15px; z-index:3; background: white;">
   <div class="search-and-desktop-widgets" >
     <header role="banner" class="header-menu-left-aligned" 
             style="background: #19486A; 
@@ -28,16 +28,14 @@
 
                   <h1 style=" text-align: center;
                               padding-bottom: 8px;">
-                                Kommunale Nachhaltigkeitsstrategie Treptow-Köpenick
+                                Kommunale Nachhaltigkeitsstrategie von Treptow-Köpenick
                   </h1>
             </div>
         </div>
     </header>
-    <div id="banner" style="position: relative; 
-    top: -15px;"> </div>
+    <div id="banner" style="position: relative; top: -15px;"> </div>
 </div>
-
-    <header role="banner" class="header-menu-left-aligned" >
+    <header role="banner" class="header-menu-left-aligned" style="margin-top: -90px; z-index:2;">
       <div class="container">
         <div class="search-and-desktop-widgets" style="display: inline-flex; margin-left: auto;">
           {% include search.html id="search" %}
@@ -58,8 +56,5 @@
         </div>
 
     </header>
-   
-
-   
 </div>
  {% include components/page-top.html %}
