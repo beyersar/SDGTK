@@ -22,7 +22,7 @@
                               -ms-flex-align: center;
                               align-items: center;">
 
-                  <div style=" height: auto; width:12%;">
+                  <div id="SDGlogo" style=" height: auto; width:12%;">
                         {% include components/header/logo.html %}
                   </div>
 
@@ -37,9 +37,9 @@
     top: -15px;"> </div>
 </div>
 
-    <header role="banner" class="header-menu-left-aligned" >
+    <header role="banner" class="header-menu-left-aligned" style="margin-top: -80px; z-index:2;">
       <div class="container">
-        <div class="search-and-desktop-widgets" style="display: inline-flex; margin-left: auto;">
+        <div class="search-and-desktop-widgets" style="display: inline-flex; ">
           {% include search.html id="search" %}
           <div class="navbar navbar-default widgets-without-menu">
             <ul class="nav navbar-nav contrast-switcher">
