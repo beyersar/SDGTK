@@ -5,47 +5,17 @@
    .goal-#{$i} {
      &.navigation-btn {
        background-color: $background-c;
-       color: white;
-       height: 10px;
-       width: 10px;
-       border-color: transparent;
-       position: relative;
-       top: -50px;
-       margin-bottom: -50px;
-       margin-top: 25px;
-       line-height: 20px;
-       padding-top: 60px;
-       padding-bottom: 60px;
-       padding-left: 60px;
-       z-index: 1;
+     color: white;
+     height: 36px;
+     border-color: transparent;
+     margin-bottom: 10px;
+     margin-top: 10px;
+     padding-top: 6px;
+     padding-bottom: 6px;
      }
-     &.navigation-btn1{
-       background-color: $background-c;
-       color: white;
-       height: 10px;
-       width: 10px;
-       border-color: transparent;
-       position: relative;
-       top: -50px;
-       margin-bottom: -50px;
-       margin-top: 25px;
-       line-height: 20px;
-       padding-top: 60px;
-       padding-bottom: 60px;
-       padding-right: 5px;
-       z-index: 1;
-
-     }
-
-
      &.navigation-btn:hover {
        background-color: darken($background-c,10%);
      }
-
-     &.navigation-btn1:hover {
-       background-color: darken($background-c,10%);
-     }
-
      &.goal-titles{
      color: $background-c;
      }
