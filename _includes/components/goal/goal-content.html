@@ -11,22 +11,4 @@
     <li><a href="{{ page.baseurl }}">{{ page.t.general.home }}</a></li>
     <li class="active">{{ page.t.general.goal }} {{ page.goal.number }}</li>
 </ol>
-{% if page.previous and page.next %}
-<div class="previous-next-links row">
-    <div class="col-xs-3 col-md-3 col-lg-4 pull-left">
-        <a href="{{ page.previous.url }}" class="btn btn-primary btn-block goal-{{ page.goal.number }} navigation-btn" role="button">
-            <i class="fa fa-chevron-left" aria-hidden="true"></i> <span id="previous-link" class="hidden-sm hidden-xs">{{ include.previous_label | t }}</span>
-        </a>
-    </div>
 
-    <div class="col-xs-3 col-md-3 col-lg-4 pull-right">
-        <a href="{{ page.next.url  }}" class="btn btn-primary btn-block goal-{{ page.goal.number }} navigation-btn" role="button">
-           <i class="fa fa-chevron-right" aria-hidden="true"></i><span id="next-link" class="hidden-sm hidden-xs">{{ include.next_label | t }}</span>
-        </a>
-    </div>
-</div>
-{% endif %}
-<h1 class="goal-titles goal-{{ page.goal.number }}">
-    <span class="hidden-sm hidden-md hidden-lg">{{ page.t.general.goal }} {{ page.goal.number }}:</span>
-    {{ page.goal.name }}
-</h1>

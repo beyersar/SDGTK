@@ -1,0 +1,29 @@
+Index: _sass/custom.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/* header */\n\n#search, #search-mobile {\n    @include searchBar;\n    @include searchBarHighContrast;\n    margin-top: 0;\n    margin-bottom: 0;\n\n  }\n  header {\n    .container {\n      padding-top: 20px;\n      min-height: 113px;\n      .navbar-default {\n        border: none;\n      }\n    }\n  }\n  .header-menu-left-aligned {\n    .search-and-desktop-widgets {\n      float: right;\n      display: none;\n      @media screen and (min-width: 769px) {\n        display: block;\n        position: relative;\n        top: 60px;\n        \n      }\n      #search {\n        margin-top: 0;\n        margin-bottom: 0;\n      }\n      .navbar .navbar-nav {\n        margin-top: 0;\n        position: relative;\n        top: -15px;\n      }\n    }\n}\n\n  #banner {\n    background: $backgroundColor url('../img/sdgbg.png') top left repeat-x;\n    padding-top: 15px;\n  }\n  body{\n    background: $backgroundColor top left repeat-x;\n    padding-top: 15px;\n  }\n\n  #skiplink {\n    position: absolute;\n    top: 0;\n    left: 0;\n    z-index: 10000;\n    width: 250px;\n    left: 50%;\n    margin-left: -125px;\n    padding: 10px;\n    background: $backgroundColor;\n    text-align: center;\n    border: 1px solid $color-dark;\n    color: $color-dark;\n    display: block;\n  }\n  \n/*#2.1 Navigation Buttons */\n @for $i from 1 through length($goal-banner-backgroundColors) {\n   $background-c: nth($goal-banner-backgroundColors, $i);\n   .goal-#{$i} {\n     &.navigation-btn {\n       background-color: $background-c;\n       color: white;\n       height: 36px;\n       border-color: transparent;\n       margin-bottom: 10px;\n       margin-top: 10px;\n       padding-top: 6px;\n       padding-bottom: 6px;\n     }\n     &.navigation-btn:hover {\n       background-color: darken($background-c,10%);\n     }\n   }\n }\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/_sass/custom.scss b/_sass/custom.scss
+--- a/_sass/custom.scss	
++++ b/_sass/custom.scss	
+@@ -39,8 +39,8 @@
+ }
+ 
+   #banner {
+-    background: $backgroundColor url('../img/sdgbg.png') top left repeat-x;
+-    padding-top: 15px;
++    background: $backgroundColor url('../img/sdgbg.png') top right repeat-x;
++    padding-top: 50px;
+   }
+   body{
+     background: $backgroundColor top left repeat-x;
+@@ -72,6 +72,7 @@
+        color: white;
+        height: 36px;
+        border-color: transparent;
++       vertical-align: middle;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding-top: 6px;
