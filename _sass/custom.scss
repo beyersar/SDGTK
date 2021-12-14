@@ -16,6 +16,9 @@
      &.navigation-btn:hover {
        background-color: darken($background-c,10%);
      }
+     &.goal-titles{
+     color: $background-c;
+     }
    }
  }
 /*#2.1*/

@@ -26,6 +26,7 @@
     </div>
 </div>
 {% endif %}
-<h1>
-    <span class="hidden-sm hidden-md hidden-lg">{{ page.t.general.goal }} {{ page.goal.number }}: </span>{{ page.goal.name }}
+<h1 class="goal-titles goal-{{ page.goal.number }}">
+    <span class="hidden-sm hidden-md hidden-lg">{{ page.t.general.goal }} {{ page.goal.number }}:</span>
+    {{ page.goal.name }}
 </h1>
