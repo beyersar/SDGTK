@@ -11,4 +11,8 @@
     <li><a href="{{ page.baseurl }}">{{ page.t.general.home }}</a></li>
     <li class="active">{{ page.t.general.goal }} {{ page.goal.number }}</li>
 </ol>
+<h1 class="goal-titles goal-{{ page.goal.number }}">
+    <span class="hidden-sm hidden-md hidden-lg">{{ page.t.general.goal }} {{ page.goal.number }}:</span>
+    {{ page.goal.name }}
+</h1>
 
