@@ -41,16 +41,7 @@ header {
     }
   }
 }
-.layout-goal-by-target-vertical::after {
-  content: "HALLO";
-  height: 1px;
-  width: calc(100% - 60px);
-  border-bottom: 1px solid #ccc;
-  margin-left: 60px;
-  padding-bottom: 10px;
-  display: inline-block;
-  background: deeppink;
-}
+
 @media screen and (min-width: 769px) {
   .layout-goal-by-target-vertical::after {
     padding-bottom: 20px; } }
