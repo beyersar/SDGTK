@@ -143,16 +143,152 @@
  @for $i from 1 through length($goal-banner-backgroundColors) {
    $background-c: nth($goal-banner-backgroundColors, $i);
    .goal-#{$i} {
+    @media screen and (max-width: 657px){
+      .Image{
+        display: block;
+        margin: auto;
+        text-align: center;
+        max-width: 170px;
+        height: 100%;
+        z-index: -1;
+        margin-top: -20px;
+        }
+        .container{
+          height: 120px;
+        }
+        .btn-left{
+          position: relative;
+          top: 40px;
+          left: 70px;
+          
+        }
+        .btn-right{
+         position: relative;
+         top: 40px;
+         right: 70px;
+        }
+    }
+    @media screen and (min-width: 657px) and (max-width: 768px){
+      .Image{
+        display: block;
+        margin: auto;
+        text-align: center;
+        max-width: 173px;
+        height: 100%;
+        z-index: -1;
+        margin-top: -25px;
+        }
+       /*  .heading.goal-banner.goal-#{$i}{
+          height: 50px;
+        } */
+        .container{
+          height: 120px;
+        }
+        .btn-left{
+          position: relative;
+          top: 40px;
+          left: 90px;
+        }
+        .btn-right{
+         position: relative;
+         top: 40px;
+         right: 90px;
+        }
+
+    }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+      .Image{
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 25%;
+        height: 100%;
+        z-index: -1;
+        margin-top: -25px;
+        }
+        .container{
+          height: 140px;
+        }
+        .btn-left{
+          position: relative;
+          top: 60px;
+          left: 140px;
+        }
+        .btn-right{
+          position: relative;
+          top: 60px;
+          right: 140px;
+        }
+    }
+    @media screen and (min-width: 992px) and (max-width: 1199px){
+      .Image{
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 25%;
+        height: 100%;
+        z-index: -1;
+        margin-top: -25px;
+        }
+        .container{
+          height: 190px;
+        }
+        .btn-left{
+          position: relative;
+          top: 30px;
+          left: 180px;
+        }
+        .btn-right{
+          position: relative;
+          top: 30px;
+          right: 180px;
+        }
+
+    }
+    @media screen and (min-width: 1200px){
+      .Image{
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 25%;
+        height: 100%;
+        z-index: -1;
+        margin-top: -25px;
+        }
+        .container{
+          height: 200px;
+        }
+        .btn-left{
+          position: relative;
+          top: 30px;
+          left: 200px;
+        }
+        .btn-right{
+          position: relative;
+          top: 30px;
+          right: 200px;
+        }
+     }
+
      &.navigation-btn {
        background-color: $background-c;
      color: white;
      height: 36px;
      border-color: transparent;
+     @media screen and (max-width: 768px){
+
+      margin-top: -150px;
+      padding-top: 30px;
+      padding-bottom: 70px;
+      
+     }
+  
      margin-top: -180px;
      padding-top: 30px;
      padding-bottom: 70px;
      z-index: 1;
      }
+
      &.navigation-btn:hover {
        background-color: darken($background-c,10%);
      }
@@ -161,3 +297,18 @@
      }
    }
  }
+
+ /* @media screen and (max-width: 768px){
+   .previous-next-links{
+    #previous-link
+    {
+      position: relative;
+      top: 50px;
+      background-color: red;
+    }
+
+   }
+ 
+
+ } */
+ 
