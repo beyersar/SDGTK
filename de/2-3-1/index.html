@@ -136,7 +136,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20220117013352">
+        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20220117200139">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -407,7 +407,15 @@ data-event-label="high"
 
 <script type="text/template" id="item_template">
   <% _.each(fields, function(fieldItem) { %>
-    <div class="variable-selector<% if(allowedFields.indexOf(fieldItem.field) == -1) { %> disallowed child<% }%>" data-field="<%=fieldItem.field%>">
+    <div class="variable-selector
+      <% if(allowedFields.indexOf(fieldItem.field) == -1) { %> disallowed <% }%>
+      <% if (typeof childFields !== 'undefined' && childFields.indexOf(fieldItem.field) !== -1) { %> child <% }%>
+      <% // @deprecated start %>
+      <% if (typeof childFields === 'undefined' && allowedFields.indexOf(fieldItem.field) == -1) { %> child <% }%>
+      <% // @deprecated end %>
+      "
+      data-field="<%=fieldItem.field%>"
+    >
       <button class='accessBtn' tabindex='0' aria-expanded='false'
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
         aria-describedby='variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>'
@@ -515,6 +523,8 @@ data-event-label="high"
 </div>
 
 <div id="main-content" class="container goal-2" role="main">
+  
+
   
 
   
@@ -953,6 +963,7 @@ opensdg.chartConfigAlter(function(config, info) {
       <span id="column-sort-info">Klicken Sie auf , um nach dieser Spalte zu sortieren</span>
     </div>
     <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
 
 
 
@@ -1949,12 +1960,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/SDGTK/assets/js/sdg.js?v=20220117013352'></script>
+<script src='/SDGTK/assets/js/sdg.js?v=20220117200139'></script>
 
 
     
     
-    <script src="/SDGTK/assets/js/custom.js?v=20220117013352"></script><script>
+    <script src="/SDGTK/assets/js/custom.js?v=20220117200139"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
