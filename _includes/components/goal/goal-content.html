@@ -7,12 +7,12 @@
     </div>
 </div>
 {% endif %}
-<ol class="breadcrumb">
+<ol class="breadcrumb" STYLE="margin-left: -8px">
     <li> <a href="{{ page.baseurl }}{{ item_path }}">{{ item.label | t }}</a></li>
     <li ><a href="{{ page.baseurl }}">{{ page.t.general.home }}</a></li>
     <li class="active">{{ page.t.general.goal }} {{ page.goal.number }}</li>
 </ol>
-<h1 class="goal-titles goal-{{ page.goal.number }}" style="font-weight: 900;">
+<h1 class="goal-titles goal-{{ page.goal.number }}" style="font-weight: 900">
     <span class="hidden-sm hidden-md hidden-lg">{{ page.t.general.goal }} {{ page.goal.number }}:</span>
     {{ page.goal.name }}
 </h1>
