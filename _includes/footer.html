@@ -10,14 +10,16 @@
     }
 
 </style>
-
-
 <footer role="contentinfo" style="padding-top: 65px;">
     <div class="container">
         <div class="row" style="padding: 0px;">
             <div class="col-xs-12">
                 <div id="kooperation" >
+                    {% if page.language == 'de' %}
                     <p>Unsere Projektpartner</p>
+                    {% else %}
+                    <p>Our project partners</p>
+                    {% endif %}
                 </div>
             </div>
         </div>
@@ -52,12 +54,14 @@
 
         </div>
     </div>
+
     <div class="container">
         <div class="row" style="padding: 0px;text-align: center;">
             <div class="col-xs-12">
                 <div id="footerLinks" style="background-color:#19486a;color:white;padding: 10px;margin-bottom: 1px;">
                     <ul style="text-align: center;">
                         {% if site.footer_menu %}
+                        {% if page.language == 'de' %}
                         {% for item in site.footer_menu %}
                         {%- assign item_path = item.path | t -%}
 
@@ -69,12 +73,32 @@
                             {%- if item_path_first == '/' -%}
                             {%- assign item_path = item_path | slice: 1, item_path.size -%}
                             {%- endif -%}
-                            <a href="{{ page.baseurl }}{{ item_path }}" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">{{ item.translation_key | t }}</a>
+                            <a href="{{ page.baseurl }}{{ item_path }}" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">{{ item.translation_key | t }}</a>
                             {% endif %}
 
                         </li>
                         {% endfor %}
                         {% endif %}
+                        {% endif %}
+
+                        {% if page.language == 'en' %}
+                        <li style="color:white;margin: 15px;font-weight: bold;">
+                            <a href="https://beyersar.github.io/DataTK/en/zip/all_indicators.zip" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Download</a>
+                        </li>
+                        <li style="color:white;margin: 15px;font-weight: bold;">
+                            <a href="mailto:my-email-address@example.com" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Contact us</a>
+                        </li>
+                        <li style="color:white;margin: 15px;font-weight: bold;">
+                            <a href="#" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Impressum</a>
+                        </li>
+                        <li style="color:white;margin: 15px;font-weight: bold;">
+                            <a href="/SDGTK/about/cookies-and-privacy/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Cookies</a>
+                        </li>
+                        <li style="color:white;margin: 15px;font-weight: bold;">
+                            <a href="#" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Technical references</a>
+                        </li>
+                        {% endif %}
+
                         {% if site.environment == 'staging' and site.site_config_form.enabled %}
                         <li style="color:white;margin: 15px;font-weight: bold;"><a style="color:white;margin: 10px 10px;font-size: 30px;" href="{{ page.baseurl }}config">Configuration</a></li>
                         {% endif %}
@@ -92,7 +116,12 @@
         <div class="row" style="padding: 0px;">
             <div class="col-xs-12">
                 <div id="footerende" style="background-color:#19486a;color:white;padding: 10px;text-align: center;">
+                    {% if page.language == 'de' %}
                     <p>Diese Webseite wurde mit Open SDG erstellt</p>
+                    {% else %}
+                    <p>This website was created with Open SDG</p>
+                    {% endif %}
+
                 </div>
             </div>
         </div>

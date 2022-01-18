@@ -39,10 +39,14 @@
 }
 
   #banner {
-    background: $backgroundColor url('../img/sdgbg.png') top left repeat-x;
     padding-top: 15px;
   }
-  body{
+
+#banner {
+  background: $backgroundColor url('../img/sdgbg.png') top left repeat-x;
+}
+
+body{
     background: $backgroundColor top left repeat-x;
     padding-top: 15px;
   }
