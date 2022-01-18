@@ -21,7 +21,6 @@
             {{ page.t.indicator.national_metadata_blurb | replace: '%country_name', country_name | replace: '%country_adjective', country_adjective }}
          </p>
         {% include components/indicator/metadata.html scope='national' %}
-        <p>{{ page.t.indicator.global_metadata_blurb }}</p>
         {% include components/indicator/metadata.html scope='global' %}
     </article>
   </div>
