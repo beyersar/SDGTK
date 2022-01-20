@@ -107,7 +107,7 @@ var translations = {
         
         Indikator 15.3.1 -
         
-        Anzahl der Teilnahmen des Bezirks an Netzwerktreffen und Veranstaltungen des „Akteursnetzwerk biologische Vielfalt“ pro Jahr - Indikatoren für die nachhaltigen Entwicklungsziele
+        Naturschutzgebiete und Landschaftsschutzgebiete (Fläche in ha) - Indikatoren für die nachhaltigen Entwicklungsziele
     </title>
 
 
@@ -136,7 +136,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20220120162519">
+        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20220120171834">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -514,7 +514,7 @@ data-event-label="high"
             
             Indikator 15.3.1
             
-            <span class="lead-copy">Anzahl der Teilnahmen des Bezirks an Netzwerktreffen und Veranstaltungen des „Akteursnetzwerk biologische Vielfalt“ pro Jahr</span>
+            <span class="lead-copy">Naturschutzgebiete und Landschaftsschutzgebiete (Fläche in ha)</span>
           </h1>
         </div>
       </div>
@@ -533,10 +533,7 @@ data-event-label="high"
 
 <div class="row" id="page-content">
   <div class="col-xs-12">
-    <p>Der Bezirk Treptow-Köpenick ist Mitglied im ‘Akteursnetzwerk biologische Vielfalt’. 
-Der Indikator zeigt die Anzahl der Netzwerktreffen und Veranstaltungen pro Jahr, an welchen der Bezirk teilgenommen hat.
-Mehr Informationen zum Thema biologische Vielfalt in der Stadt Berlin gibt es hier: <br /> 
-<a href="https://www.berlin.de/sen/uvk/natur-und-gruen/biologische-vielfalt/">https://www.berlin.de/sen/uvk/natur-und-gruen/biologische-vielfalt/</a></p>
+    <p>Der Indikator zeigt die Naturschutzgebiete und Landschaftsschutzgebiete im Bezirk Treptow-Köpenick.</p>
 
   </div>
 </div>
@@ -551,22 +548,22 @@ Mehr Informationen zum Thema biologische Vielfalt in der Stadt Berlin gibt es hi
   data-indicatorid='indicator_15-3-1'
   data-id="15-3-1"
   data-country="Treptow-Köpenick"
-  data-charttitle="Anzahl der Teilnahmen des Bezirks an Netzwerktreffen"
+  data-charttitle="Naturschutzgebiete und Landschaftsschutzgebiete (Fläche in ha)"
   data-charttitles="null"
-  data-measurementunit="Absolute Zahlen"
+  data-measurementunit="Fläche in Hektar"
   data-xaxislabel=""
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
   data-showmap=""
-  data-startvalues="null"
+  data-startvalues="[{&quot;field&quot;:&quot;Fläche&quot;,&quot;value&quot;:&quot;Naturschutzgebiete&quot;},{&quot;field&quot;:&quot;Fläche&quot;,&quot;value&quot;:&quot;Landschaftsschutzgebiete&quot;},{&quot;field&quot;:&quot;Fläche&quot;,&quot;value&quot;:&quot;Gesamt&quot;}]"
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;data.area&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Naturschutzgebiete&quot;,&quot;Landschaftsschutzgebiete&quot;,&quot;Gesamt&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Fläche&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
 >
@@ -600,43 +597,11 @@ Mehr Informationen zum Thema biologische Vielfalt in der Stadt Berlin gibt es hi
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Anzahl der Teilnahmen des Bezirks an Netzwerktreffen</caption>
+      <caption>Naturschutzgebiete und Landschaftsschutzgebiete (Fläche in ha)</caption>
       <thead>
-        
-        
-        <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col" class="table-value">Value</th>
-        
         
       </thead>
       <tbody>
-        
-        <tr>
-          
-          
-          <td>2020</td>
-          
-          
-          
-          <td class="table-value">0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2021</td>
-          
-          
-          
-          <td class="table-value">0</td>
-          
-          
-        </tr>
         
       </tbody>
     </table>
@@ -644,13 +609,13 @@ Mehr Informationen zum Thema biologische Vielfalt in der Stadt Berlin gibt es hi
 
   <div id="datatableFooter">
     
-    <p>Datenquelle: Bezirksamt Treptow-Köpenick</p>
+    <p>Datenquelle: Amt für Statistik Berlin-Brandenburg, Senatsverwaltung für Umwelt, Verkehr und Klimaschutz</p>
     
     
     <p>Geographische Abdeckung: Treptow-Köpenick</p>
     
     
-    <p>Einheit: Absolute Zahlen</p>
+    <p>Einheit: Fläche in Hektar</p>
     
     
   </div>
@@ -697,7 +662,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Anzahl der Teilnahmen des Bezirks an Netzwerktreffen</h4>
+          <h4 id="chart-heading" class="chart-title">Naturschutzgebiete und Landschaftsschutzgebiete (Fläche in ha)</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -948,7 +913,7 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Datenquelle:</dt>
-        <dd>Bezirksamt Treptow-Köpenick</dd>
+        <dd>Amt für Statistik Berlin-Brandenburg, Senatsverwaltung für Umwelt, Verkehr und Klimaschutz</dd>
         
 
         
@@ -958,7 +923,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Einheit:</dt>
-        <dd>Absolute Zahlen</dd>
+        <dd>Fläche in Hektar</dd>
         
 
         
@@ -994,7 +959,7 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Datenquelle:</dt>
-        <dd>Bezirksamt Treptow-Köpenick</dd>
+        <dd>Amt für Statistik Berlin-Brandenburg, Senatsverwaltung für Umwelt, Verkehr und Klimaschutz</dd>
         
 
         
@@ -1004,7 +969,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Einheit:</dt>
-        <dd>Absolute Zahlen</dd>
+        <dd>Fläche in Hektar</dd>
         
 
         
@@ -1125,7 +1090,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Einheit </th>
         <td>
           
-            <p>Absolute Zahlen</p>
+            <p>Fläche in Hektar</p>
 
           
         </td>
@@ -1229,8 +1194,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/ecc4b563384c542746c9779fcaed6c5ae5d131ab" target="_blank">
-                2021-10-05: see changes on GitHub <span class="visuallyhidden">in neuem Fenster öffnen</span>
+              <a href="https://github.com/beyersar/DataTK/commit/cf321fc70a9d6cd510f74f44c41dd7e4ed3d9f1d" target="_blank">
+                2022-01-20: see changes on GitHub <span class="visuallyhidden">in neuem Fenster öffnen</span>
               </a>
             
 
@@ -1256,8 +1221,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/d0d413ff1f3370b8f86bf2ddce65f8ade23b857f" target="_blank">
-                2021-09-28: see changes on GitHub <span class="visuallyhidden">in neuem Fenster öffnen</span>
+              <a href="https://github.com/beyersar/DataTK/commit/60a82e5798c129927421ccd553ab0d6355637ac1" target="_blank">
+                2022-01-20: see changes on GitHub <span class="visuallyhidden">in neuem Fenster öffnen</span>
               </a>
             
 
@@ -1375,7 +1340,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indikatorenbezeichnung </th>
         <td>
           
-            <p>Anzahl der Teilnahmen des Bezirks an Netzwerktreffen und Veranstaltungen des „Akteursnetzwerk biologische Vielfalt“ pro Jahr</p>
+            <p>Naturschutzgebiete und Landschaftsschutzgebiete (Fläche in ha)</p>
 
           
         </td>
@@ -1549,7 +1514,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Organisation </th>
         <td>
           
-            <p>Bezirksamt Treptow-Köpenick</p>
+            <p>Amt für Statistik Berlin-Brandenburg, Senatsverwaltung für Umwelt, Verkehr und Klimaschutz</p>
 
           
         </td>
@@ -1611,8 +1576,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://www.berlin.de/sen/uvk/natur-und-gruen/biologische-vielfalt/netzwerk/" target="_blank">
-                https://www.berlin.de/sen/uvk/natur-und-gruen/biologische-vielfalt/netzwerk/ <span class="visuallyhidden">in neuem Fenster öffnen</span>
+              <a href="https://web.statistik-berlin-brandenburg.de/produkte/produkte_jahrbuch.asp" target="_blank">
+                https://web.statistik-berlin-brandenburg.de/produkte/produkte_jahrbuch.asp <span class="visuallyhidden">in neuem Fenster öffnen</span>
               </a>
             
 
@@ -1858,12 +1823,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/SDGTK/assets/js/sdg.js?v=20220120162519'></script>
+<script src='/SDGTK/assets/js/sdg.js?v=20220120171834'></script>
 
 
     
     
-    <script src="/SDGTK/assets/js/custom.js?v=20220120162519"></script><script>
+    <script src="/SDGTK/assets/js/custom.js?v=20220120171834"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

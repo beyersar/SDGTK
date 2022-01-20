@@ -107,7 +107,7 @@ var translations = {
         
         Indicator 15.3.1 -
         
-        Number of participations of the district in meetings and events of the biodiversity network per year - Indicators For The Sustainable Development Goals
+        Nature reserves and protected landscape areas (area in ha) - Indicators For The Sustainable Development Goals
     </title>
 
 
@@ -136,7 +136,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20220120162519">
+        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20220120171834">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -514,7 +514,7 @@ data-event-label="high"
             
             Indicator 15.3.1
             
-            <span class="lead-copy">Number of participations of the district in meetings and events of the biodiversity network per year</span>
+            <span class="lead-copy">Nature reserves and protected landscape areas (area in ha)</span>
           </h1>
         </div>
       </div>
@@ -533,9 +533,7 @@ data-event-label="high"
 
 <div class="row" id="page-content">
   <div class="col-xs-12">
-    <p>The district Treptow-Köpenick is a member of a network dealing with biodiversity in Berlin (“Akteursnetzwerk biologische Vielfalt”). The indicator shows the number of network meetings per year in which the district participated.
-More information about biodiversity in the city of Berlin can be found here:<br /> 
-<a href="https://www.berlin.de/sen/uvk/natur-und-gruen/biologische-vielfalt/">https://www.berlin.de/sen/uvk/natur-und-gruen/biologische-vielfalt/</a></p>
+    <p>The indicator shows the nature reserves and landscape protection areas in the Treptow-Köpenick district.</p>
 
   </div>
 </div>
@@ -550,7 +548,7 @@ More information about biodiversity in the city of Berlin can be found here:<br 
   data-indicatorid='indicator_15-3-1'
   data-id="15-3-1"
   data-country="Treptow-Köpenick"
-  data-charttitle="Number of participations of the district in meetings and events of the biodiversity network per year"
+  data-charttitle="Nature reserves and protected landscape areas (area in ha)"
   data-charttitles="null"
   data-measurementunit="Area in hectares"
   data-xaxislabel=""
@@ -558,14 +556,14 @@ More information about biodiversity in the city of Berlin can be found here:<br 
   data-graphtype="line"
   data-geocoderegex=""
   data-showmap=""
-  data-startvalues="null"
+  data-startvalues="[{&quot;field&quot;:&quot;Area&quot;,&quot;value&quot;:&quot;Nature reserves&quot;},{&quot;field&quot;:&quot;Area&quot;,&quot;value&quot;:&quot;Protected landscape areas&quot;},{&quot;field&quot;:&quot;Area&quot;,&quot;value&quot;:&quot;Total&quot;}]"
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;data.area&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Nature reserves&quot;,&quot;Protected landscape areas&quot;,&quot;Total&quot;]},&quot;title&quot;:&quot;Area&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
 >
@@ -599,43 +597,11 @@ More information about biodiversity in the city of Berlin can be found here:<br 
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Number of participations of the district in meetings and events of the biodiversity network per year</caption>
+      <caption>Nature reserves and protected landscape areas (area in ha)</caption>
       <thead>
-        
-        
-        <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col" class="table-value">Value</th>
-        
         
       </thead>
       <tbody>
-        
-        <tr>
-          
-          
-          <td>2020</td>
-          
-          
-          
-          <td class="table-value">0</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2021</td>
-          
-          
-          
-          <td class="table-value">0</td>
-          
-          
-        </tr>
         
       </tbody>
     </table>
@@ -643,7 +609,7 @@ More information about biodiversity in the city of Berlin can be found here:<br 
 
   <div id="datatableFooter">
     
-    <p>Source: Bezirksamt Treptow-Köpenick</p>
+    <p>Source: Amt für Statistik Berlin-Brandenburg, Senatsverwaltung für Umwelt, Verkehr und Klimaschutz</p>
     
     
     <p>Geographical Area: Treptow-Köpenick</p>
@@ -696,7 +662,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Number of participations of the district in meetings and events of the biodiversity network per year</h4>
+          <h4 id="chart-heading" class="chart-title">Nature reserves and protected landscape areas (area in ha)</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -947,7 +913,7 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Source:</dt>
-        <dd>Bezirksamt Treptow-Köpenick</dd>
+        <dd>Amt für Statistik Berlin-Brandenburg, Senatsverwaltung für Umwelt, Verkehr und Klimaschutz</dd>
         
 
         
@@ -993,7 +959,7 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Source:</dt>
-        <dd>Bezirksamt Treptow-Köpenick</dd>
+        <dd>Amt für Statistik Berlin-Brandenburg, Senatsverwaltung für Umwelt, Verkehr und Klimaschutz</dd>
         
 
         
@@ -1228,8 +1194,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/ecc4b563384c542746c9779fcaed6c5ae5d131ab" target="_blank">
-                2021-10-05: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/beyersar/DataTK/commit/cf321fc70a9d6cd510f74f44c41dd7e4ed3d9f1d" target="_blank">
+                2022-01-20: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1255,8 +1221,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/d0d413ff1f3370b8f86bf2ddce65f8ade23b857f" target="_blank">
-                2021-09-28: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/beyersar/DataTK/commit/60a82e5798c129927421ccd553ab0d6355637ac1" target="_blank">
+                2022-01-20: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1374,7 +1340,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Indicator name </th>
         <td>
           
-            <p>Number of participations of the district in meetings and events of the biodiversity network per year</p>
+            <p>Nature reserves and protected landscape areas (area in ha)</p>
 
           
         </td>
@@ -1548,7 +1514,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Organisation </th>
         <td>
           
-            <p>Bezirksamt Treptow-Köpenick</p>
+            <p>Amt für Statistik Berlin-Brandenburg, Senatsverwaltung für Umwelt, Verkehr und Klimaschutz</p>
 
           
         </td>
@@ -1610,8 +1576,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://www.berlin.de/sen/uvk/natur-und-gruen/biologische-vielfalt/netzwerk/" target="_blank">
-                https://www.berlin.de/sen/uvk/natur-und-gruen/biologische-vielfalt/netzwerk/ <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://web.statistik-berlin-brandenburg.de/produkte/produkte_jahrbuch.asp" target="_blank">
+                https://web.statistik-berlin-brandenburg.de/produkte/produkte_jahrbuch.asp <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1857,12 +1823,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/SDGTK/assets/js/sdg.js?v=20220120162519'></script>
+<script src='/SDGTK/assets/js/sdg.js?v=20220120171834'></script>
 
 
     
     
-    <script src="/SDGTK/assets/js/custom.js?v=20220120162519"></script><script>
+    <script src="/SDGTK/assets/js/custom.js?v=20220120171834"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

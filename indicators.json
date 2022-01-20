@@ -95,7 +95,7 @@
         },
         {
           "id": "3-2-1",
-          "title": "Relative noise pollution in Treptow-Köpenick",
+          "title": "Relative noise pollution in Treptow-Köpenick (Environmental justice)",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/3-2-1",
@@ -103,10 +103,18 @@
         },
         {
           "id": "3-3-1",
-          "title": "Relative air pollution in Treptow-Köpenick",
+          "title": "Relative air pollution in Treptow-Köpenick (Environmental justice)",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/3-3-1",
+          "status": "complete"
+        },
+        {
+          "id": "3-3-2",
+          "title": "Air pollution limits in Treptow-Köpenick",
+          "description": "",
+          "keywords": "",
+          "href": "/SDGTK/3-3-2",
           "status": "complete"
         }]
     }
@@ -355,14 +363,6 @@
           "description": "",
           "keywords": "",
           "href": "/SDGTK/8-5-1",
-          "status": "complete"
-        },
-        {
-          "id": "8-6-1",
-          "title": "Kaitz index for Berlin - Monthly minimum wage as % of average earnings of full-time employees",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/8-6-1",
           "status": "complete"
         }]
     }
@@ -679,15 +679,15 @@
         },
         {
           "id": "15-2-1",
-          "title": "To be defined",
+          "title": "Number of participations of the district in meetings and events of the biodiversity network per year",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/15-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-3-1",
-          "title": "Number of participations of the district in meetings and events of the biodiversity network per year",
+          "title": "Nature reserves and protected landscape areas (area in ha)",
           "description": "",
           "keywords": "",
           "href": "/SDGTK/15-3-1",
@@ -695,18 +695,10 @@
         },
         {
           "id": "15-4-1",
-          "title": "Nature reserves and protected landscape areas (area in ha)",
-          "description": "",
-          "keywords": "",
-          "href": "/SDGTK/15-4-1",
-          "status": "complete"
-        },
-        {
-          "id": "15-5-1",
           "title": "To be defined",
           "description": "",
           "keywords": "",
-          "href": "/SDGTK/15-5-1",
+          "href": "/SDGTK/15-4-1",
           "status": "notstarted"
         }]
     }
