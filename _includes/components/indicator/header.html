@@ -1,4 +1,4 @@
-{% include indicator-content.html %}
+
 <div class="heading goal-banner indicator goal-{{ page.goal.number }}">
   <div class="container">
     <div class="row">
@@ -24,13 +24,16 @@
     </div>
   </div>
 </div>
-  <div>
-    <h1>
-      {% unless page.indicator.standalone %}
-      {{ page.t.general.indicator }} {{ page.indicator.number }}
-      {% endunless %}
-      <span class="lead-copy">{{ page.indicator.name }}</span>
-      </h1>
-  </div>
+
+</div>
+<div style="margin-left: 380px">
+  <h1>
+    {% unless page.indicator.standalone %}
+    {{ page.t.general.indicator }} {{ page.indicator.number }}
+    {% endunless %}
+  </h1>
+  <h1>
+    <span class="lead-copy">{{ page.indicator.name }}</span>
+  </h1>
 </div>
 
