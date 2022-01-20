@@ -1,3 +1,4 @@
+
 {% include head.html %}
 {% include header.html %}
 {% if site.environment == 'staging' %}
@@ -5,19 +6,28 @@
 {% else %}
 {% assign baseurl = 'https://sdg-indikatoren.de' %}
 {% endif %}
-
-<div class="heading goal-banner goal-{{ page.goal.number }} background-color: #4C9F38">
+<div class="heading goal-banner goal-{{ page.goal.number }}">
   <div class="container">
     <div class="row">
-      <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="{{ page.goal.icon }}" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}" />
-      </div>
-      <div class="col-xs-8 col-md-9 col-lg-10">
-        <h1>
-          <span class="hidden-sm hidden-md hidden-lg">{{ page.t.general.goal }} {{ page.goal.number }}: </span>{{ page.goal.name }}
-        </h1>
+      <div class="Image">
+        <img src="{{ page.goal.icon }}" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
       </div>
     </div>
+    {% if page.previous and page.next %}
+    <div class="previous-next-links row">
+      <div class="col col-lg-2 pull-left">
+        <a href="{{ page.previous.url }}" class="btn btn-primary btn-block goal-{{ page.goal.number }} navigation-btn btn-left" role="button">
+          <i class="fa fa-chevron-left" aria-hidden="true" style="font-size: 45px;"></i> <span id="previous-link" class="hidden-sm hidden-xs">{{ include.previous_label | t }}</span>
+        </a>
+      </div>
+      <div class="col col-lg-2 pull-right">
+        <a href="{{ page.next.url  }}" class="btn btn-primary btn-block goal-{{ page.goal.number }} navigation-btn btn-right" role="button">
+          <i class="fa fa-chevron-right" aria-hidden="true" style="font-size: 45px;"></i><span id="next-link" class="hidden-sm hidden-xs">{{ include.next_label | t }}</span>
+        </a>
+      </div>
+    </div>
+    {% endif %}
   </div>
-</div>
+  </div>
+
 

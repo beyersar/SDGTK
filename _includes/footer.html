@@ -41,14 +41,16 @@
 
 </style>
 
-
-
-<footer role="contentinfo">
+<footer role="contentinfo" style="padding-top: 65px;">
     <div class="container">
         <div class="row" style="padding: 0px;">
             <div class="col-xs-12">
-                <div id="kooperation">
+                <div id="kooperation" >
+                    {% if page.language == 'de' %}
                     <p>Unsere Projektpartner</p>
+                    {% else %}
+                    <p>Our project partners</p>
+                    {% endif %}
                 </div>
             </div>
         </div>
@@ -57,50 +59,55 @@
         <div class="row" style="padding: 70px;">
             <div class="col-xs-3" style="width: 20%;">
                 <div id="bilder" style="background-color:white;">
-                    <a href="http://www.berlin.de/ba-treptow-koepenick/" target="_blank"><img
-                            src="./assets/img/treptowk.logo.png" alt="treptow_koepenick" width="400" height="400"
-                            class="img-responsive" style=" max-width: 100%;"></a>
+                    <a href="http://www.berlin.de/ba-treptow-koepenick/" target="_blank" ><img src="/SDGTK/assets/img/logo_ba-treptow-koepenick.png" alt="treptow_koepenick" width="400" height="400" class="img-responsive" style=" max-width: 100%;"></a>
                 </div>
             </div>
             <div class="col-xs-3" style="width: 20%;">
                 <div id="bilder2" style="background-color:white">
-                    <a href="https://www.bmz.de/de" target="_blank"><img
-                            src="./assets/img/Image Pasted 2021-08-11 at 17.10.33.png" alt="bmz" width="400"
-                            height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    {% if page.language == 'de' %}
+                    <a href="https://www.bmz.de/de" target="_blank" ><img src="/SDGTK/assets/img/logo_BMZ.png" alt="bmz" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    {% else %}
+                    <a href="https://www.bmz.de/en" target="_blank" ><img src="/SDGTK/assets/img/logo_BMZ.png" alt="bmz" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    {% endif %}
                 </div>
             </div>
             <div class="col-xs-3" style="width: 20%;">
                 <div id="bilder3" style="background-color:white;">
-                    <a href="https://www.engagement-global.de/" target="_blank"><img src="./assets/img/skew.png"
-                                                                                     alt="engagement_global1"
-                                                                                     width="400" height="400"
-                                                                                     class="img-responsive"
-                                                                                     style="max-width: 100%;"></a>
+                    {% if page.language == 'de' %}
+                    <a href="https://www.engagement-global.de/" target="_blank" ><img src="/SDGTK/assets/img/logo_engagement-global_skew.png" alt="engagement_global1" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    {% else %}
+                    <a href="https://www.engagement-global.de/homepage.html" target="_blank" ><img src="/SDGTK/assets/img/logo_engagement-global_skew.png" alt="engagement_global1" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    {% endif %}
                 </div>
             </div>
             <div class="col-xs-3" style="width: 20%;">
                 <div id="bilder5" style="background-color:white;">
-                    <a href="https://skew.engagement-global.de/" target="_blank"><img
-                            src="./assets/img/service stelle.logo.png" alt="engagement_global2" width="400" height="400"
-                            class="img-responsive" style="max-width: 100%;"></a>
+                    {% if page.language == 'de' %}
+                    <a href="https://skew.engagement-global.de/" target="_blank" ><img src="/SDGTK/assets/img/logo_engagement-global_service-stelle.png" alt="engagement_global2" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    {% else %}
+                    <a href="https://skew.engagement-global.de/home.html" target="_blank" ><img src="/SDGTK/assets/img/logo_engagement-global_service-stelle.png" alt="engagement_global2" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    {% endif %}
                 </div>
             </div>
             <div class="col-xs-3" style="width: 20%;">
                 <div id="bilder4" style="background-color:white;position: absolute;margin-top: -20px; ">
-                    <a href="https://www.htw-berlin.de" target="_blank"><img src="./assets/img/logo htw 3.jpg"
-                                                                             alt="htw_berlin" width="400" height="400"
-                                                                             class="img-responsive"></a>
+                    {% if page.language == 'de' %}
+                    <a href="https://www.htw-berlin.de" target="_blank" ><img src="/SDGTK/assets/img/logo_htw.jpg" alt="htw_berlin" width="400" height="400" class="img-responsive" ></a>
+                    {% else %}
+                    <a href="https://www.htw-berlin.de/en/" target="_blank" ><img src="/SDGTK/assets/img/logo_htw.jpg" alt="htw_berlin" width="400" height="400" class="img-responsive" ></a>
+                    {% endif %}
                 </div>
             </div>
-
-        </div>
+         </div>
     </div>
+
     <div class="container">
         <div class="row" style="padding: 0px;text-align: center;">
             <div class="col-xs-12">
                 <div id="footerLinks" style="background-color:#19486a;color:white;padding: 10px;margin-bottom: 1px;">
                     <ul style="text-align: center;">
                         {% if site.footer_menu %}
+                        {% if page.language == 'de' %}
                         {% for item in site.footer_menu %}
                         {%- assign item_path = item.path | t -%}
 
@@ -114,14 +121,32 @@
                             {%- if item_path_first == '/' -%}
                             {%- assign item_path = item_path | slice: 1, item_path.size -%}
                             {%- endif -%}
-                            <a href="{{ page.baseurl }}{{ item_path }}"
-                               style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">{{
-                                item.translation_key | t }}</a>
+                            <a href="{{ page.baseurl }}{{ item_path }}" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">{{ item.translation_key | t }}</a>
                             {% endif %}
 
                         </li>
                         {% endfor %}
                         {% endif %}
+                        {% endif %}
+
+                        {% if page.language == 'en' %}
+                        <li style="color:white;margin: 15px;font-weight: bold;">
+                            <a href="https://beyersar.github.io/DataTK/en/zip/all_indicators.zip" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Download</a>
+                        </li>
+                        <li style="color:white;margin: 15px;font-weight: bold;">
+                            <a href="mailto:my-email-address@example.com" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Contact us</a>
+                        </li>
+                        <li style="color:white;margin: 15px;font-weight: bold;">
+                            <a href="/SDGTK/about/cookies-and-privacy/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Impressum</a>
+                        </li>
+                        <li style="color:white;margin: 15px;font-weight: bold;">
+                            <a href="/SDGTK/about/cookies-and-privacy/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Cookies</a>
+                        </li>
+                        <li style="color:white;margin: 15px;font-weight: bold;">
+                            <a href="/SDGTK/about/cookies-and-privacy/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Technical references</a>
+                        </li>
+                        {% endif %}
+
                         {% if site.environment == 'staging' and site.site_config_form.enabled %}
                         <li style="color:white;margin: 15px;font-weight: bold;"><a
                                 style="color:white;margin: 10px 10px;font-size: 30px;" href="{{ page.baseurl }}config">Configuration</a>
@@ -142,7 +167,12 @@
         <div class="row" style="padding: 0px;">
             <div class="col-xs-12">
                 <div id="footerende" style="background-color:#19486a;color:white;padding: 10px;text-align: center;">
+                    {% if page.language == 'de' %}
                     <p>Diese Webseite wurde mit Open SDG erstellt</p>
+                    {% else %}
+                    <p>This website was created with Open SDG</p>
+                    {% endif %}
+
                 </div>
             </div>
         </div>

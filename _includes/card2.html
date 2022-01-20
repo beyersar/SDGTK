@@ -1,0 +1,27 @@
+<style>
+    .card2 {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+        transition: 0.3s;
+        width: 90%;
+        height:400px;
+        margin-top: 115px;
+        margin-left: 20px;
+    }
+    .card2:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+</style>
+
+<div class="card2">
+    <a href="https://www.berlin.de/ba-treptow-koepenick/ueber-den-bezirk/nachhaltigkeit/agenda-2030/artikel.599685.php" target="_blank"><img class="card-img-top" src="{{ site.baseurl }}/assets/img/card2.jpg" alt="include.card.title" style="width:100%;margin-top: 95px;"></a>
+    <div class="cont" style="margin-top: 70px;padding: 2px 16px;">
+        {% if page.language == 'de' %}
+        <a href="https://www.berlin.de/ba-treptow-koepenick/ueber-den-bezirk/nachhaltigkeit/agenda-2030/artikel.599685.php" target="_blank">Agenda 2030 und die SDG's</a>
+        {% else %}
+        <a href="https://www.berlin.de/ba-treptow-koepenick/ueber-den-bezirk/nachhaltigkeit/agenda-2030/artikel.599685.php" target="_blank">Agenda 2030 and the SDGs</a>
+        {% endif %}
+    </div>
+</div>
+
+
+

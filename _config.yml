@@ -24,7 +24,7 @@ languages:
 # That's enough for the Quick Start! The remaining settings can be configured later.
 
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
-remote_theme: open-sdg/open-sdg@1.3.1
+remote_theme: open-sdg/open-sdg@1.6.0
 
 # Replace this title as needed.
 title: general.site_title
@@ -72,28 +72,17 @@ country:
 # Optionally set a title/body for the frontpage banner. The defaults below point to a standard
 # translation, but feel free to change it as needed.
 frontpage_introduction_banner:
-  title: frontpage.intro_title
-  description: frontpage.intro_body
+ title: frontpage.intro_title
+ description: frontpage.intro_body
 
 frontpage_goals_grid:
   title: my-custom-translations.my-goals-grid-title
   description: my-custom-translations.my-goals-grid-description
 
 frontpage_cards:
-  - title: frontpage.download_all
-    include: components/download-all-data.html
-  - title: Lorem ipsum
-    content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
-    button_label: Read more
-    button_link: https://example.com
-  - title: Nam vestibulum
-    content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
-    button_label: Read more
-    button_link: https://example.com
+  - include: card1.html
+  - include: card2.html
+  - include: card3.html
 
 # Pages
 collections:
@@ -120,8 +109,7 @@ menu:
     translation_key: menu.about
   - path: /faq
     translation_key: menu.faq
-    
-
+ 
 footer_menu:
   - path: https://beyersar.github.io/DataTK/en/zip/all_indicators.zip
     translation_key: Download
