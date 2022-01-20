@@ -1,6 +1,6 @@
 /* header */
-
 #search, #search-mobile {
+
     @include searchBar;
     @include searchBarHighContrast;
     margin-top: 0;
@@ -66,7 +66,20 @@
         top: -15px;
       }
     }
+
+    #search {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .navbar .navbar-nav {
+      margin-top: 0;
+      position: relative;
+      top: -15px;
+    }
+  }
 }
+
 
 @media screen and (max-width: 768px) {
   h1{
@@ -117,10 +130,10 @@
   }
 }
 
-
   #banner {
     padding-top: 15px;
   }
+
 
 #banner {
   background: $backgroundColor url('../img/sdgbg.png') top left repeat-x;
@@ -146,6 +159,96 @@ body{
     color: $color-dark;
     display: block;
   }
+
+/* goal-footer*/
+
+    #text{
+        padding-bottom: 20px;
+    }
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.carousel-control {
+    width: 8%;
+    width: 0px;
+}
+.carousel-control.left,
+.carousel-control.right {
+    margin-right: -50px;
+    margin-left: -50px;
+    background-image: none;
+    opacity: 1;
+}
+.carousel-control > a > span {
+    color: white;
+	  font-size: 29px !important;
+}
+
+.carousel-col {
+    position: relative;
+    min-height: 1px;
+    padding: 5px;
+    float: left;
+ }
+
+
+ #contain{
+    padding-bottom: 100px;
+    padding-top: 50px;
+    width: 65%;
+ }
+
+ .active > div { display:none; }
+ .active > div:first-child { display:block; }
+
+
+/*xs*/
+@media (max-width: 767px) {
+  .carousel-inner .active.left { left: -50%; }
+  .carousel-inner .active.right { left: 50%; }
+  .carousel-inner .next        { left:  50%; }
+   .carousel-inner .prev		 { left: -50%; }
+  .carousel-col                { width: 50%; }
+	.active > div:first-child + div { display:block; }
+}
+
+/*sm*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel-inner .active.left { left: -50%; }
+  .carousel-inner .active.right { left: 50%; }
+	.carousel-inner .next        { left:  50%; }
+	.carousel-inner .prev		     { left: -50%; }
+  .carousel-col                { width: 50%; }
+	.active > div:first-child + div { display:block; }
+}
+
+/*md*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .carousel-inner .active.left { left: -33%; }
+  .carousel-inner .active.right { left: 33%; }
+	.carousel-inner .next        { left:  33%; }
+	.carousel-inner .prev		     { left: -33%; }
+  .carousel-col                { width: 33%; }
+	.active > div:first-child + div { display:block; }
+  .active > div:first-child + div + div { display:block; }
+}
+
+/*lg*/
+@media (min-width: 1200px) {
+  .carousel-inner .active.left { left: -25%; }
+  .carousel-inner .active.right{ left:  25%; }
+	.carousel-inner .next        { left:  25%; }
+	.carousel-inner .prev		     { left: -25%; }
+  .carousel-col                { width: 25%; }
+	.active > div:first-child + div { display:block; }
+  .active > div:first-child + div + div { display:block; }
+	.active > div:first-child + div + div + div  { display:block; }
+}
+
+
   
 /*#2.1 Navigation Buttons */
  @for $i from 1 through length($goal-banner-backgroundColors) {
