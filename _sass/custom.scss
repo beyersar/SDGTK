@@ -258,10 +258,12 @@ body{
         display: block;
         margin: auto;
         text-align: center;
-        max-width: 170px;
+        min-width: 155px;
+        max-width: 155px;
         height: 100%;
         z-index: -1;
         margin-top: -20px;
+        padding-top: -20px;
         }
         .container{
           height: 120px;
@@ -282,7 +284,8 @@ body{
         display: block;
         margin: auto;
         text-align: center;
-        max-width: 173px;
+        max-width: 156px;
+        min-width: 156px;
         height: 100%;
         z-index: -1;
         margin-top: -25px;
@@ -397,7 +400,7 @@ body{
      }
 
      &.navigation-btn:hover {
-       background-color: darken($background-c,10%);
+       background-color: transparent;
      }
      &.goal-titles{
      color: $background-c;
