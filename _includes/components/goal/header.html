@@ -10,6 +10,10 @@
   <div class="container">
     <div class="row">
       <div class="Image">
+        {% if page.language == 'en' %}
+        <img src="{{ page.goal.icon }}" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
+        {% endif %}
+        {% if page.language == 'de' %}
         {% if page.goal.number == '1' %}
         <img src="/SDGTK/assets/img/goals/de/1.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
         {% endif %}
@@ -61,6 +65,10 @@
         {% if page.goal.number == '17' %}
         <img src="/SDGTK/assets/img/goals/de/17.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
         {% endif %}
+        {% endif %}
+        
+       
+
       </div>
     </div>
     {% if page.previous and page.next %}
