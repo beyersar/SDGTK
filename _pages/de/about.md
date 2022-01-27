@@ -20,7 +20,7 @@ Bei der Auswahl der allgemeineren, gesamtbezirklichen SDG-Indikatoren wurde sich
 
 Die Website selbst basiert auf der Plattform Open-SDG und wurde in Zusammenarbeit mit  Studentinnen der HTW weiter entwickelt. Ein großer Dank gilt deshalb: Lucia Feddersen, Christina Gottschalk, Mia Lohe, Marlene Bueltemann, Mahulome Pede, Grace Dodi, Neslihan Kilic und Hatice Pinar. <br>
 
-An der wissenschafltlichen Begleitung des Projekts waren Prof. Dr. Florian Koch, Sarah Beyer M.Sc. und Chih-Yu Chen M.Sc. von der HTW Berlin beteiligt. <br>
+An der wissenschafltlichen Begleitung des Projekts waren Prof. Florian Koch, Sarah Beyer und Chih-Yu Chen von der HTW Berlin beteiligt. <br>
 
 Verantwortlicher des Bezirksamts Treptow-Köpenick ist der Beauftragte für kommunale Entwicklungspolitik Dennis Lumme. <br>
 
