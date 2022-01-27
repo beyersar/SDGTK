@@ -1,4 +1,14 @@
 /* header */
+#search-btn, #search-bar-on-page-btn{
+  width: 33px;
+}
+#search-bar-on-page-btn{
+  background-color: #eeeeee !important;
+color: black !important;
+border-color: black !important;
+}
+
+
 #search, #search-mobile {
 
     @include searchBar;
@@ -66,18 +76,8 @@
         top: -15px;
       }
     }
-
-    #search {
-      margin-top: 0;
-      margin-bottom: 0;
-    }
-
-    .navbar .navbar-nav {
-      margin-top: 0;
-      position: relative;
-      top: -15px;
-    }
   }
+
 
 
 @media screen and (max-width: 768px) {
