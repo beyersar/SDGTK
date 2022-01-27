@@ -1,12 +1,18 @@
 <div class="container" id="contain">
     <div class="row">
         <div id="text">
+            {% if page.language == 'de' %}
             <h2 style="margin-bottom: 20px ; font-size: 20pt; font-weight: 700;" align="center"  ><b> Entdecke mehr SDGS</b></h2>
             <h4 style="margin-bottom: 10px; color: #adadad;" align="center">Klicken Sie auf die einzelnen Ziele, um die Daten unserer lokalen <br> Indikatoren für nachhaltige Entwicklung anzuzeigen.</h4>
+            {% else %}
+            <h2 style="margin-bottom: 20px ; font-size: 20pt; font-weight: 700;" align="center"  ><b> Discover more SDGS</b></h2>
+            <h4 style="margin-bottom: 10px; color: #adadad;" align="center">Click on the individual goals to view the data <br> of our local sustainable development indicators.</h4>
+            {% endif %}
         </div>
         <div class="col-xs-11 col-md-10 col-centered">
             <div id="carousel" class="carousel" data-ride="carousel" data-type="multi" data-interval="2500">
                 <div class="carousel-inner">
+                    {% if page.language == 'de' %}
                     <div class="item active">
                         <div class="carousel-col">
                             <a href="/SDGTK/1">
@@ -160,6 +166,161 @@
                             </a>
                         </div>
                     </div>
+                    {% else %}
+                    <div class="item active">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/1">
+                                <img src="/SDGTK/assets/img/goals/en/1.png" class="img-responsive" alt="Keine Armut - Goal 1"
+                                     id="goal-1b" width="306px" height="230px"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/2">
+                                <img src="/SDGTK/assets/img/goals/en/2.png" class="img-responsive" alt="Kein hunger - Goal 2"
+                                     id="goal-2b"  width="306" height="230px"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/3">
+                                <img src="/SDGTK/assets/img/goals/en/3.png" class="img-responsive"
+                                     alt="Gesundheit und Wohlergehen - Goal 3" id="goal-3b" class=" block goal-icon-image goal-icon-image-"
+                                     width="306px" height="230px"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/4">
+                                <img src="/SDGTK/assets/img/goals/en/4.png" class="img-responsive"
+                                     alt="Hochwertige Bildung - Goal 4" id="goal-4b"
+                                     width="306px" height="230px"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/5">
+                                <img src="/SDGTK/assets/img/goals/en/5.png" class="img-responsive"
+                                     alt="Geschlechtergleichheit - Goal 5" id="goal-5b"  width="306px"
+                                     height="230px"/>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/6">
+                                <img src="/SDGTK/assets/img/goals/en/6.png" class="img-responsive"
+                                     alt="Sauberes Wasser und Sanitäreinrichtungen - Goal 6" id="goal-6b"
+                                     width="306px"  height="230px" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/7">
+                                <img src="/SDGTK/assets/img/goals/en/7.png" class="img-responsive"
+                                     alt="Affordable and clean energy - Goal 7" id="goal-7b"
+                                     width="306px"  height="230px" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/8">
+                                <img src="/SDGTK/assets/img/goals/en/8.png" class="img-responsive"
+                                     alt="Bezahlbare und saubere Energie - Goal 8" id="goal-8b"
+                                     width="306px" height="230px" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/9">
+                                <img src="/SDGTK/assets/img/goals/en/9.png" class="img-responsive"
+                                     alt="Industry, innovation and infrastructure - Goal 9" id="goal-9b"
+                                     width="306px"  height="230px" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/10">
+                                <img src="/SDGTK/assets/img/goals/en/10.png" class="img-responsive"
+                                     alt="Weniger Ungleichheiten - Goal 10" id="goal-10b"
+                                     width="306px" height="230px" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/11">
+                                <img src="/SDGTK/assets/img/goals/en/11.png" class="img-responsive"
+                                     alt="Nachhaltige Städte und Gemeinden - Goal 11" id="goal-11b"
+                                     width="306px" height="230px" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/12">
+                                <img src="/SDGTK/assets/img/goals/en/12.png" class="img-responsive"
+                                     alt="Nachhaltiger Konsum und Produktion - Goal 12" id="goal-12b"
+                                     width="306px" height="230px" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/13">
+                                <img src="/SDGTK/assets/img/goals/en/13.png" class="img-responsive"
+                                     alt="Massnahmen zum Klimaschutz- Goal 13" id="goal-13b"  width="306px"
+                                     height="230px" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/14">
+                                <img src="/SDGTK/assets/img/goals/en/14.png" class="img-responsive"
+                                     alt="Leben unter Wasser - Goal 14" id="goal-14b"
+                                     width="306px" height="230px" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/15">
+                                <img src="/SDGTK/assets/img/goals/en/15.png" class="img-responsive"
+                                     alt="Leben am Land - Goal 15" id="goal-15b"  width="306px"
+                                     height="230px"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/16">
+                                <img src="/SDGTK/assets/img/goals/en/16.png" class="img-responsive"
+                                     alt="Frieden, Gerechtigkeit und starke institutionen - Goal 16" id="goal-16b"
+                                     width="306px" height="230px" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/17">
+                                <img src="/SDGTK/assets/img/goals/en/17.png" class="img-responsive"
+                                     alt="Partnerschaften zur erreischung der Ziele- Goal 17" id="goal-17b"
+                                     width="306px" height="230px"/>
+                            </a>
+                        </div>
+                    </div>
+                    {% endif %}
                 </div>
 
                 <div class="left carousel-control">
