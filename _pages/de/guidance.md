@@ -5,20 +5,18 @@ permalink: /de/guidance/
 layout: page
 ---
 
-This page shares information for people using this website and for countries or localities wishing to take a copy of it.
+Auf dieser Seite finden Sie Informationen für die Nutzer dieser Website und für Länder oder Kommunen, die eine Kopie der Website übernehmen möchten.
 
-## The platform
+## Die Plattform
 
-This site is built and hosted using an open-source platform with 100% free software and services. For detailed documentation on the underlying platform, including information for developers, data providers, and policy makers, see [here](https://open-sdg.readthedocs.io).
+Diese Website wird auf einer Open-Source-Plattform mit 100 % kostenloser Software und Diensten erstellt und gehostet. Eine ausführliche Dokumentation über die zugrunde liegende Plattform, einschließlich Informationen für Entwickler, Datenanbieter und politische Entscheidungsträger, finden Sie [hier](https://open-sdg.readthedocs.io).
 
-## Using this website
+## Nutzung dieser Website
 
-Answers to some specific questions about the website are included in our [Frequently Asked Questions]({{ site.baseurl }}/faq/) page.
+Antworten auf einige spezifische Fragen zur Website finden Sie auf unserer Seite [FAQ]({{ site.baseurl }}/faq/) page.
 
-The platform documentation includes information for people adding [data](https://open-sdg.readthedocs.io/en/latest/data-format/) and [metadata](https://open-sdg.readthedocs.io/en/latest/metadata-format/).
+## Erstellen einer Kopie dieser Website
 
-## Creating a copy of this website
+Andere Länder oder Gemeinden, die eine Version dieser Plattform implementieren möchten, können dies gerne kostenlos tun.
 
-Other countries or localities wishing to implement a version of this platform are welcome to do so for free.
-
-The platform documentation includes [technical information and instructions for developers](https://open-sdg.readthedocs.io/en/latest/quick-start/).
+Die Dokumentation der Plattform enthält [technische Informationen und Anleitungen für Entwickler](https://open-sdg.readthedocs.io/en/latest/quick-start/).
