@@ -1,3 +1,4 @@
+
 <style>
     section {
         height: auto!important;
@@ -5,6 +6,7 @@
 </style>
 
 {% assign show_data = false %}
+
 {% if page.indicator.reporting_status == "complete" and page.indicator.data_non_statistical != true %}
 {% assign show_data = true %}
 {% endif %}
@@ -41,6 +43,7 @@
     </div>
     <div id="indicator-main" class="indicator-main col-md-9">
         {% include components/indicator/data-main.html %}
+
     </div>
     {% else %}
     <div id="indicator-main-mb" class="indicator-main col-md-12">
@@ -48,3 +51,4 @@
     {% include components/indicator/metadata-section.html %}
     </div>
 </div>
+
