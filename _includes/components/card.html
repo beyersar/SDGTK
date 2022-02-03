@@ -1,0 +1,63 @@
+<style>
+    .card1, .card2, .card3{
+        margin-top: 10px!important;
+        width: 100%!important;
+    }
+    .card1, .card2, .card3{
+        margin-left: 0px!important;
+    }
+    .cont{
+        margin-top: 20px;
+        padding: 2px 16px;
+    }
+    .card-img-top{
+        width:100%;
+        height:65%;
+    }
+</style>
+
+{% if page.language == 'de' %}
+<h2 style="color: #19486a;font-weight: bold;margin: 10px;">Veröffentlichungen</h2>
+<h4 style="color: #19486a;font-weight: bold;margin: 10px;">Bleibe auf dem Laufenden...</h4>
+{% else %}
+<h2 style="color: #19486a;font-weight: bold;margin: 10px;">Publications</h2>
+<h4 style="color: #19486a;font-weight: bold;margin: 10px;">Stay tuned...</h4>
+{% endif %}
+<br>
+<div class="card col-xs-12 col-sm-6 col-md-4">
+    <div class="card1">
+        <a href="https://www.berlin.de/ba-treptow-koepenick/_assets/der-bezirk/nachhaltigkeit/kommunale_nachhaltigkeitsstrategie_treptow-kopenick_barrierefrei.pdf"><img class="card-img-top" src="{{ site.baseurl }}/assets/img/card1.jpg" alt="include.card.title"></a>
+            <div class="cont">
+                <a href="https://www.berlin.de/ba-treptow-koepenick/_assets/der-bezirk/nachhaltigkeit/kommunale_nachhaltigkeitsstrategie_treptow-kopenick_barrierefrei.pdf" target="_blank">
+                    PDF Download
+                </a>
+            </div>
+    </div>
+</div>
+
+<div class="card col-xs-12 col-sm-6 col-md-4">
+<div class="card2">
+    <a href="https://www.berlin.de/ba-treptow-koepenick/ueber-den-bezirk/nachhaltigkeit/agenda-2030/artikel.599685.php" target="_blank"><img class="card-img-top" src="{{ site.baseurl }}/assets/img/card2.jpg" alt="include.card.title"></a>
+    <div class="cont">
+        {% if page.language == 'de' %}
+        <a href="https://www.berlin.de/ba-treptow-koepenick/ueber-den-bezirk/nachhaltigkeit/agenda-2030/artikel.599685.php" target="_blank">Agenda 2030 und die SDG's</a>
+        {% else %}
+        <a href="https://www.berlin.de/ba-treptow-koepenick/ueber-den-bezirk/nachhaltigkeit/agenda-2030/artikel.599685.php" target="_blank">Agenda 2030 and the SDGs</a>
+        {% endif %}
+    </div>
+</div>
+</div>
+
+<div class="card col-xs-12 col-sm-6 col-md-4">
+<div class="card3">
+    <a href="https://beyersar.github.io/SDGTK/de/news/" target="_blank"><img class="card-img-top" src="{{ site.baseurl }}/assets/img/card3.png" alt="include.card.title"></a>
+        <div class="cont">
+            {% if page.language == 'de' %}
+            <a href="https://beyersar.github.io/SDGTK/de/news/" target="_blank" style="text-decoration: none" target="_blank"> <b>Aktuelles</b></a>
+            {% else %}
+            <a href="https://beyersar.github.io/SDGTK/news/" target="_blank" style="text-decoration: none" target="_blank"> <b>News</b></a>
+            {% endif %}
+        </div>
+</div>
+</div>
+
