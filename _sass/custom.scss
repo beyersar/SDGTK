@@ -454,40 +454,32 @@ body{
         visibility: hidden;
     }
 
-
 /*cards on landing page*/
- .card1 {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
-        transition: 0.3s;
-        width: 90%;
-        height:400px;
-    }
+
+    .card1, .card2, .card3{
+            margin-top: 10px!important;
+            width: 100%!important;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+            transition: 0.3s;
+            width: 90%;
+            height:400px;
+            margin-left: 0px!important;
+        }
     .card1:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    }
-
-    .card2 {
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
-            transition: 0.3s;
-            width: 90%;
-            height:400px;
-            margin-top: 115px;
-            margin-left: 20px;
-        }
-        .card2:hover {
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-        }
-
-     .card3 {
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
-            transition: 0.3s;
-            width: 90%;
-            height:400px;
-            margin-top: 115px;
-            margin-left: 30px;
-        }
-        .card3:hover {
+              }
+    .card2:hover {
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                 }
+    .card3:hover {
+             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                 }
+        .cont{
+            margin-top: 20px;
+            padding: 2px 16px;
         }
-
+        .card-img-top{
+            width:100%;
+            height:65%;
+        }
 
