@@ -170,7 +170,7 @@ body{
 }
 
 .carousel-control {
-    width: 8%;
+    width: 30%;
     width: 0px;
 }
 .carousel-control.left,
@@ -189,15 +189,15 @@ body{
 .carousel-col {
     position: relative;
     min-height: 1px;
-    padding: 5px;
+    padding: 6px;
     float: left;
 
  }
 
-.block img-responsive {
+/**.block img-responsive {
    width: 306px;
    height:230px;
-}
+}**/
 
  #contain{
     padding-bottom: 100px;
@@ -208,6 +208,52 @@ body{
  .active > div { display:none; }
  .active > div:first-child { display:block; }
 
+#goal1, #goal2, #goal3,#goal4,#goal5,#goal6,#goal7,#goal8,#goal9,
+#goal10,#goal11,#goal12,#goal13,#goal14,#goal15,#goal16,#goal17
+  { box-shadow: 0 2px 4px 0
+         rgba(0,0,0,0.9);
+         transition: 0.3s;
+         }
+
+#goal1b,#goal2b,#goal3b,#goal4b,#goal5b,#goal6b,#goal7b,#goal8b,
+ #goal9b,#goal10b,#goal11b,#goal12b,#goal13b,#goal14b,#goal15b,#goal16b,#goal17b
+ { box-shadow: 0 2px 4px 0
+         rgba(0,0,0,0.9);
+         transition: 0.3s;
+         }
+#goal1:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal2:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal3:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal4:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal5:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal6:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal7:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal8:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal9:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal10:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal11:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal12:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal13:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal14:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal16:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal17:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+
+#goal1b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal2b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal3b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal4b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal5b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal6b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal7b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal8b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal9b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal10b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal11b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal12b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal13b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal14b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal16b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal17b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
 
 /*xs*/
 @media (max-width: 767px) {
