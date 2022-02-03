@@ -1,0 +1,30 @@
+{% assign indicator_page_content_raw = page.indicator.page_content | strip %}
+
+<ol class="breadcrumb" sytle="margin-left: 2px">
+<!--    <li><a href="{{ page.baseurl }}{{ item_path }}">{{ item.label | t }}</a></li>-->
+<!--    <li><a href="{{ page.goal.url }}" title="{{ page.goal.name | escape }}">{{ page.t.general.goal }} {{ page.goal.number }}</a></li>-->
+    <li><a href="{{ page.baseurl }}">{{ page.t.general.home }}</a></li>
+    <li><a href="{{ page.goal.url }}" title="{{ page.goal.name | escape }}">{{ page.t.general.goal }} {{ page.goal.number }}</a></li>
+    <li class="active">{{ page.t.general.indicator }} {{ page.indicator.number }}</li>
+
+</ol>
+
+<div class="goal-titles goal-{{ page.goal.number }}">
+    <h1>
+        {% unless page.indicator.standalone %}
+        {{ page.t.general.indicator }} {{ page.indicator.number }}
+        {% endunless %}
+    </h1>
+    <h1>
+        <span class="hidden-sm hidden-md hidden-lg"></span>
+        {{ page.indicator.name }}
+    </h1>
+</div>
+
+{% if indicator_page_content_raw != '' %}
+<div class="row" id="page-content">
+    <div class="col-xs-12">
+        {{ indicator_page_content_raw | t | markdownify }}
+    </div>
+</div>
+{% endif %}
