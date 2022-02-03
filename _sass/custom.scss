@@ -189,7 +189,7 @@ body{
 .carousel-col {
     position: relative;
     min-height: 1px;
-    padding: 5px;
+    padding: 8px;
     float: left;
  }
 
@@ -207,7 +207,18 @@ body{
  .active > div { display:none; }
  .active > div:first-child { display:block; }
 
-
+#goal1, #goal2, #goal3,#goal4,#goal5,#goal6,#goal7,#goal8,#goal9,
+#goal10,#goal11,#goal12,#goal13,#goal14,#goal15,#goal16,#goal17
+  { box-shadow: 0 4px 8px 0
+         rgba(0,0,0,0.9);
+         transition: 0.3s;
+         }
+#goal1b,#goal2b,#goal3b,#goal4b,#goal5b,#goal6b,#goal7b,#goal8b,
+ #goal9b,#goal10b,#goal11b,#goal12b,#goal13b,#goal14b,#goal15b,#goal16b,#goal17b
+ { box-shadow: 0 4px 8px 0
+         rgba(0,0,0,0.9);
+         transition: 0.3s;
+         }
 /*xs*/
 @media (max-width: 767px) {
   .carousel-inner .active.left { left: -50%; }
