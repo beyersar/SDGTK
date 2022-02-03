@@ -80,9 +80,7 @@ frontpage_goals_grid:
   description: my-custom-translations.my-goals-grid-description
 
 frontpage_cards:
-  - include: card1.html
-  - include: card2.html
-  - include: card3.html
+  - include: components/card.html
 
 # Pages
 collections:
