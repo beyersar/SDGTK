@@ -25,7 +25,7 @@
                   <div id="SDGlogo">
                         {% include components/header/logo.html %}
                   </div>
-
+                  {% if page.language == 'de' %}
                   <h1 style=" text-align: left;
                               position: relative;
                               left: -15px;
@@ -35,6 +35,18 @@
                                 Kommunalen Nachhaltigkeitsstrategie <br>
                                 Treptow Köpenick 
                   </h1>
+                  {% else %}
+                  <h1 style=" text-align: left;
+                              position: relative;
+                              left: -15px;
+                              font-size: 130%;
+                              padding-bottom: 15px;">
+                    Monitoring of the <br>
+                    Municipal Sustainability Strategy <br>
+                    Treptow Köpenick
+                  </h1>
+                  {% endif %}
+
             </div>
         </div>
     </header>

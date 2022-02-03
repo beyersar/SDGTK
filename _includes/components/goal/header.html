@@ -6,11 +6,69 @@
 {% else %}
 {% assign baseurl = 'https://sdg-indikatoren.de' %}
 {% endif %}
-<div class="heading goal-banner goal-{{ page.goal.number }}">
+<div class="heading goal-banner goal-{{ page.goal.number }}"> 
   <div class="container">
     <div class="row">
       <div class="Image">
+        {% if page.language == 'en' %}
         <img src="{{ page.goal.icon }}" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
+        {% endif %}
+        {% if page.language == 'de' %}
+        {% if page.goal.number == '1' %}
+        <img src="/SDGTK/assets/img/goals/de/1.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
+        {% endif %}
+        {% if page.goal.number == '2' %}
+        <img src="/SDGTK/assets/img/goals/de/2.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
+        {% endif %}
+        {% if page.goal.number == '3' %}
+        <img src="/SDGTK/assets/img/goals/de/3.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
+        {% endif %}
+        {% if page.goal.number == '4' %}
+        <img src="/SDGTK/assets/img/goals/de/4.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
+        {% endif %}
+        {% if page.goal.number == '5' %}
+        <img src="/SDGTK/assets/img/goals/de/5.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
+        {% endif %}
+        {% if page.goal.number == '6' %}
+        <img src="/SDGTK/assets/img/goals/de/6.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
+        {% endif %}
+        {% if page.goal.number == '7' %}
+        <img src="/SDGTK/assets/img/goals/de/7.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
+        {% endif %}
+        {% if page.goal.number == '8' %}
+        <img src="/SDGTK/assets/img/goals/de/8.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
+        {% endif %}
+        {% if page.goal.number == '9' %}
+        <img src="/SDGTK/assets/img/goals/de/9.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
+        {% endif %}
+        {% if page.goal.number == '10' %}
+        <img src="/SDGTK/assets/img/goals/de/10.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
+        {% endif %}
+        {% if page.goal.number == '11' %}
+        <img src="/SDGTK/assets/img/goals/de/11.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
+        {% endif %}
+        {% if page.goal.number == '12' %}
+        <img src="/SDGTK/assets/img/goals/de/12.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
+        {% endif %}
+        {% if page.goal.number == '13' %}
+        <img src="/SDGTK/assets/img/goals/de/13.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
+        {% endif %}
+        {% if page.goal.number == '14' %}
+        <img src="/SDGTK/assets/img/goals/de/14.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
+        {% endif %}
+        {% if page.goal.number == '15' %}
+        <img src="/SDGTK/assets/img/goals/de/15.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
+        {% endif %}
+        {% if page.goal.number == '16' %}
+        <img src="/SDGTK/assets/img/goals/de/16.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
+        {% endif %}
+        {% if page.goal.number == '17' %}
+        <img src="/SDGTK/assets/img/goals/de/17.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
+        {% endif %}
+        {% endif %}
+        
+       
+
       </div>
     </div>
     {% if page.previous and page.next %}

@@ -1,6 +1,16 @@
 /* header */
+#search-btn, #search-bar-on-page-btn{
+  width: 33px;
+}
+#search-bar-on-page-btn{
+  background-color: #eeeeee !important;
+color: black !important;
+border-color: black !important;
+}
+
 
 #search, #search-mobile {
+
     @include searchBar;
     @include searchBarHighContrast;
     margin-top: 0;
@@ -66,7 +76,9 @@
         top: -15px;
       }
     }
-}
+  }
+
+
 
 @media screen and (max-width: 768px) {
   h1{
@@ -117,10 +129,10 @@
   }
 }
 
-
   #banner {
     padding-top: 15px;
   }
+
 
 #banner {
   background: $backgroundColor url('../img/sdgbg.png') top left repeat-x;
@@ -146,6 +158,100 @@ body{
     color: $color-dark;
     display: block;
   }
+
+/* goal-footer*/
+
+    #text{
+        padding-bottom: 20px;
+    }
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.carousel-control {
+    width: 8%;
+    width: 0px;
+}
+.carousel-control.left,
+.carousel-control.right {
+    margin-right: -50px;
+    margin-left: -50px;
+    background-image: none;
+    opacity: 1;
+}
+.carousel-control > a > span {
+    color: white;
+	  font-size: 29px !important;
+}
+
+.carousel-col {
+    position: relative;
+    min-height: 1px;
+    padding: 5px;
+    float: left;
+ }
+
+.block img-responsive {
+   width: 306px;
+   height:230px;
+}
+
+ #contain{
+    padding-bottom: 100px;
+    padding-top: 50px;
+    width: 65%;
+ }
+
+ .active > div { display:none; }
+ .active > div:first-child { display:block; }
+
+
+/*xs*/
+@media (max-width: 767px) {
+  .carousel-inner .active.left { left: -50%; }
+  .carousel-inner .active.right { left: 50%; }
+  .carousel-inner .next        { left:  50%; }
+   .carousel-inner .prev		 { left: -50%; }
+  .carousel-col                { width: 50%; }
+	.active > div:first-child + div { display:block; }
+}
+
+/*sm*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel-inner .active.left { left: -50%; }
+  .carousel-inner .active.right { left: 50%; }
+	.carousel-inner .next        { left:  50%; }
+	.carousel-inner .prev		     { left: -50%; }
+  .carousel-col                { width: 50%; }
+	.active > div:first-child + div { display:block; }
+}
+
+/*md*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .carousel-inner .active.left { left: -33%; }
+  .carousel-inner .active.right { left: 33%; }
+	.carousel-inner .next        { left:  33%; }
+	.carousel-inner .prev		     { left: -33%; }
+  .carousel-col                { width: 33%; }
+	.active > div:first-child + div { display:block; }
+  .active > div:first-child + div + div { display:block; }
+}
+
+/*lg*/
+@media (min-width: 1200px) {
+  .carousel-inner .active.left { left: -25%; }
+  .carousel-inner .active.right{ left:  25%; }
+	.carousel-inner .next        { left:  25%; }
+	.carousel-inner .prev		     { left: -25%; }
+  .carousel-col                { width: 25%; }
+	.active > div:first-child + div { display:block; }
+  .active > div:first-child + div + div { display:block; }
+	.active > div:first-child + div + div + div  { display:block; }
+}
+
+
   
 /*#2.1 Navigation Buttons */
  @for $i from 1 through length($goal-banner-backgroundColors) {
@@ -156,10 +262,12 @@ body{
         display: block;
         margin: auto;
         text-align: center;
-        max-width: 170px;
+        min-width: 155px;
+        max-width: 155px;
         height: 100%;
         z-index: -1;
         margin-top: -20px;
+        padding-top: -20px;
         }
         .container{
           height: 120px;
@@ -180,11 +288,13 @@ body{
         display: block;
         margin: auto;
         text-align: center;
-        max-width: 173px;
+        max-width: 156px;
+        min-width: 156px;
         height: 100%;
         z-index: -1;
         margin-top: -25px;
         }
+
        /*  .heading.goal-banner.goal-#{$i}{
           height: 50px;
         } */
@@ -295,10 +405,90 @@ body{
      }
 
      &.navigation-btn:hover {
-       background-color: darken($background-c,10%);
+       background-color: transparent;
      }
+     
      &.goal-titles{
      color: $background-c;
      }
    }
  }
+ 
+/*Footer*/
+ #kooperation {
+        background-color: #19486a;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    main {
+        width: 85%;
+        height: 200px;
+        margin: 200px, auto;
+        margin-left: 125px;
+        padding-top: 150px;
+        padding-bottom: 199px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    section {
+        width: 90%;
+        height: 190px;
+        background: #f4f4f4;
+        margin: 5px auto;
+        display: flex;
+        justify-content: left;
+        overflow-x: auto;
+    }
+
+    section::-webkit-scrollbar {
+        visibility: hidden;
+    }
+
+
+/*cards on landing page*/
+ .card1 {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+        transition: 0.3s;
+        width: 90%;
+        height:400px;
+    }
+    .card1:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+    .card2 {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+            transition: 0.3s;
+            width: 90%;
+            height:400px;
+            margin-top: 115px;
+            margin-left: 20px;
+        }
+        .card2:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+     .card3 {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+            transition: 0.3s;
+            width: 90%;
+            height:400px;
+            margin-top: 115px;
+            margin-left: 30px;
+        }
+        .card3:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+
