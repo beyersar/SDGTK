@@ -1,8 +1,14 @@
 <style>
     section {
         height: auto!important;
+        background: none!important;
+        display: block!important;
+        margin: 0px!important;
+        width: 100%!important;
+
     }
 </style>
+
 A{% assign show_data = false %}
 {% if page.indicator.reporting_status == "complete" and page.indicator.data_non_statistical != true %}
 {% assign show_data = true %}
