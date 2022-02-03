@@ -8,9 +8,7 @@ color: black !important;
 border-color: black !important;
 }
 
-
 #search, #search-mobile {
-
     @include searchBar;
     @include searchBarHighContrast;
     margin-top: 0;
@@ -48,6 +46,8 @@ border-color: black !important;
         }
       }
       @media screen and (min-width: 768px) and (max-width: 991px) {
+        display: block;
+
         .navbar .navbar-nav {
           display: none;
         }
@@ -78,12 +78,14 @@ border-color: black !important;
     }
   }
 
-
-
 @media screen and (max-width: 768px) {
+  
+  #search-mobile-btn{
+    width: 33px;
+  }
   h1{
     font-size: 180%;
-    text-align: center;
+    text-align: left;
   }
   #SDGlogo{
     height: auto;
@@ -113,8 +115,24 @@ border-color: black !important;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
+ 
+  .fa-search {
+    position: relative;
+    top: 5px;
+    left: 5px;
+  }
+  #search-bar-on-page-btn{
+    .fa-search {
+      position: relative;
+      top: 0px;
+      left: 0px;
+    }
+  }
   .navbar .navbar-nav {
     display: none;
+  }
+  #main-nav{
+    width: 340px;
   }
   #SDGlogo{
     height: auto; 
@@ -129,13 +147,9 @@ border-color: black !important;
   }
 }
 
-  #banner {
-    padding-top: 15px;
-  }
-
-
 #banner {
   background: $backgroundColor url('../img/sdgbg.png') top left repeat-x;
+  padding-top: 15px;
 }
 
 body{
@@ -143,21 +157,6 @@ body{
     padding-top: 15px;
   }
 
-  #skiplink {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10000;
-    width: 250px;
-    left: 50%;
-    margin-left: -125px;
-    padding: 10px;
-    background: $backgroundColor;
-    text-align: center;
-    border: 1px solid $color-dark;
-    color: $color-dark;
-    display: block;
-  }
 
 /* goal-footer*/
 
