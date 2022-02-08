@@ -136,7 +136,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20220208013022">
+        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20220208175251">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -531,6 +531,17 @@ data-event-label="high"
 
   
 
+<div class="row" id="page-content">
+  <div class="col-xs-12">
+    <p>The indicator shows data from the Berlin air quality monitoring network at the Friedrichshagen monitoring station. The data shown here includes the measurements for fine particulate matter (PM10) (daily values) and ozone (hourly values and 8-hourly values on a sliding scale). <br /></p>
+
+<p>Fine particulate matter (PM10) refers to those particles in the air that are smaller than 10 µm. Depending on the size of the particles and the depth of penetration into the human body, the health effects vary. These can be, for example, irritation of the mucous membranes and inflammation of the bronchial tubes, increased plaque formation in the blood vessels or increased tendency to thrombosis. <br /></p>
+
+<p>Ozone is a molecule composed of three oxygen atoms which can lead to irritation of the respiratory tract and the eyes as well as to the promotion of respiratory diseases.</p>
+
+  </div>
+</div>
+
 
   
 
@@ -541,9 +552,9 @@ data-event-label="high"
   data-indicatorid='indicator_3-3-2'
   data-id="3-3-2"
   data-country="Treptow-Köpenick"
-  data-charttitle="Air pollution - Exceedances thresholds PM10 an ozone"
+  data-charttitle="Air pollution - Limit values exceeded"
   data-charttitles="null"
-  data-measurementunit="Number of threshold value transgressions"
+  data-measurementunit="Number of limit values exceeded"
   data-xaxislabel=""
   data-showdata="true"
   data-graphtype="line"
@@ -590,7 +601,7 @@ data-event-label="high"
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Air pollution - Exceedances thresholds PM10 an ozone</caption>
+      <caption>Air pollution - Limit values exceeded</caption>
       <thead>
         
       </thead>
@@ -608,7 +619,7 @@ data-event-label="high"
     <p>Geographical Area: Treptow-Köpenick</p>
     
     
-    <p>Unit of Measurement: Number of threshold value transgressions</p>
+    <p>Unit of Measurement: Number of limit values exceeded</p>
     
     
   </div>
@@ -655,7 +666,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Air pollution - Exceedances thresholds PM10 an ozone</h4>
+          <h4 id="chart-heading" class="chart-title">Air pollution - Limit values exceeded</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -916,7 +927,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Number of threshold value transgressions</dd>
+        <dd>Number of limit values exceeded</dd>
         
 
         
@@ -962,7 +973,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Unit of Measurement:</dt>
-        <dd>Number of threshold value transgressions</dd>
+        <dd>Number of limit values exceeded</dd>
         
 
         
@@ -1083,7 +1094,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            <p>Number of threshold value transgressions</p>
+            <p>Number of limit values exceeded</p>
 
           
         </td>
@@ -1214,8 +1225,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/beyersar/DataTK/commit/d7edf671f9f47c6543a1f561254ec3028e3bccb0" target="_blank">
-                2022-01-20: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/beyersar/DataTK/commit/a08424f1c7f83e06a8857bfa3900c9246b047194" target="_blank">
+                2022-02-08: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1816,12 +1827,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/SDGTK/assets/js/sdg.js?v=20220208013022'></script>
+<script src='/SDGTK/assets/js/sdg.js?v=20220208175251'></script>
 
 
     
     
-    <script src="/SDGTK/assets/js/custom.js?v=20220208013022"></script><script>
+    <script src="/SDGTK/assets/js/custom.js?v=20220208175251"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
