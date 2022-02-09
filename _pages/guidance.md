@@ -15,8 +15,6 @@ This site is built and hosted using an open-source platform with 100% free softw
 
 Answers to some specific questions about the website are included in our [Frequently Asked Questions]({{ site.baseurl }}/faq/) page.
 
-The platform documentation includes information for people adding [data](https://open-sdg.readthedocs.io/en/latest/data-format/) and [metadata](https://open-sdg.readthedocs.io/en/latest/metadata-format/).
-
 ## Creating a copy of this website
 
 Other countries or localities wishing to implement a version of this platform are welcome to do so for free.
