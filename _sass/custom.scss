@@ -179,7 +179,7 @@ body{
     margin-left: -50px;
     background-image: none;
     opacity: 1;
-    z-index: -1;
+    z-index: 1;
 }
 .carousel-control > a > span {
     color: white;
@@ -235,6 +235,7 @@ body{
 #goal12:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
 #goal13:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
 #goal14:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal15:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
 #goal16:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
 #goal17:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
 
@@ -252,6 +253,7 @@ body{
 #goal12b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
 #goal13b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
 #goal14b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
+#goal15b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
 #goal16b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
 #goal17b:hover {box-shadow: 0 8px 16px 0 rgba(3,3,3,3.2);}
 
@@ -301,6 +303,9 @@ body{
 
   
 /*#2.1 Navigation Buttons */
+#search-mobile, #menu-mobile {
+  position: absolute;
+}
  @for $i from 1 through length($goal-banner-backgroundColors) {
    $background-c: nth($goal-banner-backgroundColors, $i);
    .goal-#{$i} {
@@ -312,7 +317,8 @@ body{
         min-width: 155px;
         max-width: 155px;
         height: 100%;
-        z-index: -1;
+        position: relative;
+        z-index: 1;
         margin-top: -20px;
         padding-top: -20px;
         }
@@ -338,7 +344,8 @@ body{
         max-width: 156px;
         min-width: 156px;
         height: 100%;
-        z-index: -1;
+        position: relative;
+        z-index: 1;
         margin-top: -25px;
         }
 
