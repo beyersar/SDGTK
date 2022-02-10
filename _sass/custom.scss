@@ -1,4 +1,10 @@
 /* header */
+#search-mobile, #menu-mobile {
+  position: absolute;
+}
+#search-mobile:focus, #menu-mobile:focus {
+  color: white;
+}
 #search-btn, #search-bar-on-page-btn{
   width: 33px;
 }
@@ -303,9 +309,7 @@ body{
 
   
 /*#2.1 Navigation Buttons */
-#search-mobile, #menu-mobile {
-  position: absolute;
-}
+
  @for $i from 1 through length($goal-banner-backgroundColors) {
    $background-c: nth($goal-banner-backgroundColors, $i);
    .goal-#{$i} {
@@ -460,6 +464,10 @@ body{
 
      &.navigation-btn:hover {
        background-color: transparent;
+     }
+     &.navigation-btn:focus {
+       color: white !important;
+       box-shadow: transparent !important;
      }
      
      &.goal-titles{
