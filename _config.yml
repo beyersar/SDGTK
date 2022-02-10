@@ -59,9 +59,9 @@ analytics:
 
 # Replace the email addresses below.
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: nachhaltigkeit@ba-tk.berlin.de
+  suggestions: nachhaltigkeit@ba-tk.berlin.de
+  functional: nachhaltigkeit@ba-tk.berlin.de
 
 # International Support
 # Eg name: Australia and adjective: Australian
@@ -111,7 +111,7 @@ menu:
 footer_menu:
   - path: https://beyersar.github.io/DataTK/en/zip/all_indicators.zip
     translation_key: Download
-  - path: mailto:my-email-address@example.com
+  - path: mailto:nachhaltigkeit@ba-tk.berlin.de
     translation_key: menu.contact_us
   - path: #
     translation_key: Impressum
