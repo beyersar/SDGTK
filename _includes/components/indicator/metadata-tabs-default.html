@@ -1,0 +1,13 @@
+{% unless page.indicator.standalone %}
+<li role="presentation" class="nav-item">
+  {% if page.language == 'en' %}
+  <a class="nav-link" data-toggle="tab" id="tab-global" href="#global" aria-controls="global" role="tab" {% include autotrack.html preset="tab_meta_global" category="Tab change" action="Change metadata view" label="Change to Global Metadata tab" %}>Metadata</a>
+  {% else %}
+  <a class="nav-link" data-toggle="tab" id="tab-globalb" href="#global" aria-controls="global" role="tab" {% include autotrack.html preset="tab_meta_global" category="Tab change" action="Change metadata view" label="Change to Global Metadata tab" %}>Metadaten</a>
+  {% else %}
+  {% endif %}
+</li>
+{% endunless %}
+<li role="presentation" class="nav-item">
+  <a class="nav-link" data-toggle="tab" id="tab-sources" href="#sources" aria-controls="sources" role="tab" {% include autotrack.html preset="tab_meta_sources" category="Tab change" action="Change metadata view" label="Change to Sources tab" %}>{{ page.t.indicator.sources }}</a>
+</li>

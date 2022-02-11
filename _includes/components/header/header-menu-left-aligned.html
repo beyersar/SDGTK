@@ -1,0 +1,76 @@
+{% include multilingual-js.html key="header" %}
+  <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">{{ page.t.header.skip_link }}</a>
+  
+
+<div style="position: sticky; position: -webkit-sticky; top: 15px; z-index:3; background: white;">
+  <div class="search-and-desktop-widgets" >
+    <header role="banner" class="header-menu-left-aligned" 
+            style="background: #19486A; 
+                   color: white; 
+                   position: relative; 
+                   top: -15px;">
+
+        <div class="container">
+            <div    class="logo-and-mobile-widgets"
+                      style=" height: 80px;
+                              display: -webkit-flex;
+                              display: -webkit-box;
+                              display: -ms-flexbox;
+                              display: flex;
+                              -webkit-align-items: center;
+                              -webkit-box-align: center;
+                              -ms-flex-align: center;
+                              align-items: center;">
+
+                  <div id="SDGlogo">
+                        {% include components/header/logo.html %}
+                  </div>
+                  {% if page.language == 'de' %}
+                  <h1 style=" text-align: left;
+                              position: relative;
+                              left: -15px;
+                              font-size: 130%;
+                              padding-bottom: 15px;">
+                                Monitoring der <br>
+                                Kommunalen Nachhaltigkeitsstrategie <br>
+                                Treptow Köpenick 
+                  </h1>
+                  {% else %}
+                  <h1 style=" text-align: left;
+                              position: relative;
+                              left: -15px;
+                              font-size: 130%;
+                              padding-bottom: 15px;">
+                    Monitoring of the <br>
+                    Municipal Sustainability Strategy <br>
+                    Treptow Köpenick
+                  </h1>
+                  {% endif %}
+
+            </div>
+        </div>
+    </header>
+    <div id="banner" style="position: relative; top: -15px;"> </div>
+</div>
+    <header role="banner" class="header-menu-left-aligned" style="margin-top: -90px; z-index:2;">
+      <div class="container">
+        <div class="search-and-desktop-widgets" style="display: inline-flex; ">
+          {% include search.html id="search" %}
+          <div class="navbar navbar-default widgets-without-menu">
+            <ul class="nav navbar-nav contrast-switcher">
+            {%- if site.languages.size > 1 and site.header_language_toggle != 'none' -%}
+              <li class="language-toggle-menu-header">
+                {% include components/language-toggle.html %}
+            </li>
+            {%- endif -%}
+            </ul>
+          </div>
+        </div>
+
+        <div class="navbar navbar-default menu-without-widgets" id="main-nav">
+          {% include components/header/navigation-mobile.html %}
+          {% include navigation.html no_contrast=true no_language_toggle=true dropdowns=true %}
+        </div>
+    </header>
+</div>
+ {% include components/page-top.html %}

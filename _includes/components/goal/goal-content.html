@@ -1,0 +1,18 @@
+
+{% assign goal_page_content_raw = include.content | strip %}
+{% if goal_page_content_raw != '' %}
+<div class="row" id="page-content">
+    <div class="col-xs-12">
+        {{ goal_page_content_raw | t | markdownify }}
+    </div>
+</div>
+{% endif %}
+<ol class="breadcrumb" style="margin-left: 2px">
+<!--    <li> <a href="{{ page.baseurl }}{{ item_path }}">{{ item.label | t }}</a></li>-->
+    <li ><a href="{{ page.baseurl }}">{{ page.t.general.home }}</a></li>
+    <li class="active">{{ page.t.general.goal }} {{ page.goal.number }}</li>
+</ol>
+<h1 class="goal-titles goal-{{ page.goal.number }}" style="font-weight: 900">
+    {{ page.goal.name }}
+</h1>
+

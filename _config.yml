@@ -4,7 +4,6 @@
 #
 # Replace the baseurl with the name of this repository. For example, if the repository is named
 # "my-site-repository", then update the baseurl like so:
-# baseurl: "/my-site-repository"
 baseurl: "/SDGTK"
 # The next line should be the URL of your data repository published site. To find this,
 # go to your data repository in Github, and click "Settings", then scroll down to the
@@ -60,9 +59,9 @@ analytics:
 
 # Replace the email addresses below.
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: nachhaltigkeit@ba-tk.berlin.de
+  suggestions: nachhaltigkeit@ba-tk.berlin.de
+  functional: nachhaltigkeit@ba-tk.berlin.de
 
 # International Support
 # Eg name: Australia and adjective: Australian
@@ -73,28 +72,15 @@ country:
 # Optionally set a title/body for the frontpage banner. The defaults below point to a standard
 # translation, but feel free to change it as needed.
 frontpage_introduction_banner:
-  title: frontpage.intro_title
-  description: frontpage.intro_body
+ title: frontpage.intro_title
+ description: frontpage.intro_body
 
 frontpage_goals_grid:
   title: my-custom-translations.my-goals-grid-title
   description: my-custom-translations.my-goals-grid-description
 
 frontpage_cards:
-  - title: frontpage.download_all
-    include: components/download-all-data.html
-  - title: Lorem ipsum
-    content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
-    button_label: Read more
-    button_link: https://example.com
-  - title: Nam vestibulum
-    content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
-    button_label: Read more
-    button_link: https://example.com
+  - include: components/card.html
 
 # Pages
 collections:
@@ -119,22 +105,23 @@ menu:
     translation_key: menu.reporting_status
   - path: /about
     translation_key: menu.about
-  - path: /guidance
-    translation_key: menu.guidance
   - path: /faq
     translation_key: menu.faq
-  - path: /news
-    translation_key: menu.updates
-
+ 
 footer_menu:
-  - path: mailto:my-email-address@example.com
+  - path: https://beyersar.github.io/DataTK/en/zip/all_indicators.zip
+    translation_key: Download
+  - path: mailto:nachhaltigkeit@ba-tk.berlin.de
     translation_key: menu.contact_us
-  - path: https://twitter.com/MyTwitterAccount
-    translation_key: general.twitter
-  - path: https://facebook.com/MyFacebookAccount
-    translation_key: general.facebook
+  - path: #
+    translation_key: Impressum
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
+  - path: #
+    translation_key: Technische Hinweise
+
+
+
 
 # Configure the text (or "translation key") to be used on the
 # non-global metadata tab.
