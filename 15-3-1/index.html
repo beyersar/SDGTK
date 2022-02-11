@@ -136,7 +136,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20220211013231">
+        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20220211163041">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -158,75 +158,55 @@ layout-indicator
 
 <script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
-<div id="disclaimer">
-  <div class="container">
-  <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
-    
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
-  </div>
-</div>
+  <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+  
 
-</div>
+<div style="position: sticky; position: -webkit-sticky; top: 15px; z-index:3; background: white;">
+  <div class="search-and-desktop-widgets" >
+    <header role="banner" class="header-menu-left-aligned" 
+            style="background: #19486A; 
+                   color: white; 
+                   position: relative; 
+                   top: -15px;">
 
-<header role="banner" class="header-menu-left-aligned">
-  <div class="container">
+        <div class="container">
+            <div    class="logo-and-mobile-widgets"
+                      style=" height: 80px;
+                              display: -webkit-flex;
+                              display: -webkit-box;
+                              display: -ms-flexbox;
+                              display: flex;
+                              -webkit-align-items: center;
+                              -webkit-box-align: center;
+                              -ms-flex-align: center;
+                              align-items: center;">
 
-    <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/SDGTK/" id="home">
+                  <div id="SDGlogo">
+                        <a class="navbar-brand" href="/SDGTK/" id="home">
     <img src="/SDGTK/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
-      <div class="mobile-widgets">
-    <ul id='accessibility-nav' class='contrast-switcher'>
-        
+                  </div>
+                  
+                  <h1 style=" text-align: left;
+                              position: relative;
+                              left: -15px;
+                              font-size: 130%;
+                              padding-bottom: 15px;">
+                    Monitoring of the <br>
+                    Municipal Sustainability Strategy <br>
+                    Treptow Köpenick
+                  </h1>
+                  
 
-    <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
-           data-contrast-switch-to="default"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="default"
-
-        >A</a>
-    </li>
-    <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
-           data-contrast-switch-to="high"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="high"
-
-        >A</a>
-    </li>
-
-
-    </ul><div class="language-toggle-mobile">
-        <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-de">
-            <a href="/SDGTK/de/15-3-1/">
-              Deutsch
-            </a>
-          </li></ul>
-  </div>
+            </div>
+        </div>
+    </header>
+    <div id="banner" style="position: relative; top: -15px;"> </div>
 </div>
-
-    </div></div>
-    </div>
-
-    <div class="search-and-desktop-widgets">
-      <div id="search" class="menu-target">
+    <header role="banner" class="header-menu-left-aligned" style="margin-top: -90px; z-index:2;">
+      <div class="container">
+        <div class="search-and-desktop-widgets" style="display: inline-flex; ">
+          <div id="search" class="menu-target">
   <form action="/SDGTK/search/">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
@@ -234,9 +214,9 @@ data-event-label="high"
   </form>
 </div>
 
-      <div class="navbar navbar-default widgets-without-menu">
-        <ul class="nav navbar-nav contrast-switcher"><li class="language-toggle-menu-header">
-            
+          <div class="navbar navbar-default widgets-without-menu">
+            <ul class="nav navbar-nav contrast-switcher"><li class="language-toggle-menu-header">
+                
 
 
 
@@ -258,40 +238,12 @@ data-event-label="high"
 
 
 
-        </li>
+            </li></ul>
+          </div>
+        </div>
 
-    <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
-           data-contrast-switch-to="default"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="default"
-
-        >A</a>
-    </li>
-    <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
-           data-contrast-switch-to="high"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="high"
-
-        >A</a>
-    </li>
-
-
-        </ul>
-      </div>
-    </div>
-
-    <div class="navbar navbar-default menu-without-widgets" id="main-nav">
-      <ul class="top-level">
+        <div class="navbar navbar-default menu-without-widgets" id="main-nav">
+          <ul class="top-level">
     <li id="menuToggle"
         aria-label="Menu toggle. Click to expand or collapse the menu."
         aria-haspopup="true">
@@ -303,11 +255,7 @@ data-event-label="high"
 </li><li class="nav-link ">
     <a href="/SDGTK/about">About</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/guidance">Guidance</a>
-</li><li class="nav-link ">
     <a href="/SDGTK/faq">FAQ</a>
-</li><li class="nav-link ">
-    <a href="/SDGTK/news">Updates</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -379,29 +327,23 @@ data-event-label="high"
 
     </li>
 </ul>
-      <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
+
+          <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
     <a href="/SDGTK/goals">Goals</a>
 </li><li class="nav-link ">
     <a href="/SDGTK/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
     <a href="/SDGTK/about">About</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/guidance">Guidance</a>
-</li><li class="nav-link ">
     <a href="/SDGTK/faq">FAQ</a>
-</li><li class="nav-link ">
-    <a href="/SDGTK/news">Updates</a>
 </li>
 
 </ul>
 
-    </div>
-
-  </div>
-
-</header>
-<div id="top" tabindex=-1></div>
-
+        </div>
+    </header>
+</div>
+ <div id="top" tabindex=-1</div>
 
 
 
@@ -484,93 +426,137 @@ data-event-label="high"
 <script>translations['data'] = {"data.Ausgezeichnet":"Excellent","data.Ausreichend":"Sufficient","data.Gut":"Good","data.Mangelhaft":"Poor","data.ableism":"Ableism","data.air":"Relative air pollution","data.allewege":"All routes","data.antisem":"Anti-Semitism","data.antworten":"Answers","data.area":"Area","data.availability":"Availability","data.binnen":"Domestic traffic","data.einewelt":"One-World-Projects","data.erhol":"Green and recreational facilities (incl. playgrounds)","data.esek":"Emitting sectors","data.freiz":"Sports, leisure and recreation area","data.friedh":"Cemeteries","data.fuss":"Walking","data.gemeindep":"Parish projects","data.gewerbe":"Manufacturing sector","data.group":"Group","data.gruen":"Public green spaces","data.haushalte":"Households, business, trade and services, other consumers","data.high":"High","data.inB":"In application","data.incident":"Type of incident","data.indoor":"Indoor","data.indu":"Industrial and commercial area","data.ja":"Yes-Answers","data.kat":"Category","data.keineB":"No application","data.kleing":"Allotment gardens","data.low":"Low","data.luftg":"Air quality","data.m":"Men","data.maintransport":"Main means of transport","data.medium":"Medium","data.miv":"Motorized private transport","data.nat":"Nature reserves","data.nein":"No-Answers","data.no":"No values","data.noise":"Relative noise pollution","data.offis":"Public transport","data.outdoor":"Outdoor","data.ozonacht":"Ozone 8-hour values","data.ozonst":"Ozone hourly values","data.pm":"Particulates (PM10)","data.polgeg":"Political opponents","data.pow":"Power class","data.private":"Publicly accessible - on private land","data.protect":"Protected landscape areas","data.public":"Public space","data.qhostility":"LGBTIQ* hostility","data.quell":"Source and destination traffic","data.racism":"Racism","data.rad":"Bicycle","data.repcaf":"Repair Cafes","data.reuse":"ReUse Shops","data.rightwing":"Right-wing and extreme right-wing self-portrayal","data.saprobie":"Saprobity","data.schulp":"School partnerships","data.sex":"Sex","data.sied":"Settlement area","data.sozch":"Social-chauvinism","data.spatialtypes":"Traffic flow types","data.standort":"Location","data.stapa":"City partnerships","data.strgr":"Street green","data.sumgr":"Total public green spaces","data.tot":"Total","data.trivil":"NS trivialization and glorification","data.trophie":"Trophicity","data.umwand":"Transformation sector","data.verkehr":"Transportation","data.w":"Women","data.wahlk":"Campaign","data.weltl":"Fair Trade Shops","data.wohn":"Residential area","data.workshops":"Community Workshops","data.zert":"Fairtrade-School certified","data.zertFG":"Certificate","data.zertK":"No Certificate","data.zivip":"Civil society projects","data.zug":"Access Points","data.zustand":"Status"};</script>
 
 
-<div class="container">
-  
-<ol class="breadcrumb">
-  
-  <li><a href="/SDGTK/">Home</a></li>
-  <li><a href="/SDGTK/goals">Goals</a></li>
-  
-  <li><a href="/SDGTK/15" title="Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss">Goal 15</a></li>
-  
-</ol>
 
 
-  
-</div>
 <div class="heading goal-banner indicator goal-15">
   <div class="container">
     <div class="row">
       
-      <div class="col-xs-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-        <a href="/SDGTK/15" title="View this goal's indicator list">
-          <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/15.png" alt="Life on land - Goal 15" id="goal-15" class="goal-icon-image goal-icon-image-"/>
-        </a>
-      </div>
-      <div class="col-xs-8 col-md-9 col-lg-10 indicator-details">
-      
-        <div>
-          <h1>
-            
-            Indicator 15.3.1
-            
-            <span class="lead-copy">Nature reserves and protected landscape areas (area in ha)</span>
-          </h1>
-        </div>
+
+            <a href="/SDGTK/15" title="View this goal's indicator list">
+              <div class="Image">
+                
+                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/15.png" alt="Life on land - Goal 15" id="goal-15"  />
+                
+                
+              </div>
+            </a>
+
+              
+              <div class="previous-next-links row" style="margin-top: -30px">
+                <div class="col col-lg-2 pull-left">
+                  <a href="/SDGTK/15-2-1" class="btn btn-primary btn-block goal-15 navigation-btn btn-left" role="button">
+                    <i class="fa fa-chevron-left" aria-hidden="true" style="font-size: 45px;"></i> <span id="previous-link" class="hidden-sm hidden-xs"></span>
+                  </a>
+                </div>
+                <div class="col col-lg-2 pull-right">
+                  <a href="/SDGTK/15-4-1" class="btn btn-primary btn-block goal-15 navigation-btn btn-right" role="button">
+                    <i class="fa fa-chevron-right" aria-hidden="true" style="font-size: 45px;"></i><span id="next-link" class="hidden-sm hidden-xs"></span>
+                  </a>
+                </div>
+              </div>
+              
+
+          <!--<div class="col-xs-8 col-md-9 col-lg-10 indicator-details">-->
+          
+
       </div>
     </div>
   </div>
 </div>
 
+
+
+
+
+<div class="container">
+    
+<ol class="breadcrumb">
+    
+</ol>
+
+
+</div>
 <div id="main-content" class="container goal-15" role="main">
-  
+    
 
-  
+    
 
-  
+    
 
-  
+<ol class="breadcrumb" sytle="margin-left: 2px">
+<!--    <li><a href="/SDGTK/goals"></a></li>-->
+<!--    <li><a href="/SDGTK/15" title="Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss">Goal 15</a></li>-->
+    <li><a href="/SDGTK/">Home</a></li>
+    <li><a href="/SDGTK/15" title="Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss">Goal 15</a></li>
+    <li class="active">Indicator 15.3.1</li>
 
-<div class="row" id="page-content">
-  <div class="col-xs-12">
-    <p>The indicator shows the nature reserves and landscape protection areas in the Treptow-Köpenick district.</p>
+</ol>
 
-  </div>
+<div class="goal-titles goal-15">
+    <h1>
+        
+        Indicator 15.3.1
+        
+    </h1>
+    <h1>
+        <span class="hidden-sm hidden-md hidden-lg"></span>
+        Nature reserves and protected landscape areas (area in ha)
+    </h1>
 </div>
 
 
-  
+<div class="row" id="page-content">
+    <div class="col-xs-12">
+        <p>The indicator shows the nature reserves and landscape protection areas in the Treptow-Köpenick district.</p>
+
+    </div>
+</div>
+
+
+    <style>
+    section {
+        height: auto!important;
+        background: none!important;
+        display: block!important;
+        margin: 0px!important;
+        width: 100%!important;
+
+    }
+</style>
+
+
 
 
 
 <div class="row"
-  id="indicatorData"
-  data-indicatorid='indicator_15-3-1'
-  data-id="15-3-1"
-  data-country="Treptow-Köpenick"
-  data-charttitle="Nature reserves and protected landscape areas (area in ha)"
-  data-charttitles="null"
-  data-measurementunit="Area in hectares"
-  data-xaxislabel=""
-  data-showdata="true"
-  data-graphtype="line"
-  data-geocoderegex=""
-  data-showmap=""
-  data-startvalues="[{&quot;field&quot;:&quot;Area&quot;,&quot;value&quot;:&quot;Nature reserves&quot;},{&quot;field&quot;:&quot;Area&quot;,&quot;value&quot;:&quot;Protected landscape areas&quot;},{&quot;field&quot;:&quot;Area&quot;,&quot;value&quot;:&quot;Total&quot;}]"
-  data-graphlimits="null"
-  data-stackeddisaggregation=""
-  data-graphannotations="null"
-  data-graphtargetlines="null"
-  data-graphseriesbreaks="null"
-  data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;data.area&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Nature reserves&quot;,&quot;Protected landscape areas&quot;,&quot;Total&quot;]},&quot;title&quot;:&quot;Area&quot;}]}"
-  data-compositebreakdownlabel=""
-  data-precision="null"
+     id="indicatorData"
+     data-indicatorid='indicator_15-3-1'
+     data-id="15-3-1"
+     data-country="Treptow-Köpenick"
+     data-charttitle="Nature reserves and protected landscape areas (area in ha)"
+     data-charttitles="null"
+     data-measurementunit="Area in hectares"
+     data-xaxislabel=""
+     data-showdata="true"
+     data-graphtype="line"
+     data-geocoderegex=""
+     data-showmap=""
+     data-startvalues="[{&quot;field&quot;:&quot;Area&quot;,&quot;value&quot;:&quot;Nature reserves&quot;},{&quot;field&quot;:&quot;Area&quot;,&quot;value&quot;:&quot;Protected landscape areas&quot;},{&quot;field&quot;:&quot;Area&quot;,&quot;value&quot;:&quot;Total&quot;}]"
+     data-graphlimits="null"
+     data-stackeddisaggregation=""
+     data-graphannotations="null"
+     data-graphtargetlines="null"
+     data-graphseriesbreaks="null"
+     data-indicatordownloads="null"
+     data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;data.area&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Nature reserves&quot;,&quot;Protected landscape areas&quot;,&quot;Total&quot;]},&quot;title&quot;:&quot;Area&quot;}]}"
+     data-compositebreakdownlabel=""
+     data-precision="null"
 >
-  
-  <span role="status" class="sr-only" id="indicator-data-view-status"></span>
-  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
-    <div id="serieses"></div>
+    
+    <span role="status" class="sr-only" id="indicator-data-view-status"></span>
+    <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+        <div id="serieses"></div>
 <div id="units"></div>
 <div id="toolbar">
   <span id="series-help">
@@ -582,9 +568,9 @@ data-event-label="high"
   </div>
 </div>
 
-  </div>
-  <div id="indicator-main" class="indicator-main col-md-9">
-    
+    </div>
+    <div id="indicator-main" class="indicator-main col-md-9">
+        
 
 
 <div id="headlineTable">
@@ -988,23 +974,18 @@ opensdg.chartConfigAlter(function(config, info) {
 
 </section>
 
+        
+            <ul class="nav nav-tabs spacer medium" role="tablist">
+
   
-  <ul class="nav nav-tabs spacer medium" role="tablist">
-
-  <li role="presentation" class="nav-item active">
-  <a class="nav-link" data-toggle="tab" id="tab-national" href="#national" aria-controls="national" role="tab" data-on="click"
-data-event-category="Tab change"
-data-event-action="Change metadata view"
-data-event-label="Change to National Metadata tab"
->National Metadata</a>
-</li>
-
 <li role="presentation" class="nav-item">
+  
   <a class="nav-link" data-toggle="tab" id="tab-global" href="#global" aria-controls="global" role="tab" data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to Global Metadata tab"
->Global Metadata</a>
+>Metadata</a>
+  
 </li>
 
 <li role="presentation" class="nav-item">
@@ -1017,16 +998,16 @@ data-event-label="Change to Sources tab"
 
 
   
-  <li role="presentation" class="nav-item">
+  <!-- <li role="presentation" class="nav-item">
     <a class="nav-link" data-toggle="tab" href="#edit" aria-controls="edit" role="tab">Edit</a>
-  </li>
+  </li> -->
   
 </ul>
 
 <div class="tab-content">
   
-    <div role="tabpanel" class="tab-pane active" id="national">
-  <!-- National Metadata -->
+    <!-- <div role="tabpanel" class="tab-pane active" id="national">
+   --><!-- National Metadata --><!--
   <div >
     <article>
       <p>
@@ -1322,13 +1303,303 @@ data-event-label="Change to Sources tab"
 
     </article>
   </div>
-</div>
+</div> -->
 <div role="tabpanel" class="tab-pane" id="global">
   <!-- Global Metadata -->
   <div>
     <article>
-      <p>This overview provides further information about the metadata of the respective indicator.</p>
-      <table class="table">
+        <p>
+            
+            
+            In the following, the metadata for the locally available time series for Treptow-Köpenick are provided for the respective indicator.
+         </p>
+        <table class="table">
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      <tr>
+        <th scope="row">Indicator available </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Indicator description </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Geographical coverage </th>
+        <td>
+          
+            <p>Treptow-Köpenick</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Unit of measurement </th>
+        <td>
+          
+            <p>Area in hectares</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Definitions </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Calculations </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Other information </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Quality assurance </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Comparability with international data/standards </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Comments and limitations </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data last updated </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://github.com/beyersar/DataTK/commit/cf321fc70a9d6cd510f74f44c41dd7e4ed3d9f1d" target="_blank">
+                2022-01-20: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Metadata last updated </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://github.com/beyersar/DataTK/commit/60a82e5798c129927421ccd553ab0d6355637ac1" target="_blank">
+                2022-01-20: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+        <table class="table">
   
   
   
@@ -1756,47 +2027,323 @@ data-event-label="Change to Sources tab"
 </div>
 
 
-  </div>
-</div>
-
-</div>
-
-<footer role="contentinfo">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <div id="footerLinks">
-          <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
-            
-              <li>
-                
-                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
-                
-                </li>
-              <li>
-                
-                  <a href="https://twitter.com/MyTwitterAccount" target="_blank">Twitter</a>
-                
-                </li>
-              <li>
-                
-                  <a href="https://facebook.com/MyFacebookAccount" target="_blank">Facebook</a>
-                
-                </li>
-              <li>
-                <a href="/SDGTK/about/cookies-and-privacy/">Cookies</a>
-                
-                </li>
-              
-            
-            </ul>
         </div>
-      </div>
     </div>
-  </div>
-</footer>
+</div>
+<div class="container" id="contain">
+    <div class="row">
+        <div id="text">
+            
+            <h2 style="margin-bottom: 20px ; font-size: 20pt; font-weight: 700;" align="center"  ><b> Discover more SDGS</b></h2>
+            <h4 style="margin-bottom: 10px; color: #adadad;" align="center">Click on the individual goals to view the data <br> of our local sustainable development indicators.</h4>
+            
+        </div>
+        <div class="col-xs-11 col-md-10 col-centered">
+            <div id="carousel" class="carousel" data-ride="carousel" data-type="multi" data-interval="2500">
+                <div class="carousel-inner">
+                    
+                    <div class="item active">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/1">
+                                <img src="/SDGTK/assets/img/goals/en/1.png" class="block img-responsive"
+                                     alt="Keine Armut - Goal 1" id="goal1b"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/2">
+                                <img src="/SDGTK/assets/img/goals/en/2.png" class="block img-responsive"
+                                     alt="Kein hunger - Goal 2" id="goal2b"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/3">
+                                <img src="/SDGTK/assets/img/goals/en/3.png" class="block img-responsive"
+                                     alt="Gesundheit und Wohlergehen - Goal 3" id="goal3b"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/4">
+                                <img src="/SDGTK/assets/img/goals/en/4.png" class="block img-responsive"
+                                     alt="Hochwertige Bildung - Goal 4" id="goal4b"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/5">
+                                <img src="/SDGTK/assets/img/goals/en/5.png" class="block img-responsive"
+                                     alt="Geschlechtergleichheit - Goal 5" id="goal5b"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/6">
+                                <img src="/SDGTK/assets/img/goals/en/6.png" class="block img-responsive"
+                                     alt="Sauberes Wasser und Sanitäreinrichtungen - Goal 6" id="goal6b"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/7">
+                                <img src="/SDGTK/assets/img/goals/en/7.png" class="block img-responsive"
+                                     alt="Affordable and clean energy - Goal 7" id="goal7b"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/8">
+                                <img src="/SDGTK/assets/img/goals/en/8.png" class="block img-responsive"
+                                     alt="Bezahlbare und saubere Energie - Goal 8" id="goal8b"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/9">
+                                <img src="/SDGTK/assets/img/goals/en/9.png" class="block img-responsive"
+                                     alt="Industry, innovation and infrastructure - Goal 9" id="goal9b"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/10">
+                                <img src="/SDGTK/assets/img/goals/en/10.png" class="block img-responsive"
+                                     alt="Weniger Ungleichheiten - Goal 10" id="goal10b"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/11">
+                                <img src="/SDGTK/assets/img/goals/en/11.png" class="block img-responsive"
+                                     alt="Nachhaltige Städte und Gemeinden - Goal 11" id="goal11b"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/12">
+                                <img src="/SDGTK/assets/img/goals/en/12.png" class="block img-responsive"
+                                     alt="Nachhaltiger Konsum und Produktion - Goal 12" id="goal12b"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/13">
+                                <img src="/SDGTK/assets/img/goals/en/13.png" class="block img-responsive"
+                                     alt="Massnahmen zum Klimaschutz- Goal 13" id="goal13b"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/14">
+                                <img src="/SDGTK/assets/img/goals/en/14.png" class="block img-responsive"
+                                     alt="Leben unter Wasser - Goal 14" id="goal14b"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/15">
+                                <img src="/SDGTK/assets/img/goals/en/15.png" class="block img-responsive"
+                                     alt="Leben am Land - Goal 15" id="goal15b"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/16">
+                                <img src="/SDGTK/assets/img/goals/en/16.png" class="block img-responsive"
+                                     alt="Frieden, Gerechtigkeit und starke institutionen - Goal 16" id="goal16b"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/SDGTK/17">
+                                <img src="/SDGTK/assets/img/goals/en/17.png" class="block img-responsive"
+                                     alt="Partnerschaften zur erreischung der Ziele- Goal 17" id="goal17b"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
 
+                <div class="left carousel-control">
+                    <a href="#carousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                </div>
+                <div class="right carousel-control">
+                    <a href="#carousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+<style>
+    #kooperation {
+        background-color: #19486A;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    main {
+        width: 85%;
+        height: 200px;
+        margin: 200px, auto;
+        margin-left: 125px;
+        padding-top: 150px;
+        padding-bottom: 199px;
+        overflow: hidden;
+        position: relative;
+    }
+    section {
+        width: 90%;
+        height: 190px;
+        background: #F4F4F4;
+        margin: 5px auto;
+        display: flex;
+        justify-content: left;
+        overflow-x: auto;
+    }
+    section::-webkit-scrollbar {
+        visibility: hidden;
+    }
+</style>
+<footer role="contentinfo" style="padding-top: 65px;">
+    <div class="container">
+        <div class="row" style="padding: 0px;">
+            <div class="col-xs-12">
+                <div id="kooperation" >
+                    
+                    <p>Our project partners</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="padding: 70px;">
+            <div class="col-xs-3" style="width: 20%;">
+                <div id="bilder" style="background-color:white;">
+                    <a href="http://www.berlin.de/ba-treptow-koepenick/" target="_blank" ><img src="/SDGTK/assets/img/logo_ba-treptow-koepenick.png" alt="treptow_koepenick" width="400" height="400" class="img-responsive" style=" max-width: 100%;"></a>
+                </div>
+            </div>
+            <div class="col-xs-3" style="width: 20%;">
+                <div id="bilder2" style="background-color:white">
+                    
+                    <a href="https://www.bmz.de/en" target="_blank" ><img src="/SDGTK/assets/img/logo_BMZ.png" alt="bmz" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    
+                </div>
+            </div>
+            <div class="col-xs-3" style="width: 20%;">
+                <div id="bilder3" style="background-color:white;">
+                    
+                    <a href="https://www.engagement-global.de/homepage.html" target="_blank" ><img src="/SDGTK/assets/img/logo_engagement-global_skew.png" alt="engagement_global1" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    
+                </div>
+            </div>
+            <div class="col-xs-3" style="width: 20%;">
+                <div id="bilder5" style="background-color:white;">
+                    
+                    <a href="https://skew.engagement-global.de/home.html" target="_blank" ><img src="/SDGTK/assets/img/logo_engagement-global_service-stelle.png" alt="engagement_global2" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    
+                </div>
+            </div>
+            <div class="col-xs-3" style="width: 20%;">
+                <div id="bilder4" style="background-color:white;position: absolute;margin-top: -20px; ">
+                    
+                    <a href="https://www.htw-berlin.de/en/" target="_blank" ><img src="/SDGTK/assets/img/logo_htw.jpg" alt="htw_berlin" width="400" height="400" class="img-responsive" ></a>
+                    
+                </div>
+            </div>
+         </div>
+    </div>
+    <div class="container">
+        <div class="row" style="padding: 0px;text-align: center;">
+            <div class="col-xs-12">
+                <div id="footerLinks" style="background-color:#19486a;color:white;padding: 10px;margin-bottom: 1px;">
+                    <ul style="text-align: center;">
+                        
+                        <li style="color:white;margin: 15px;font-weight: bold;">
+                            <a href="https://beyersar.github.io/DataTK/en/zip/all_indicators.zip" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Download</a>
+                        </li>
+                        <li style="color:white;margin: 15px;font-weight: bold;">
+                            <a href="mailto:my-email-address@example.com" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Contact us</a>
+                        </li>
+                        <li style="color:white;margin: 15px;font-weight: bold;">
+                            <a href="http://beyersar.github.io/SDGTK/de/about/cookies-and-privacy/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Imprint</a>
+                        </li>
+                        <li style="color:white;margin: 15px;font-weight: bold;">
+                            <a href="https://beyersar.github.io/SDGTK/guidance/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Technical references</a>
+                        </li>
+                        
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="padding: 0px;text-align:center">
+            <div class="col-xs-12">
+                <div id="footerende" style="background-color:#19486a;color:white;padding: 10px;margin-bottom:1px; text-align: center;">
+                    <ul style="text-align: center;"
+                    
+                    <li style="color:white;margin: 15px;font-weight: bold;">
+                        <a href="https://open-sdg.org/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >This website was created with Open SDG</a>
+                    </li>
+                    
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
@@ -1823,12 +2370,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/SDGTK/assets/js/sdg.js?v=20220211013231'></script>
+<script src='/SDGTK/assets/js/sdg.js?v=20220211163041'></script>
 
 
     
     
-    <script src="/SDGTK/assets/js/custom.js?v=20220211013231"></script><script>
+    <script src="/SDGTK/assets/js/custom.js?v=20220211163041"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -1899,7 +2446,4 @@ $(function() {
 });
 </script>
 
-
-</body>
-</html>
 

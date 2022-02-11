@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20220211013231">
+        <link rel="stylesheet" href="/SDGTK/assets/css/style.css?v=20220211163041">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -153,75 +153,55 @@ layout-post
 
 <script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
-<div id="disclaimer">
-  <div class="container">
-  <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
-    
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
-  </div>
-</div>
+  <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+  
 
-</div>
+<div style="position: sticky; position: -webkit-sticky; top: 15px; z-index:3; background: white;">
+  <div class="search-and-desktop-widgets" >
+    <header role="banner" class="header-menu-left-aligned" 
+            style="background: #19486A; 
+                   color: white; 
+                   position: relative; 
+                   top: -15px;">
 
-<header role="banner" class="header-menu-left-aligned">
-  <div class="container">
+        <div class="container">
+            <div    class="logo-and-mobile-widgets"
+                      style=" height: 80px;
+                              display: -webkit-flex;
+                              display: -webkit-box;
+                              display: -ms-flexbox;
+                              display: flex;
+                              -webkit-align-items: center;
+                              -webkit-box-align: center;
+                              -ms-flex-align: center;
+                              align-items: center;">
 
-    <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/SDGTK/" id="home">
+                  <div id="SDGlogo">
+                        <a class="navbar-brand" href="/SDGTK/" id="home">
     <img src="/SDGTK/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
-      <div class="mobile-widgets">
-    <ul id='accessibility-nav' class='contrast-switcher'>
-        
+                  </div>
+                  
+                  <h1 style=" text-align: left;
+                              position: relative;
+                              left: -15px;
+                              font-size: 130%;
+                              padding-bottom: 15px;">
+                    Monitoring of the <br>
+                    Municipal Sustainability Strategy <br>
+                    Treptow Köpenick
+                  </h1>
+                  
 
-    <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
-           data-contrast-switch-to="default"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="default"
-
-        >A</a>
-    </li>
-    <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
-           data-contrast-switch-to="high"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="high"
-
-        >A</a>
-    </li>
-
-
-    </ul><div class="language-toggle-mobile">
-        <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-de">
-            <a href="/SDGTK/de/test-post-1/">
-              Deutsch
-            </a>
-          </li></ul>
-  </div>
+            </div>
+        </div>
+    </header>
+    <div id="banner" style="position: relative; top: -15px;"> </div>
 </div>
-
-    </div></div>
-    </div>
-
-    <div class="search-and-desktop-widgets">
-      <div id="search" class="menu-target">
+    <header role="banner" class="header-menu-left-aligned" style="margin-top: -90px; z-index:2;">
+      <div class="container">
+        <div class="search-and-desktop-widgets" style="display: inline-flex; ">
+          <div id="search" class="menu-target">
   <form action="/SDGTK/search/">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
@@ -229,9 +209,9 @@ data-event-label="high"
   </form>
 </div>
 
-      <div class="navbar navbar-default widgets-without-menu">
-        <ul class="nav navbar-nav contrast-switcher"><li class="language-toggle-menu-header">
-            
+          <div class="navbar navbar-default widgets-without-menu">
+            <ul class="nav navbar-nav contrast-switcher"><li class="language-toggle-menu-header">
+                
 
 
 
@@ -253,40 +233,12 @@ data-event-label="high"
 
 
 
-        </li>
+            </li></ul>
+          </div>
+        </div>
 
-    <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
-           data-contrast-switch-to="default"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="default"
-
-        >A</a>
-    </li>
-    <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
-           data-contrast-switch-to="high"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="high"
-
-        >A</a>
-    </li>
-
-
-        </ul>
-      </div>
-    </div>
-
-    <div class="navbar navbar-default menu-without-widgets" id="main-nav">
-      <ul class="top-level">
+        <div class="navbar navbar-default menu-without-widgets" id="main-nav">
+          <ul class="top-level">
     <li id="menuToggle"
         aria-label="Menu toggle. Click to expand or collapse the menu."
         aria-haspopup="true">
@@ -298,11 +250,7 @@ data-event-label="high"
 </li><li class="nav-link ">
     <a href="/SDGTK/about">About</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/guidance">Guidance</a>
-</li><li class="nav-link ">
     <a href="/SDGTK/faq">FAQ</a>
-</li><li class="nav-link ">
-    <a href="/SDGTK/news">Updates</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -374,28 +322,23 @@ data-event-label="high"
 
     </li>
 </ul>
-      <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
+
+          <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
     <a href="/SDGTK/goals">Goals</a>
 </li><li class="nav-link ">
     <a href="/SDGTK/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
     <a href="/SDGTK/about">About</a>
 </li><li class="nav-link ">
-    <a href="/SDGTK/guidance">Guidance</a>
-</li><li class="nav-link ">
     <a href="/SDGTK/faq">FAQ</a>
-</li><li class="nav-link ">
-    <a href="/SDGTK/news">Updates</a>
 </li>
 
 </ul>
 
-    </div>
-
-  </div>
-
-</header>
-<div id="top" tabindex=-1></div>
+        </div>
+    </header>
+</div>
+ <div id="top" tabindex=-1</div>
 
 
 
@@ -453,42 +396,132 @@ data-event-label="high"
 
 
 
-<footer role="contentinfo">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <div id="footerLinks">
-          <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
-            
-              <li>
-                
-                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
-                
-                </li>
-              <li>
-                
-                  <a href="https://twitter.com/MyTwitterAccount" target="_blank">Twitter</a>
-                
-                </li>
-              <li>
-                
-                  <a href="https://facebook.com/MyFacebookAccount" target="_blank">Facebook</a>
-                
-                </li>
-              <li>
-                <a href="/SDGTK/about/cookies-and-privacy/">Cookies</a>
-                
-                </li>
-              
-            
-            </ul>
+<style>
+    #kooperation {
+        background-color: #19486A;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    main {
+        width: 85%;
+        height: 200px;
+        margin: 200px, auto;
+        margin-left: 125px;
+        padding-top: 150px;
+        padding-bottom: 199px;
+        overflow: hidden;
+        position: relative;
+    }
+    section {
+        width: 90%;
+        height: 190px;
+        background: #F4F4F4;
+        margin: 5px auto;
+        display: flex;
+        justify-content: left;
+        overflow-x: auto;
+    }
+    section::-webkit-scrollbar {
+        visibility: hidden;
+    }
+</style>
+<footer role="contentinfo" style="padding-top: 65px;">
+    <div class="container">
+        <div class="row" style="padding: 0px;">
+            <div class="col-xs-12">
+                <div id="kooperation" >
+                    
+                    <p>Our project partners</p>
+                    
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
+    <div class="container">
+        <div class="row" style="padding: 70px;">
+            <div class="col-xs-3" style="width: 20%;">
+                <div id="bilder" style="background-color:white;">
+                    <a href="http://www.berlin.de/ba-treptow-koepenick/" target="_blank" ><img src="/SDGTK/assets/img/logo_ba-treptow-koepenick.png" alt="treptow_koepenick" width="400" height="400" class="img-responsive" style=" max-width: 100%;"></a>
+                </div>
+            </div>
+            <div class="col-xs-3" style="width: 20%;">
+                <div id="bilder2" style="background-color:white">
+                    
+                    <a href="https://www.bmz.de/en" target="_blank" ><img src="/SDGTK/assets/img/logo_BMZ.png" alt="bmz" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    
+                </div>
+            </div>
+            <div class="col-xs-3" style="width: 20%;">
+                <div id="bilder3" style="background-color:white;">
+                    
+                    <a href="https://www.engagement-global.de/homepage.html" target="_blank" ><img src="/SDGTK/assets/img/logo_engagement-global_skew.png" alt="engagement_global1" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    
+                </div>
+            </div>
+            <div class="col-xs-3" style="width: 20%;">
+                <div id="bilder5" style="background-color:white;">
+                    
+                    <a href="https://skew.engagement-global.de/home.html" target="_blank" ><img src="/SDGTK/assets/img/logo_engagement-global_service-stelle.png" alt="engagement_global2" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    
+                </div>
+            </div>
+            <div class="col-xs-3" style="width: 20%;">
+                <div id="bilder4" style="background-color:white;position: absolute;margin-top: -20px; ">
+                    
+                    <a href="https://www.htw-berlin.de/en/" target="_blank" ><img src="/SDGTK/assets/img/logo_htw.jpg" alt="htw_berlin" width="400" height="400" class="img-responsive" ></a>
+                    
+                </div>
+            </div>
+         </div>
+    </div>
+    <div class="container">
+        <div class="row" style="padding: 0px;text-align: center;">
+            <div class="col-xs-12">
+                <div id="footerLinks" style="background-color:#19486a;color:white;padding: 10px;margin-bottom: 1px;">
+                    <ul style="text-align: center;">
+                        
+                        <li style="color:white;margin: 15px;font-weight: bold;">
+                            <a href="https://beyersar.github.io/DataTK/en/zip/all_indicators.zip" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Download</a>
+                        </li>
+                        <li style="color:white;margin: 15px;font-weight: bold;">
+                            <a href="mailto:my-email-address@example.com" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Contact us</a>
+                        </li>
+                        <li style="color:white;margin: 15px;font-weight: bold;">
+                            <a href="http://beyersar.github.io/SDGTK/de/about/cookies-and-privacy/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Imprint</a>
+                        </li>
+                        <li style="color:white;margin: 15px;font-weight: bold;">
+                            <a href="https://beyersar.github.io/SDGTK/guidance/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Technical references</a>
+                        </li>
+                        
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="padding: 0px;text-align:center">
+            <div class="col-xs-12">
+                <div id="footerende" style="background-color:#19486a;color:white;padding: 10px;margin-bottom:1px; text-align: center;">
+                    <ul style="text-align: center;"
+                    
+                    <li style="color:white;margin: 15px;font-weight: bold;">
+                        <a href="https://open-sdg.org/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >This website was created with Open SDG</a>
+                    </li>
+                    
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
-
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
@@ -515,12 +548,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/SDGTK/assets/js/sdg.js?v=20220211013231'></script>
+<script src='/SDGTK/assets/js/sdg.js?v=20220211163041'></script>
 
 
     
     
-    <script src="/SDGTK/assets/js/custom.js?v=20220211013231"></script><script>
+    <script src="/SDGTK/assets/js/custom.js?v=20220211163041"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -591,7 +624,4 @@ $(function() {
 });
 </script>
 
-
-</body>
-</html>
 

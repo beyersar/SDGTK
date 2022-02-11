@@ -206,9 +206,9 @@ input:focus,
 button:focus {
   color: #0b0c0c !important;
   outline: 3px solid transparent !important;
-  background-color: #ffdd00 !important;
+  background-color: transparent !important;
   outline-offset: 0 !important;
-  box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c !important;
+  box-shadow: 0 -2px transparent, 0 4px #0b0c0c !important;
   text-decoration: none !important; }
 
 body.contrast-high [contentEditable="true"]:focus,
@@ -223,7 +223,7 @@ body.contrast-high button:focus {
 
 input[type="radio"]:focus, body.contrast-high input[type="radio"]:focus,
 input[type="checkbox"]:focus, body.contrast-high input[type="checkbox"]:focus {
-  box-shadow: 0px 0px 0px 4px #ffdd00 !important; }
+  box-shadow: 0px 0px 0px 4px transparent !important; }
 
 .tabPanel:focus,
 input[type="text"]:focus,
@@ -232,7 +232,7 @@ body.contrast-high input[type="text"]:focus,
 div[tabindex]:focus {
   background-color: white !important;
   box-shadow: none !important;
-  outline: 3px solid #ffdd00 !important; }
+  outline: 3px solid transparent !important; }
 
 body.contrast-high .variable-selector button.accessBtn:focus {
   background-color: black !important;
@@ -654,7 +654,7 @@ body.contrast-high #zip-download-info {
 #main-content .goal-tiles .goal-tile {
   padding-bottom: 10px; }
   #main-content .goal-tiles .goal-tile a:focus {
-    outline: 6px #ffdd00 solid !important; }
+    outline: 6px transparent solid !important; }
 #main-content .goal-tiles .no-gutters img {
   width: calc(100% - 10px);
   border: 0;
@@ -666,60 +666,60 @@ body.contrast-high #zip-download-info {
       box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.6); }
 
 .goal-1.goal-banner {
-  background-color: white; }
+  background-color: #E52B3D; }
 
 .goal-2.goal-banner {
-  background-color: white; }
+  background-color: #DDA63A; }
 
 .goal-3.goal-banner {
-  background-color: white; }
+  background-color: #4C9F38; }
 
 .goal-4.goal-banner {
-  background-color: white; }
+  background-color: #C42130; }
 
 .goal-5.goal-banner {
-  background-color: white; }
+  background-color: #FF3E24; }
 
 .goal-6.goal-banner {
-  background-color: white; }
+  background-color: #28BCE1; }
 
 .goal-7.goal-banner {
-  background-color: white; }
+  background-color: #FCC30B; }
 
 .goal-8.goal-banner {
-  background-color: white; }
+  background-color: #A21942; }
 
 .goal-9.goal-banner {
-  background-color: white; }
+  background-color: #FD6925; }
 
 .goal-10.goal-banner {
-  background-color: white; }
+  background-color: #DD1367; }
 
 .goal-11.goal-banner {
-  background-color: white; }
+  background-color: #FD9C27; }
 
 .goal-12.goal-banner {
-  background-color: white; }
+  background-color: #BF8B2E; }
 
 .goal-13.goal-banner {
-  background-color: white; }
+  background-color: #417D46; }
 
 .goal-14.goal-banner {
-  background-color: white; }
+  background-color: #0A96D8; }
 
 .goal-15.goal-banner {
-  background-color: white; }
+  background-color: #57BE2F; }
 
 .goal-16.goal-banner {
-  background-color: white; }
+  background-color: #00689C; }
 
 .goal-17.goal-banner {
-  background-color: white; }
+  background-color: #1F4A6A; }
 
 .goal-banner h1, .goal-banner p {
-  color: #0b0c0c; }
+  color: white; }
 .goal-banner .goal-icon a:focus {
-  outline: 6px #ffdd00 solid !important; }
+  outline: 6px transparent solid !important; }
 
 .language-toggle-dropdown {
   margin-top: -2px; }
@@ -889,7 +889,7 @@ footer #footerLinks .language-toggle-menu-footer {
 .contrast-type-single a:focus {
   border-radius: 50%;
   box-shadow: none !important;
-  outline: 4px solid #ffdd00 !important; }
+  outline: 4px solid transparent !important; }
 
 .contrast-high .contrast-type-single a:focus {
   background-color: inherit !important;
@@ -1216,12 +1216,12 @@ ul.tags {
 
 .contrast-switcher .contrast-high a:focus {
   background-color: #0b0c0c !important;
-  color: #ffdd00 !important;
-  box-shadow: 0 -2px #0b0c0c, 0 4px #ffdd00 !important; }
+  color: transparent !important;
+  box-shadow: 0 -2px #0b0c0c, 0 4px transparent !important; }
 
 body.contrast-high .contrast-switcher .contrast-high a:focus {
   box-shadow: none !important;
-  outline: 2px solid #ffdd00 !important; }
+  outline: 2px solid transparent !important; }
 
 body.contrast-high {
   background-color: black; }
@@ -1416,7 +1416,7 @@ header .container {
   height: auto; }
   .navbar-brand:focus {
     background-color: transparent !important;
-    outline: 7px solid #ffdd00 !important; }
+    outline: 7px solid transparent !important; }
   @media screen and (min-width: 769px) {
     .navbar-brand {
       padding: 5px 15px 15px 0; } }
@@ -1425,7 +1425,7 @@ header .container {
 
 body.contrast-high .navbar-brand:focus {
   background-color: transparent !important;
-  outline: 7px solid #ffdd00 !important; }
+  outline: 7px solid transparent !important; }
 
 .navbar {
   margin-bottom: 32px; }
@@ -1529,7 +1529,7 @@ body.contrast-high .navbar-brand:focus {
       color: white !important;
       background-color: #00703c !important;
       box-shadow: none !important;
-      outline: 3px solid #ffdd00 !important;
+      outline: 3px solid transparent !important;
       z-index: 1; }
   #search form > label > span, #search-mobile form > label > span {
     clip: rect(0 0 0 0);
@@ -2003,7 +2003,7 @@ footer {
   -o-user-select: none; }
   #main-content canvas:focus {
     background-color: transparent !important;
-    outline: 6px #ffdd00 solid !important; }
+    outline: 6px transparent solid !important; }
 #main-content.goal-indicators .indicator-cards a {
   padding: 1rem;
   display: inline-block;
@@ -2516,7 +2516,7 @@ body.contrast-high #main-content.goal-indicators .indicator-cards span:not(.tags
   float: left;
   min-height: 1px; }
   .layout-reportingstatus #main-content .frame > a:focus {
-    outline: 6px #ffdd00 solid !important; }
+    outline: 6px transparent solid !important; }
 .layout-reportingstatus #main-content .details {
   width: calc(100% - 125px);
   float: left; }
@@ -2645,7 +2645,7 @@ body.contrast-high #main-content.goal-indicators .indicator-cards span:not(.tags
       color: white !important;
       background-color: #00703c !important;
       box-shadow: none !important;
-      outline: 3px solid #ffdd00 !important;
+      outline: 3px solid transparent !important;
       z-index: 1; }
   #search-bar-on-page form > label > span {
     clip: rect(0 0 0 0);
@@ -2679,9 +2679,9 @@ body.contrast-high #main-content.goal-indicators .indicator-cards span:not(.tags
       #search-results .search-result a:focus .title {
         color: #0b0c0c !important;
         outline: 3px solid transparent !important;
-        background-color: #ffdd00 !important;
+        background-color: transparent !important;
         outline-offset: 0 !important;
-        box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c !important;
+        box-shadow: 0 -2px transparent, 0 4px #0b0c0c !important;
         text-decoration: none !important; }
         #search-results .search-result a:focus .title span.match {
           background-color: transparent; }
@@ -3275,3 +3275,2636 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
     .layout-post.contrast-high .post-categories li:last-child:after {
       content: '';
       padding-right: 0; }
+
+/* header */
+#search-mobile, #menu-mobile {
+  position: absolute; }
+
+#search-mobile:focus, #menu-mobile:focus {
+  color: white; }
+
+#search-btn, #search-bar-on-page-btn {
+  width: 33px; }
+
+#search-bar-on-page-btn {
+  background-color: #eeeeee !important;
+  color: black !important;
+  border-color: black !important; }
+
+#search, #search-mobile {
+  clear: both;
+  float: right;
+  margin-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 0; }
+  @media only screen and (max-width: 768px) {
+    #search, #search-mobile {
+      margin-bottom: 0; } }
+  #search form, #search-mobile form {
+    margin-top: 5px; }
+  #search input, #search-mobile input {
+    padding: 5px;
+    width: 300px;
+    width: 33ch;
+    height: 34px;
+    font-size: 16px;
+    border: 1.25px solid #0b0c0c;
+    border-radius: 0;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 0; }
+    #search input:focus, #search-mobile input:focus {
+      z-index: 1; }
+  #search button, #search-mobile button {
+    height: 34px;
+    color: white;
+    font-size: 1.40em;
+    line-height: 1em;
+    background-color: #00703c;
+    border: 1.25px solid #00703c;
+    border-radius: 0;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 0; }
+    #search button:focus, #search-mobile button:focus {
+      color: white !important;
+      background-color: #00703c !important;
+      box-shadow: none !important;
+      outline: 3px solid transparent !important;
+      z-index: 1; }
+  #search form > label > span, #search-mobile form > label > span {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px; }
+  #search input, #search-mobile input {
+    color: black; }
+  #search button, #search button:focus, #search-mobile button, #search-mobile button:focus {
+    background-color: #eeeeee !important;
+    color: black !important;
+    border-color: black !important; }
+  #search button:hover, #search-mobile button:hover {
+    background-color: #DBDAD9 !important; }
+
+#searchToggle {
+  position: relative; }
+
+header .container {
+  padding-top: 20px;
+  min-height: 113px; }
+  header .container .navbar-default {
+    border: none; }
+
+@media screen and (max-width: 768px) {
+  .header-menu-left-aligned {
+    height: 120px; } }
+.header-menu-left-aligned .search-and-desktop-widgets {
+  float: right;
+  display: none; }
+  @media screen and (min-width: 992px) {
+    .header-menu-left-aligned .search-and-desktop-widgets {
+      display: block;
+      position: relative;
+      top: 60px; }
+      .header-menu-left-aligned .search-and-desktop-widgets #SDGlogo {
+        height: auto;
+        width: 12%; } }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .header-menu-left-aligned .search-and-desktop-widgets {
+      display: block; }
+      .header-menu-left-aligned .search-and-desktop-widgets .navbar .navbar-nav {
+        display: none; }
+      .header-menu-left-aligned .search-and-desktop-widgets #SDGlogo {
+        height: auto;
+        width: 12%;
+        padding-right: 0%; }
+      .header-menu-left-aligned .search-and-desktop-widgets #search {
+        position: relative;
+        top: 60px;
+        min-width: 340px; }
+        .header-menu-left-aligned .search-and-desktop-widgets #search button {
+          display: inline-flex; } }
+  .header-menu-left-aligned .search-and-desktop-widgets #search {
+    margin-top: 0;
+    margin-bottom: 0; }
+  .header-menu-left-aligned .search-and-desktop-widgets .navbar .navbar-nav {
+    margin-top: 0;
+    position: relative;
+    top: -15px; }
+
+@media screen and (max-width: 768px) {
+  #search-mobile-btn {
+    width: 33px; }
+
+  h1 {
+    font-size: 180%;
+    text-align: left; }
+
+  #SDGlogo {
+    height: auto;
+    width: 20%;
+    min-width: 20%;
+    padding-right: 0%; }
+
+  .menu-without-widgets {
+    margin-right: auto;
+    position: relative;
+    top: -20px; }
+
+  .logo-and-mobile-widgets {
+    position: relative; }
+    .logo-and-mobile-widgets::after {
+      content: "";
+      display: block;
+      clear: both; }
+    .logo-and-mobile-widgets .mobile-widgets {
+      display: block;
+      position: relative;
+      top: -15px;
+      bottom: 10px;
+      right: 5px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .fa-search {
+    position: relative;
+    top: 5px;
+    left: 5px; }
+
+  #search-bar-on-page-btn .fa-search {
+    position: relative;
+    top: 0px;
+    left: 0px; }
+
+  .navbar .navbar-nav {
+    display: none; }
+
+  #main-nav {
+    width: 340px; }
+
+  #SDGlogo {
+    height: auto;
+    width: 15%;
+    padding-right: 0%; } }
+@media screen and (min-width: 992px) {
+  #SDGlogo {
+    height: auto;
+    width: 12%; } }
+#banner {
+  background: white url("../img/sdgbg.png") top left repeat-x;
+  padding-top: 15px; }
+
+body {
+  background: white top left repeat-x;
+  padding-top: 15px; }
+
+/* goal-footer*/
+#text {
+  padding-bottom: 20px; }
+
+.col-centered {
+  float: none;
+  margin: 0 auto; }
+
+.carousel-control {
+  width: 30%;
+  width: 0px; }
+
+.carousel-control.left,
+.carousel-control.right {
+  margin-right: -50px;
+  margin-left: -50px;
+  background-image: none;
+  opacity: 1;
+  z-index: 1; }
+
+.carousel-control > a > span {
+  color: white;
+  font-size: 29px !important; }
+
+.carousel-col {
+  position: relative;
+  min-height: 1px;
+  padding: 6px;
+  float: left; }
+
+/**.block img-responsive {
+   width: 306px;
+   height:230px;
+}**/
+#contain {
+  padding-bottom: 100px;
+  padding-top: 50px;
+  width: 65%; }
+
+.active > div {
+  display: none; }
+
+.active > div:first-child {
+  display: block; }
+
+#goal1, #goal2, #goal3, #goal4, #goal5, #goal6, #goal7, #goal8, #goal9,
+#goal10, #goal11, #goal12, #goal13, #goal14, #goal15, #goal16, #goal17 {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.9);
+  transition: 0.3s; }
+
+#goal1b, #goal2b, #goal3b, #goal4b, #goal5b, #goal6b, #goal7b, #goal8b,
+#goal9b, #goal10b, #goal11b, #goal12b, #goal13b, #goal14b, #goal15b, #goal16b, #goal17b {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.9);
+  transition: 0.3s; }
+
+#goal1:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal2:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal3:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal4:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal5:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal6:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal7:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal8:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal9:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal10:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal11:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal12:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal13:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal14:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal15:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal16:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal17:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal1b:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal2b:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal3b:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal4b:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal5b:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal6b:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal7b:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal8b:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal9b:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal10b:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal11b:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal12b:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal13b:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal14b:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal15b:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal16b:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+#goal17b:hover {
+  box-shadow: 0 8px 16px 0 #030303; }
+
+/*xs*/
+@media (max-width: 767px) {
+  .carousel-inner .active.left {
+    left: -50%; }
+
+  .carousel-inner .active.right {
+    left: 50%; }
+
+  .carousel-inner .next {
+    left: 50%; }
+
+  .carousel-inner .prev {
+    left: -50%; }
+
+  .carousel-col {
+    width: 50%; }
+
+  .active > div:first-child + div {
+    display: block; } }
+/*sm*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel-inner .active.left {
+    left: -50%; }
+
+  .carousel-inner .active.right {
+    left: 50%; }
+
+  .carousel-inner .next {
+    left: 50%; }
+
+  .carousel-inner .prev {
+    left: -50%; }
+
+  .carousel-col {
+    width: 50%; }
+
+  .active > div:first-child + div {
+    display: block; } }
+/*md*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .carousel-inner .active.left {
+    left: -33%; }
+
+  .carousel-inner .active.right {
+    left: 33%; }
+
+  .carousel-inner .next {
+    left: 33%; }
+
+  .carousel-inner .prev {
+    left: -33%; }
+
+  .carousel-col {
+    width: 33%; }
+
+  .active > div:first-child + div {
+    display: block; }
+
+  .active > div:first-child + div + div {
+    display: block; } }
+/*lg*/
+@media (min-width: 1200px) {
+  .carousel-inner .active.left {
+    left: -25%; }
+
+  .carousel-inner .active.right {
+    left: 25%; }
+
+  .carousel-inner .next {
+    left: 25%; }
+
+  .carousel-inner .prev {
+    left: -25%; }
+
+  .carousel-col {
+    width: 25%; }
+
+  .active > div:first-child + div {
+    display: block; }
+
+  .active > div:first-child + div + div {
+    display: block; }
+
+  .active > div:first-child + div + div + div {
+    display: block; } }
+/*#2.1 Navigation Buttons */
+@media screen and (max-width: 657px) {
+  .goal-1 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 155px;
+    max-width: 155px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    padding-top: -20px; }
+  .goal-1 .container {
+    height: 120px; }
+  .goal-1 .btn-left {
+    position: relative;
+    top: 40px;
+    left: 70px; }
+  .goal-1 .btn-right {
+    position: relative;
+    top: 40px;
+    right: 70px; } }
+@media screen and (min-width: 657px) and (max-width: 768px) {
+  .goal-1 {
+    /*  .heading.goal-banner.goal-1{
+       height: 50px;
+     } */ }
+    .goal-1 .Image {
+      display: block;
+      margin: auto;
+      text-align: center;
+      max-width: 156px;
+      min-width: 156px;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      margin-top: -25px; }
+    .goal-1 .container {
+      height: 120px; }
+    .goal-1 .btn-left {
+      position: relative;
+      top: 40px;
+      left: 90px; }
+    .goal-1 .btn-right {
+      position: relative;
+      top: 40px;
+      right: 90px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .goal-1 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-1 .container {
+    height: 140px; }
+  .goal-1 .btn-left {
+    position: relative;
+    top: 60px;
+    left: 140px; }
+  .goal-1 .btn-right {
+    position: relative;
+    top: 60px;
+    right: 140px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .goal-1 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-1 .container {
+    height: 190px; }
+  .goal-1 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 180px; }
+  .goal-1 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 180px; } }
+@media screen and (min-width: 1200px) {
+  .goal-1 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-1 .container {
+    height: 200px; }
+  .goal-1 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 200px; }
+  .goal-1 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 200px; } }
+.goal-1.navigation-btn {
+  background-color: #E52B3D;
+  color: white;
+  height: 36px;
+  border-color: transparent;
+  margin-top: -180px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .goal-1.navigation-btn {
+      margin-top: -150px;
+      padding-top: 30px;
+      padding-bottom: 70px; } }
+.goal-1.navigation-btn:hover {
+  background-color: transparent; }
+.goal-1.navigation-btn:focus {
+  color: white !important;
+  box-shadow: transparent !important; }
+.goal-1.goal-titles {
+  color: #E52B3D; }
+
+@media screen and (max-width: 657px) {
+  .goal-2 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 155px;
+    max-width: 155px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    padding-top: -20px; }
+  .goal-2 .container {
+    height: 120px; }
+  .goal-2 .btn-left {
+    position: relative;
+    top: 40px;
+    left: 70px; }
+  .goal-2 .btn-right {
+    position: relative;
+    top: 40px;
+    right: 70px; } }
+@media screen and (min-width: 657px) and (max-width: 768px) {
+  .goal-2 {
+    /*  .heading.goal-banner.goal-2{
+       height: 50px;
+     } */ }
+    .goal-2 .Image {
+      display: block;
+      margin: auto;
+      text-align: center;
+      max-width: 156px;
+      min-width: 156px;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      margin-top: -25px; }
+    .goal-2 .container {
+      height: 120px; }
+    .goal-2 .btn-left {
+      position: relative;
+      top: 40px;
+      left: 90px; }
+    .goal-2 .btn-right {
+      position: relative;
+      top: 40px;
+      right: 90px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .goal-2 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-2 .container {
+    height: 140px; }
+  .goal-2 .btn-left {
+    position: relative;
+    top: 60px;
+    left: 140px; }
+  .goal-2 .btn-right {
+    position: relative;
+    top: 60px;
+    right: 140px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .goal-2 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-2 .container {
+    height: 190px; }
+  .goal-2 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 180px; }
+  .goal-2 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 180px; } }
+@media screen and (min-width: 1200px) {
+  .goal-2 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-2 .container {
+    height: 200px; }
+  .goal-2 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 200px; }
+  .goal-2 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 200px; } }
+.goal-2.navigation-btn {
+  background-color: #DDA63A;
+  color: white;
+  height: 36px;
+  border-color: transparent;
+  margin-top: -180px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .goal-2.navigation-btn {
+      margin-top: -150px;
+      padding-top: 30px;
+      padding-bottom: 70px; } }
+.goal-2.navigation-btn:hover {
+  background-color: transparent; }
+.goal-2.navigation-btn:focus {
+  color: white !important;
+  box-shadow: transparent !important; }
+.goal-2.goal-titles {
+  color: #DDA63A; }
+
+@media screen and (max-width: 657px) {
+  .goal-3 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 155px;
+    max-width: 155px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    padding-top: -20px; }
+  .goal-3 .container {
+    height: 120px; }
+  .goal-3 .btn-left {
+    position: relative;
+    top: 40px;
+    left: 70px; }
+  .goal-3 .btn-right {
+    position: relative;
+    top: 40px;
+    right: 70px; } }
+@media screen and (min-width: 657px) and (max-width: 768px) {
+  .goal-3 {
+    /*  .heading.goal-banner.goal-3{
+       height: 50px;
+     } */ }
+    .goal-3 .Image {
+      display: block;
+      margin: auto;
+      text-align: center;
+      max-width: 156px;
+      min-width: 156px;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      margin-top: -25px; }
+    .goal-3 .container {
+      height: 120px; }
+    .goal-3 .btn-left {
+      position: relative;
+      top: 40px;
+      left: 90px; }
+    .goal-3 .btn-right {
+      position: relative;
+      top: 40px;
+      right: 90px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .goal-3 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-3 .container {
+    height: 140px; }
+  .goal-3 .btn-left {
+    position: relative;
+    top: 60px;
+    left: 140px; }
+  .goal-3 .btn-right {
+    position: relative;
+    top: 60px;
+    right: 140px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .goal-3 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-3 .container {
+    height: 190px; }
+  .goal-3 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 180px; }
+  .goal-3 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 180px; } }
+@media screen and (min-width: 1200px) {
+  .goal-3 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-3 .container {
+    height: 200px; }
+  .goal-3 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 200px; }
+  .goal-3 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 200px; } }
+.goal-3.navigation-btn {
+  background-color: #4C9F38;
+  color: white;
+  height: 36px;
+  border-color: transparent;
+  margin-top: -180px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .goal-3.navigation-btn {
+      margin-top: -150px;
+      padding-top: 30px;
+      padding-bottom: 70px; } }
+.goal-3.navigation-btn:hover {
+  background-color: transparent; }
+.goal-3.navigation-btn:focus {
+  color: white !important;
+  box-shadow: transparent !important; }
+.goal-3.goal-titles {
+  color: #4C9F38; }
+
+@media screen and (max-width: 657px) {
+  .goal-4 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 155px;
+    max-width: 155px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    padding-top: -20px; }
+  .goal-4 .container {
+    height: 120px; }
+  .goal-4 .btn-left {
+    position: relative;
+    top: 40px;
+    left: 70px; }
+  .goal-4 .btn-right {
+    position: relative;
+    top: 40px;
+    right: 70px; } }
+@media screen and (min-width: 657px) and (max-width: 768px) {
+  .goal-4 {
+    /*  .heading.goal-banner.goal-4{
+       height: 50px;
+     } */ }
+    .goal-4 .Image {
+      display: block;
+      margin: auto;
+      text-align: center;
+      max-width: 156px;
+      min-width: 156px;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      margin-top: -25px; }
+    .goal-4 .container {
+      height: 120px; }
+    .goal-4 .btn-left {
+      position: relative;
+      top: 40px;
+      left: 90px; }
+    .goal-4 .btn-right {
+      position: relative;
+      top: 40px;
+      right: 90px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .goal-4 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-4 .container {
+    height: 140px; }
+  .goal-4 .btn-left {
+    position: relative;
+    top: 60px;
+    left: 140px; }
+  .goal-4 .btn-right {
+    position: relative;
+    top: 60px;
+    right: 140px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .goal-4 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-4 .container {
+    height: 190px; }
+  .goal-4 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 180px; }
+  .goal-4 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 180px; } }
+@media screen and (min-width: 1200px) {
+  .goal-4 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-4 .container {
+    height: 200px; }
+  .goal-4 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 200px; }
+  .goal-4 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 200px; } }
+.goal-4.navigation-btn {
+  background-color: #C42130;
+  color: white;
+  height: 36px;
+  border-color: transparent;
+  margin-top: -180px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .goal-4.navigation-btn {
+      margin-top: -150px;
+      padding-top: 30px;
+      padding-bottom: 70px; } }
+.goal-4.navigation-btn:hover {
+  background-color: transparent; }
+.goal-4.navigation-btn:focus {
+  color: white !important;
+  box-shadow: transparent !important; }
+.goal-4.goal-titles {
+  color: #C42130; }
+
+@media screen and (max-width: 657px) {
+  .goal-5 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 155px;
+    max-width: 155px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    padding-top: -20px; }
+  .goal-5 .container {
+    height: 120px; }
+  .goal-5 .btn-left {
+    position: relative;
+    top: 40px;
+    left: 70px; }
+  .goal-5 .btn-right {
+    position: relative;
+    top: 40px;
+    right: 70px; } }
+@media screen and (min-width: 657px) and (max-width: 768px) {
+  .goal-5 {
+    /*  .heading.goal-banner.goal-5{
+       height: 50px;
+     } */ }
+    .goal-5 .Image {
+      display: block;
+      margin: auto;
+      text-align: center;
+      max-width: 156px;
+      min-width: 156px;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      margin-top: -25px; }
+    .goal-5 .container {
+      height: 120px; }
+    .goal-5 .btn-left {
+      position: relative;
+      top: 40px;
+      left: 90px; }
+    .goal-5 .btn-right {
+      position: relative;
+      top: 40px;
+      right: 90px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .goal-5 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-5 .container {
+    height: 140px; }
+  .goal-5 .btn-left {
+    position: relative;
+    top: 60px;
+    left: 140px; }
+  .goal-5 .btn-right {
+    position: relative;
+    top: 60px;
+    right: 140px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .goal-5 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-5 .container {
+    height: 190px; }
+  .goal-5 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 180px; }
+  .goal-5 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 180px; } }
+@media screen and (min-width: 1200px) {
+  .goal-5 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-5 .container {
+    height: 200px; }
+  .goal-5 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 200px; }
+  .goal-5 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 200px; } }
+.goal-5.navigation-btn {
+  background-color: #FF3E24;
+  color: white;
+  height: 36px;
+  border-color: transparent;
+  margin-top: -180px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .goal-5.navigation-btn {
+      margin-top: -150px;
+      padding-top: 30px;
+      padding-bottom: 70px; } }
+.goal-5.navigation-btn:hover {
+  background-color: transparent; }
+.goal-5.navigation-btn:focus {
+  color: white !important;
+  box-shadow: transparent !important; }
+.goal-5.goal-titles {
+  color: #FF3E24; }
+
+@media screen and (max-width: 657px) {
+  .goal-6 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 155px;
+    max-width: 155px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    padding-top: -20px; }
+  .goal-6 .container {
+    height: 120px; }
+  .goal-6 .btn-left {
+    position: relative;
+    top: 40px;
+    left: 70px; }
+  .goal-6 .btn-right {
+    position: relative;
+    top: 40px;
+    right: 70px; } }
+@media screen and (min-width: 657px) and (max-width: 768px) {
+  .goal-6 {
+    /*  .heading.goal-banner.goal-6{
+       height: 50px;
+     } */ }
+    .goal-6 .Image {
+      display: block;
+      margin: auto;
+      text-align: center;
+      max-width: 156px;
+      min-width: 156px;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      margin-top: -25px; }
+    .goal-6 .container {
+      height: 120px; }
+    .goal-6 .btn-left {
+      position: relative;
+      top: 40px;
+      left: 90px; }
+    .goal-6 .btn-right {
+      position: relative;
+      top: 40px;
+      right: 90px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .goal-6 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-6 .container {
+    height: 140px; }
+  .goal-6 .btn-left {
+    position: relative;
+    top: 60px;
+    left: 140px; }
+  .goal-6 .btn-right {
+    position: relative;
+    top: 60px;
+    right: 140px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .goal-6 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-6 .container {
+    height: 190px; }
+  .goal-6 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 180px; }
+  .goal-6 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 180px; } }
+@media screen and (min-width: 1200px) {
+  .goal-6 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-6 .container {
+    height: 200px; }
+  .goal-6 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 200px; }
+  .goal-6 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 200px; } }
+.goal-6.navigation-btn {
+  background-color: #28BCE1;
+  color: white;
+  height: 36px;
+  border-color: transparent;
+  margin-top: -180px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .goal-6.navigation-btn {
+      margin-top: -150px;
+      padding-top: 30px;
+      padding-bottom: 70px; } }
+.goal-6.navigation-btn:hover {
+  background-color: transparent; }
+.goal-6.navigation-btn:focus {
+  color: white !important;
+  box-shadow: transparent !important; }
+.goal-6.goal-titles {
+  color: #28BCE1; }
+
+@media screen and (max-width: 657px) {
+  .goal-7 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 155px;
+    max-width: 155px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    padding-top: -20px; }
+  .goal-7 .container {
+    height: 120px; }
+  .goal-7 .btn-left {
+    position: relative;
+    top: 40px;
+    left: 70px; }
+  .goal-7 .btn-right {
+    position: relative;
+    top: 40px;
+    right: 70px; } }
+@media screen and (min-width: 657px) and (max-width: 768px) {
+  .goal-7 {
+    /*  .heading.goal-banner.goal-7{
+       height: 50px;
+     } */ }
+    .goal-7 .Image {
+      display: block;
+      margin: auto;
+      text-align: center;
+      max-width: 156px;
+      min-width: 156px;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      margin-top: -25px; }
+    .goal-7 .container {
+      height: 120px; }
+    .goal-7 .btn-left {
+      position: relative;
+      top: 40px;
+      left: 90px; }
+    .goal-7 .btn-right {
+      position: relative;
+      top: 40px;
+      right: 90px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .goal-7 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-7 .container {
+    height: 140px; }
+  .goal-7 .btn-left {
+    position: relative;
+    top: 60px;
+    left: 140px; }
+  .goal-7 .btn-right {
+    position: relative;
+    top: 60px;
+    right: 140px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .goal-7 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-7 .container {
+    height: 190px; }
+  .goal-7 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 180px; }
+  .goal-7 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 180px; } }
+@media screen and (min-width: 1200px) {
+  .goal-7 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-7 .container {
+    height: 200px; }
+  .goal-7 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 200px; }
+  .goal-7 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 200px; } }
+.goal-7.navigation-btn {
+  background-color: #FCC30B;
+  color: white;
+  height: 36px;
+  border-color: transparent;
+  margin-top: -180px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .goal-7.navigation-btn {
+      margin-top: -150px;
+      padding-top: 30px;
+      padding-bottom: 70px; } }
+.goal-7.navigation-btn:hover {
+  background-color: transparent; }
+.goal-7.navigation-btn:focus {
+  color: white !important;
+  box-shadow: transparent !important; }
+.goal-7.goal-titles {
+  color: #FCC30B; }
+
+@media screen and (max-width: 657px) {
+  .goal-8 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 155px;
+    max-width: 155px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    padding-top: -20px; }
+  .goal-8 .container {
+    height: 120px; }
+  .goal-8 .btn-left {
+    position: relative;
+    top: 40px;
+    left: 70px; }
+  .goal-8 .btn-right {
+    position: relative;
+    top: 40px;
+    right: 70px; } }
+@media screen and (min-width: 657px) and (max-width: 768px) {
+  .goal-8 {
+    /*  .heading.goal-banner.goal-8{
+       height: 50px;
+     } */ }
+    .goal-8 .Image {
+      display: block;
+      margin: auto;
+      text-align: center;
+      max-width: 156px;
+      min-width: 156px;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      margin-top: -25px; }
+    .goal-8 .container {
+      height: 120px; }
+    .goal-8 .btn-left {
+      position: relative;
+      top: 40px;
+      left: 90px; }
+    .goal-8 .btn-right {
+      position: relative;
+      top: 40px;
+      right: 90px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .goal-8 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-8 .container {
+    height: 140px; }
+  .goal-8 .btn-left {
+    position: relative;
+    top: 60px;
+    left: 140px; }
+  .goal-8 .btn-right {
+    position: relative;
+    top: 60px;
+    right: 140px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .goal-8 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-8 .container {
+    height: 190px; }
+  .goal-8 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 180px; }
+  .goal-8 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 180px; } }
+@media screen and (min-width: 1200px) {
+  .goal-8 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-8 .container {
+    height: 200px; }
+  .goal-8 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 200px; }
+  .goal-8 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 200px; } }
+.goal-8.navigation-btn {
+  background-color: #A21942;
+  color: white;
+  height: 36px;
+  border-color: transparent;
+  margin-top: -180px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .goal-8.navigation-btn {
+      margin-top: -150px;
+      padding-top: 30px;
+      padding-bottom: 70px; } }
+.goal-8.navigation-btn:hover {
+  background-color: transparent; }
+.goal-8.navigation-btn:focus {
+  color: white !important;
+  box-shadow: transparent !important; }
+.goal-8.goal-titles {
+  color: #A21942; }
+
+@media screen and (max-width: 657px) {
+  .goal-9 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 155px;
+    max-width: 155px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    padding-top: -20px; }
+  .goal-9 .container {
+    height: 120px; }
+  .goal-9 .btn-left {
+    position: relative;
+    top: 40px;
+    left: 70px; }
+  .goal-9 .btn-right {
+    position: relative;
+    top: 40px;
+    right: 70px; } }
+@media screen and (min-width: 657px) and (max-width: 768px) {
+  .goal-9 {
+    /*  .heading.goal-banner.goal-9{
+       height: 50px;
+     } */ }
+    .goal-9 .Image {
+      display: block;
+      margin: auto;
+      text-align: center;
+      max-width: 156px;
+      min-width: 156px;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      margin-top: -25px; }
+    .goal-9 .container {
+      height: 120px; }
+    .goal-9 .btn-left {
+      position: relative;
+      top: 40px;
+      left: 90px; }
+    .goal-9 .btn-right {
+      position: relative;
+      top: 40px;
+      right: 90px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .goal-9 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-9 .container {
+    height: 140px; }
+  .goal-9 .btn-left {
+    position: relative;
+    top: 60px;
+    left: 140px; }
+  .goal-9 .btn-right {
+    position: relative;
+    top: 60px;
+    right: 140px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .goal-9 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-9 .container {
+    height: 190px; }
+  .goal-9 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 180px; }
+  .goal-9 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 180px; } }
+@media screen and (min-width: 1200px) {
+  .goal-9 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-9 .container {
+    height: 200px; }
+  .goal-9 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 200px; }
+  .goal-9 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 200px; } }
+.goal-9.navigation-btn {
+  background-color: #FD6925;
+  color: white;
+  height: 36px;
+  border-color: transparent;
+  margin-top: -180px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .goal-9.navigation-btn {
+      margin-top: -150px;
+      padding-top: 30px;
+      padding-bottom: 70px; } }
+.goal-9.navigation-btn:hover {
+  background-color: transparent; }
+.goal-9.navigation-btn:focus {
+  color: white !important;
+  box-shadow: transparent !important; }
+.goal-9.goal-titles {
+  color: #FD6925; }
+
+@media screen and (max-width: 657px) {
+  .goal-10 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 155px;
+    max-width: 155px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    padding-top: -20px; }
+  .goal-10 .container {
+    height: 120px; }
+  .goal-10 .btn-left {
+    position: relative;
+    top: 40px;
+    left: 70px; }
+  .goal-10 .btn-right {
+    position: relative;
+    top: 40px;
+    right: 70px; } }
+@media screen and (min-width: 657px) and (max-width: 768px) {
+  .goal-10 {
+    /*  .heading.goal-banner.goal-10{
+       height: 50px;
+     } */ }
+    .goal-10 .Image {
+      display: block;
+      margin: auto;
+      text-align: center;
+      max-width: 156px;
+      min-width: 156px;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      margin-top: -25px; }
+    .goal-10 .container {
+      height: 120px; }
+    .goal-10 .btn-left {
+      position: relative;
+      top: 40px;
+      left: 90px; }
+    .goal-10 .btn-right {
+      position: relative;
+      top: 40px;
+      right: 90px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .goal-10 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-10 .container {
+    height: 140px; }
+  .goal-10 .btn-left {
+    position: relative;
+    top: 60px;
+    left: 140px; }
+  .goal-10 .btn-right {
+    position: relative;
+    top: 60px;
+    right: 140px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .goal-10 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-10 .container {
+    height: 190px; }
+  .goal-10 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 180px; }
+  .goal-10 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 180px; } }
+@media screen and (min-width: 1200px) {
+  .goal-10 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-10 .container {
+    height: 200px; }
+  .goal-10 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 200px; }
+  .goal-10 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 200px; } }
+.goal-10.navigation-btn {
+  background-color: #DD1367;
+  color: white;
+  height: 36px;
+  border-color: transparent;
+  margin-top: -180px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .goal-10.navigation-btn {
+      margin-top: -150px;
+      padding-top: 30px;
+      padding-bottom: 70px; } }
+.goal-10.navigation-btn:hover {
+  background-color: transparent; }
+.goal-10.navigation-btn:focus {
+  color: white !important;
+  box-shadow: transparent !important; }
+.goal-10.goal-titles {
+  color: #DD1367; }
+
+@media screen and (max-width: 657px) {
+  .goal-11 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 155px;
+    max-width: 155px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    padding-top: -20px; }
+  .goal-11 .container {
+    height: 120px; }
+  .goal-11 .btn-left {
+    position: relative;
+    top: 40px;
+    left: 70px; }
+  .goal-11 .btn-right {
+    position: relative;
+    top: 40px;
+    right: 70px; } }
+@media screen and (min-width: 657px) and (max-width: 768px) {
+  .goal-11 {
+    /*  .heading.goal-banner.goal-11{
+       height: 50px;
+     } */ }
+    .goal-11 .Image {
+      display: block;
+      margin: auto;
+      text-align: center;
+      max-width: 156px;
+      min-width: 156px;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      margin-top: -25px; }
+    .goal-11 .container {
+      height: 120px; }
+    .goal-11 .btn-left {
+      position: relative;
+      top: 40px;
+      left: 90px; }
+    .goal-11 .btn-right {
+      position: relative;
+      top: 40px;
+      right: 90px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .goal-11 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-11 .container {
+    height: 140px; }
+  .goal-11 .btn-left {
+    position: relative;
+    top: 60px;
+    left: 140px; }
+  .goal-11 .btn-right {
+    position: relative;
+    top: 60px;
+    right: 140px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .goal-11 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-11 .container {
+    height: 190px; }
+  .goal-11 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 180px; }
+  .goal-11 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 180px; } }
+@media screen and (min-width: 1200px) {
+  .goal-11 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-11 .container {
+    height: 200px; }
+  .goal-11 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 200px; }
+  .goal-11 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 200px; } }
+.goal-11.navigation-btn {
+  background-color: #FD9C27;
+  color: white;
+  height: 36px;
+  border-color: transparent;
+  margin-top: -180px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .goal-11.navigation-btn {
+      margin-top: -150px;
+      padding-top: 30px;
+      padding-bottom: 70px; } }
+.goal-11.navigation-btn:hover {
+  background-color: transparent; }
+.goal-11.navigation-btn:focus {
+  color: white !important;
+  box-shadow: transparent !important; }
+.goal-11.goal-titles {
+  color: #FD9C27; }
+
+@media screen and (max-width: 657px) {
+  .goal-12 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 155px;
+    max-width: 155px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    padding-top: -20px; }
+  .goal-12 .container {
+    height: 120px; }
+  .goal-12 .btn-left {
+    position: relative;
+    top: 40px;
+    left: 70px; }
+  .goal-12 .btn-right {
+    position: relative;
+    top: 40px;
+    right: 70px; } }
+@media screen and (min-width: 657px) and (max-width: 768px) {
+  .goal-12 {
+    /*  .heading.goal-banner.goal-12{
+       height: 50px;
+     } */ }
+    .goal-12 .Image {
+      display: block;
+      margin: auto;
+      text-align: center;
+      max-width: 156px;
+      min-width: 156px;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      margin-top: -25px; }
+    .goal-12 .container {
+      height: 120px; }
+    .goal-12 .btn-left {
+      position: relative;
+      top: 40px;
+      left: 90px; }
+    .goal-12 .btn-right {
+      position: relative;
+      top: 40px;
+      right: 90px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .goal-12 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-12 .container {
+    height: 140px; }
+  .goal-12 .btn-left {
+    position: relative;
+    top: 60px;
+    left: 140px; }
+  .goal-12 .btn-right {
+    position: relative;
+    top: 60px;
+    right: 140px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .goal-12 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-12 .container {
+    height: 190px; }
+  .goal-12 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 180px; }
+  .goal-12 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 180px; } }
+@media screen and (min-width: 1200px) {
+  .goal-12 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-12 .container {
+    height: 200px; }
+  .goal-12 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 200px; }
+  .goal-12 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 200px; } }
+.goal-12.navigation-btn {
+  background-color: #BF8B2E;
+  color: white;
+  height: 36px;
+  border-color: transparent;
+  margin-top: -180px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .goal-12.navigation-btn {
+      margin-top: -150px;
+      padding-top: 30px;
+      padding-bottom: 70px; } }
+.goal-12.navigation-btn:hover {
+  background-color: transparent; }
+.goal-12.navigation-btn:focus {
+  color: white !important;
+  box-shadow: transparent !important; }
+.goal-12.goal-titles {
+  color: #BF8B2E; }
+
+@media screen and (max-width: 657px) {
+  .goal-13 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 155px;
+    max-width: 155px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    padding-top: -20px; }
+  .goal-13 .container {
+    height: 120px; }
+  .goal-13 .btn-left {
+    position: relative;
+    top: 40px;
+    left: 70px; }
+  .goal-13 .btn-right {
+    position: relative;
+    top: 40px;
+    right: 70px; } }
+@media screen and (min-width: 657px) and (max-width: 768px) {
+  .goal-13 {
+    /*  .heading.goal-banner.goal-13{
+       height: 50px;
+     } */ }
+    .goal-13 .Image {
+      display: block;
+      margin: auto;
+      text-align: center;
+      max-width: 156px;
+      min-width: 156px;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      margin-top: -25px; }
+    .goal-13 .container {
+      height: 120px; }
+    .goal-13 .btn-left {
+      position: relative;
+      top: 40px;
+      left: 90px; }
+    .goal-13 .btn-right {
+      position: relative;
+      top: 40px;
+      right: 90px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .goal-13 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-13 .container {
+    height: 140px; }
+  .goal-13 .btn-left {
+    position: relative;
+    top: 60px;
+    left: 140px; }
+  .goal-13 .btn-right {
+    position: relative;
+    top: 60px;
+    right: 140px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .goal-13 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-13 .container {
+    height: 190px; }
+  .goal-13 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 180px; }
+  .goal-13 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 180px; } }
+@media screen and (min-width: 1200px) {
+  .goal-13 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-13 .container {
+    height: 200px; }
+  .goal-13 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 200px; }
+  .goal-13 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 200px; } }
+.goal-13.navigation-btn {
+  background-color: #417D46;
+  color: white;
+  height: 36px;
+  border-color: transparent;
+  margin-top: -180px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .goal-13.navigation-btn {
+      margin-top: -150px;
+      padding-top: 30px;
+      padding-bottom: 70px; } }
+.goal-13.navigation-btn:hover {
+  background-color: transparent; }
+.goal-13.navigation-btn:focus {
+  color: white !important;
+  box-shadow: transparent !important; }
+.goal-13.goal-titles {
+  color: #417D46; }
+
+@media screen and (max-width: 657px) {
+  .goal-14 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 155px;
+    max-width: 155px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    padding-top: -20px; }
+  .goal-14 .container {
+    height: 120px; }
+  .goal-14 .btn-left {
+    position: relative;
+    top: 40px;
+    left: 70px; }
+  .goal-14 .btn-right {
+    position: relative;
+    top: 40px;
+    right: 70px; } }
+@media screen and (min-width: 657px) and (max-width: 768px) {
+  .goal-14 {
+    /*  .heading.goal-banner.goal-14{
+       height: 50px;
+     } */ }
+    .goal-14 .Image {
+      display: block;
+      margin: auto;
+      text-align: center;
+      max-width: 156px;
+      min-width: 156px;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      margin-top: -25px; }
+    .goal-14 .container {
+      height: 120px; }
+    .goal-14 .btn-left {
+      position: relative;
+      top: 40px;
+      left: 90px; }
+    .goal-14 .btn-right {
+      position: relative;
+      top: 40px;
+      right: 90px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .goal-14 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-14 .container {
+    height: 140px; }
+  .goal-14 .btn-left {
+    position: relative;
+    top: 60px;
+    left: 140px; }
+  .goal-14 .btn-right {
+    position: relative;
+    top: 60px;
+    right: 140px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .goal-14 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-14 .container {
+    height: 190px; }
+  .goal-14 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 180px; }
+  .goal-14 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 180px; } }
+@media screen and (min-width: 1200px) {
+  .goal-14 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-14 .container {
+    height: 200px; }
+  .goal-14 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 200px; }
+  .goal-14 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 200px; } }
+.goal-14.navigation-btn {
+  background-color: #0A96D8;
+  color: white;
+  height: 36px;
+  border-color: transparent;
+  margin-top: -180px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .goal-14.navigation-btn {
+      margin-top: -150px;
+      padding-top: 30px;
+      padding-bottom: 70px; } }
+.goal-14.navigation-btn:hover {
+  background-color: transparent; }
+.goal-14.navigation-btn:focus {
+  color: white !important;
+  box-shadow: transparent !important; }
+.goal-14.goal-titles {
+  color: #0A96D8; }
+
+@media screen and (max-width: 657px) {
+  .goal-15 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 155px;
+    max-width: 155px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    padding-top: -20px; }
+  .goal-15 .container {
+    height: 120px; }
+  .goal-15 .btn-left {
+    position: relative;
+    top: 40px;
+    left: 70px; }
+  .goal-15 .btn-right {
+    position: relative;
+    top: 40px;
+    right: 70px; } }
+@media screen and (min-width: 657px) and (max-width: 768px) {
+  .goal-15 {
+    /*  .heading.goal-banner.goal-15{
+       height: 50px;
+     } */ }
+    .goal-15 .Image {
+      display: block;
+      margin: auto;
+      text-align: center;
+      max-width: 156px;
+      min-width: 156px;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      margin-top: -25px; }
+    .goal-15 .container {
+      height: 120px; }
+    .goal-15 .btn-left {
+      position: relative;
+      top: 40px;
+      left: 90px; }
+    .goal-15 .btn-right {
+      position: relative;
+      top: 40px;
+      right: 90px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .goal-15 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-15 .container {
+    height: 140px; }
+  .goal-15 .btn-left {
+    position: relative;
+    top: 60px;
+    left: 140px; }
+  .goal-15 .btn-right {
+    position: relative;
+    top: 60px;
+    right: 140px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .goal-15 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-15 .container {
+    height: 190px; }
+  .goal-15 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 180px; }
+  .goal-15 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 180px; } }
+@media screen and (min-width: 1200px) {
+  .goal-15 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-15 .container {
+    height: 200px; }
+  .goal-15 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 200px; }
+  .goal-15 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 200px; } }
+.goal-15.navigation-btn {
+  background-color: #57BE2F;
+  color: white;
+  height: 36px;
+  border-color: transparent;
+  margin-top: -180px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .goal-15.navigation-btn {
+      margin-top: -150px;
+      padding-top: 30px;
+      padding-bottom: 70px; } }
+.goal-15.navigation-btn:hover {
+  background-color: transparent; }
+.goal-15.navigation-btn:focus {
+  color: white !important;
+  box-shadow: transparent !important; }
+.goal-15.goal-titles {
+  color: #57BE2F; }
+
+@media screen and (max-width: 657px) {
+  .goal-16 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 155px;
+    max-width: 155px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    padding-top: -20px; }
+  .goal-16 .container {
+    height: 120px; }
+  .goal-16 .btn-left {
+    position: relative;
+    top: 40px;
+    left: 70px; }
+  .goal-16 .btn-right {
+    position: relative;
+    top: 40px;
+    right: 70px; } }
+@media screen and (min-width: 657px) and (max-width: 768px) {
+  .goal-16 {
+    /*  .heading.goal-banner.goal-16{
+       height: 50px;
+     } */ }
+    .goal-16 .Image {
+      display: block;
+      margin: auto;
+      text-align: center;
+      max-width: 156px;
+      min-width: 156px;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      margin-top: -25px; }
+    .goal-16 .container {
+      height: 120px; }
+    .goal-16 .btn-left {
+      position: relative;
+      top: 40px;
+      left: 90px; }
+    .goal-16 .btn-right {
+      position: relative;
+      top: 40px;
+      right: 90px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .goal-16 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-16 .container {
+    height: 140px; }
+  .goal-16 .btn-left {
+    position: relative;
+    top: 60px;
+    left: 140px; }
+  .goal-16 .btn-right {
+    position: relative;
+    top: 60px;
+    right: 140px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .goal-16 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-16 .container {
+    height: 190px; }
+  .goal-16 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 180px; }
+  .goal-16 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 180px; } }
+@media screen and (min-width: 1200px) {
+  .goal-16 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-16 .container {
+    height: 200px; }
+  .goal-16 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 200px; }
+  .goal-16 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 200px; } }
+.goal-16.navigation-btn {
+  background-color: #00689C;
+  color: white;
+  height: 36px;
+  border-color: transparent;
+  margin-top: -180px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .goal-16.navigation-btn {
+      margin-top: -150px;
+      padding-top: 30px;
+      padding-bottom: 70px; } }
+.goal-16.navigation-btn:hover {
+  background-color: transparent; }
+.goal-16.navigation-btn:focus {
+  color: white !important;
+  box-shadow: transparent !important; }
+.goal-16.goal-titles {
+  color: #00689C; }
+
+@media screen and (max-width: 657px) {
+  .goal-17 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 155px;
+    max-width: 155px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -20px;
+    padding-top: -20px; }
+  .goal-17 .container {
+    height: 120px; }
+  .goal-17 .btn-left {
+    position: relative;
+    top: 40px;
+    left: 70px; }
+  .goal-17 .btn-right {
+    position: relative;
+    top: 40px;
+    right: 70px; } }
+@media screen and (min-width: 657px) and (max-width: 768px) {
+  .goal-17 {
+    /*  .heading.goal-banner.goal-17{
+       height: 50px;
+     } */ }
+    .goal-17 .Image {
+      display: block;
+      margin: auto;
+      text-align: center;
+      max-width: 156px;
+      min-width: 156px;
+      height: 100%;
+      position: relative;
+      z-index: 1;
+      margin-top: -25px; }
+    .goal-17 .container {
+      height: 120px; }
+    .goal-17 .btn-left {
+      position: relative;
+      top: 40px;
+      left: 90px; }
+    .goal-17 .btn-right {
+      position: relative;
+      top: 40px;
+      right: 90px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .goal-17 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-17 .container {
+    height: 140px; }
+  .goal-17 .btn-left {
+    position: relative;
+    top: 60px;
+    left: 140px; }
+  .goal-17 .btn-right {
+    position: relative;
+    top: 60px;
+    right: 140px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .goal-17 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-17 .container {
+    height: 190px; }
+  .goal-17 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 180px; }
+  .goal-17 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 180px; } }
+@media screen and (min-width: 1200px) {
+  .goal-17 .Image {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -25px; }
+  .goal-17 .container {
+    height: 200px; }
+  .goal-17 .btn-left {
+    position: relative;
+    top: 30px;
+    left: 200px; }
+  .goal-17 .btn-right {
+    position: relative;
+    top: 30px;
+    right: 200px; } }
+.goal-17.navigation-btn {
+  background-color: #1F4A6A;
+  color: white;
+  height: 36px;
+  border-color: transparent;
+  margin-top: -180px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .goal-17.navigation-btn {
+      margin-top: -150px;
+      padding-top: 30px;
+      padding-bottom: 70px; } }
+.goal-17.navigation-btn:hover {
+  background-color: transparent; }
+.goal-17.navigation-btn:focus {
+  color: white !important;
+  box-shadow: transparent !important; }
+.goal-17.goal-titles {
+  color: #1F4A6A; }
+
+/*Footer*/
+#kooperation {
+  background-color: #19486a;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+main {
+  width: 85%;
+  height: 200px;
+  margin: 200px, auto;
+  margin-left: 125px;
+  padding-top: 150px;
+  padding-bottom: 199px;
+  overflow: hidden;
+  position: relative; }
+
+section {
+  width: 90%;
+  height: 190px;
+  background: #f4f4f4;
+  margin: 5px auto;
+  display: flex;
+  justify-content: left;
+  overflow-x: auto; }
+
+section::-webkit-scrollbar {
+  visibility: hidden; }
+
+/*cards on landing page*/
+.card1, .card2, .card3 {
+  margin-top: 10px !important;
+  width: 100% !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+  transition: 0.3s;
+  width: 90%;
+  height: 400px;
+  margin-left: 0px !important; }
+
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+.card3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+.cont {
+  margin-top: 20px;
+  padding: 2px 16px; }
+
+.card-img-top {
+  width: 100%;
+  height: 65%; }
