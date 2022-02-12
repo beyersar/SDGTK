@@ -53,9 +53,20 @@ border-color: black !important;
       }
       @media screen and (min-width: 768px) and (max-width: 991px) {
         display: block;
+        .btn-default {
+          background-color: transparent;
+          color: white;
+
+        }
 
         .navbar .navbar-nav {
-          display: none;
+          position: relative;
+          left: 20px;
+          margin-right: 10px;
+        }
+        .menu-target {
+          position: relative;
+          left: 130px;
         }
         #SDGlogo{
           height: auto; 
@@ -105,6 +116,17 @@ border-color: black !important;
     top: -20px;
   }
   .logo-and-mobile-widgets {
+    .btn-default {
+      background-color: transparent;
+      color: white;
+
+    }
+
+    .navbar .navbar-nav {
+      position: relative;
+      left: 20px;
+      margin-right: 10px;
+    }
     &::after {
       content: "";
       display: block;
@@ -134,9 +156,7 @@ border-color: black !important;
       left: 0px;
     }
   }
-  .navbar .navbar-nav {
-    display: none;
-  }
+ 
   #main-nav{
     width: 340px;
   }
