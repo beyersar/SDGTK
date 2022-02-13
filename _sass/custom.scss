@@ -19,21 +19,21 @@ border-color: black !important;
     @include searchBarHighContrast;
     margin-top: 0;
     margin-bottom: 0;
-  }
-  #searchToggle{
+}
+#searchToggle {
     position: relative;
-  }
+}
 
-  header {
-    .container {
+header {
+  .container {
       padding-top: 20px;
       min-height: 113px;
       .navbar-default {
         border: none;
       }
     }
-  }
-  .header-menu-left-aligned {
+}
+.header-menu-left-aligned {
     @media screen and (max-width: 768px){
       height: 120px;
     }
