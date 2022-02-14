@@ -3366,6 +3366,16 @@ header .container {
 .header-menu-left-aligned .search-and-desktop-widgets {
   float: right;
   display: none; }
+  @media screen and (max-width: 768px) {
+    .header-menu-left-aligned .search-and-desktop-widgets {
+      display: block; }
+      .header-menu-left-aligned .search-and-desktop-widgets .btn-default {
+        background-color: transparent;
+        color: white; }
+      .header-menu-left-aligned .search-and-desktop-widgets .navbar .navbar-nav {
+        position: relative;
+        left: 20px;
+        margin-right: 10px; } }
   @media screen and (min-width: 992px) {
     .header-menu-left-aligned .search-and-desktop-widgets {
       display: block;
@@ -3733,11 +3743,11 @@ body {
   .goal-1 .btn-left {
     position: relative;
     top: 40px;
-    left: 70px; }
+    left: 40px; }
   .goal-1 .btn-right {
     position: relative;
     top: 40px;
-    right: 70px; } }
+    right: 40px; } }
 @media screen and (min-width: 657px) and (max-width: 768px) {
   .goal-1 {
     /*  .heading.goal-banner.goal-1{
@@ -3859,11 +3869,11 @@ body {
   .goal-2 .btn-left {
     position: relative;
     top: 40px;
-    left: 70px; }
+    left: 40px; }
   .goal-2 .btn-right {
     position: relative;
     top: 40px;
-    right: 70px; } }
+    right: 40px; } }
 @media screen and (min-width: 657px) and (max-width: 768px) {
   .goal-2 {
     /*  .heading.goal-banner.goal-2{
@@ -3985,11 +3995,11 @@ body {
   .goal-3 .btn-left {
     position: relative;
     top: 40px;
-    left: 70px; }
+    left: 40px; }
   .goal-3 .btn-right {
     position: relative;
     top: 40px;
-    right: 70px; } }
+    right: 40px; } }
 @media screen and (min-width: 657px) and (max-width: 768px) {
   .goal-3 {
     /*  .heading.goal-banner.goal-3{
@@ -4111,11 +4121,11 @@ body {
   .goal-4 .btn-left {
     position: relative;
     top: 40px;
-    left: 70px; }
+    left: 40px; }
   .goal-4 .btn-right {
     position: relative;
     top: 40px;
-    right: 70px; } }
+    right: 40px; } }
 @media screen and (min-width: 657px) and (max-width: 768px) {
   .goal-4 {
     /*  .heading.goal-banner.goal-4{
@@ -4237,11 +4247,11 @@ body {
   .goal-5 .btn-left {
     position: relative;
     top: 40px;
-    left: 70px; }
+    left: 40px; }
   .goal-5 .btn-right {
     position: relative;
     top: 40px;
-    right: 70px; } }
+    right: 40px; } }
 @media screen and (min-width: 657px) and (max-width: 768px) {
   .goal-5 {
     /*  .heading.goal-banner.goal-5{
@@ -4363,11 +4373,11 @@ body {
   .goal-6 .btn-left {
     position: relative;
     top: 40px;
-    left: 70px; }
+    left: 40px; }
   .goal-6 .btn-right {
     position: relative;
     top: 40px;
-    right: 70px; } }
+    right: 40px; } }
 @media screen and (min-width: 657px) and (max-width: 768px) {
   .goal-6 {
     /*  .heading.goal-banner.goal-6{
@@ -4489,11 +4499,11 @@ body {
   .goal-7 .btn-left {
     position: relative;
     top: 40px;
-    left: 70px; }
+    left: 40px; }
   .goal-7 .btn-right {
     position: relative;
     top: 40px;
-    right: 70px; } }
+    right: 40px; } }
 @media screen and (min-width: 657px) and (max-width: 768px) {
   .goal-7 {
     /*  .heading.goal-banner.goal-7{
@@ -4615,11 +4625,11 @@ body {
   .goal-8 .btn-left {
     position: relative;
     top: 40px;
-    left: 70px; }
+    left: 40px; }
   .goal-8 .btn-right {
     position: relative;
     top: 40px;
-    right: 70px; } }
+    right: 40px; } }
 @media screen and (min-width: 657px) and (max-width: 768px) {
   .goal-8 {
     /*  .heading.goal-banner.goal-8{
@@ -4741,11 +4751,11 @@ body {
   .goal-9 .btn-left {
     position: relative;
     top: 40px;
-    left: 70px; }
+    left: 40px; }
   .goal-9 .btn-right {
     position: relative;
     top: 40px;
-    right: 70px; } }
+    right: 40px; } }
 @media screen and (min-width: 657px) and (max-width: 768px) {
   .goal-9 {
     /*  .heading.goal-banner.goal-9{
@@ -4867,11 +4877,11 @@ body {
   .goal-10 .btn-left {
     position: relative;
     top: 40px;
-    left: 70px; }
+    left: 40px; }
   .goal-10 .btn-right {
     position: relative;
     top: 40px;
-    right: 70px; } }
+    right: 40px; } }
 @media screen and (min-width: 657px) and (max-width: 768px) {
   .goal-10 {
     /*  .heading.goal-banner.goal-10{
@@ -4993,11 +5003,11 @@ body {
   .goal-11 .btn-left {
     position: relative;
     top: 40px;
-    left: 70px; }
+    left: 40px; }
   .goal-11 .btn-right {
     position: relative;
     top: 40px;
-    right: 70px; } }
+    right: 40px; } }
 @media screen and (min-width: 657px) and (max-width: 768px) {
   .goal-11 {
     /*  .heading.goal-banner.goal-11{
@@ -5119,11 +5129,11 @@ body {
   .goal-12 .btn-left {
     position: relative;
     top: 40px;
-    left: 70px; }
+    left: 40px; }
   .goal-12 .btn-right {
     position: relative;
     top: 40px;
-    right: 70px; } }
+    right: 40px; } }
 @media screen and (min-width: 657px) and (max-width: 768px) {
   .goal-12 {
     /*  .heading.goal-banner.goal-12{
@@ -5245,11 +5255,11 @@ body {
   .goal-13 .btn-left {
     position: relative;
     top: 40px;
-    left: 70px; }
+    left: 40px; }
   .goal-13 .btn-right {
     position: relative;
     top: 40px;
-    right: 70px; } }
+    right: 40px; } }
 @media screen and (min-width: 657px) and (max-width: 768px) {
   .goal-13 {
     /*  .heading.goal-banner.goal-13{
@@ -5371,11 +5381,11 @@ body {
   .goal-14 .btn-left {
     position: relative;
     top: 40px;
-    left: 70px; }
+    left: 40px; }
   .goal-14 .btn-right {
     position: relative;
     top: 40px;
-    right: 70px; } }
+    right: 40px; } }
 @media screen and (min-width: 657px) and (max-width: 768px) {
   .goal-14 {
     /*  .heading.goal-banner.goal-14{
@@ -5497,11 +5507,11 @@ body {
   .goal-15 .btn-left {
     position: relative;
     top: 40px;
-    left: 70px; }
+    left: 40px; }
   .goal-15 .btn-right {
     position: relative;
     top: 40px;
-    right: 70px; } }
+    right: 40px; } }
 @media screen and (min-width: 657px) and (max-width: 768px) {
   .goal-15 {
     /*  .heading.goal-banner.goal-15{
@@ -5623,11 +5633,11 @@ body {
   .goal-16 .btn-left {
     position: relative;
     top: 40px;
-    left: 70px; }
+    left: 40px; }
   .goal-16 .btn-right {
     position: relative;
     top: 40px;
-    right: 70px; } }
+    right: 40px; } }
 @media screen and (min-width: 657px) and (max-width: 768px) {
   .goal-16 {
     /*  .heading.goal-banner.goal-16{
@@ -5749,11 +5759,11 @@ body {
   .goal-17 .btn-left {
     position: relative;
     top: 40px;
-    left: 70px; }
+    left: 40px; }
   .goal-17 .btn-right {
     position: relative;
     top: 40px;
-    right: 70px; } }
+    right: 40px; } }
 @media screen and (min-width: 657px) and (max-width: 768px) {
   .goal-17 {
     /*  .heading.goal-banner.goal-17{
