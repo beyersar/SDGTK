@@ -113,13 +113,10 @@ footer_menu:
     translation_key: Download
   - path: mailto:nachhaltigkeit@ba-tk.berlin.de
     translation_key: menu.contact_us
-  - path: #
-    translation_key: Impressum
   - path: /about/cookies-and-privacy/
-    translation_key: menu.cookies
-  - path: #
-    translation_key: Technische Hinweise
-
+    translation_key: Impressum
+  - path: /guidance
+    translation_key: menu.guidance
 
 
 
