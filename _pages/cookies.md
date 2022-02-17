@@ -1,10 +1,48 @@
 ---
+
 layout: page
 title: Cookies and privacy
 language: en
 permalink: /about/cookies-and-privacy/
+
 ---
-The following is a description of what data is collected when you use this website and what it is used for.
+
+# Impressum
+
+## Publisher
+The publisher of this website is the district office Treptow-Köpenick of Berlin. 
+
+### Legal form										                       
+Behörde, Organ der juristischen Person des öffentlichen Rechts
+
+### Address
+Bezirksamt Treptow-Köpenick von Berlin
+Büro Bezirksbürgermeister
+Rudower Chaussee 4
+12489 Berlin 
+
+### Postal address
+Bezirksamt Treptow-Köpenick von Berlin						                             
+PF: 910240										             
+12414 Berlin
+
+### Contact
+Telephone: +49 (030) 90297 - 2351
+E-mail: nachhaltigkeit@ba-tk.berlin.de 
+
+### Editorial office
+E-mail: nachhaltigkeit@ba-tk.berlin.de  
+
+### Content/Production
+Treptow-Köpenick District Office and HTW Berlin
+
+### Sales tax identification number
+DE 814 554 323 											
+
+### Hosting
+GitHub 
+
+# The following is a description of what data is collected when you use this website and what it is used for.
 
 ## User information
 This website uses cookies and JavaScript tracking code to gather anonymous information about visitors' usage patterns, in order to improve the navigation of the site, the presentation of its content and the quality of its services.
