@@ -111,7 +111,7 @@ menu:
 footer_menu:
   - path: https://beyersar.github.io/DataTK/en/zip/all_indicators.zip
     translation_key: Download
-  - path: mailto:mailnachhaltigkeit@ba-tk.berlin.de
+  - path: mailto:{{site.email_contacts.functional}}
     translation_key: menu.contact_us
   - path: #
     translation_key: Impressum
