@@ -1,8 +1,10 @@
 ---
-title: About
+
+title: Über uns
 language: de
 permalink: /de/about/
 layout: page
+
 ---
 
 Der Berliner Bezirk Treptow-Köpenick beschäftigt sich schon lange mit nachhaltiger Entwicklung auf kommunaler Ebene. Bereits 2004 wurde die „Lokale Agenda 21 Treptow-Köpenick“ verabschiedet, welche ein Leitbild und eine Vorgehensweise zur Umsetzung einer zukunftsfähigen Entwicklung im Bezirk Treptow-Köpenick umfasste. <br>
