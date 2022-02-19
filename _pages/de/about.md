@@ -17,7 +17,7 @@ Das Monitoringsystem besteht dabei aus zwei Bereichen: Die "Maßnahmen-Indikator
 Die Maßnahmen-Indikatoren wurden dabei direkt aus den beschlossenen Maßnahmen abgeleitet. Hier finden sich auch viele Daten, die von verschiedenen Akteuren des Bezirks zur Verfügung gestellt wurden. Ohne diese Datenkooperationen wären die beschlossenen Maßnahmen kaum abzubilden. 
 Bei der Auswahl der allgemeineren, gesamtbezirklichen SDG-Indikatoren wurde sich hingegen vor allem an gängigen (in der Literatur verbreiteten) Nachhaltigkeitsindikatoren orientiert, welche dann in einen Kontext zur Nachhaltigkeitsstrategie Treptow-Köpenicks gesetzt wurden. Hier finden auch viele amtliche Daten Verwendung. <br>
 
-Die Website selbst basiert auf der Plattform Open-SDG und wurde in Zusammenarbeit mit  Studentinnen der HTW Berlin weiter entwickelt. Ein großer Dank gilt deshalb: Marlene Bueltemann, Grace Dodi, Lucia Feddersen, Christina Gottschalk, Neslihan Kilic, Mia Lohe, Mahulome Pede and Hatice Pinar. <br>
+Die Website selbst basiert auf der Plattform Open-SDG und wurde in Zusammenarbeit mit Studentinnen der Hochschule für Technik und Wirtschaft Berlin (HTW Berlin) weiter entwickelt. Ein großer Dank gilt deshalb: Marlene Bueltemann, Grace Dodi, Lucia Feddersen, Christina Gottschalk, Neslihan Kilic, Mia Lohe, Mahulome Pede and Hatice Pinar. <br>
 
 An der wissenschafltlichen Begleitung des Projekts waren Prof. Florian Koch, Sarah Beyer und Chih-Yu Chen von der HTW Berlin beteiligt. <br>
 
