@@ -3,9 +3,10 @@ title: Guidance
 language: de
 permalink: /de/guidance/
 layout: page
+
 ---
 
-Auf dieser Seite finden Sie Informationen für die Nutzer dieser Website und für Länder oder Kommunen, die eine Kopie der Website übernehmen möchten.
+Auf dieser Seite werden Informationen für die Nutzer*/innen und Nutzer dieser Website und für Länder, Städte und Gemeinden, die eine Kopie der Website erstellen möchten, bereitgestellt.
 
 ## Die Plattform
 
@@ -17,6 +18,5 @@ Antworten auf einige spezifische Fragen zur Website finden Sie auf unserer Seite
 
 ## Erstellen einer Kopie dieser Website
 
-Andere Länder oder Gemeinden, die eine Version dieser Plattform implementieren möchten, können dies gerne kostenlos tun.
-
+Andere Länder, Städte oder Gemeinden, die eine Version dieser Plattform implementieren möchten, können dies gerne kostenlos tun.
 Die Dokumentation der Plattform enthält [technische Informationen und Anleitungen für Entwickler](https://open-sdg.readthedocs.io/en/latest/quick-start/).
