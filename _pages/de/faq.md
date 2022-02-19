@@ -1,5 +1,6 @@
 ---
-title: Frequently Asked Questions (FAQ)
+
+title: Häufig gestellte Fragen
 language: de
 permalink: /de/faq/
 layout: page
