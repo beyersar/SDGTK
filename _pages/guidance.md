@@ -5,7 +5,7 @@ permalink: /guidance/
 layout: page
 ---
 
-This page shares information for people using this website and for countries or localities wishing to take a copy of it.
+This page provides information for users of this website and for countries, cities and municipalities that wish to make a copy of the website.
 
 ## The platform
 
@@ -17,6 +17,6 @@ Answers to some specific questions about the website are included in our [Freque
 
 ## Creating a copy of this website
 
-Other countries or localities wishing to implement a version of this platform are welcome to do so for free.
+Other countries, cities and municipalities wishing to implement a version of this platform are welcome to do so for free.
 
 The platform documentation includes [technical information and instructions for developers](https://open-sdg.readthedocs.io/en/latest/quick-start/).
