@@ -1,9 +1,9 @@
 ---
 layout: news
-title: News & Events
+title: Neuigkeiten und Veranstaltungen
 language: de
 permalink: /de/news/
+
 ---
 
-## News and Events
-Check this page for news regarding the reporting of our statistics for global indicators and opportunities to contribute to measuring achievement of the sustainable development goals
+Auf dieser Seite finden Sie Neuigkeiten zur Berichterstattung über unser Nachhaltigkeitsmonitoring, zu Veranstaltungen und zu Möglichkeiten, einen Beitrag zur Messung der Erreichung der Ziele für nachhaltige Entwicklung zu leisten.
