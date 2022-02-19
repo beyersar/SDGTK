@@ -3,33 +3,35 @@ title: Frequently Asked Questions (FAQ)
 language: de
 permalink: /de/faq/
 layout: page
+
 ---
 
-## How do I suggest new or different data sources?
-If you have feedback on the data sources we have used or have suggestions for new data sources then please email us at <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>.
+## Wie kann ich neue oder andere Datenquellen vorschlagen?
 
-## What does the reporting status mean?
-We have used three different types of reporting status for an indicator, which are also colour coded:
+Wenn Sie Feedback zu den von uns verwendeten Datenquellen oder Vorschläge für neue Datenquellen haben, senden Sie uns bitte eine E-Mail an <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>.
 
-* Reported online (black) – as a minimum the headline national data for this indicator is available on this website but the data might not be fully disaggregated yet. We are continuing to source additional disaggregations.
-* Statistics in progress (grey) – we have found a suitable source of data for this indicator or relevant proxy at national level. We are currently quality assuring the data and preparing it for publication.
-* Exploring data sources (white) – we are still looking for a suitable data source for this indicator.
+## Was bedeutet der Berichtsstatus?
 
-Where there is additional information about the status of indicator data collection and reporting, this will be displayed at the top of the indicator page.
+Wir haben drei verschiedene Arten von Berichtsstatus für einen Indikator verwendet, die auch farblich gekennzeichnet sind:
 
-## How often will new data be added to this site?
-We will add data as soon as it has been sourced and checked. This includes new data as well as updates to data we have already published. We will continue to collect data from existing sources where possible, in cooperation with topic experts.
+* Gemeldet (schwarz) – die Daten für diesen Indikator sind auf dieser Website verfügbar, sie sind aber möglicherweise noch nicht vollständig aufgeschlüsselt. 
+* In Arbeit (grau) - wir haben eine geeignete Datenquelle für diesen Indikator oder einen entsprechenden Proxy gefunden. Wir sind dabei, die Qualität der Daten zu sichern und diese für die Veröffentlichung vorzubereiten.
+* Datenquellenanalyse (weiß) - wir suchen noch nach einer geeigneten Datenquelle für diesen Indikator.
 
-## What are you doing to fill data gaps?
-For some indicators, although we may have data at the national level, our existing data sources don’t always allow us to disaggregate by all main groups.
+Wenn es zusätzliche Informationen über den Status der Datenerhebung und -berichterstattung für den Indikator gibt, werden diese oben auf der Seite des Indikators angezeigt.
 
-This means we need to look for new data sources, link existing ones, or model data.
+## Wie oft werden neue Daten auf dieser Seite hinzugefügt?
 
-## How accessible is this website?
-Our aim is to make this website as accessible and usable as possible for every user. We are working towards meeting AA level of the [Web Content Accessibility Guidelines (WCAG 2.0)](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag-20).
+Wir fügen Daten hinzu, sobald sie beschafft und überprüft worden sind. Dies gilt sowohl für neue Daten als auch für Aktualisierungen bereits veröffentlichter Daten. Wir werden auch weiterhin Daten aus bestehenden Quellen sammeln.
 
-## What browsers can I use to view this website?
-Our website works with most of the latest versions of the commonly used browsers. There are some issues with using the site on older versions of browsers eg IE8 and we are working to fix these.
+## Was tun Sie, um Datenlücken zu schließen?
 
-## Can other countries copy this website?
-Yes. This site is built and hosted using 100% free software and services, so other countries and localities can freely and easily reuse our code. Technical guidance on implementing this platform is available [here](https://open-sdg.readthedocs.io). Countries and localities exploring how to report their own SDGs data can also get support from the [Center for Open Data Enterprise (CODE)](http://www.opendataenterprise.org/) through their [SDG National Reporting Initiative](https://www.sdgreporting.org/).
+Datenlücken bestehen noch für einzelne Indikatoren. Beispielsweise wenn einzelne Maßnahmen noch nicht angelaufen sind oder Daten noch erhoben werden müssen. Zeitgleich sind wir auch im Gespräch mit weiteren Akteuren in Bezirk für mögliche Datenkooperationen.
+
+## Wie zugänglich ist diese Website?
+
+Unser Ziel ist es, diese Website so zugänglich und benutzbar wie möglich für jeden Nutzer zu machen. Open-SDG arbeitet daran, die Stufe AA der Web Content Accessibility Guidelines (WCAG 2.0) zu erreichen.
+
+## Können andere Länder, Städte oder Kommunen diese Website kopieren?
+
+Ja. Diese Website wird mit 100 % kostenloser Software und Diensten erstellt und gehostet, so dass Andere unseren Code frei und einfach weiterverwenden können. Eine technische Anleitung zur Implementierung dieser Plattform finden Sie [hier](https://open-sdg.readthedocs.io).
