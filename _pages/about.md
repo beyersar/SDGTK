@@ -24,5 +24,7 @@ Prof. Florian Koch, Sarah Beyer and Chih-Yu Chen from HTW Berlin were involved i
 
 The person responsible for the Treptow-Köpenick district office is Dennis Lumme, the municipal development policy officer. <br>
 
-Harald Oehlerking was responsible for the design of the sustainability strategy.
+Harald Oehlerking was responsible for the design of the sustainability strategy. <br>
+
+The entire project was funded by the "Servicestelle Kommunen in der Einen Welt" as part of the INDIKON and DATAKON projects.
 
