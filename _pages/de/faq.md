@@ -26,7 +26,7 @@ Wir fügen Daten hinzu, sobald sie beschafft und überprüft worden sind. Dies g
 
 ## Was tun Sie, um Datenlücken zu schließen?
 
-Datenlücken bestehen noch für einzelne Indikatoren. Beispielsweise wenn einzelne Maßnahmen noch nicht angelaufen sind oder Daten noch erhoben werden müssen. Zeitgleich sind wir auch im Gespräch mit weiteren Akteuren in Bezirk für mögliche Datenkooperationen.
+Datenlücken bestehen noch für einzelne Indikatoren. Beispielsweise wenn einzelne Maßnahmen noch nicht angelaufen sind oder Daten noch erhoben werden müssen. Zeitgleich sind wir auch im Gespräch mit weiteren Akteuren im Bezirk für mögliche Datenkooperationen.
 
 ## Wie zugänglich ist diese Website?
 
