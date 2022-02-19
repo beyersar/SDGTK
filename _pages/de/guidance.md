@@ -6,7 +6,7 @@ layout: page
 
 ---
 
-Auf dieser Seite werden Informationen für die Nutzer*/innen und Nutzer dieser Website und für Länder, Städte und Gemeinden, die eine Kopie der Website erstellen möchten, bereitgestellt.
+Auf dieser Seite werden Informationen für die Nutzer\*innen und Nutzer dieser Website und für Länder, Städte und Gemeinden, die eine Kopie der Website erstellen möchten, bereitgestellt.
 
 ## Die Plattform
 
