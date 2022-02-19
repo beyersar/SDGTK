@@ -23,4 +23,4 @@ Verantwortlicher des Bezirksamts Treptow-Köpenick ist der Koordinator für komm
 
 Harald Oehlerking war für das Design der Nachhaltigkeitsstrategie zuständig. <br>
 
-Das gesamte Vorhaben wurde von der SKEW im Rahmen der Projekte INDIKON und DATAKON gefördert.
+Das gesamte Vorhaben wurde von der  Servicestelle Kommunen in der Einen Welt (SKEW) im Rahmen der Projekte INDIKON und DATAKON gefördert.
