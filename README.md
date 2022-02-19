@@ -13,6 +13,3 @@ This is a starter repository to help in implementing the [Open SDG](https://gith
     Grace Dodi
     Neslihan Kilic
     Hatice Pinar
-
-
-..
