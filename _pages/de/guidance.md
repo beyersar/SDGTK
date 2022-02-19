@@ -1,5 +1,6 @@
 ---
-title: Guidance
+
+title: Technische Hinweise
 language: de
 permalink: /de/guidance/
 layout: page
